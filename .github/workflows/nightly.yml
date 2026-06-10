@@ -38,7 +38,11 @@ jobs:
           processed_file.write_text(json.dumps(sorted(processed)))
           PY
           python evaluate.py
+          python tournament_sim.py
       - name: Rebuild dashboard
+        env:
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+          DASHBOARD_PASSWORD: ${{ secrets.DASHBOARD_PASSWORD }}
         run: cd src && python dashboard.py
       - name: Commit updated ratings and evaluation
         run: |

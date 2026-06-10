@@ -17,14 +17,14 @@ color:var(--muted);margin:32px 0 12px}
 padding:16px;margin-bottom:14px}
 .teams{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
 .teams b{font-size:17px}
-.ko{color:var(--muted);font-size:12px}
+.ko{color:var(--muted);font-size:12px;white-space:nowrap}
 .bar{display:flex;height:22px;border-radius:6px;overflow:hidden;margin:12px 0 4px}
 .bar div{display:flex;align-items:center;justify-content:center;
 color:#fff;font-size:11px;min-width:34px}
 .bar .h{background:var(--home)}.bar .d{background:var(--draw);color:var(--ink)}
 .bar .a{background:var(--away)}
 .legend{display:flex;justify-content:space-between;font-size:11px;
-color:var(--muted);margin-bottom:10px}
+color:var(--muted);margin-bottom:6px}
 .pick{border-left:4px solid var(--pitch);padding:8px 12px;background:#f2f7f0;
 font-size:14px;border-radius:0 6px 6px 0;margin:10px 0}
 .pick.no{border-left-color:var(--muted);background:#f5f4f0;color:var(--muted)}
@@ -32,22 +32,126 @@ font-size:14px;border-radius:0 6px 6px 0;margin:10px 0}
 .stamp{display:inline-block;border:1.5px solid var(--pitch);color:var(--pitch);
 font-size:10px;letter-spacing:.12em;padding:1px 7px;border-radius:4px;
 transform:rotate(-2deg);text-transform:uppercase;margin-top:8px}
+.stamp.preview{border-color:var(--muted);color:var(--muted);transform:none}
 table{width:100%;border-collapse:collapse;font-size:14px}
-td,th{padding:7px 6px;border-bottom:1px solid var(--line);text-align:left}
+td,th{padding:6px;border-bottom:1px solid var(--line);text-align:left}
 th{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
 td.num{text-align:right;font-family:ui-monospace,Menlo,monospace}
 .caveat{font-size:12px;color:var(--warn);margin-top:8px}
 footer{margin-top:40px;font-size:12px;color:var(--muted);
 border-top:1px solid var(--line);padding-top:12px}
 details{margin-top:8px;font-size:13px}summary{cursor:pointer;color:var(--pitch)}
+.race{display:flex;align-items:center;gap:10px;padding:6px 0;
+border-bottom:1px solid var(--line);font-size:14px}
+.race .nm{flex:0 0 110px}.race .pc{flex:0 0 52px;text-align:right}
+.race svg{flex:1;height:26px}
+#gate{position:fixed;inset:0;background:var(--paper);display:flex;
+flex-direction:column;align-items:center;justify-content:center;gap:12px;z-index:9}
+#gate input{font-size:16px;padding:10px;border:1px solid var(--line);
+border-radius:8px;width:220px;text-align:center}
+#gate button{font-size:15px;padding:10px 22px;background:var(--pitch);
+color:#fff;border:0;border-radius:8px;cursor:pointer}
+#gate .err{color:var(--warn);font-size:13px;min-height:18px}
+.hidden{display:none}
 </style></head><body>
+<div id="gate"><h1>WC26 <span style="color:#1a7a3c">Lab</span></h1>
+<input id="pw" type="password" placeholder="Password" autofocus>
+<button onclick="check()">Enter</button><div class="err" id="err"></div></div><div id="main" class="hidden">
 <header><h1>WC26 <span>Prediction Lab</span></h1>
 <div class="sub mono">predictions frozen pre-kickoff · updated
-2026-06-10 20:36 UTC · refreshes every 15 min
-on match days</div></header>
-<h2>Next matches</h2><div class="card meta">No frozen predictions yet. The next briefing run (45–60 min before kickoff) will populate this.</div>
-<h2>Tournament outlook · 10000 simulations</h2><div class='card'><table><tr><th>Team</th><th>Champion</th><th>Final</th><th>Semi</th></tr><tr><td>Spain</td><td class='num'>31%</td><td class='num'>42%</td><td class='num'>55%</td></tr><tr><td>Argentina</td><td class='num'>11%</td><td class='num'>19%</td><td class='num'>32%</td></tr><tr><td>France</td><td class='num'>9%</td><td class='num'>16%</td><td class='num'>28%</td></tr><tr><td>England</td><td class='num'>8%</td><td class='num'>15%</td><td class='num'>26%</td></tr><tr><td>Ecuador</td><td class='num'>5%</td><td class='num'>11%</td><td class='num'>23%</td></tr><tr><td>Mexico</td><td class='num'>4%</td><td class='num'>10%</td><td class='num'>20%</td></tr><tr><td>Colombia</td><td class='num'>4%</td><td class='num'>8%</td><td class='num'>17%</td></tr><tr><td>Norway</td><td class='num'>3%</td><td class='num'>7%</td><td class='num'>16%</td></tr><tr><td>Turkey</td><td class='num'>3%</td><td class='num'>7%</td><td class='num'>15%</td></tr><tr><td>Brazil</td><td class='num'>3%</td><td class='num'>7%</td><td class='num'>15%</td></tr></table></div>
+2026-06-10 20:48 UTC</div></header>
+<h2>Next matches</h2><div class="card">
+<div class="teams"><b>Mexico – South Africa</b>
+<span class="ko mono">2026-06-11</span></div>
+<div class="bar">
+<div class="h" style="flex:0.872">87%</div>
+<div class="d" style="flex:0.099">10%</div>
+<div class="a" style="flex:0.028">3%</div></div>
+<div class="legend"><span>Mexico</span><span>draw</span><span>South Africa</span></div>
+<div class="stamp preview mono">preview — freezes ~1h before kickoff with
+odds, lineups &amp; news</div></div><div class="card">
+<div class="teams"><b>South Korea – Czech Republic</b>
+<span class="ko mono">2026-06-11</span></div>
+<div class="bar">
+<div class="h" style="flex:0.473">47%</div>
+<div class="d" style="flex:0.287">29%</div>
+<div class="a" style="flex:0.240">24%</div></div>
+<div class="legend"><span>South Korea</span><span>draw</span><span>Czech Republic</span></div>
+<div class="stamp preview mono">preview — freezes ~1h before kickoff with
+odds, lineups &amp; news</div></div><div class="card">
+<div class="teams"><b>Canada – Bosnia and Herzegovina</b>
+<span class="ko mono">2026-06-12</span></div>
+<div class="bar">
+<div class="h" style="flex:0.730">73%</div>
+<div class="d" style="flex:0.187">19%</div>
+<div class="a" style="flex:0.083">8%</div></div>
+<div class="legend"><span>Canada</span><span>draw</span><span>Bosnia and Herzegovina</span></div>
+<div class="stamp preview mono">preview — freezes ~1h before kickoff with
+odds, lineups &amp; news</div></div><div class="card">
+<div class="teams"><b>United States – Paraguay</b>
+<span class="ko mono">2026-06-12</span></div>
+<div class="bar">
+<div class="h" style="flex:0.278">28%</div>
+<div class="d" style="flex:0.296">30%</div>
+<div class="a" style="flex:0.426">43%</div></div>
+<div class="legend"><span>United States</span><span>draw</span><span>Paraguay</span></div>
+<div class="stamp preview mono">preview — freezes ~1h before kickoff with
+odds, lineups &amp; news</div></div><div class="card">
+<div class="teams"><b>Qatar – Switzerland</b>
+<span class="ko mono">2026-06-13</span></div>
+<div class="bar">
+<div class="h" style="flex:0.035">3%</div>
+<div class="d" style="flex:0.113">11%</div>
+<div class="a" style="flex:0.853">85%</div></div>
+<div class="legend"><span>Qatar</span><span>draw</span><span>Switzerland</span></div>
+<div class="stamp preview mono">preview — freezes ~1h before kickoff with
+odds, lineups &amp; news</div></div><div class="card">
+<div class="teams"><b>Brazil – Morocco</b>
+<span class="ko mono">2026-06-13</span></div>
+<div class="bar">
+<div class="h" style="flex:0.378">38%</div>
+<div class="d" style="flex:0.301">30%</div>
+<div class="a" style="flex:0.321">32%</div></div>
+<div class="legend"><span>Brazil</span><span>draw</span><span>Morocco</span></div>
+<div class="stamp preview mono">preview — freezes ~1h before kickoff with
+odds, lineups &amp; news</div></div><div class="card">
+<div class="teams"><b>Haiti – Scotland</b>
+<span class="ko mono">2026-06-13</span></div>
+<div class="bar">
+<div class="h" style="flex:0.168">17%</div>
+<div class="d" style="flex:0.257">26%</div>
+<div class="a" style="flex:0.575">57%</div></div>
+<div class="legend"><span>Haiti</span><span>draw</span><span>Scotland</span></div>
+<div class="stamp preview mono">preview — freezes ~1h before kickoff with
+odds, lineups &amp; news</div></div><div class="card">
+<div class="teams"><b>Australia – Turkey</b>
+<span class="ko mono">2026-06-13</span></div>
+<div class="bar">
+<div class="h" style="flex:0.203">20%</div>
+<div class="d" style="flex:0.275">27%</div>
+<div class="a" style="flex:0.522">52%</div></div>
+<div class="legend"><span>Australia</span><span>draw</span><span>Turkey</span></div>
+<div class="stamp preview mono">preview — freezes ~1h before kickoff with
+odds, lineups &amp; news</div></div>
+<h2>Champion race · 10000 sims</h2><div class='card'><div class='race'><span class='nm'>Spain</span><svg viewBox='0 0 100 28' preserveAspectRatio='none'><polyline points='0.0,4.0' fill='none' stroke='#1a7a3c' stroke-width='2'/></svg><span class='pc mono'>31%</span></div><div class='race'><span class='nm'>Argentina</span><svg viewBox='0 0 100 28' preserveAspectRatio='none'><polyline points='0.0,4.0' fill='none' stroke='#1a7a3c' stroke-width='2'/></svg><span class='pc mono'>11%</span></div><div class='race'><span class='nm'>France</span><svg viewBox='0 0 100 28' preserveAspectRatio='none'><polyline points='0.0,4.0' fill='none' stroke='#1a7a3c' stroke-width='2'/></svg><span class='pc mono'>9%</span></div><div class='race'><span class='nm'>England</span><svg viewBox='0 0 100 28' preserveAspectRatio='none'><polyline points='0.0,4.0' fill='none' stroke='#1a7a3c' stroke-width='2'/></svg><span class='pc mono'>8%</span></div><div class='race'><span class='nm'>Ecuador</span><svg viewBox='0 0 100 28' preserveAspectRatio='none'><polyline points='0.0,4.0' fill='none' stroke='#1a7a3c' stroke-width='2'/></svg><span class='pc mono'>5%</span></div><div class='race'><span class='nm'>Mexico</span><svg viewBox='0 0 100 28' preserveAspectRatio='none'><polyline points='0.0,4.0' fill='none' stroke='#1a7a3c' stroke-width='2'/></svg><span class='pc mono'>4%</span></div><div class='race'><span class='nm'>Colombia</span><svg viewBox='0 0 100 28' preserveAspectRatio='none'><polyline points='0.0,4.0' fill='none' stroke='#1a7a3c' stroke-width='2'/></svg><span class='pc mono'>4%</span></div><div class='race'><span class='nm'>Norway</span><svg viewBox='0 0 100 28' preserveAspectRatio='none'><polyline points='0.0,4.0' fill='none' stroke='#1a7a3c' stroke-width='2'/></svg><span class='pc mono'>3%</span></div><div class='meta'>Line builds up as the tournament progresses — the sim re-runs every night with updated Elo.</div></div>
+<h2>Group standings</h2><div class='card'><div class='meta'>No results yet — tables fill in as matches finish.</div><details><summary>G1: Czech Republic · Mexico · South Africa · South Korea</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Czech Republic</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Mexico</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>South Africa</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>South Korea</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G2: Bosnia and Herzegovina · Canada · Qatar · Switzerland</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Bosnia and Herzegovina</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Canada</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Qatar</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Switzerland</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G3: Australia · Paraguay · Turkey · United States</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Australia</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Paraguay</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Turkey</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>United States</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G4: Brazil · Haiti · Morocco · Scotland</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Brazil</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Haiti</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Morocco</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Scotland</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G5: Curaçao · Ecuador · Germany · Ivory Coast</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Curaçao</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Ecuador</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Germany</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Ivory Coast</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G6: Japan · Netherlands · Sweden · Tunisia</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Japan</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Netherlands</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Sweden</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Tunisia</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G7: Belgium · Egypt · Iran · New Zealand</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Belgium</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Egypt</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Iran</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>New Zealand</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G8: Cape Verde · Saudi Arabia · Spain · Uruguay</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Cape Verde</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Saudi Arabia</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Spain</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Uruguay</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G9: France · Iraq · Norway · Senegal</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>France</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Iraq</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Norway</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Senegal</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G10: Algeria · Argentina · Austria · Jordan</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Algeria</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Argentina</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Austria</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Jordan</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G11: Colombia · DR Congo · Portugal · Uzbekistan</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Colombia</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>DR Congo</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Portugal</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Uzbekistan</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G12: Croatia · England · Ghana · Panama</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Croatia</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>England</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Ghana</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Panama</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details></div>
+
+
 <footer>A measurement experiment, not betting advice. The market is the
 benchmark until the leaderboard says otherwise. Git history is the lab
 notebook — every prediction's commit predates kickoff.</footer>
-</body></html>
+</div><script>
+const HASH="1a8837466e2762afd8d407d67cab479239f1380ef44bd6ae0c887fbcaff8f20f";
+async function sha(s){const b=await crypto.subtle.digest("SHA-256",
+new TextEncoder().encode(s));return [...new Uint8Array(b)].map(
+x=>x.toString(16).padStart(2,"0")).join("")}
+async function check(){if(await sha(document.getElementById("pw").value)===HASH){
+sessionStorage.setItem("wc26","1");unlock()}else{
+document.getElementById("err").textContent="Wrong password"}}
+function unlock(){document.getElementById("gate").remove();
+document.getElementById("main").classList.remove("hidden")}
+if(sessionStorage.getItem("wc26")==="1")window.addEventListener(
+"DOMContentLoaded",unlock);
+document.addEventListener("keydown",e=>{if(e.key==="Enter"&&
+document.getElementById("gate"))check()});
+</script></body></html>

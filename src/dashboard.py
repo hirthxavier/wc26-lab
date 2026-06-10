@@ -283,6 +283,48 @@ def leaderboard_section() -> str:
             "(5,835 competitive internationals)</div></div>")
 
 
+def track_record_section(preds: list[dict], finished: list[dict]) -> str:
+    """Every frozen prediction vs the actual result: pick, score, hit/miss,
+    plus running tally. The end-of-tournament accuracy report, live."""
+    fin_by_id = {m["match_id"]: m for m in finished}
+    rows, hits, total, prob_sum = [], 0, 0, 0.0
+    for p in sorted(preds, key=lambda x: x["match"]["utc_kickoff"], reverse=True):
+        res = fin_by_id.get(p["match"]["match_id"])
+        if not res:
+            continue
+        s = res.get("score", {})
+        if s.get("home") is None:
+            continue
+        actual = ("home" if s["home"] > s["away"]
+                  else "away" if s["home"] < s["away"] else "draw")
+        llm = p.get("llm_analysis") or {}
+        probs = (p.get("model_llm") if p.get("model_llm") and llm.get("llm_used")
+                 else p["model_with_news"])
+        pick = max(("home", "draw", "away"), key=lambda o: probs[o])
+        hit = pick == actual
+        hits += hit; total += 1; prob_sum += probs[actual]
+        names = {"home": p["match"]["home"], "away": p["match"]["away"],
+                 "draw": "Draw"}
+        rows.append(
+            f"<tr><td>{esc(p['match']['home'])} {s['home']}-{s['away']} "
+            f"{esc(p['match']['away'])}</td>"
+            f"<td>{esc(names[pick])} ({pct(probs[pick])})</td>"
+            f"<td class='num'>{pct(probs[actual])}</td>"
+            f"<td class='num'>{'&#10003;' if hit else '&#10007;'}</td></tr>")
+    if not total:
+        return ""
+    tally = (f"<div class='meta'>Top-pick hit rate: <b>{hits}/{total} "
+             f"({hits/total*100:.0f}%)</b> &middot; avg probability assigned to "
+             f"the actual outcome: <b>{prob_sum/total*100:.0f}%</b> "
+             f"(random = 33%, higher = better calibrated). Hit rate alone is "
+             f"a crude metric &mdash; favorites lose often in football; the "
+             f"Brier leaderboard below is the scientific scoreboard.</div>")
+    return ("<h2>Track record &middot; prediction vs reality</h2>"
+            "<div class='card'><table><tr><th>Result</th><th>Our pick</th>"
+            "<th>P(actual)</th><th></th></tr>" + "".join(rows[:30])
+            + "</table>" + tally + "</div>")
+
+
 def gate_snippet() -> tuple[str, str, str]:
     """Returns (gate_html, gate_js, content_class). Empty if no password set."""
     pw = os.environ.get("DASHBOARD_PASSWORD", "")
@@ -335,15 +377,19 @@ def build() -> Path:
     if not upcoming_html:
         upcoming_html = "<div class='card meta'>No upcoming matches in the next 3 days.</div>"
 
+    finished = load_finished()
+    track_html = track_record_section(frozen_past, finished)
     past_html = ""
-    if frozen_past:
-        past_html = ("<h2>Recent frozen predictions</h2>"
-                     + "".join(frozen_card(p) for p in frozen_past[:6]))
+    leftover = [p for p in frozen_past
+                if p["match"]["match_id"] not in
+                {m["match_id"] for m in finished}]
+    if leftover:
+        past_html = ("<h2>Awaiting result</h2>"
+                     + "".join(frozen_card(p) for p in leftover[:4]))
 
     sim_file = DATA / "tournament_sim.json"
     groups = (json.loads(sim_file.read_text()).get("groups", {})
               if sim_file.exists() else {})
-    finished = load_finished()
 
     gate_html, gate_js, content_class = gate_snippet()
 
@@ -357,6 +403,7 @@ def build() -> Path:
 <h2>Next matches</h2>{upcoming_html}
 {race_section()}
 {standings_section(groups, finished)}
+{track_html}
 {past_html}
 {leaderboard_section()}
 <footer>A measurement experiment, not betting advice. The market is the

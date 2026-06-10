@@ -1,0 +1,53 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WC26 Prediction Lab</title><style>
+:root{--paper:#fbfaf7;--ink:#13202e;--pitch:#1a7a3c;--muted:#6b7684;
+--line:#e4e1d8;--home:#1a7a3c;--draw:#b9b3a4;--away:#13202e;--warn:#a85b00}
+*{box-sizing:border-box;margin:0}
+body{background:var(--paper);color:var(--ink);max-width:680px;margin:0 auto;
+padding:20px 16px 60px;font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+header{border-bottom:3px solid var(--ink);padding-bottom:12px;margin-bottom:24px}
+h1{font-size:22px;letter-spacing:-.02em}
+h1 span{color:var(--pitch)}
+.sub{color:var(--muted);font-size:13px;margin-top:4px}
+h2{font-size:12px;text-transform:uppercase;letter-spacing:.14em;
+color:var(--muted);margin:32px 0 12px}
+.card{border:1px solid var(--line);background:#fff;border-radius:10px;
+padding:16px;margin-bottom:14px}
+.teams{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.teams b{font-size:17px}
+.ko{color:var(--muted);font-size:12px}
+.bar{display:flex;height:22px;border-radius:6px;overflow:hidden;margin:12px 0 4px}
+.bar div{display:flex;align-items:center;justify-content:center;
+color:#fff;font-size:11px;min-width:34px}
+.bar .h{background:var(--home)}.bar .d{background:var(--draw);color:var(--ink)}
+.bar .a{background:var(--away)}
+.legend{display:flex;justify-content:space-between;font-size:11px;
+color:var(--muted);margin-bottom:10px}
+.pick{border-left:4px solid var(--pitch);padding:8px 12px;background:#f2f7f0;
+font-size:14px;border-radius:0 6px 6px 0;margin:10px 0}
+.pick.no{border-left-color:var(--muted);background:#f5f4f0;color:var(--muted)}
+.scores,.meta{font-size:13px;color:var(--muted)}
+.stamp{display:inline-block;border:1.5px solid var(--pitch);color:var(--pitch);
+font-size:10px;letter-spacing:.12em;padding:1px 7px;border-radius:4px;
+transform:rotate(-2deg);text-transform:uppercase;margin-top:8px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td,th{padding:7px 6px;border-bottom:1px solid var(--line);text-align:left}
+th{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+td.num{text-align:right;font-family:ui-monospace,Menlo,monospace}
+.caveat{font-size:12px;color:var(--warn);margin-top:8px}
+footer{margin-top:40px;font-size:12px;color:var(--muted);
+border-top:1px solid var(--line);padding-top:12px}
+details{margin-top:8px;font-size:13px}summary{cursor:pointer;color:var(--pitch)}
+</style></head><body>
+<header><h1>WC26 <span>Prediction Lab</span></h1>
+<div class="sub mono">predictions frozen pre-kickoff · updated
+2026-06-10 19:38 UTC · refreshes every 15 min
+on match days</div></header>
+<h2>Next matches</h2><div class="card meta">No frozen predictions yet. The next briefing run (45–60 min before kickoff) will populate this.</div>
+<h2>Tournament outlook · 10000 simulations</h2><div class='card'><table><tr><th>Team</th><th>Champion</th><th>Final</th><th>Semi</th></tr><tr><td>Spain</td><td class='num'>31%</td><td class='num'>42%</td><td class='num'>55%</td></tr><tr><td>Argentina</td><td class='num'>11%</td><td class='num'>19%</td><td class='num'>32%</td></tr><tr><td>France</td><td class='num'>9%</td><td class='num'>16%</td><td class='num'>28%</td></tr><tr><td>England</td><td class='num'>8%</td><td class='num'>15%</td><td class='num'>26%</td></tr><tr><td>Ecuador</td><td class='num'>5%</td><td class='num'>11%</td><td class='num'>23%</td></tr><tr><td>Mexico</td><td class='num'>4%</td><td class='num'>10%</td><td class='num'>20%</td></tr><tr><td>Colombia</td><td class='num'>4%</td><td class='num'>8%</td><td class='num'>17%</td></tr><tr><td>Norway</td><td class='num'>3%</td><td class='num'>7%</td><td class='num'>16%</td></tr><tr><td>Turkey</td><td class='num'>3%</td><td class='num'>7%</td><td class='num'>15%</td></tr><tr><td>Brazil</td><td class='num'>3%</td><td class='num'>7%</td><td class='num'>15%</td></tr></table></div>
+<footer>A measurement experiment, not betting advice. The market is the
+benchmark until the leaderboard says otherwise. Git history is the lab
+notebook — every prediction's commit predates kickoff.</footer>
+</body></html>

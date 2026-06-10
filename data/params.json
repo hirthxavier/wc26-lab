@@ -1,0 +1,10 @@
+{
+  "base_goals": 1.3,
+  "elo_scale": 1300,
+  "dc_rho": -0.15,
+  "home_adv_elo": 100,
+  "holdout_brier": 0.502,
+  "holdout_n": 5835,
+  "holdout_from": "2018-01-01",
+  "note": "Walk-forward Brier on competitive internationals; compare tournament results against this benchmark."
+}

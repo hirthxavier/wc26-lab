@@ -209,6 +209,16 @@ def simulate(n_sims: int = 10000, seed: int = 42) -> dict:
             "win_group": round(counters["group_win"][t] / n_sims, 4),
         }
     OUT.write_text(json.dumps(result, indent=2))
+    # append to history for the champion-race evolution chart
+    hist_file = OUT.parent / "sim_history.json"
+    hist = json.loads(hist_file.read_text()) if hist_file.exists() else []
+    from datetime import date
+    today = date.today().isoformat()
+    hist = [h for h in hist if h["date"] != today]
+    hist.append({"date": today,
+                 "champion": {t: p["champion"] for t, p in
+                              list(result["probabilities"].items())[:16]}})
+    hist_file.write_text(json.dumps(hist, indent=2))
     return result
 
 

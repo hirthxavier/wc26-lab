@@ -1,0 +1,38 @@
+name: hourly-briefings
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 min (window logic dedupes)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Snapshot odds + send briefings + freeze predictions
+        env:
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: |
+          cd src
+          python briefing.py
+      - name: Rebuild dashboard
+        run: cd src && python dashboard.py
+      - name: Commit frozen predictions (timestamped proof)
+        run: |
+          git config user.name "wc26-lab-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ docs/
+          git diff --cached --quiet || git commit -m "freeze: predictions & odds snapshot"
+          git push

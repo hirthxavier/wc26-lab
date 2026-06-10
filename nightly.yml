@@ -1,0 +1,49 @@
+name: nightly-update
+on:
+  schedule:
+    - cron: "30 3 * * *"   # 03:30 UTC daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Update Elo from finished matches and score predictions
+        env:
+          FOOTBALL_DATA_KEY: ${{ secrets.FOOTBALL_DATA_KEY }}
+        run: |
+          cd src
+          python - <<'PY'
+          from fixtures import get_finished_matches
+          import model, json
+          from config import DATA
+          processed_file = DATA / "processed_matches.json"
+          processed = set(json.loads(processed_file.read_text())) if processed_file.exists() else set()
+          for m in get_finished_matches():
+              if m["match_id"] in processed:
+                  continue
+              s = m["score"]
+              if s.get("home") is None:
+                  continue
+              model.update_elo(m["home"], m["away"], s["home"], s["away"])
+              processed.add(m["match_id"])
+          processed_file.write_text(json.dumps(sorted(processed)))
+          PY
+          python evaluate.py
+      - name: Rebuild dashboard
+        run: cd src && python dashboard.py
+      - name: Commit updated ratings and evaluation
+        run: |
+          git config user.name "wc26-lab-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ docs/
+          git diff --cached --quiet || git commit -m "nightly: elo update + evaluation"
+          git push

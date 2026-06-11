@@ -30,6 +30,7 @@ import sys
 
 sys.path.insert(0, str(Path(__file__).parent))
 import model  # noqa: E402
+from bets import market_label  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -61,9 +62,21 @@ color:#fff;font-size:11px;min-width:34px}
 .bar .a{background:var(--away)}
 .legend{display:flex;justify-content:space-between;font-size:11px;
 color:var(--muted);margin-bottom:6px}
-.pick{border-left:4px solid var(--pitch);padding:8px 12px;background:#f2f7f0;
-font-size:14px;border-radius:0 6px 6px 0;margin:10px 0}
-.pick.no{border-left-color:var(--muted);background:#f5f4f0;color:var(--muted)}
+.slip{border:2px solid var(--pitch);border-radius:10px;margin:12px 0;
+overflow:hidden;background:#fff}
+.slip .head{background:var(--pitch);color:#fff;padding:7px 12px;font-size:12px;
+letter-spacing:.12em;text-transform:uppercase;font-weight:700}
+.slip .bet{padding:12px;font-size:17px;font-weight:700}
+.slip .grid{display:flex;border-top:1px solid var(--line);text-align:center}
+.slip .grid>div{flex:1;padding:9px 4px;border-right:1px solid var(--line)}
+.slip .grid>div:last-child{border-right:0}
+.slip .lbl{font-size:10px;text-transform:uppercase;letter-spacing:.1em;
+color:var(--muted)}
+.slip .val{font-size:16px;font-weight:700;font-family:ui-monospace,Menlo,monospace}
+.slip .gain .val{color:var(--pitch)}
+.slip.nobet{border-color:var(--muted)}
+.slip.nobet .head{background:var(--muted)}
+.slip.nobet .bet{font-size:15px;color:var(--muted);font-weight:600}
 .scores,.meta{font-size:13px;color:var(--muted)}
 .stamp{display:inline-block;border:1.5px solid var(--pitch);color:var(--pitch);
 font-size:10px;letter-spacing:.12em;padding:1px 7px;border-radius:4px;
@@ -186,16 +199,33 @@ def frozen_card(pred: dict) -> str:
     pick_html = ""
     if ev:
         if ev.get("verdict") == "NO BET":
-            pick_html = '<div class="pick no">No bet — nothing clears the value bar.</div>'
+            pick_html = ('<div class="slip nobet"><div class="head">'
+                         '&#128683; Aucun pari conseill&eacute;</div>'
+                         '<div class="bet">Les cotes sont justes sur ce match '
+                         '&mdash; ne pas parier EST le bon choix.</div></div>')
         elif ev.get("top"):
             t = ev["top"]
-            stake = t.get("stake_pct", 0) or 0
-            pick_html = (f'<div class="pick"><b>The pick:</b> {esc(t["market"])} — '
-                         f'model {pct(t["model_prob"])} vs odds {t["odds"]} '
-                         f'(EV {t["ev"]*100:+.1f}%) &middot; '
-                         f'mise: {stake*100:.1f}% bankroll (&frac14; Kelly, max 5%)</div>'
-                         f'<div class="caveat">Model–market disagreement; most '
-                         f'likely explanation is model error. Experiment, not advice.</div>')
+            stake = (t.get("stake_pct", 0) or 0) * 100
+            mise_eur = stake  # pour 100 € de bankroll
+            gain_eur = mise_eur * t["odds"]
+            label = market_label(t["market"], m["home"], m["away"])
+            pick_html = (
+                f'<div class="slip"><div class="head">&#127919; Pari conseill&eacute;</div>'
+                f'<div class="bet">{esc(label)}</div>'
+                f'<div class="grid">'
+                f'<div><div class="lbl">Cote</div><div class="val">{t["odds"]}</div></div>'
+                f'<div><div class="lbl">Mise conseill&eacute;e</div>'
+                f'<div class="val">{stake:.1f}%</div>'
+                f'<div class="lbl">soit {mise_eur:.0f}&euro; / 100&euro;</div></div>'
+                f'<div class="gain"><div class="lbl">Gain potentiel</div>'
+                f'<div class="val">{gain_eur:.0f}&euro;</div>'
+                f'<div class="lbl">soit +{gain_eur - mise_eur:.0f}&euro; net</div></div>'
+                f'</div></div>'
+                f'<div class="caveat">Notre mod&egrave;le voit {pct(t["model_prob"])} '
+                f'de chances l&agrave; o&ugrave; la cote n\'en paie que '
+                f'{100/t["odds"]:.0f}% &mdash; &eacute;cart le plus souvent d&ucirc; '
+                f'&agrave; une erreur du mod&egrave;le. Exp&eacute;rience, pas conseil '
+                f'financier. Pariez uniquement ce que vous pouvez perdre.</div>')
     scorelines = pred.get("top_scorelines") or []
     score_html = ("<div class='scores'>Likely scores: " + ", ".join(
         f"{esc(s['score'])} ({pct(s['prob'])})" for s in scorelines[:3])

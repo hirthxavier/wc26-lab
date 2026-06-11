@@ -124,7 +124,8 @@ def build_briefing(match, stats_probs, final_probs, market, nh, na, movement,
     if ev:
         if ev["flagged"]:
             top = ev["flagged"][0]
-            lines += ["", "★ THE PICK ★",
+            lines += ["", "★ PARI CONSEILLÉ ★",
+                      f"  {bets.market_label(top['market'], match['home'], match['away'])} @ {top['odds']}",
                       f"  {top['market']} — model {top['model_prob']*100:.0f}% "
                       f"vs odds {top['odds']} (fair: {top['fair_odds']}) "
                       f"-> EV {top['ev']*100:+.1f}%",

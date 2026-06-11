@@ -123,6 +123,24 @@ def ev_analysis(markets: dict, offered_odds: dict[str, float]) -> dict:
     }
 
 
+def market_label(key: str, home: str, away: str) -> str:
+    """Market key -> libellé de pari en français, comme sur un site de paris."""
+    labels = {
+        "1x2.home": f"Victoire {home}",
+        "1x2.draw": "Match nul",
+        "1x2.away": f"Victoire {away}",
+        "double_chance.1X": f"{home} ou match nul (double chance)",
+        "double_chance.X2": f"Match nul ou {away} (double chance)",
+        "double_chance.12": f"{home} ou {away} (pas de nul)",
+        "over_under.over_1.5": "Plus de 1,5 buts dans le match",
+        "over_under.over_2.5": "Plus de 2,5 buts dans le match",
+        "over_under.over_3.5": "Plus de 3,5 buts dans le match",
+        "btts_yes": "Les deux équipes marquent : OUI",
+        "handicap.home_-1": f"{home} gagne par 2 buts ou plus (handicap -1)",
+    }
+    return labels.get(key, key)
+
+
 def _flatten(d: dict, prefix: str = "") -> dict:
     out = {}
     for k, v in d.items():

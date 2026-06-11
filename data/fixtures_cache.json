@@ -5,10 +5,10 @@
     "stage": "GROUP_STAGE",
     "home": "Mexico",
     "away": "South Africa",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     }
   },
   {

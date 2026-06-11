@@ -1,0 +1,149 @@
+{
+  "frozen_at_utc": "2026-06-11T20:56:58.964906+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537328,
+    "utc_kickoff": "2026-06-12T02:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "South Korea",
+    "away": "Czechia",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.4734,
+    "draw": 0.2871,
+    "away": 0.2395
+  },
+  "model_with_news": {
+    "home": 0.4734,
+    "draw": 0.2871,
+    "away": 0.2395
+  },
+  "model_llm": {
+    "home": 0.51,
+    "draw": 0.28,
+    "away": 0.21
+  },
+  "llm_analysis": {
+    "confidence": "medium",
+    "key_factors": [
+      "Son Heung-min vs Krejci/Hranac : \u00e0 33 ans, peut-\u00eatre son dernier Mondial, il doit cr\u00e9er seul car la Cor\u00e9e a marqu\u00e9 0 buts dans le jeu lors de ses deux derniers amicaux.",
+      "Kim Min-jae face \u00e0 Schick : le Bayern doit dominer dans les airs, car Schick (7 buts en 11 s\u00e9lections r\u00e9centes) et Chor\u00fd (2m01) sont les armes fatales tch\u00e8ques.",
+      "Lee Kang-in (PSG) : le playmaker qui doit d\u00e9bloquer un syst\u00e8me sud-cor\u00e9en trop st\u00e9rile en transition selon les scouts.",
+      "Soucek + Coufal (West Ham) sur coups de pied arr\u00eat\u00e9s : la Cor\u00e9e a d\u00e9j\u00e0 souffert sur ballons arr\u00eat\u00e9s, c'est l'arme n\u00b01 des Tch\u00e8ques."
+    ],
+    "rationale": "J'ajuste l\u00e9g\u00e8rement la victoire sud-cor\u00e9enne de 47,3 % (mod\u00e8le Elo) \u00e0 51 % en int\u00e9grant les incertitudes mat\u00e9rielles (Bae Jun-ho incertain c\u00f4t\u00e9 cor\u00e9en fragilise les flancs, d\u00e9j\u00e0 expos\u00e9s) et le fait que Koubek n'a dirig\u00e9 que deux matchs (manque de rodage tactique pour la Tch\u00e9quie). Mais je ne pousse pas l'ajustement trop loin : la st\u00e9rilit\u00e9 offensive cor\u00e9enne r\u00e9cente (0 but dans le jeu en mars) et ",
+    "llm_used": true,
+    "lecture_tactique": "Duel de 3-4-2-1 miroir, mais avec des intentions oppos\u00e9es : Cor\u00e9e du Sud compacte avec des pistons qui reculent, Tch\u00e9quie qui bombarde la surface via Coufal/Jurasek et vise Schick (1m90) et Chor\u00fd (2m01). Hong Myung-bo a un souci tactique majeur : z\u00e9ro but dans le jeu face \u00e0 Autriche et C\u00f4te d'Ivoire en mars. Miroslav Koubek arrive avec deux matchs dirig\u00e9s (deux tirs au but qualificatifs) et une re",
+    "facteur_x": "Bae Jun-ho, jeune piston sud-cor\u00e9en, est tr\u00e8s incertain (cheville) selon Al Jazeera (11 juin). Si absent, la Cor\u00e9e perd de la profondeur sur un c\u00f4t\u00e9, et ses pistons, d\u00e9j\u00e0 trop hauts face \u00e0 l'Autriche, seront encore plus expos\u00e9s aux contre-attaques tc",
+    "verdict": "La Cor\u00e9e l'emporte court gr\u00e2ce \u00e0 un \u00e9clair de Son ou Lee Kang-in, mais c'est loin d'\u00eatre pli\u00e9 : les Tch\u00e8ques ont le caract\u00e8re (deux tirs au but pass\u00e9s) et un plan clair pour arracher le nul. Score type : Cor\u00e9e du Sud 1-0 ou 1-1.",
+    "angle_pari": "Under 2.5 buts surcot\u00e9. Deux \u00e9quipes en 3-4-2-1 d\u00e9fensif, Cor\u00e9e st\u00e9rile dans le jeu (0 but vs Autriche/C\u00f4te d'Ivoire), Tch\u00e9quie qui mise tout sur phases arr\u00eat\u00e9es. Sc\u00e9nario 1-0 ou 1-1 tr\u00e8s probable.",
+    "infos_recherche": [
+      "Bae Jun-ho (Cor\u00e9e) tr\u00e8s incertain (cheville), Lee Tae-seok revenu \u00e0 l'entra\u00eenement (mollet) - Al Jazeera, 11 juin",
+      "Jan Kuchta (Tch\u00e9quie) bless\u00e9 (cheville), n'a pas pu s'entra\u00eener le 3 juin, statut flou - RotoWire, 10 juin",
+      "Cho Yu-min (Cor\u00e9e) \u00e9cart\u00e9 du Mondial (d\u00e9chirure fascia plantaire, 8 semaines) - ToffeeWeb, 11 juin",
+      "Cor\u00e9e : 0 but dans le jeu en mars vs Autriche (0-1) et C\u00f4te d'Ivoire (0-4) selon RotoWire/ESPN - 10/11 juin"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.579,
+    "lam_away": 1.07,
+    "elo_home": 1968.0,
+    "elo_away": 1858.2
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "V"
+    ],
+    "form_away": [],
+    "form_home_detail": [
+      {
+        "date": "2026-06-03",
+        "opp": "El Salvador",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Trinidad and Tobago",
+        "score": "5-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Austria",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Ivory Coast",
+        "score": "0-4",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Ghana",
+        "score": "1-0",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1374
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0943
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0937
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0886
+    },
+    {
+      "score": "2-0",
+      "prob": 0.0881
+    }
+  ],
+  "ev_summary": null
+}

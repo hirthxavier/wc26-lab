@@ -25,6 +25,46 @@ color:#fff;font-size:11px;min-width:34px}
 .bar .a{background:var(--away)}
 .legend{display:flex;justify-content:space-between;font-size:11px;
 color:var(--muted);margin-bottom:6px}
+.wx{background:#1e2638;color:#eef1f7;border:0;border-radius:12px;
+padding:0;overflow:hidden}
+.wx .top{display:flex;justify-content:space-between;align-items:center;
+padding:10px 14px;background:#161d2c;font-size:11px;color:#8d97ad;
+text-transform:uppercase;letter-spacing:.1em}
+.wx .teams2{display:flex;justify-content:space-between;align-items:flex-start;
+padding:14px 14px 4px;gap:10px}
+.wx .tname{font-size:18px;font-weight:800;color:#fff}
+.wx .tname.right{text-align:right}
+.badges{display:flex;gap:4px;margin-top:6px}
+.badges.right{justify-content:flex-end}
+.bdg{width:18px;height:18px;border-radius:50%;font-size:10px;font-weight:800;
+display:flex;align-items:center;justify-content:center;color:#fff}
+.bdg.V{background:#2eb85c}.bdg.N{background:#7a8499}.bdg.D{background:#d9534f}
+.wx .bar{margin:12px 14px 4px}
+.wx .legend{padding:0 14px;color:#8d97ad}
+.cotes{display:flex;gap:8px;padding:10px 14px}
+.cote{flex:1;background:#fff;border-radius:8px;text-align:center;
+padding:7px 4px;color:#1e2638}
+.cote .c1{font-size:10px;font-weight:700;color:#7a8499;text-transform:uppercase}
+.cote .c2{font-size:17px;font-weight:800;font-family:ui-monospace,Menlo,monospace}
+.wxpick{background:#e2001a;color:#fff;padding:11px 14px;display:flex;
+justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.wxpick .what{font-size:16px;font-weight:800}
+.wxpick .nums{font-size:13px;font-weight:700;text-align:right}
+.wxpick.nobet{background:#39415a;color:#c9d0e0}
+.anl{padding:12px 14px;font-size:14px;line-height:1.5;border-top:1px solid #2b3550}
+.anl h4{font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+color:#e2001a;margin:10px 0 4px}
+.anl h4:first-child{margin-top:0}
+.anl ul{margin:0;padding-left:18px}
+.anl .verdict{background:#161d2c;border-left:3px solid #e2001a;
+padding:8px 10px;border-radius:0 6px 6px 0;margin-top:8px;font-weight:600}
+.h2hline{display:flex;height:8px;border-radius:4px;overflow:hidden;margin:6px 0}
+.h2hline div{height:100%}
+.wx .meta,.wx .scores{color:#8d97ad;padding:0 14px}
+.wx .stamp{margin:10px 14px 14px;border-color:#2eb85c;color:#2eb85c}
+.wx .caveat{padding:0 14px 4px;color:#e8a33d}
+.wx details{padding:0 14px 10px;color:#aab3c7}
+.wx summary{color:#8d97ad}
 .slip{border:2px solid var(--pitch);border-radius:10px;margin:12px 0;
 overflow:hidden;background:#fff}
 .slip .head{background:var(--pitch);color:#fff;padding:7px 12px;font-size:12px;
@@ -61,7 +101,7 @@ border-bottom:1px solid var(--line);font-size:14px}
 <div id="main">
 <header><h1>WC26 <span>Prediction Lab</span></h1>
 <div class="sub mono">predictions frozen pre-kickoff · updated
-2026-06-11 19:40 UTC</div></header>
+2026-06-11 20:57 UTC</div></header>
 <details class="card" style="font-size:14px"><summary><b>&#10067; Comment lire cette page (important)</b></summary>
 <p style="margin-top:8px"><b>La barre verte = des probabilit&eacute;s, PAS un conseil de pari.</b>
 "87%" signifie que le mod&egrave;le estime 87 chances sur 100 que cette &eacute;quipe gagne
@@ -75,21 +115,33 @@ Quand un pick sort, la mise sugg&eacute;r&eacute;e (% de bankroll, Kelly fractio
 est indiqu&eacute;e &mdash; et m&ecirc;me l&agrave;, l'explication la plus probable d'un
 &eacute;cart avec les bookmakers reste une erreur de notre mod&egrave;le. Exp&eacute;rience
 scientifique, pas conseil financier.</p></details>
-<h2>Next matches</h2><div class="card">
-<div class="teams"><b>South Korea – Czechia</b>
-<span class="ko mono">12/06 04:00 CET</span></div>
+<h2>Next matches</h2><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">12/06 04:00 CET</span></div>
+<div class="teams2"><div><div class="tname">South Korea</div>
+<div class='badges'><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg D'>D</span><span class='bdg D'>D</span><span class='bdg V'>V</span></div></div>
+<div style="text-align:right"><div class="tname right">Czechia</div>
+<div class='badges right'></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
-<div class="h" style="flex:0.473">47%</div>
-<div class="d" style="flex:0.287">29%</div>
-<div class="a" style="flex:0.240">24%</div></div>
+<div class="h" style="flex:0.510">51%</div>
+<div class="d" style="flex:0.280">28%</div>
+<div class="a" style="flex:0.210">21%</div></div>
 <div class="legend"><span>South Korea</span><span>draw</span><span>Czechia</span></div>
-<div class='scores'>Likely scores: 1-1 (14%), 2-1 (9%), 1-0 (9%)</div><details><summary>Analyst notes (low confidence)</summary><ul><li>No material team news identified in headlines</li><li>Generic pre-match coverage without confirmed injuries or lineup changes</li><li>Son Heung-Min confirmed playing (fourth World Cup, feeling motivated)</li></ul><p>Headlines contain only generic pre-match coverage, betting previews, and historical context pieces. The only substantive information is confirmation that Son Heung-Min is available and motivated for his fourth World Cup, which the Elo model would already account for given his established role. There are vague transfer rumors about Son potentially leaving Tottenham post-tournament, but this has no bearing on his availability or commitment for this match. No injuries, suspensions, lineup surprises, or tactical information that would materially affect the probabilities. The stats model probabilit</p></details>
-<div class="stamp mono">frozen 2026-06-11 18:52</div>
-</div><div class="card">
-<div class="teams"><b>Mexico – South Africa</b>
-<span class="ko mono">11/06 21:00 CET</span></div>
+
+
+<div class='anl'><h4>Lecture tactique</h4><div>Duel de 3-4-2-1 miroir, mais avec des intentions opposées : Corée du Sud compacte avec des pistons qui reculent, Tchéquie qui bombarde la surface via Coufal/Jurasek et vise Schick (1m90) et Chorý (2m01). Hong Myung-bo a un souci tactique majeur : zéro but dans le jeu face à Autriche et Côte d&#x27;Ivoire en mars. Miroslav Koubek arrive avec deux matchs dirigés (deux tirs au but qualificatifs) et une re</div><h4>Joueurs cl&eacute;s</h4><ul><li>Son Heung-min vs Krejci/Hranac : à 33 ans, peut-être son dernier Mondial, il doit créer seul car la Corée a marqué 0 buts dans le jeu lors de ses deux derniers amicaux.</li><li>Kim Min-jae face à Schick : le Bayern doit dominer dans les airs, car Schick (7 buts en 11 sélections récentes) et Chorý (2m01) sont les armes fatales tchèques.</li><li>Lee Kang-in (PSG) : le playmaker qui doit débloquer un système sud-coréen trop stérile en transition selon les scouts.</li><li>Soucek + Coufal (West Ham) sur coups de pied arrêtés : la Corée a déjà souffert sur ballons arrêtés, c&#x27;est l&#x27;arme n°1 des Tchèques.</li></ul><h4>Facteur X</h4><div>Bae Jun-ho, jeune piston sud-coréen, est très incertain (cheville) selon Al Jazeera (11 juin). Si absent, la Corée perd de la profondeur sur un côté, et ses pistons, déjà trop hauts face à l&#x27;Autriche, seront encore plus exposés aux contre-attaques tc</div><h4>Trouv&eacute; en ligne</h4><ul><li>Bae Jun-ho (Corée) très incertain (cheville), Lee Tae-seok revenu à l&#x27;entraînement (mollet) - Al Jazeera, 11 juin</li><li>Jan Kuchta (Tchéquie) blessé (cheville), n&#x27;a pas pu s&#x27;entraîner le 3 juin, statut flou - RotoWire, 10 juin</li><li>Cho Yu-min (Corée) écarté du Mondial (déchirure fascia plantaire, 8 semaines) - ToffeeWeb, 11 juin</li><li>Corée : 0 but dans le jeu en mars vs Autriche (0-1) et Côte d&#x27;Ivoire (0-4) selon RotoWire/ESPN - 10/11 juin</li></ul><h4>L'&oelig;il de l'expert (march&eacute;s)</h4><div>Under 2.5 buts surcoté. Deux équipes en 3-4-2-1 défensif, Corée stérile dans le jeu (0 but vs Autriche/Côte d&#x27;Ivoire), Tchéquie qui mise tout sur phases arrêtées. Scénario 1-0 ou 1-1 très probable.</div><div class='verdict'>&#9889; La Corée l&#x27;emporte court grâce à un éclair de Son ou Lee Kang-in, mais c&#x27;est loin d&#x27;être plié : les Tchèques ont le caractère (deux tirs au but passés) et un plan clair pour arracher le nul. Score type : Corée du Sud 1-0 ou 1-1.</div></div>
+
+<div class='scores'>Scores probables: 1-1 (14%), 2-1 (9%), 1-0 (9%)</div>
+<div class="stamp mono">frozen 2026-06-11 20:56</div>
+</div><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">11/06 21:00 CET</span></div>
+<div class="teams2"><div><div class="tname">Mexico</div>
+<div class='badges'><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg N'>N</span><span class='bdg N'>N</span></div></div>
+<div style="text-align:right"><div class="tname right">South Africa</div>
+<div class='badges right'><span class='bdg V'>V</span><span class='bdg N'>N</span><span class='bdg D'>D</span><span class='bdg N'>N</span><span class='bdg D'>D</span></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
@@ -97,9 +149,13 @@ text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave
 <div class="d" style="flex:0.099">10%</div>
 <div class="a" style="flex:0.028">3%</div></div>
 <div class="legend"><span>Mexico</span><span>draw</span><span>South Africa</span></div>
-<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781202600000">&hellip;</span></div></div><div class="card">
-<div class="teams"><b>Canada – Bosnia-Herzegovina</b>
-<span class="ko mono">12/06 21:00 CET</span></div>
+<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781202600000">&hellip;</span></div></div><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">12/06 21:00 CET</span></div>
+<div class="teams2"><div><div class="tname">Canada</div>
+<div class='badges'><span class='bdg N'>N</span><span class='bdg V'>V</span><span class='bdg N'>N</span><span class='bdg N'>N</span><span class='bdg V'>V</span></div></div>
+<div style="text-align:right"><div class="tname right">Bosnia-Herzegovina</div>
+<div class='badges right'></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
@@ -107,9 +163,13 @@ text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave
 <div class="d" style="flex:0.067">7%</div>
 <div class="a" style="flex:0.016">2%</div></div>
 <div class="legend"><span>Canada</span><span>draw</span><span>Bosnia-Herzegovina</span></div>
-<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781289000000">&hellip;</span></div></div><div class="card">
-<div class="teams"><b>United States – Paraguay</b>
-<span class="ko mono">13/06 03:00 CET</span></div>
+<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781289000000">&hellip;</span></div></div><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">13/06 03:00 CET</span></div>
+<div class="teams2"><div><div class="tname">United States</div>
+<div class='badges'><span class='bdg D'>D</span><span class='bdg V'>V</span><span class='bdg D'>D</span><span class='bdg D'>D</span><span class='bdg V'>V</span></div></div>
+<div style="text-align:right"><div class="tname right">Paraguay</div>
+<div class='badges right'><span class='bdg V'>V</span><span class='bdg D'>D</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg D'>D</span></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
@@ -117,9 +177,13 @@ text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave
 <div class="d" style="flex:0.296">30%</div>
 <div class="a" style="flex:0.426">43%</div></div>
 <div class="legend"><span>United States</span><span>draw</span><span>Paraguay</span></div>
-<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781289000000">&hellip;</span></div></div><div class="card">
-<div class="teams"><b>Qatar – Switzerland</b>
-<span class="ko mono">13/06 21:00 CET</span></div>
+<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781289000000">&hellip;</span></div></div><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">13/06 21:00 CET</span></div>
+<div class="teams2"><div><div class="tname">Qatar</div>
+<div class='badges'><span class='bdg N'>N</span><span class='bdg D'>D</span><span class='bdg D'>D</span><span class='bdg N'>N</span><span class='bdg D'>D</span></div></div>
+<div style="text-align:right"><div class="tname right">Switzerland</div>
+<div class='badges right'><span class='bdg N'>N</span><span class='bdg V'>V</span><span class='bdg N'>N</span><span class='bdg D'>D</span><span class='bdg N'>N</span></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
@@ -127,9 +191,13 @@ text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave
 <div class="d" style="flex:0.113">11%</div>
 <div class="a" style="flex:0.853">85%</div></div>
 <div class="legend"><span>Qatar</span><span>draw</span><span>Switzerland</span></div>
-<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781375400000">&hellip;</span></div></div><div class="card">
-<div class="teams"><b>Brazil – Morocco</b>
-<span class="ko mono">14/06 00:00 CET</span></div>
+<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781375400000">&hellip;</span></div></div><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">14/06 00:00 CET</span></div>
+<div class="teams2"><div><div class="tname">Brazil</div>
+<div class='badges'><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg D'>D</span><span class='bdg N'>N</span></div></div>
+<div style="text-align:right"><div class="tname right">Morocco</div>
+<div class='badges right'><span class='bdg N'>N</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg N'>N</span></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
@@ -137,9 +205,13 @@ text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave
 <div class="d" style="flex:0.301">30%</div>
 <div class="a" style="flex:0.321">32%</div></div>
 <div class="legend"><span>Brazil</span><span>draw</span><span>Morocco</span></div>
-<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781375400000">&hellip;</span></div></div><div class="card">
-<div class="teams"><b>Haiti – Scotland</b>
-<span class="ko mono">14/06 03:00 CET</span></div>
+<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781375400000">&hellip;</span></div></div><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">14/06 03:00 CET</span></div>
+<div class="teams2"><div><div class="tname">Haiti</div>
+<div class='badges'><span class='bdg D'>D</span><span class='bdg V'>V</span><span class='bdg N'>N</span><span class='bdg D'>D</span><span class='bdg V'>V</span></div></div>
+<div style="text-align:right"><div class="tname right">Scotland</div>
+<div class='badges right'><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg D'>D</span><span class='bdg D'>D</span><span class='bdg V'>V</span></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
@@ -147,9 +219,13 @@ text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave
 <div class="d" style="flex:0.257">26%</div>
 <div class="a" style="flex:0.575">57%</div></div>
 <div class="legend"><span>Haiti</span><span>draw</span><span>Scotland</span></div>
-<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781375400000">&hellip;</span></div></div><div class="card">
-<div class="teams"><b>Australia – Turkey</b>
-<span class="ko mono">14/06 06:00 CET</span></div>
+<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781375400000">&hellip;</span></div></div><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">14/06 06:00 CET</span></div>
+<div class="teams2"><div><div class="tname">Australia</div>
+<div class='badges'><span class='bdg N'>N</span><span class='bdg D'>D</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg D'>D</span></div></div>
+<div style="text-align:right"><div class="tname right">Turkey</div>
+<div class='badges right'><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg N'>N</span></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
@@ -157,9 +233,13 @@ text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave
 <div class="d" style="flex:0.275">27%</div>
 <div class="a" style="flex:0.522">52%</div></div>
 <div class="legend"><span>Australia</span><span>draw</span><span>Turkey</span></div>
-<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781375400000">&hellip;</span></div></div><div class="card">
-<div class="teams"><b>Germany – Curaçao</b>
-<span class="ko mono">14/06 19:00 CET</span></div>
+<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781375400000">&hellip;</span></div></div><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">14/06 19:00 CET</span></div>
+<div class="teams2"><div><div class="tname">Germany</div>
+<div class='badges'><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span></div></div>
+<div style="text-align:right"><div class="tname right">Curaçao</div>
+<div class='badges right'><span class='bdg V'>V</span><span class='bdg D'>D</span><span class='bdg D'>D</span><span class='bdg D'>D</span><span class='bdg N'>N</span></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
@@ -167,9 +247,13 @@ text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave
 <div class="d" style="flex:0.136">14%</div>
 <div class="a" style="flex:0.047">5%</div></div>
 <div class="legend"><span>Germany</span><span>draw</span><span>Curaçao</span></div>
-<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781452800000">&hellip;</span></div></div><div class="card">
-<div class="teams"><b>Netherlands – Japan</b>
-<span class="ko mono">14/06 22:00 CET</span></div>
+<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781452800000">&hellip;</span></div></div><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">14/06 22:00 CET</span></div>
+<div class="teams2"><div><div class="tname">Netherlands</div>
+<div class='badges'><span class='bdg V'>V</span><span class='bdg D'>D</span><span class='bdg N'>N</span><span class='bdg V'>V</span><span class='bdg V'>V</span></div></div>
+<div style="text-align:right"><div class="tname right">Japan</div>
+<div class='badges right'><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
@@ -177,9 +261,13 @@ text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave
 <div class="d" style="flex:0.302">30%</div>
 <div class="a" style="flex:0.353">35%</div></div>
 <div class="legend"><span>Netherlands</span><span>draw</span><span>Japan</span></div>
-<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781461800000">&hellip;</span></div></div><div class="card">
-<div class="teams"><b>Ivory Coast – Ecuador</b>
-<span class="ko mono">15/06 01:00 CET</span></div>
+<div class="stamp preview mono">&#8987; LE PARI SERA DISPONIBLE DANS <span class="cd" data-freeze="1781461800000">&hellip;</span></div></div><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">15/06 01:00 CET</span></div>
+<div class="teams2"><div><div class="tname">Ivory Coast</div>
+<div class='badges'><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg D'>D</span><span class='bdg V'>V</span></div></div>
+<div style="text-align:right"><div class="tname right">Ecuador</div>
+<div class='badges right'><span class='bdg V'>V</span><span class='bdg V'>V</span><span class='bdg N'>N</span><span class='bdg N'>N</span><span class='bdg V'>V</span></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
@@ -192,9 +280,13 @@ text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave
 <h2>Soulier d'or</h2><div class='card'><table><tr><th>Joueur</th><th>&Eacute;quipe</th><th>P(demi)</th><th>P(finale)</th></tr><tr><td>Lamine Yamal</td><td>Spain</td><td class='num'>55%</td><td class='num'>42%</td></tr><tr><td>Lionel Messi</td><td>Argentina</td><td class='num'>32%</td><td class='num'>19%</td></tr><tr><td>&#11088; Kylian Mbappé</td><td>France</td><td class='num'>28%</td><td class='num'>16%</td></tr><tr><td>&#11088; Harry Kane</td><td>England</td><td class='num'>26%</td><td class='num'>15%</td></tr><tr><td>Santiago Giménez</td><td>Mexico</td><td class='num'>20%</td><td class='num'>10%</td></tr><tr><td>Luis Díaz</td><td>Colombia</td><td class='num'>17%</td><td class='num'>8%</td></tr><tr><td>&#128142; Erling Haaland</td><td>Norway</td><td class='num'>16%</td><td class='num'>7%</td></tr><tr><td>Vinícius Júnior</td><td>Brazil</td><td class='num'>15%</td><td class='num'>7%</td></tr></table><div class='meta'>&#11088; nos deux picks &middot; &#128142; value pick. Pas de mod&egrave;le joueur dans ce pipeline : le Soulier d'or va presque toujours &agrave; l'attaquant d'une &eacute;quipe demi-finaliste (6-7 matchs jou&eacute;s) &mdash; ce tableau croise nos simulations avec le buteur n&deg;1 de chaque pr&eacute;tendant (&eacute;ditable dans data/golden_boot.json). Consensus bookmakers (juin 2026): Mbappé ~+600, Kane ~+700, Haaland et Messi derrière.</div></div>
 <h2>Group standings</h2><div class='card'><div class='meta'>No results yet — tables fill in as matches finish.</div><details><summary>G1: Czech Republic · Mexico · South Africa · South Korea</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Czech Republic</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Mexico</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>South Africa</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>South Korea</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G2: Bosnia and Herzegovina · Canada · Qatar · Switzerland</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Bosnia and Herzegovina</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Canada</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Qatar</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Switzerland</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G3: Australia · Paraguay · Turkey · United States</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Australia</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Paraguay</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Turkey</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>United States</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G4: Brazil · Haiti · Morocco · Scotland</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Brazil</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Haiti</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Morocco</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Scotland</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G5: Curaçao · Ecuador · Germany · Ivory Coast</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Curaçao</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Ecuador</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Germany</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Ivory Coast</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G6: Japan · Netherlands · Sweden · Tunisia</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Japan</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Netherlands</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Sweden</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Tunisia</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G7: Belgium · Egypt · Iran · New Zealand</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Belgium</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Egypt</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Iran</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>New Zealand</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G8: Cape Verde · Saudi Arabia · Spain · Uruguay</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Cape Verde</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Saudi Arabia</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Spain</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Uruguay</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G9: France · Iraq · Norway · Senegal</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>France</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Iraq</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Norway</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Senegal</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G10: Algeria · Argentina · Austria · Jordan</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Algeria</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Argentina</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Austria</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Jordan</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G11: Colombia · DR Congo · Portugal · Uzbekistan</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Colombia</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>DR Congo</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Portugal</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Uzbekistan</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details><details><summary>G12: Croatia · England · Ghana · Panama</summary><table><tr><th>Team</th><th>P</th><th>Pts</th><th>GD</th></tr><tr><td>Croatia</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>England</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Ghana</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr><tr><td>Panama</td><td class='num'>0</td><td class='num'>0</td><td class='num'>+0</td></tr></table></details></div>
 
-<h2>Awaiting result</h2><div class="card">
-<div class="teams"><b>Mexico – South Africa</b>
-<span class="ko mono">11/06 21:00 CET</span></div>
+<h2>Awaiting result</h2><div class="card wx">
+<div class="top"><span>GROUP STAGE</span>
+<span class="mono">11/06 21:00 CET</span></div>
+<div class="teams2"><div><div class="tname">Mexico</div>
+<div class='badges'></div></div>
+<div style="text-align:right"><div class="tname right">South Africa</div>
+<div class='badges right'></div></div></div>
 <div class="meta" style="margin-top:8px;font-size:11px;
 text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
 &mdash; pas un conseil de pari</div><div class="bar">
@@ -202,7 +294,11 @@ text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave
 <div class="d" style="flex:0.099">10%</div>
 <div class="a" style="flex:0.028">3%</div></div>
 <div class="legend"><span>Mexico</span><span>draw</span><span>South Africa</span></div>
-<div class='scores'>Likely scores: 3-0 (13%), 2-0 (12%), 4-0 (10%)</div><details><summary>Analyst notes (low confidence)</summary><ul><li>Opening match atmosphere at Azteca Stadium</li><li>Ochoa playing in his sixth and final World Cup</li><li>No material injury or lineup information available</li></ul><p>The headlines contain no material information that would justify adjusting the stats model probabilities. The news focuses on: opening ceremony entertainment (Shakira, Burna Boy), fan zone logistics, stadium features, general player profiles, and transfer rumors unrelated to match fitness. Ochoa&#x27;s announced retirement after this World Cup is emotional but doesn&#x27;t indicate form issues. The massive Elo gap (2079.5 vs 1674.7) and home advantage for Mexico in their opening match at Azteca remain the dominant factors. Without confirmed injuries, suspensions, weakened lineups, or tactical intelligen</p></details>
+
+
+<div class='anl'><h4>Joueurs cl&eacute;s</h4><ul><li>Opening match atmosphere at Azteca Stadium</li><li>Ochoa playing in his sixth and final World Cup</li><li>No material injury or lineup information available</li></ul></div>
+
+<div class='scores'>Scores probables: 3-0 (13%), 2-0 (12%), 4-0 (10%)</div>
 <div class="stamp mono">frozen 2026-06-11 18:39</div>
 </div>
 

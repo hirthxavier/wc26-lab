@@ -1,0 +1,85 @@
+{
+  "frozen_at_utc": "2026-06-11T18:52:35.523050+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537328,
+    "utc_kickoff": "2026-06-12T02:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "South Korea",
+    "away": "Czechia",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.4734,
+    "draw": 0.2871,
+    "away": 0.2395
+  },
+  "model_with_news": {
+    "home": 0.4734,
+    "draw": 0.2871,
+    "away": 0.2395
+  },
+  "model_llm": {
+    "home": 0.473,
+    "draw": 0.287,
+    "away": 0.24
+  },
+  "llm_analysis": {
+    "confidence": "low",
+    "key_factors": [
+      "No material team news identified in headlines",
+      "Generic pre-match coverage without confirmed injuries or lineup changes",
+      "Son Heung-Min confirmed playing (fourth World Cup, feeling motivated)"
+    ],
+    "rationale": "Headlines contain only generic pre-match coverage, betting previews, and historical context pieces. The only substantive information is confirmation that Son Heung-Min is available and motivated for his fourth World Cup, which the Elo model would already account for given his established role. There are vague transfer rumors about Son potentially leaving Tottenham post-tournament, but this has no bearing on his availability or commitment for this match. No injuries, suspensions, lineup surprises, or tactical information that would materially affect the probabilities. The stats model probabilit",
+    "llm_used": true
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.579,
+    "lam_away": 1.07,
+    "elo_home": 1968.0,
+    "elo_away": 1858.2
+  },
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1374
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0943
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0937
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0886
+    },
+    {
+      "score": "2-0",
+      "prob": 0.0881
+    }
+  ],
+  "ev_summary": null
+}

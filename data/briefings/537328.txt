@@ -18,11 +18,10 @@ Coup d'envoi : 12/06 04:00 (heure de Paris)
 
 — LLM ANALYST (confidence: low) —
   47.3% / 28.7% / 24.0%
-  • No material information found in headlines
-  • Son Heung-min transfer speculation (LAFC) appears unconfirmed and doesn't affect availability
-  • No confirmed injuries, suspensions, or lineup changes reported
-  • Headlines are preview/betting content without actionable intelligence
-  The news headlines contain only preview content, betting promotions, and transfer speculation about Son Heung-min potentially moving to LAFC. However, there is no confirmation that this affects his availability for this match, nor any indication he is absent or distracted. No reports of injuries, suspensions, squad turmoil, or tactical surprises for either team. The transfer rumors appear to be long-term speculation rather than immediate concerns. Without lineups, player ratings, or concrete team news that the statistical model cannot capture, no adjustment to the base probabilities is warrant
+  • No material team news identified in headlines
+  • Generic pre-match coverage without confirmed injuries or lineup changes
+  • Son Heung-Min confirmed playing (fourth World Cup, feeling motivated)
+  Headlines contain only generic pre-match coverage, betting previews, and historical context pieces. The only substantive information is confirmation that Son Heung-Min is available and motivated for his fourth World Cup, which the Elo model would already account for given his established role. There are vague transfer rumors about Son potentially leaving Tottenham post-tournament, but this has no bearing on his availability or commitment for this match. No injuries, suspensions, lineup surprises, or tactical information that would materially affect the probabilities. The stats model probabilit
 
 — PANEL — 51 headlines from ES/IT/FR/AR/UK/BR sources —
   [GoogleNews:"South Korea" world cup] South Korea vs. Czechia Prediction, Odds, Best Prop Bet for World Cup Group Stage - Sports Illustrated
@@ -32,7 +31,7 @@ Coup d'envoi : 12/06 04:00 (heure de Paris)
   [GoogleNews:"South Korea" world cup] Road closures, kickoff times and other things to know before Koreatown’s FIFA World Cup watch parties - LA Local
   [GoogleNews:"South Korea" world cup] World Cup 2026 Ultimate Guide: South Korea - Goal.com
   [GoogleNews:"South Korea" world cup] The 2026 World Cup has arrived. Here's what to know about the 16 stadiums hosting matches - PBS
-  [GoogleNews:"South Korea" world cup] 2026 World Cup, Day 1: Mexico vs. South Africa; South Korea vs. Czech Republic - We Ain't Got No History
+  [GoogleNews:"South Korea" world cup] Fourth World Cup still has South Korea captain Son Heung-Min feeling 'like a kid' - ESPN
 
 — MOST LIKELY OUTCOME —
   South Korea (47.3%)

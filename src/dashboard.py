@@ -62,6 +62,46 @@ color:#fff;font-size:11px;min-width:34px}
 .bar .a{background:var(--away)}
 .legend{display:flex;justify-content:space-between;font-size:11px;
 color:var(--muted);margin-bottom:6px}
+.wx{background:#1e2638;color:#eef1f7;border:0;border-radius:12px;
+padding:0;overflow:hidden}
+.wx .top{display:flex;justify-content:space-between;align-items:center;
+padding:10px 14px;background:#161d2c;font-size:11px;color:#8d97ad;
+text-transform:uppercase;letter-spacing:.1em}
+.wx .teams2{display:flex;justify-content:space-between;align-items:flex-start;
+padding:14px 14px 4px;gap:10px}
+.wx .tname{font-size:18px;font-weight:800;color:#fff}
+.wx .tname.right{text-align:right}
+.badges{display:flex;gap:4px;margin-top:6px}
+.badges.right{justify-content:flex-end}
+.bdg{width:18px;height:18px;border-radius:50%;font-size:10px;font-weight:800;
+display:flex;align-items:center;justify-content:center;color:#fff}
+.bdg.V{background:#2eb85c}.bdg.N{background:#7a8499}.bdg.D{background:#d9534f}
+.wx .bar{margin:12px 14px 4px}
+.wx .legend{padding:0 14px;color:#8d97ad}
+.cotes{display:flex;gap:8px;padding:10px 14px}
+.cote{flex:1;background:#fff;border-radius:8px;text-align:center;
+padding:7px 4px;color:#1e2638}
+.cote .c1{font-size:10px;font-weight:700;color:#7a8499;text-transform:uppercase}
+.cote .c2{font-size:17px;font-weight:800;font-family:ui-monospace,Menlo,monospace}
+.wxpick{background:#e2001a;color:#fff;padding:11px 14px;display:flex;
+justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.wxpick .what{font-size:16px;font-weight:800}
+.wxpick .nums{font-size:13px;font-weight:700;text-align:right}
+.wxpick.nobet{background:#39415a;color:#c9d0e0}
+.anl{padding:12px 14px;font-size:14px;line-height:1.5;border-top:1px solid #2b3550}
+.anl h4{font-size:10px;letter-spacing:.14em;text-transform:uppercase;
+color:#e2001a;margin:10px 0 4px}
+.anl h4:first-child{margin-top:0}
+.anl ul{margin:0;padding-left:18px}
+.anl .verdict{background:#161d2c;border-left:3px solid #e2001a;
+padding:8px 10px;border-radius:0 6px 6px 0;margin-top:8px;font-weight:600}
+.h2hline{display:flex;height:8px;border-radius:4px;overflow:hidden;margin:6px 0}
+.h2hline div{height:100%}
+.wx .meta,.wx .scores{color:#8d97ad;padding:0 14px}
+.wx .stamp{margin:10px 14px 14px;border-color:#2eb85c;color:#2eb85c}
+.wx .caveat{padding:0 14px 4px;color:#e8a33d}
+.wx details{padding:0 14px 10px;color:#aab3c7}
+.wx summary{color:#8d97ad}
 .slip{border:2px solid var(--pitch);border-radius:10px;margin:12px 0;
 overflow:hidden;background:#fff}
 .slip .head{background:var(--pitch);color:#fff;padding:7px 12px;font-size:12px;
@@ -177,6 +217,13 @@ def load_finished() -> list[dict]:
 
 # ---------- sections ----------
 
+def _badges(seq, right=False):
+    cls = "badges right" if right else "badges"
+    return ("<div class='" + cls + "'>" +
+            "".join(f"<span class='bdg {r}'>{r}</span>" for r in (seq or [])[:5])
+            + "</div>")
+
+
 def frozen_card(pred: dict) -> str:
     m = pred["match"]
     upd_file = DATA / "predictions" / f"{m['match_id']}_update.json"
@@ -195,51 +242,91 @@ def frozen_card(pred: dict) -> str:
     llm = pred.get("llm_analysis") or {}
     llm_probs = pred.get("model_llm")
     show = llm_probs if llm_probs and llm.get("llm_used") else p
+    fs = pred.get("formstats") or {}
+
+    # cotes 1/N/2
+    oo = pred.get("offered_odds") or {}
+    cotes_html = ""
+    if oo.get("1x2.home"):
+        cotes_html = ("<div class='cotes'>"
+            f"<div class='cote'><div class='c1'>1 · {esc(m['home'][:12])}</div>"
+            f"<div class='c2'>{oo['1x2.home']:.2f}</div></div>"
+            f"<div class='cote'><div class='c1'>N · Nul</div>"
+            f"<div class='c2'>{oo.get('1x2.draw',0):.2f}</div></div>"
+            f"<div class='cote'><div class='c1'>2 · {esc(m['away'][:12])}</div>"
+            f"<div class='c2'>{oo['1x2.away']:.2f}</div></div></div>")
+
+    # bandeau pari
     ev = pred.get("ev_summary")
     pick_html = ""
     if ev:
-        if ev.get("verdict") == "NO BET":
-            pick_html = ('<div class="slip nobet"><div class="head">'
-                         '&#128683; Aucun pari conseill&eacute;</div>'
-                         '<div class="bet">Les cotes sont justes sur ce match '
-                         '&mdash; ne pas parier EST le bon choix.</div></div>')
-        elif ev.get("top"):
-            t = ev["top"]
-            stake = (t.get("stake_pct", 0) or 0) * 100
-            mise_eur = stake  # pour 100 € de bankroll
-            gain_eur = mise_eur * t["odds"]
-            label = market_label(t["market"], m["home"], m["away"])
+        if ev.get("verdict") == "NO BET" or not ev.get("top"):
+            pick_html = ("<div class='wxpick nobet'><span class='what'>"
+                         "&#128683; AUCUN PARI &mdash; cotes justes, on passe"
+                         "</span></div>")
+        else:
+            tt = ev["top"]
+            stake = (tt.get("stake_pct", 0) or 0) * 100
+            gain = stake * tt["odds"]
+            label = market_label(tt["market"], m["home"], m["away"])
             pick_html = (
-                f'<div class="slip"><div class="head">&#127919; Pari conseill&eacute;</div>'
-                f'<div class="bet">{esc(label)}</div>'
-                f'<div class="grid">'
-                f'<div><div class="lbl">Cote</div><div class="val">{t["odds"]}</div></div>'
-                f'<div><div class="lbl">Mise conseill&eacute;e</div>'
-                f'<div class="val">{stake:.1f}%</div>'
-                f'<div class="lbl">soit {mise_eur:.0f}&euro; / 100&euro;</div></div>'
-                f'<div class="gain"><div class="lbl">Gain potentiel</div>'
-                f'<div class="val">{gain_eur:.0f}&euro;</div>'
-                f'<div class="lbl">soit +{gain_eur - mise_eur:.0f}&euro; net</div></div>'
-                f'</div></div>'
-                f'<div class="caveat">Notre mod&egrave;le voit {pct(t["model_prob"])} '
-                f'de chances l&agrave; o&ugrave; la cote n\'en paie que '
-                f'{100/t["odds"]:.0f}% &mdash; &eacute;cart le plus souvent d&ucirc; '
-                f'&agrave; une erreur du mod&egrave;le. Exp&eacute;rience, pas conseil '
-                f'financier. Pariez uniquement ce que vous pouvez perdre.</div>')
+                f"<div class='wxpick'><span class='what'>&#127919; "
+                f"{esc(label)}</span>"
+                f"<span class='nums'>@ {tt['odds']} &middot; mise {stake:.1f}% "
+                f"&middot; gain {gain:.0f}&euro;/100&euro;</span></div>"
+                f"<div class='caveat'>Notre mod&egrave;le: {pct(tt['model_prob'])} "
+                f"vs march&eacute; {100/tt['odds']:.0f}% &mdash; &eacute;cart "
+                f"souvent d&ucirc; au mod&egrave;le. Exp&eacute;rience, pas conseil.</div>")
+
+    # analyse experte visible
+    anl = ""
+    if llm.get("llm_used"):
+        kf = "".join(f"<li>{esc(k)}</li>" for k in llm.get("key_factors", [])[:4])
+        anl = ("<div class='anl'>"
+               + (f"<h4>Lecture tactique</h4><div>{esc(llm.get('lecture_tactique',''))}</div>"
+                  if llm.get("lecture_tactique") else "")
+               + (f"<h4>Joueurs cl&eacute;s</h4><ul>{kf}</ul>" if kf else "")
+               + (f"<h4>Facteur X</h4><div>{esc(llm.get('facteur_x',''))}</div>"
+                  if llm.get("facteur_x") else "")
+               + (f"<div class='verdict'>&#9889; {esc(llm.get('verdict',''))}</div>"
+                  if llm.get("verdict") else "")
+               + "</div>")
+
+    # H2H
+    h2h_html = ""
+    head = fs.get("h2h") or {}
+    if head.get("played"):
+        tot = head["played"]
+        h2h_html = (f"<div class='anl'><h4>Face &agrave; face &middot; "
+            f"{tot} matchs</h4>"
+            f"<div class='h2hline'>"
+            f"<div style='width:{head['wins_a']/tot*100:.0f}%;background:#2eb85c'></div>"
+            f"<div style='width:{head['draws']/tot*100:.0f}%;background:#7a8499'></div>"
+            f"<div style='width:{head['wins_b']/tot*100:.0f}%;background:#d9534f'></div></div>"
+            f"<div style='font-size:12px;color:#8d97ad'>{esc(m['home'])} "
+            f"{head['wins_a']}V &middot; {head['draws']}N &middot; "
+            f"{esc(m['away'])} {head['wins_b']}V &mdash; derniers: "
+            + ", ".join(f"{x['date']} {x['score']}" for x in head.get('last_meetings', [])[:4])
+            + "</div></div>")
+
     scorelines = pred.get("top_scorelines") or []
-    score_html = ("<div class='scores'>Likely scores: " + ", ".join(
+    score_html = ("<div class='scores'>Scores probables: " + ", ".join(
         f"{esc(s['score'])} ({pct(s['prob'])})" for s in scorelines[:3])
         + "</div>" if scorelines else "")
-    factors = "".join(f"<li>{esc(k)}</li>" for k in llm.get("key_factors", [])[:4])
-    llm_html = (f"<details><summary>Analyst notes ({esc(llm.get('confidence','-'))} "
-                f"confidence)</summary><ul>{factors}</ul>"
-                f"<p>{esc(llm.get('rationale',''))}</p></details>"
-                if llm.get("llm_used") else "")
-    return f"""<div class="card">
-<div class="teams"><b>{esc(m['home'])} – {esc(m['away'])}</b>
-<span class="ko mono">{esc(cet(m['utc_kickoff']))}</span></div>
+
+    return f"""<div class="card wx">
+<div class="top"><span>{esc(m.get('stage','').replace('_',' '))}</span>
+<span class="mono">{esc(cet(m['utc_kickoff']))}</span></div>
+<div class="teams2"><div><div class="tname">{esc(m['home'])}</div>
+{_badges(fs.get('form_home'))}</div>
+<div style="text-align:right"><div class="tname right">{esc(m['away'])}</div>
+{_badges(fs.get('form_away'), right=True)}</div></div>
 {prob_bar(show, m['home'], m['away'])}
-{pick_html}{score_html}{llm_html}{upd_html}
+{cotes_html}
+{pick_html}
+{anl}
+{h2h_html}
+{score_html}{upd_html}
 <div class="stamp mono">frozen {esc(pred['frozen_at_utc'][:16].replace('T',' '))}</div>
 </div>"""
 
@@ -273,7 +360,12 @@ def freeze_target_ms(utc_kickoff: str) -> int | None:
 
 
 def preview_card(fx: dict) -> str:
+    import formstats
     p = model.elo_to_probs(fx["home"], fx["away"])
+    try:
+        _, fdata = formstats.form_summary(fx["home"], fx["away"])
+    except Exception:
+        fdata = {}
     when = (fx["utc_kickoff"][:10] if fx.get("date_only")
             else cet(fx["utc_kickoff"]))
     ft = None if fx.get("date_only") else freeze_target_ms(fx["utc_kickoff"])
@@ -284,9 +376,13 @@ def preview_card(fx: dict) -> str:
     else:
         countdown = ('<div class="stamp preview mono">&#8987; PARI DISPONIBLE '
                      '~1H AVANT LE MATCH</div>')
-    return f"""<div class="card">
-<div class="teams"><b>{esc(fx['home'])} – {esc(fx['away'])}</b>
-<span class="ko mono">{esc(when)}</span></div>
+    return f"""<div class="card wx">
+<div class="top"><span>{esc(fx.get('stage','match').replace('_',' '))}</span>
+<span class="mono">{esc(when)}</span></div>
+<div class="teams2"><div><div class="tname">{esc(fx['home'])}</div>
+{_badges(fdata.get('form_home'))}</div>
+<div style="text-align:right"><div class="tname right">{esc(fx['away'])}</div>
+{_badges(fdata.get('form_away'), right=True)}</div></div>
 {prob_bar(p, fx['home'], fx['away'])}
 {countdown}</div>"""
 

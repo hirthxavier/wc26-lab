@@ -48,6 +48,7 @@ from lineups import get_lineups
 import llm_analyst
 import bets
 import players
+import formstats
 from odds import snapshot, line_movement, consensus_probs, fetch_odds, extract_offered
 from news import team_news
 import model
@@ -184,16 +185,19 @@ def run_hourly():
         market = consensus_probs(event) if event else None
         pform_text, pform_diff = players.player_form_summary(
             match["home"], match["away"], lineup_text)
+        form_text, form_data = formstats.form_summary(match["home"], match["away"])
         llm = llm_analyst.analyze(
             match, stats, panel,
             lineup_text, market.get("implied_probs") if market else None,
-            player_form=pform_text or None)
+            player_form=pform_text or None, form_block=form_text)
         players_probs = model.apply_players(stats, pform_diff)
         markets = bets.price_markets(match["home"], match["away"])
         offered = (extract_offered(event, match["home"], match["away"])
                    if event else {})
         ev = bets.ev_analysis(markets, offered) if offered else None
-        extra = {"model_players": ({k: round(v, 4) for k, v in
+        extra = {"formstats": form_data,
+                 "offered_odds": offered or None,
+                 "model_players": ({k: round(v, 4) for k, v in
                                     players_probs.items()}
                                    if players_probs else None),
                  "player_form_text": pform_text or None,

@@ -30,6 +30,17 @@ OUTLET_FEEDS = {
         ("BBC Sport", "https://feeds.bbci.co.uk/sport/football/rss.xml"),
         ("Guardian", "https://www.theguardian.com/football/rss"),
     ],
+    "DE": [
+        ("Kicker", "https://newsfeed.kicker.de/news/fussball"),
+        ("Sport1", "https://www.sport1.de/news.rss"),
+    ],
+    "PT": [
+        ("A Bola", "https://www.abola.pt/rss/noticias"),
+        ("Record", "https://www.record.pt/rss"),
+    ],
+    "NL": [
+        ("Voetbal International", "https://www.vi.nl/rss"),
+    ],
     "BR": [
         ("Globo Esporte", "https://ge.globo.com/rss/ge/"),
         ("UOL Esporte", "https://rss.uol.com.br/feed/esporte.xml"),

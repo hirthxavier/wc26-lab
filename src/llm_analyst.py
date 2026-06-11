@@ -23,26 +23,38 @@ API_URL = "https://api.anthropic.com/v1/messages"
 MODEL = "claude-sonnet-4-5"   # good cost/quality for this; haiku works too
 MAX_LLM_SHIFT = 0.08          # max abs deviation from stats model per outcome
 
-SYSTEM = """You are a quantitative football analyst. You will receive a stats
-model's probabilities for a World Cup match plus recent multilingual news
-headlines (Spanish, Italian, French, Portuguese, English) and, if available,
-official lineups. Your job is to adjust the probabilities ONLY where the news
-contains material information the stats model cannot know: confirmed injuries
-or suspensions of key players, surprise lineup decisions, serious squad
-turmoil, clearly weakened lineups (rotation), or tactical mismatches visible
-in the formations (e.g. low-block 5-at-the-back vs a possession side, missing
-defensive midfield cover). Use the player rating data when provided. Ignore hype, opinion pieces, and vague speculation. Small adjustments
-only; most matches warrant little or no change. Respond with ONLY valid JSON,
-no markdown fences, in this exact schema:
+SYSTEM = """Tu es un analyste football international de très haut niveau —
+le profil qui a passé des années à étudier les sélections nationales, leurs
+joueurs, leurs systèmes et leurs habitudes en grand tournoi. Tu reçois pour
+un match de Coupe du Monde : les probabilités d'un modèle statistique
+(Elo+Poisson), la forme récente, les confrontations directes, les cotes du
+marché, la presse multilingue du jour, et si disponibles les compos et
+ratings joueurs.
+
+Ta mission : produire une VRAIE analyse d'avant-match, précise et engagée,
+en t'appuyant sur les données fournies ET sur ta connaissance des effectifs,
+des styles de jeu et des dynamiques de ces sélections. IGNORE totalement le
+contenu people (concerts, cérémonies, billetterie). Si la presse du jour est
+vide d'informations utiles, c'est ta connaissance du football qui prend le
+relais — pas une excuse pour ne rien dire.
+
+Tu n'ajustes les probabilités que pour des raisons matérielles (absences,
+rotations, mismatch tactique clair) et avec modération.
+
+Réponds UNIQUEMENT en JSON valide, sans markdown, en FRANÇAIS, schéma exact:
 {"home": float, "draw": float, "away": float,
  "confidence": "low"|"medium"|"high",
- "key_factors": [string, ...],
- "rationale": string}"""
+ "lecture_tactique": "2-3 phrases: systèmes attendus, où le match se joue",
+ "joueurs_cles": ["3-4 duels ou joueurs décisifs, avec le POURQUOI"],
+ "facteur_x": "1 phrase: l'élément que tout le monde sous-estime",
+ "verdict": "2 phrases d'expert assumées: scénario le plus probable et score type",
+ "rationale": "si tu as ajusté les probabilités, justifie; sinon dis pourquoi pas"}"""
 
 
 def analyze(match: dict, stats_probs: dict, headlines: list[dict],
             lineups: str | None, market: dict | None,
-            player_form: str | None = None) -> dict:
+            player_form: str | None = None,
+            form_block: str | None = None) -> dict:
     """Returns dict with adjusted probs + analysis, or stats fallback."""
     fallback = {
         "home": stats_probs["home"], "draw": stats_probs["draw"],
@@ -64,7 +76,10 @@ Elo: {stats_probs.get('elo_home')} vs {stats_probs.get('elo_away')}
 
 Market implied probabilities (margin removed): {json.dumps(market) if market else 'unavailable'}
 
-Official lineups: {lineups or 'not yet published'}
+Forme récente et confrontations directes:
+{form_block or 'indisponible'}
+
+Compos officielles: {lineups or 'pas encore publiées'}
 
 Player-level data (recent match ratings & injuries): {player_form or 'unavailable'}
 
@@ -97,8 +112,11 @@ Return the JSON now."""
         clamped = _clamp(out, stats_probs)
         clamped.update({
             "confidence": out.get("confidence", "low"),
-            "key_factors": out.get("key_factors", [])[:5],
-            "rationale": str(out.get("rationale", ""))[:600],
+            "key_factors": out.get("joueurs_cles", out.get("key_factors", []))[:5],
+            "lecture_tactique": str(out.get("lecture_tactique", ""))[:400],
+            "facteur_x": str(out.get("facteur_x", ""))[:250],
+            "verdict": str(out.get("verdict", ""))[:400],
+            "rationale": str(out.get("rationale", ""))[:400],
             "llm_used": True,
         })
         return clamped

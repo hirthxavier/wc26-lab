@@ -23,6 +23,25 @@ from model import load_elo, load_params, canon, HOSTS, DEFAULT_ELO, _dc_tau, _po
 
 MAX_G = 8
 EV_THRESHOLD = 0.05
+# Staking: fractional Kelly with a hard cap. Full Kelly assumes our
+# probability is exactly right — it never is. Fraction set to 0.15 per the
+# 2026 empirical study on 17,403 top-5-league matches (Springer LNCS 16610:
+# full Kelly suffered >80% drawdowns; 15%-Kelly gave the best ROI with
+# contained drawdowns). Cap protects against model error.
+# Match-day rule (not automated): with several simultaneous picks, total
+# exposure should stay under ~10% of bankroll — scale stakes down pro rata.
+KELLY_FRACTION = 0.15
+KELLY_CAP = 0.05  # never suggest more than 5% of bankroll
+
+
+def kelly_stake(p: float, odds: float,
+                fraction: float = KELLY_FRACTION, cap: float = KELLY_CAP) -> float:
+    """Suggested fraction of bankroll. 0 if no edge."""
+    b_ = odds - 1
+    if b_ <= 0:
+        return 0.0
+    full = (p * odds - 1) / b_
+    return round(max(0.0, min(full * fraction, cap)), 4)
 
 
 def score_matrix(home: str, away: str) -> tuple[list[list[float]], float, float]:
@@ -89,6 +108,7 @@ def ev_analysis(markets: dict, offered_odds: dict[str, float]) -> dict:
         ev = p * odds - 1
         evals.append({"market": key, "model_prob": round(p, 4),
                       "odds": odds, "ev": round(ev, 4),
+                      "stake_pct": kelly_stake(p, odds),
                       "fair_odds": round(1 / p, 2) if p > 0 else None})
     evals.sort(key=lambda e: -e["ev"])
     positive = [e for e in evals if e["ev"] > EV_THRESHOLD]

@@ -1,0 +1,42 @@
+⚽ Mexico vs South Africa — GROUP_STAGE
+Coup d'envoi : 11/06 21:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Mexico: 87.2%  Draw: 9.9%  South Africa: 2.8%
+  With news adjustment: 87.2% / 9.9% / 2.8%
+  Elo: 2079.5 vs 1674.7
+
+— NEWS: Mexico (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: South Africa (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: low) —
+  87.3% / 9.9% / 2.8%
+  • Opening match atmosphere at Azteca Stadium
+  • Ochoa playing in his sixth and final World Cup
+  • No material injury or lineup information available
+  The headlines contain no material information that would justify adjusting the stats model probabilities. The news focuses on: opening ceremony entertainment (Shakira, Burna Boy), fan zone logistics, stadium features, general player profiles, and transfer rumors unrelated to match fitness. Ochoa's announced retirement after this World Cup is emotional but doesn't indicate form issues. The massive Elo gap (2079.5 vs 1674.7) and home advantage for Mexico in their opening match at Azteca remain the dominant factors. Without confirmed injuries, suspensions, weakened lineups, or tactical intelligen
+
+— PANEL — 59 headlines from ES/IT/FR/AR/UK/BR sources —
+  [L'Equipe (FR)] Des bousculades entre supporters à l'entrée de la fan-zone de Mexico pour le match d'ouverture de la Coupe du monde
+  [BBC Sport (UK)] Star players and World Cup history - your guide to Mexico
+  [Guardian (UK)] Mexico v South Africa: World Cup 2026 opening match – live
+  [Guardian (UK)] Fields of the Gods: Mexico’s football pitches from above – photo essay
+  [GoogleNews:"Mexico" world cup] Mexico vs South Africa live: World Cup 2026 - Al Jazeera
+  [GoogleNews:"Mexico" world cup] Who's Performing At The 2026 World Cup Opening Ceremonies? Lineups For Mexico, Canada And The U.S. - Forbes
+  [GoogleNews:"Mexico" world cup] World Cup Opening Ceremony 2026 Live Updates: Shakira, Burna Boy Perform in Mexico City as Tourney Kicks Off - TODAY.com
+  [GoogleNews:"Mexico" world cup] FIFA World Cup opening ceremony live: Shakira starts 2026 party in Mexico City - USA Today
+
+— MOST LIKELY OUTCOME —
+  Mexico (87.2%)
+  Tentative exact scores: 3-0 (13.2%), 2-0 (12.4%), 4-0 (10.5%)
+  xG: 3.18 - 0.53   O2.5: 71.5%   BTTS: 40.1%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

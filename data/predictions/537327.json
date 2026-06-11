@@ -1,0 +1,85 @@
+{
+  "frozen_at_utc": "2026-06-11T18:39:56.898853+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537327,
+    "utc_kickoff": "2026-06-11T19:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Mexico",
+    "away": "South Africa",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.8723,
+    "draw": 0.0994,
+    "away": 0.0283
+  },
+  "model_with_news": {
+    "home": 0.8723,
+    "draw": 0.0994,
+    "away": 0.0283
+  },
+  "model_llm": {
+    "home": 0.8729,
+    "draw": 0.0991,
+    "away": 0.028
+  },
+  "llm_analysis": {
+    "confidence": "low",
+    "key_factors": [
+      "Opening match atmosphere at Azteca Stadium",
+      "Ochoa playing in his sixth and final World Cup",
+      "No material injury or lineup information available"
+    ],
+    "rationale": "The headlines contain no material information that would justify adjusting the stats model probabilities. The news focuses on: opening ceremony entertainment (Shakira, Burna Boy), fan zone logistics, stadium features, general player profiles, and transfer rumors unrelated to match fitness. Ochoa's announced retirement after this World Cup is emotional but doesn't indicate form issues. The massive Elo gap (2079.5 vs 1674.7) and home advantage for Mexico in their opening match at Azteca remain the dominant factors. Without confirmed injuries, suspensions, weakened lineups, or tactical intelligen",
+    "llm_used": true
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 3.179,
+    "lam_away": 0.532,
+    "elo_home": 2079.5,
+    "elo_away": 1674.7
+  },
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "3-0",
+      "prob": 0.1317
+    },
+    {
+      "score": "2-0",
+      "prob": 0.1243
+    },
+    {
+      "score": "4-0",
+      "prob": 0.1047
+    },
+    {
+      "score": "1-0",
+      "prob": 0.072
+    },
+    {
+      "score": "3-1",
+      "prob": 0.07
+    }
+  ],
+  "ev_summary": null
+}

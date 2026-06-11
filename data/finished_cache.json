@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "match_id": 537327,
+    "utc_kickoff": "2026-06-11T19:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Mexico",
+    "away": "South Africa",
+    "status": "FINISHED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  }
+]

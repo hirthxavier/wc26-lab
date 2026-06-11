@@ -25,9 +25,21 @@ color:#fff;font-size:11px;min-width:34px}
 .bar .a{background:var(--away)}
 .legend{display:flex;justify-content:space-between;font-size:11px;
 color:var(--muted);margin-bottom:6px}
-.pick{border-left:4px solid var(--pitch);padding:8px 12px;background:#f2f7f0;
-font-size:14px;border-radius:0 6px 6px 0;margin:10px 0}
-.pick.no{border-left-color:var(--muted);background:#f5f4f0;color:var(--muted)}
+.slip{border:2px solid var(--pitch);border-radius:10px;margin:12px 0;
+overflow:hidden;background:#fff}
+.slip .head{background:var(--pitch);color:#fff;padding:7px 12px;font-size:12px;
+letter-spacing:.12em;text-transform:uppercase;font-weight:700}
+.slip .bet{padding:12px;font-size:17px;font-weight:700}
+.slip .grid{display:flex;border-top:1px solid var(--line);text-align:center}
+.slip .grid>div{flex:1;padding:9px 4px;border-right:1px solid var(--line)}
+.slip .grid>div:last-child{border-right:0}
+.slip .lbl{font-size:10px;text-transform:uppercase;letter-spacing:.1em;
+color:var(--muted)}
+.slip .val{font-size:16px;font-weight:700;font-family:ui-monospace,Menlo,monospace}
+.slip .gain .val{color:var(--pitch)}
+.slip.nobet{border-color:var(--muted)}
+.slip.nobet .head{background:var(--muted)}
+.slip.nobet .bet{font-size:15px;color:var(--muted);font-weight:600}
 .scores,.meta{font-size:13px;color:var(--muted)}
 .stamp{display:inline-block;border:1.5px solid var(--pitch);color:var(--pitch);
 font-size:10px;letter-spacing:.12em;padding:1px 7px;border-radius:4px;
@@ -49,7 +61,7 @@ border-bottom:1px solid var(--line);font-size:14px}
 <div id="main">
 <header><h1>WC26 <span>Prediction Lab</span></h1>
 <div class="sub mono">predictions frozen pre-kickoff · updated
-2026-06-11 11:35 UTC</div></header>
+2026-06-11 12:00 UTC</div></header>
 <details class="card" style="font-size:14px"><summary><b>&#10067; Comment lire cette page (important)</b></summary>
 <p style="margin-top:8px"><b>La barre verte = des probabilit&eacute;s, PAS un conseil de pari.</b>
 "87%" signifie que le mod&egrave;le estime 87 chances sur 100 que cette &eacute;quipe gagne

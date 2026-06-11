@@ -1,0 +1,18 @@
+{
+  "comment": "Curated striker per contender — EDIT FREELY. No player-level model exists in this pipeline; the app combines these names with the simulation's deep-run probabilities (structural read) + market consensus.",
+  "strikers": {
+    "France": "Kylian Mbappé",
+    "England": "Harry Kane",
+    "Norway": "Erling Haaland",
+    "Spain": "Lamine Yamal",
+    "Argentina": "Lionel Messi",
+    "Portugal": "Cristiano Ronaldo",
+    "Brazil": "Vinícius Júnior",
+    "Mexico": "Santiago Giménez",
+    "Germany": "Florian Wirtz",
+    "Colombia": "Luis Díaz"
+  },
+  "market_favorites_note": "Consensus bookmakers (juin 2026): Mbappé ~+600, Kane ~+700, Haaland et Messi derrière.",
+  "our_two": ["Kylian Mbappé", "Harry Kane"],
+  "value_pick": "Erling Haaland"
+}

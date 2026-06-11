@@ -8,19 +8,23 @@ v0.6 sections:
   - Group standings (live results when API key present, cached otherwise)
   - Champion race: evolution of P(champion) across nightly simulations
   - Model leaderboard (Brier scores, 5 contestants)
-  - Optional password gate: set env DASHBOARD_PASSWORD at build time
-    (client-side SHA-256 gate — deters casual visitors; the public repo
-    itself remains visible, so this is privacy theater, documented as such)
 
 Pure stdlib, no build step. Mobile-first.
 """
 from __future__ import annotations
 import csv
-import hashlib
 import html
 import json
 import os
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
+
+PARIS = ZoneInfo("Europe/Paris")
+
+
+def cet(dt_iso: str) -> str:
+    dt = datetime.fromisoformat(dt_iso.replace("Z", "+00:00")).astimezone(PARIS)
+    return dt.strftime("%d/%m %H:%M") + " CET"
 from pathlib import Path
 import sys
 
@@ -77,14 +81,6 @@ details{margin-top:8px;font-size:13px}summary{cursor:pointer;color:var(--pitch)}
 border-bottom:1px solid var(--line);font-size:14px}
 .race .nm{flex:0 0 110px}.race .pc{flex:0 0 52px;text-align:right}
 .race svg{flex:1;height:26px}
-#gate{position:fixed;inset:0;background:var(--paper);display:flex;
-flex-direction:column;align-items:center;justify-content:center;gap:12px;z-index:9}
-#gate input{font-size:16px;padding:10px;border:1px solid var(--line);
-border-radius:8px;width:220px;text-align:center}
-#gate button{font-size:15px;padding:10px 22px;background:var(--pitch);
-color:#fff;border:0;border-radius:8px;cursor:pointer}
-#gate .err{color:var(--warn);font-size:13px;min-height:18px}
-.hidden{display:none}
 """
 
 
@@ -108,6 +104,30 @@ def load_predictions() -> list[dict]:
             except json.JSONDecodeError:
                 continue
     return out
+
+
+FIXTURES_CACHE = DATA / "fixtures_cache.json"
+
+
+def load_upcoming_with_times(days: int = 3) -> list[dict]:
+    """Exact kickoff times: live API in workflows (cached), CSV fallback."""
+    if os.environ.get("FOOTBALL_DATA_KEY"):
+        try:
+            from fixtures import get_matches
+            ms = get_matches(days_ahead=days)
+            FIXTURES_CACHE.write_text(json.dumps(ms, indent=2))
+            return ms
+        except Exception:
+            pass
+    if FIXTURES_CACHE.exists():
+        return json.loads(FIXTURES_CACHE.read_text())
+    today = datetime.now(timezone.utc).date()
+    horizon = today + timedelta(days=days)
+    return [{"match_id": None, "utc_kickoff": f["date"] + "T00:00:00Z",
+             "home": f["home"], "away": f["away"], "status": "TIMED",
+             "date_only": True}
+            for f in load_wc_schedule()
+            if today.isoformat() <= f["date"] <= horizon.isoformat()]
 
 
 def load_wc_schedule() -> list[dict]:
@@ -155,9 +175,11 @@ def frozen_card(pred: dict) -> str:
             pick_html = '<div class="pick no">No bet — nothing clears the value bar.</div>'
         elif ev.get("top"):
             t = ev["top"]
+            stake = t.get("stake_pct", 0) or 0
             pick_html = (f'<div class="pick"><b>The pick:</b> {esc(t["market"])} — '
                          f'model {pct(t["model_prob"])} vs odds {t["odds"]} '
-                         f'(EV {t["ev"]*100:+.1f}%)</div>'
+                         f'(EV {t["ev"]*100:+.1f}%) &middot; '
+                         f'mise: {stake*100:.1f}% bankroll (&frac14; Kelly, max 5%)</div>'
                          f'<div class="caveat">Model–market disagreement; most '
                          f'likely explanation is model error. Experiment, not advice.</div>')
     scorelines = pred.get("top_scorelines") or []
@@ -171,7 +193,7 @@ def frozen_card(pred: dict) -> str:
                 if llm.get("llm_used") else "")
     return f"""<div class="card">
 <div class="teams"><b>{esc(m['home'])} – {esc(m['away'])}</b>
-<span class="ko mono">{esc(m['utc_kickoff'][:16].replace('T',' '))} UTC</span></div>
+<span class="ko mono">{esc(cet(m['utc_kickoff']))}</span></div>
 {prob_bar(show, m['home'], m['away'])}
 {pick_html}{score_html}{llm_html}
 <div class="stamp mono">frozen {esc(pred['frozen_at_utc'][:16].replace('T',' '))}</div>
@@ -188,9 +210,11 @@ def prob_bar(p: dict, home: str, away: str) -> str:
 
 def preview_card(fx: dict) -> str:
     p = model.elo_to_probs(fx["home"], fx["away"])
+    when = (fx["utc_kickoff"][:10] if fx.get("date_only")
+            else cet(fx["utc_kickoff"]))
     return f"""<div class="card">
 <div class="teams"><b>{esc(fx['home'])} – {esc(fx['away'])}</b>
-<span class="ko mono">{esc(fx['date'])}</span></div>
+<span class="ko mono">{esc(when)}</span></div>
 {prob_bar(p, fx['home'], fx['away'])}
 <div class="stamp preview mono">preview — freezes ~1h before kickoff with
 odds, lineups &amp; news</div></div>"""
@@ -260,6 +284,37 @@ def race_section() -> str:
             "<div class='card'>" + "".join(rows) + sub + "</div>")
 
 
+def golden_boot_section() -> str:
+    gb_file = DATA / "golden_boot.json"
+    sim_file = DATA / "tournament_sim.json"
+    if not (gb_file.exists() and sim_file.exists()):
+        return ""
+    gb = json.loads(gb_file.read_text())
+    sim = json.loads(sim_file.read_text())
+    strikers = gb.get("strikers", {})
+    rows = []
+    for team, p in sim["probabilities"].items():
+        if team in strikers:
+            rows.append((strikers[team], team, p["semi"], p["final"]))
+    rows.sort(key=lambda r: -r[2])
+    body = "".join(
+        f"<tr><td>{'&#11088; ' if name in gb.get('our_two', []) else ''}"
+        f"{'&#128142; ' if name == gb.get('value_pick') else ''}{esc(name)}</td>"
+        f"<td>{esc(team)}</td><td class='num'>{pct(semi)}</td>"
+        f"<td class='num'>{pct(fin)}</td></tr>"
+        for name, team, semi, fin in rows[:8])
+    return ("<h2>Soulier d'or &middot; lecture structurelle</h2>"
+            "<div class='card'><table><tr><th>Joueur</th><th>&Eacute;quipe</th>"
+            "<th>P(demi)</th><th>P(finale)</th></tr>" + body + "</table>"
+            "<div class='meta'>&#11088; nos deux picks &middot; "
+            "&#128142; value pick. Pas de mod&egrave;le joueur dans ce pipeline : "
+            "le Soulier d'or va presque toujours &agrave; l'attaquant d'une "
+            "&eacute;quipe demi-finaliste (6-7 matchs jou&eacute;s) &mdash; ce "
+            "tableau croise nos simulations avec le buteur n&deg;1 de chaque "
+            "pr&eacute;tendant (&eacute;ditable dans data/golden_boot.json). "
+            f"{esc(gb.get('market_favorites_note',''))}</div></div>")
+
+
 def leaderboard_section() -> str:
     ev_file = DATA / "results" / "evaluation.json"
     if not ev_file.exists():
@@ -325,33 +380,6 @@ def track_record_section(preds: list[dict], finished: list[dict]) -> str:
             + "</table>" + tally + "</div>")
 
 
-def gate_snippet() -> tuple[str, str, str]:
-    """Returns (gate_html, gate_js, content_class). Empty if no password set."""
-    pw = os.environ.get("DASHBOARD_PASSWORD", "")
-    if not pw:
-        return "", "", ""
-    digest = hashlib.sha256(pw.encode()).hexdigest()
-    gate_html = """<div id="gate"><h1>WC26 <span style="color:#1a7a3c">Lab</span></h1>
-<input id="pw" type="password" placeholder="Password" autofocus>
-<button onclick="check()">Enter</button><div class="err" id="err"></div></div>"""
-    gate_js = f"""<script>
-const HASH="{digest}";
-async function sha(s){{const b=await crypto.subtle.digest("SHA-256",
-new TextEncoder().encode(s));return [...new Uint8Array(b)].map(
-x=>x.toString(16).padStart(2,"0")).join("")}}
-async function check(){{if(await sha(document.getElementById("pw").value)===HASH){{
-sessionStorage.setItem("wc26","1");unlock()}}else{{
-document.getElementById("err").textContent="Wrong password"}}}}
-function unlock(){{document.getElementById("gate").remove();
-document.getElementById("main").classList.remove("hidden")}}
-if(sessionStorage.getItem("wc26")==="1")window.addEventListener(
-"DOMContentLoaded",unlock);
-document.addEventListener("keydown",e=>{{if(e.key==="Enter"&&
-document.getElementById("gate"))check()}});
-</script>"""
-    return gate_html, gate_js, " hidden"
-
-
 def build() -> Path:
     preds = load_predictions()
     now_iso = datetime.now(timezone.utc).isoformat()
@@ -364,13 +392,11 @@ def build() -> Path:
     frozen_pairs = {(model.canon(p["match"]["home"]), model.canon(p["match"]["away"]))
                     for p in frozen_upcoming}
 
-    today = datetime.now(timezone.utc).date()
-    horizon = today + timedelta(days=3)
-    schedule = [f for f in load_wc_schedule()
-                if today.isoformat() <= f["date"] <= horizon.isoformat()
-                and (model.canon(f["home"]), model.canon(f["away"]))
-                not in frozen_pairs]
-    schedule.sort(key=lambda f: f["date"])
+    schedule = [f for f in load_upcoming_with_times(3)
+                if (model.canon(f["home"]), model.canon(f["away"]))
+                not in frozen_pairs
+                and f.get("status") in (None, "TIMED", "SCHEDULED")]
+    schedule.sort(key=lambda f: f["utc_kickoff"])
 
     upcoming_html = ("".join(frozen_card(p) for p in frozen_upcoming)
                      + "".join(preview_card(f) for f in schedule[:12]))
@@ -391,17 +417,16 @@ def build() -> Path:
     groups = (json.loads(sim_file.read_text()).get("groups", {})
               if sim_file.exists() else {})
 
-    gate_html, gate_js, content_class = gate_snippet()
-
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>WC26 Prediction Lab</title><style>{CSS}</style></head><body>
-{gate_html}<div id="main" class="{content_class.strip()}">
+<div id="main">
 <header><h1>WC26 <span>Prediction Lab</span></h1>
 <div class="sub mono">predictions frozen pre-kickoff · updated
 {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')} UTC</div></header>
 <h2>Next matches</h2>{upcoming_html}
 {race_section()}
+{golden_boot_section()}
 {standings_section(groups, finished)}
 {track_html}
 {past_html}
@@ -409,7 +434,7 @@ def build() -> Path:
 <footer>A measurement experiment, not betting advice. The market is the
 benchmark until the leaderboard says otherwise. Git history is the lab
 notebook — every prediction's commit predates kickoff.</footer>
-</div>{gate_js}</body></html>"""
+</div></body></html>"""
     DOCS.mkdir(exist_ok=True)
     out = DOCS / "index.html"
     out.write_text(page)

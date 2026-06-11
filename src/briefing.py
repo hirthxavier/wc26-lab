@@ -6,7 +6,42 @@ import smtplib
 from email.mime.text import MIMEText
 from config import (SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, EMAIL_TO,
                     BRIEFING_WINDOW_MIN, BRIEFING_WINDOW_MIN_LOW, SENT_DIR, DATA)
-from fixtures import matches_in_window
+from datetime import datetime, timedelta, time as dtime, timezone
+from zoneinfo import ZoneInfo
+from fixtures import matches_in_window, get_matches
+
+PARIS = ZoneInfo("Europe/Paris")
+
+
+def paris(dt_iso: str) -> datetime:
+    return datetime.fromisoformat(dt_iso.replace("Z", "+00:00")).astimezone(PARIS)
+
+
+def fmt_cet(dt_iso: str) -> str:
+    return paris(dt_iso).strftime("%d/%m %H:%M") + " (heure de Paris)"
+
+
+def is_night_match(dt_iso: str) -> bool:
+    """Kickoff between 21:00 and 08:00 Paris time."""
+    h = paris(dt_iso).hour
+    return h >= 21 or h < 8
+
+
+def freeze_due(m: dict) -> bool:
+    """Standard matches: freeze 0-60 min before kickoff.
+    Night matches (21:00-08:00 Paris): freeze from 20:30 Paris the evening
+    before kickoff, so the pronostic is ready before bedtime. Trade-off
+    (documented): official lineups are usually NOT out yet at 20:30."""
+    now = datetime.now(timezone.utc)
+    ko = datetime.fromisoformat(m["utc_kickoff"].replace("Z", "+00:00"))
+    if ko <= now:
+        return False
+    if is_night_match(m["utc_kickoff"]):
+        ko_p = ko.astimezone(PARIS)
+        anchor_date = ko_p.date() if ko_p.hour >= 21 else (ko_p - timedelta(days=1)).date()
+        anchor = datetime.combine(anchor_date, dtime(20, 30), tzinfo=PARIS)
+        return now >= anchor
+    return (ko - now) <= timedelta(minutes=BRIEFING_WINDOW_MIN)
 from sources import fetch_panel
 from lineups import get_lineups
 import llm_analyst
@@ -21,7 +56,7 @@ def build_briefing(match, stats_probs, final_probs, market, nh, na, movement,
     def pct(x): return f"{x*100:.1f}%"
     lines = [
         f"⚽ {match['home']} vs {match['away']} — {match['stage']}",
-        f"Kickoff (UTC): {match['utc_kickoff']}",
+        f"Coup d'envoi : {fmt_cet(match['utc_kickoff'])}",
         "",
         "— MODEL (Elo+Poisson) —",
         f"  {match['home']}: {pct(stats_probs['home'])}  Draw: {pct(stats_probs['draw'])}  {match['away']}: {pct(stats_probs['away'])}",
@@ -48,6 +83,9 @@ def build_briefing(match, stats_probs, final_probs, market, nh, na, movement,
             lines.append(f"  ⚠️ {h}")
         if not n["injury_flags"] and not n["turmoil_flags"]:
             lines.append("  No injury/turmoil flags detected.")
+    if is_night_match(match["utc_kickoff"]) and not lineups:
+        lines += ["", "ℹ Pronostic gelé à 20h30 (match de nuit) — compos "
+                      "officielles pas encore publiées."]
     if lineups:
         lines += ["", "— OFFICIAL LINEUPS —", lineups]
     else:
@@ -84,7 +122,9 @@ def build_briefing(match, stats_probs, final_probs, market, nh, na, movement,
             lines += ["", "★ THE PICK ★",
                       f"  {top['market']} — model {top['model_prob']*100:.0f}% "
                       f"vs odds {top['odds']} (fair: {top['fair_odds']}) "
-                      f"-> EV {top['ev']*100:+.1f}%"]
+                      f"-> EV {top['ev']*100:+.1f}%",
+                      f"  Mise suggérée: {top.get('stake_pct',0)*100:.1f}% de la "
+                      f"bankroll (¼ Kelly, plafond 5%)"]
         else:
             lines += ["", "★ THE PICK: NO BET ★"]
             if ev["best"]:
@@ -111,10 +151,8 @@ def send_email(subject: str, body: str):
 def run_hourly():
     """Runs every 15 min via Actions. Fires once per match when kickoff is
     45-60 min away (lineups published by then). Dedupe via sent markers."""
-    upcoming = matches_in_window(BRIEFING_WINDOW_MIN_LOW, BRIEFING_WINDOW_MIN)
-    # late-window catch-up in case a run was skipped
-    upcoming += [m for m in matches_in_window(0, BRIEFING_WINDOW_MIN_LOW)
-                 if not _already_sent(m)]
+    upcoming = [m for m in get_matches(days_ahead=2)
+                if m["status"] in ("TIMED", "SCHEDULED") and freeze_due(m)]
     if not upcoming:
         print("No matches in window.")
         return

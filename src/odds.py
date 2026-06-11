@@ -10,19 +10,53 @@ from config import ODDS_BASE, ODDS_API_KEY, ODDS_SPORT_KEY, ODDS_REGIONS, ODDS_M
 SNAPSHOT_FILE = DATA / "odds_snapshots.json"
 
 
-def fetch_odds() -> list[dict]:
+def fetch_odds(markets: str | None = None) -> list[dict]:
+    """markets: comma list. Each extra market costs API credits — the rich
+    call (h2h,totals,btts) is made only at freeze time, not every snapshot."""
     r = requests.get(
         f"{ODDS_BASE}/sports/{ODDS_SPORT_KEY}/odds",
         params={
             "apiKey": ODDS_API_KEY,
             "regions": ODDS_REGIONS,
-            "markets": ODDS_MARKETS,
+            "markets": markets or ODDS_MARKETS,
             "oddsFormat": "decimal",
         },
         timeout=30,
     )
     r.raise_for_status()
     return r.json()
+
+
+def extract_offered(event: dict, home: str, away: str) -> dict[str, float]:
+    """Average offered odds per market, keyed for bets.ev_analysis:
+    1x2.*, over_under.over_2.5, btts_yes."""
+    sums: dict[str, float] = {}
+    counts: dict[str, int] = {}
+
+    def add(key, price):
+        if price and price > 1.0:
+            sums[key] = sums.get(key, 0.0) + price
+            counts[key] = counts.get(key, 0) + 1
+
+    for book in event.get("bookmakers", []):
+        for mk in book.get("markets", []):
+            if mk["key"] == "h2h":
+                for out in mk["outcomes"]:
+                    if out["name"] == home:
+                        add("1x2.home", out["price"])
+                    elif out["name"] == away:
+                        add("1x2.away", out["price"])
+                    elif out["name"].lower() == "draw":
+                        add("1x2.draw", out["price"])
+            elif mk["key"] == "totals":
+                for out in mk["outcomes"]:
+                    if out.get("point") == 2.5 and out["name"] == "Over":
+                        add("over_under.over_2.5", out["price"])
+            elif mk["key"] == "btts":
+                for out in mk["outcomes"]:
+                    if out["name"].lower() == "yes":
+                        add("btts_yes", out["price"])
+    return {k: round(sums[k] / counts[k], 3) for k in sums}
 
 
 def consensus_probs(event: dict) -> dict | None:

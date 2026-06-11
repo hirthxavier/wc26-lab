@@ -48,7 +48,7 @@ from lineups import get_lineups
 import llm_analyst
 import bets
 import players
-from odds import snapshot, line_movement, consensus_probs
+from odds import snapshot, line_movement, consensus_probs, fetch_odds, extract_offered
 from news import team_news
 import model
 
@@ -162,7 +162,8 @@ def run_hourly():
     if not upcoming:
         print("No matches in window.")
         return
-    odds_events = {(e["home"], e["away"]): e for e in _current_odds_events()}
+    snapshot()  # keep the line-movement time series running
+    odds_events = {}  # legacy snapshot matching no longer used for markets
     for match in upcoming:
         if _already_sent(match):
             continue
@@ -179,7 +180,7 @@ def run_hourly():
         lineup_text = lineup_probe
         stats = model.elo_to_probs(match["home"], match["away"])
         final = model.apply_news(stats, nh, na)
-        event = odds_events.get((match["home"], match["away"]))
+        event = _rich_odds_event(match["home"], match["away"])
         market = consensus_probs(event) if event else None
         pform_text, pform_diff = players.player_form_summary(
             match["home"], match["away"], lineup_text)
@@ -189,14 +190,8 @@ def run_hourly():
             player_form=pform_text or None)
         players_probs = model.apply_players(stats, pform_diff)
         markets = bets.price_markets(match["home"], match["away"])
-        # build offered odds dict from consensus avg odds if available
-        offered = {}
-        if market and event:
-            names = {match["home"]: "1x2.home", match["away"]: "1x2.away",
-                     "Draw": "1x2.draw"}
-            for nm, o in market["avg_odds"].items():
-                if nm in names:
-                    offered[names[nm]] = o
+        offered = (extract_offered(event, match["home"], match["away"])
+                   if event else {})
         ev = bets.ev_analysis(markets, offered) if offered else None
         extra = {"model_players": ({k: round(v, 4) for k, v in
                                     players_probs.items()}
@@ -273,6 +268,22 @@ def run_lineup_updates():
         print(f"Lineup update envoyé: {m['home']} vs {m['away']}")
 
 
+_rich_cache: dict = {}
+
+
+def _rich_odds_event(home: str, away: str):
+    """One h2h+totals+btts call per run, cached, mapped per match."""
+    global _rich_cache
+    if not _rich_cache:
+        try:
+            for e in fetch_odds(markets="h2h,totals,btts"):
+                _rich_cache[(e["home_team"], e["away_team"])] = e
+        except Exception as ex:  # noqa: BLE001
+            print(f"rich odds unavailable, falling back to h2h: {ex}")
+            _rich_cache = {None: None}
+    return _rich_cache.get((home, away))
+
+
 def _already_sent(match) -> bool:
     return (SENT_DIR / f"{match['match_id']}.sent").exists()
 
@@ -280,15 +291,6 @@ def _already_sent(match) -> bool:
 def _mark_sent(match):
     SENT_DIR.mkdir(parents=True, exist_ok=True)
     (SENT_DIR / f"{match['match_id']}.sent").write_text("1")
-
-
-def _current_odds_events():
-    try:
-        return snapshot() and __import__("json").loads(
-            (__import__("config").DATA / "odds_snapshots.json").read_text())[-50:]
-    except Exception as e:
-        print(f"Odds fetch failed: {e}")
-        return []
 
 
 if __name__ == "__main__":

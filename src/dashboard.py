@@ -215,23 +215,50 @@ def frozen_card(pred: dict) -> str:
 
 
 def prob_bar(p: dict, home: str, away: str) -> str:
-    return f"""<div class="bar">
+    return f"""<div class="meta" style="margin-top:8px;font-size:11px;
+text-transform:uppercase;letter-spacing:.08em">Probabilit&eacute;s du mod&egrave;le
+&mdash; pas un conseil de pari</div><div class="bar">
 <div class="h" style="flex:{p['home']:.3f}">{pct(p['home'])}</div>
 <div class="d" style="flex:{p['draw']:.3f}">{pct(p['draw'])}</div>
 <div class="a" style="flex:{p['away']:.3f}">{pct(p['away'])}</div></div>
 <div class="legend"><span>{esc(home)}</span><span>draw</span><span>{esc(away)}</span></div>"""
 
 
+def freeze_target_ms(utc_kickoff: str) -> int | None:
+    """Epoch ms of the expected pick release: 20:30 Paris the evening before
+    for night matches (KO 21:00-08:00 Paris), kickoff-60min otherwise."""
+    try:
+        ko = datetime.fromisoformat(utc_kickoff.replace("Z", "+00:00"))
+        ko_p = ko.astimezone(PARIS)
+        if ko_p.hour >= 21 or ko_p.hour < 8:
+            anchor_date = (ko_p.date() if ko_p.hour >= 21
+                           else (ko_p - timedelta(days=1)).date())
+            from datetime import time as dtime
+            target = datetime.combine(anchor_date, dtime(20, 30), tzinfo=PARIS)
+        else:
+            target = ko - timedelta(minutes=60)
+        return int(target.timestamp() * 1000)
+    except (ValueError, TypeError):
+        return None
+
+
 def preview_card(fx: dict) -> str:
     p = model.elo_to_probs(fx["home"], fx["away"])
     when = (fx["utc_kickoff"][:10] if fx.get("date_only")
             else cet(fx["utc_kickoff"]))
+    ft = None if fx.get("date_only") else freeze_target_ms(fx["utc_kickoff"])
+    if ft:
+        countdown = (f'<div class="stamp preview mono">&#8987; LE PARI SERA '
+                     f'DISPONIBLE DANS <span class="cd" data-freeze="{ft}">'
+                     f'&hellip;</span></div>')
+    else:
+        countdown = ('<div class="stamp preview mono">&#8987; PARI DISPONIBLE '
+                     '~1H AVANT LE MATCH</div>')
     return f"""<div class="card">
 <div class="teams"><b>{esc(fx['home'])} – {esc(fx['away'])}</b>
 <span class="ko mono">{esc(when)}</span></div>
 {prob_bar(p, fx['home'], fx['away'])}
-<div class="stamp preview mono">preview — freezes ~1h before kickoff with
-odds, lineups &amp; news</div></div>"""
+{countdown}</div>"""
 
 
 def standings_section(groups: dict, finished: list[dict]) -> str:
@@ -453,6 +480,19 @@ def build() -> Path:
 <header><h1>WC26 <span>Prediction Lab</span></h1>
 <div class="sub mono">predictions frozen pre-kickoff · updated
 {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')} UTC</div></header>
+<details class="card" style="font-size:14px"><summary><b>&#10067; Comment lire cette page (important)</b></summary>
+<p style="margin-top:8px"><b>La barre verte = des probabilit&eacute;s, PAS un conseil de pari.</b>
+"87%" signifie que le mod&egrave;le estime 87 chances sur 100 que cette &eacute;quipe gagne
+&mdash; il lui reste 13% de perdre, et surtout &ccedil;a ne dit rien de la rentabilit&eacute; :
+si la cote ne paie que 1.10, parier sur un 87% <i>perd</i> de l'argent &agrave; long terme.</p>
+<p style="margin-top:8px"><b>Le seul vrai signal de pari, c'est la ligne &laquo; The pick &raquo;</b>
+qui appara&icirc;t au gel du pronostic (~1h avant le match), quand le mod&egrave;le compare
+ses probabilit&eacute;s aux cotes r&eacute;elles. La plupart du temps le verdict est
+<b>NO BET</b> &mdash; c'est normal et c'est le verdict qui fait &eacute;conomiser de l'argent.
+Quand un pick sort, la mise sugg&eacute;r&eacute;e (% de bankroll, Kelly fractionn&eacute;)
+est indiqu&eacute;e &mdash; et m&ecirc;me l&agrave;, l'explication la plus probable d'un
+&eacute;cart avec les bookmakers reste une erreur de notre mod&egrave;le. Exp&eacute;rience
+scientifique, pas conseil financier.</p></details>
 <h2>Next matches</h2>{upcoming_html}
 {race_section()}
 {golden_boot_section()}
@@ -463,7 +503,15 @@ def build() -> Path:
 <footer>A measurement experiment, not betting advice. The market is the
 benchmark until the leaderboard says otherwise. Git history is the lab
 notebook — every prediction's commit predates kickoff.</footer>
-</div></body></html>"""
+</div><script>
+function tick(){{document.querySelectorAll(".cd").forEach(function(el){{
+var t=parseInt(el.dataset.freeze),d=t-Date.now();
+if(isNaN(t))return;
+if(d<=0){{el.textContent="QUELQUES MINUTES — actualise la page";return}}
+var h=Math.floor(d/36e5),m=Math.floor(d%36e5/6e4),s=Math.floor(d%6e4/1e3);
+el.textContent=(h>0?h+"h ":"")+m+"m "+s+"s";}})}}
+tick();setInterval(tick,1000);
+</script></body></html>"""
     DOCS.mkdir(exist_ok=True)
     out = DOCS / "index.html"
     out.write_text(page)

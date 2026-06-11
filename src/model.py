@@ -55,6 +55,23 @@ def _dc_tau(gh, ga, lh, la, rho):
     return 1.0
 # Max absolute shift news can apply to win prob (kept tiny on purpose)
 NEWS_MAX_SHIFT = 0.03
+# Max shift from player form differential (rating points -> probability)
+PLAYERS_MAX_SHIFT = 0.05
+PLAYERS_SCALE = 0.10  # 1.0 rating point of form diff -> 10pp shift (capped)
+
+
+def apply_players(probs: dict, form_diff: float | None) -> dict | None:
+    """6th contestant: stats model shifted by quantified player form.
+    Returns None when no player data (contestant skips the match)."""
+    if form_diff is None:
+        return None
+    shift = max(-PLAYERS_MAX_SHIFT, min(form_diff * PLAYERS_SCALE,
+                                        PLAYERS_MAX_SHIFT))
+    p = dict(probs)
+    p["home"] = max(0.01, probs["home"] + shift)
+    p["away"] = max(0.01, probs["away"] - shift)
+    total = p["home"] + p["draw"] + p["away"]
+    return {k: p[k] / total for k in ("home", "draw", "away")}
 
 
 def load_elo() -> dict:

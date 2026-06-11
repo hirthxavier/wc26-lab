@@ -2,6 +2,7 @@
 is what GitHub Actions calls every hour: it finds matches kicking off within
 the window, freezes predictions, and emails the briefing."""
 from __future__ import annotations
+import json
 import smtplib
 from email.mime.text import MIMEText
 from config import (SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASS, EMAIL_TO,
@@ -46,13 +47,15 @@ from sources import fetch_panel
 from lineups import get_lineups
 import llm_analyst
 import bets
+import players
 from odds import snapshot, line_movement, consensus_probs
 from news import team_news
 import model
 
 
 def build_briefing(match, stats_probs, final_probs, market, nh, na, movement,
-                   llm=None, lineups=None, panel=None, markets=None, ev=None) -> str:
+                   llm=None, lineups=None, panel=None, markets=None, ev=None,
+                   player_form=None) -> str:
     def pct(x): return f"{x*100:.1f}%"
     lines = [
         f"⚽ {match['home']} vs {match['away']} — {match['stage']}",
@@ -86,6 +89,8 @@ def build_briefing(match, stats_probs, final_probs, market, nh, na, movement,
     if is_night_match(match["utc_kickoff"]) and not lineups:
         lines += ["", "ℹ Pronostic gelé à 20h30 (match de nuit) — compos "
                       "officielles pas encore publiées."]
+    if player_form:
+        lines += ["", "— FORME JOUEURS (ratings récents) —", player_form]
     if lineups:
         lines += ["", "— OFFICIAL LINEUPS —", lineups]
     else:
@@ -160,16 +165,28 @@ def run_hourly():
     for match in upcoming:
         if _already_sent(match):
             continue
+        lineup_probe = get_lineups(match["match_id"])
+        ko = datetime.fromisoformat(match["utc_kickoff"].replace("Z", "+00:00"))
+        mins_to_ko = (ko - datetime.now(timezone.utc)).total_seconds() / 60
+        if (lineup_probe is None and not is_night_match(match["utc_kickoff"])
+                and mins_to_ko > 25):
+            print(f"{match['home']}-{match['away']}: compos pas sorties, "
+                  f"retry au prochain run ({mins_to_ko:.0f} min avant KO)")
+            continue
         nh, na = team_news(match["home"]), team_news(match["away"])
         panel = fetch_panel([match["home"], match["away"]])
-        lineup_text = get_lineups(match["match_id"])
+        lineup_text = lineup_probe
         stats = model.elo_to_probs(match["home"], match["away"])
         final = model.apply_news(stats, nh, na)
         event = odds_events.get((match["home"], match["away"]))
         market = consensus_probs(event) if event else None
+        pform_text, pform_diff = players.player_form_summary(
+            match["home"], match["away"], lineup_text)
         llm = llm_analyst.analyze(
             match, stats, panel,
-            lineup_text, market.get("implied_probs") if market else None)
+            lineup_text, market.get("implied_probs") if market else None,
+            player_form=pform_text or None)
+        players_probs = model.apply_players(stats, pform_diff)
         markets = bets.price_markets(match["home"], match["away"])
         # build offered odds dict from consensus avg odds if available
         offered = {}
@@ -180,7 +197,11 @@ def run_hourly():
                 if nm in names:
                     offered[names[nm]] = o
         ev = bets.ev_analysis(markets, offered) if offered else None
-        extra = {"top_scorelines": markets["top_scorelines"],
+        extra = {"model_players": ({k: round(v, 4) for k, v in
+                                    players_probs.items()}
+                                   if players_probs else None),
+                 "player_form_text": pform_text or None,
+                 "top_scorelines": markets["top_scorelines"],
                  "ev_summary": ({"verdict": ev["verdict"],
                                  "top": (ev["flagged"][0] if ev["flagged"]
                                          else None)} if ev else None)}
@@ -189,7 +210,8 @@ def run_hourly():
         movement = line_movement(match["home"], match["away"])
         body = build_briefing(match, stats, final, market, nh, na, movement,
                               llm=llm, lineups=lineup_text, panel=panel,
-                              markets=markets, ev=ev)
+                              markets=markets, ev=ev,
+                              player_form=pform_text or None)
         (DATA / "briefings").mkdir(parents=True, exist_ok=True)
         (DATA / "briefings" / f"{match['match_id']}.txt").write_text(body)
         if SMTP_USER and EMAIL_TO:
@@ -198,6 +220,56 @@ def run_hourly():
             print("Email secrets not set — briefing saved to dashboard only.")
         _mark_sent(match)
         print(f"Sent briefing for {match['home']} vs {match['away']}")
+
+
+def run_lineup_updates():
+    """For matches frozen WITHOUT lineups (night matches): once the official
+    XI is published, send a timestamped UPDATE. The original frozen
+    prediction is never modified — this is an amendment, not a revision."""
+    from config import PREDICTIONS_DIR
+    import players
+    now = datetime.now(timezone.utc)
+    for f in PREDICTIONS_DIR.glob("*.json"):
+        if f.name.endswith("_update.json"):
+            continue
+        try:
+            pred = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            continue
+        m = pred.get("match", {})
+        ko = datetime.fromisoformat(m["utc_kickoff"].replace("Z", "+00:00"))
+        upd_marker = SENT_DIR / f"{m['match_id']}.updated"
+        if (pred.get("lineups_available") or upd_marker.exists()
+                or ko <= now or ko - now > timedelta(hours=14)):
+            continue
+        lineup_text = get_lineups(m["match_id"])
+        if lineup_text is None:
+            continue  # retry next run (every 15 min)
+        names = [n.strip() for part in lineup_text.split("XI:")[1:]
+                 for n in part.split("\n")[0].split(",")]
+        deltas = []
+        for team in (m["home"], m["away"]):
+            d = players.lineup_delta(team, names)
+            if d.get("delta") is not None:
+                deltas.append(f"{team}: delta forme du 11 {d['delta']:+.2f}"
+                              + (f" — habituels absents: {', '.join(d['missing_regulars'])}"
+                                 if d['missing_regulars'] else ""))
+        body = "\n".join([
+            f"⚽ UPDATE COMPOS — {m['home']} vs {m['away']}",
+            f"Coup d'envoi : {fmt_cet(m['utc_kickoff'])}",
+            "",
+            "Le pronostic gelé reste inchangé (intégrité de l'expérience).",
+            "Compos officielles désormais publiées :",
+            "", lineup_text, ""] + deltas)
+        upd = {"published_at_utc": now.isoformat(), "lineups": lineup_text,
+               "lineup_deltas": deltas}
+        (PREDICTIONS_DIR / f"{m['match_id']}_update.json").write_text(
+            json.dumps(upd, indent=2))
+        if SMTP_USER and EMAIL_TO:
+            send_email(f"UPDATE compos: {m['home']} vs {m['away']}", body)
+        SENT_DIR.mkdir(parents=True, exist_ok=True)
+        upd_marker.write_text("1")
+        print(f"Lineup update envoyé: {m['home']} vs {m['away']}")
 
 
 def _already_sent(match) -> bool:
@@ -220,3 +292,4 @@ def _current_odds_events():
 
 if __name__ == "__main__":
     run_hourly()
+    run_lineup_updates()

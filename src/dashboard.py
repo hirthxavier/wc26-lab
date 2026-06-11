@@ -99,6 +99,8 @@ def load_predictions() -> list[dict]:
     pdir = DATA / "predictions"
     if pdir.exists():
         for f in pdir.glob("*.json"):
+            if f.name.endswith("_update.json"):
+                continue
             try:
                 out.append(json.loads(f.read_text()))
             except json.JSONDecodeError:
@@ -164,6 +166,18 @@ def load_finished() -> list[dict]:
 
 def frozen_card(pred: dict) -> str:
     m = pred["match"]
+    upd_file = DATA / "predictions" / f"{m['match_id']}_update.json"
+    upd_html = ""
+    if upd_file.exists():
+        try:
+            upd = json.loads(upd_file.read_text())
+            items = "".join(f"<li>{esc(x)}</li>" for x in upd.get("lineup_deltas", []))
+            upd_html = ("<details><summary>Compos publiées après le gel</summary>"
+                        f"<ul>{items}</ul>"
+                        f"<p class='meta'>{esc(upd.get('lineups',''))[:400]}</p>"
+                        "</details>")
+        except json.JSONDecodeError:
+            pass
     p = pred["model_with_news"]
     llm = pred.get("llm_analysis") or {}
     llm_probs = pred.get("model_llm")
@@ -195,7 +209,7 @@ def frozen_card(pred: dict) -> str:
 <div class="teams"><b>{esc(m['home'])} – {esc(m['away'])}</b>
 <span class="ko mono">{esc(cet(m['utc_kickoff']))}</span></div>
 {prob_bar(show, m['home'], m['away'])}
-{pick_html}{score_html}{llm_html}
+{pick_html}{score_html}{llm_html}{upd_html}
 <div class="stamp mono">frozen {esc(pred['frozen_at_utc'][:16].replace('T',' '))}</div>
 </div>"""
 
@@ -291,6 +305,20 @@ def golden_boot_section() -> str:
         return ""
     gb = json.loads(gb_file.read_text())
     sim = json.loads(sim_file.read_text())
+    live_file = DATA / "top_scorers.json"
+    live_html = ""
+    if live_file.exists():
+        live = json.loads(live_file.read_text())
+        if live:
+            lr = "".join(f"<tr><td>{esc(p['player'])}</td>"
+                         f"<td>{esc(p['team'])}</td>"
+                         f"<td class='num'>{p['goals']}</td>"
+                         f"<td class='num'>{p['assists']}</td></tr>"
+                         for p in live[:8])
+            live_html = ("<table><tr><th>Classement r&eacute;el</th><th>&Eacute;quipe</th>"
+                         "<th>Buts</th><th>Passes</th></tr>" + lr +
+                         "</table><div class='meta' style='margin-bottom:10px'>"
+                         "Classement live des buteurs (API-Football).</div>")
     strikers = gb.get("strikers", {})
     rows = []
     for team, p in sim["probabilities"].items():
@@ -303,8 +331,8 @@ def golden_boot_section() -> str:
         f"<td>{esc(team)}</td><td class='num'>{pct(semi)}</td>"
         f"<td class='num'>{pct(fin)}</td></tr>"
         for name, team, semi, fin in rows[:8])
-    return ("<h2>Soulier d'or &middot; lecture structurelle</h2>"
-            "<div class='card'><table><tr><th>Joueur</th><th>&Eacute;quipe</th>"
+    return ("<h2>Soulier d'or</h2>"
+            "<div class='card'>" + live_html + "<table><tr><th>Joueur</th><th>&Eacute;quipe</th>"
             "<th>P(demi)</th><th>P(finale)</th></tr>" + body + "</table>"
             "<div class='meta'>&#11088; nos deux picks &middot; "
             "&#128142; value pick. Pas de mod&egrave;le joueur dans ce pipeline : "
@@ -321,7 +349,8 @@ def leaderboard_section() -> str:
         return ""
     rep = json.loads(ev_file.read_text())
     names = {"stats": "Elo+Poisson", "news": "+ keyword news",
-             "llm": "+ LLM analyst", "market": "Market T-60",
+             "llm": "+ LLM analyst", "players": "+ player form",
+             "market": "Market T-60",
              "close": "Closing line"}
     rows = "".join(
         f"<tr><td>{names.get(k,k)}</td><td class='num'>{v['mean_brier']:.4f}</td>"

@@ -29,7 +29,9 @@ headlines (Spanish, Italian, French, Portuguese, English) and, if available,
 official lineups. Your job is to adjust the probabilities ONLY where the news
 contains material information the stats model cannot know: confirmed injuries
 or suspensions of key players, surprise lineup decisions, serious squad
-turmoil. Ignore hype, opinion pieces, and vague speculation. Small adjustments
+turmoil, clearly weakened lineups (rotation), or tactical mismatches visible
+in the formations (e.g. low-block 5-at-the-back vs a possession side, missing
+defensive midfield cover). Use the player rating data when provided. Ignore hype, opinion pieces, and vague speculation. Small adjustments
 only; most matches warrant little or no change. Respond with ONLY valid JSON,
 no markdown fences, in this exact schema:
 {"home": float, "draw": float, "away": float,
@@ -39,7 +41,8 @@ no markdown fences, in this exact schema:
 
 
 def analyze(match: dict, stats_probs: dict, headlines: list[dict],
-            lineups: str | None, market: dict | None) -> dict:
+            lineups: str | None, market: dict | None,
+            player_form: str | None = None) -> dict:
     """Returns dict with adjusted probs + analysis, or stats fallback."""
     fallback = {
         "home": stats_probs["home"], "draw": stats_probs["draw"],
@@ -62,6 +65,8 @@ Elo: {stats_probs.get('elo_home')} vs {stats_probs.get('elo_away')}
 Market implied probabilities (margin removed): {json.dumps(market) if market else 'unavailable'}
 
 Official lineups: {lineups or 'not yet published'}
+
+Player-level data (recent match ratings & injuries): {player_form or 'unavailable'}
 
 Recent headlines (multilingual panel):
 {headline_block or '(none found)'}

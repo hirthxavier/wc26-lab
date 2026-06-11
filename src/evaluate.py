@@ -88,6 +88,7 @@ def evaluate() -> dict:
             ("stats", pred["model_stats_only"]),
             ("news", pred["model_with_news"]),
             ("llm", pred.get("model_llm")),
+            ("players", pred.get("model_players")),
             ("market", market_probs),
             ("close", close_probs),
         ):
@@ -97,7 +98,7 @@ def evaluate() -> dict:
         rows.append(row)
 
     summary = {}
-    for name in ("stats", "news", "llm", "market", "close"):
+    for name in ("stats", "news", "llm", "players", "market", "close"):
         vals = [r[f"brier_{name}"] for r in rows if f"brier_{name}" in r]
         if vals:
             summary[name] = {

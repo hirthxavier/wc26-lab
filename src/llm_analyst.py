@@ -23,32 +23,35 @@ API_URL = "https://api.anthropic.com/v1/messages"
 MODEL = "claude-sonnet-4-5"   # good cost/quality for this; haiku works too
 MAX_LLM_SHIFT = 0.08          # max abs deviation from stats model per outcome
 
-SYSTEM = """Tu es un analyste football international de très haut niveau —
-le profil qui a passé des années à étudier les sélections nationales, leurs
-joueurs, leurs systèmes et leurs habitudes en grand tournoi. Tu reçois pour
-un match de Coupe du Monde : les probabilités d'un modèle statistique
-(Elo+Poisson), la forme récente, les confrontations directes, les cotes du
-marché, la presse multilingue du jour, et si disponibles les compos et
-ratings joueurs.
+SYSTEM = """Tu es un AGENT analyste football de classe mondiale, avec accès
+à la recherche web. Tu prépares un match de Coupe du Monde 2026.
 
-Ta mission : produire une VRAIE analyse d'avant-match, précise et engagée,
-en t'appuyant sur les données fournies ET sur ta connaissance des effectifs,
-des styles de jeu et des dynamiques de ces sélections. IGNORE totalement le
-contenu people (concerts, cérémonies, billetterie). Si la presse du jour est
-vide d'informations utiles, c'est ta connaissance du football qui prend le
-relais — pas une excuse pour ne rien dire.
+MÉTHODE OBLIGATOIRE — travaille comme un pro :
+1. Effectue 3 à 6 recherches web ciblées AVANT de conclure : blessures et
+   suspensions des deux équipes, compo probable, previews d'analystes
+   reconnus. Cherche dans la langue des équipes concernées (espagnol,
+   portugais, etc.) en plus de l'anglais/français.
+2. Croise ce que tu trouves avec les données fournies (forme, H2H, Elo,
+   cotes, ratings joueurs) ET ta propre connaissance des effectifs et des
+   styles. Ignore totalement le contenu people.
+3. Tranche. Ton lecteur veut un avis d'expert assumé, vivant, précis —
+   noms de joueurs, duels concrets, pas de langue de bois.
 
-Tu n'ajustes les probabilités que pour des raisons matérielles (absences,
-rotations, mismatch tactique clair) et avec modération.
+Tu n'ajustes les probabilités que pour des raisons matérielles, avec
+modération. Si tes recherches ne donnent rien de matériel, dis-le, mais
+livre quand même une vraie lecture du match.
 
-Réponds UNIQUEMENT en JSON valide, sans markdown, en FRANÇAIS, schéma exact:
+Après tes recherches, réponds UNIQUEMENT en JSON valide (pas de markdown),
+en FRANÇAIS, schéma exact :
 {"home": float, "draw": float, "away": float,
  "confidence": "low"|"medium"|"high",
- "lecture_tactique": "2-3 phrases: systèmes attendus, où le match se joue",
- "joueurs_cles": ["3-4 duels ou joueurs décisifs, avec le POURQUOI"],
- "facteur_x": "1 phrase: l'élément que tout le monde sous-estime",
- "verdict": "2 phrases d'expert assumées: scénario le plus probable et score type",
- "rationale": "si tu as ajusté les probabilités, justifie; sinon dis pourquoi pas"}"""
+ "lecture_tactique": "2-3 phrases percutantes: systèmes, où ça se joue",
+ "joueurs_cles": ["3-4 duels/joueurs décisifs avec le POURQUOI"],
+ "facteur_x": "l'élément que tout le monde sous-estime",
+ "angle_pari": "1 phrase: le marché qui te semble mal pricé et pourquoi (ou 'aucun')",
+ "verdict": "2 phrases tranchées: scénario + score type",
+ "infos_recherche": ["2-4 infos CONCRÈTES trouvées en ligne (blessures, compos), avec date"],
+ "rationale": "justification de l'ajustement (ou non) des probabilités"}"""
 
 
 def analyze(match: dict, stats_probs: dict, headlines: list[dict],
@@ -98,17 +101,23 @@ Return the JSON now."""
             },
             json={
                 "model": MODEL,
-                "max_tokens": 800,
+                "max_tokens": 3000,
                 "system": SYSTEM,
                 "messages": [{"role": "user", "content": user_msg}],
+                "tools": [{"type": "web_search_20250305",
+                           "name": "web_search", "max_uses": 6}],
             },
-            timeout=60,
+            timeout=180,
         )
         r.raise_for_status()
         text = "".join(b.get("text", "") for b in r.json()["content"]
                        if b.get("type") == "text")
         text = text.replace("```json", "").replace("```", "").strip()
-        out = json.loads(text)
+        # l'agent peut commenter avant le JSON : extraire le dernier objet
+        start, end = text.find("{"), text.rfind("}")
+        if start == -1 or end <= start:
+            raise ValueError("no JSON in agent output")
+        out = json.loads(text[start:end + 1])
         clamped = _clamp(out, stats_probs)
         clamped.update({
             "confidence": out.get("confidence", "low"),
@@ -116,6 +125,9 @@ Return the JSON now."""
             "lecture_tactique": str(out.get("lecture_tactique", ""))[:400],
             "facteur_x": str(out.get("facteur_x", ""))[:250],
             "verdict": str(out.get("verdict", ""))[:400],
+            "angle_pari": str(out.get("angle_pari", ""))[:250],
+            "infos_recherche": [str(x)[:200] for x in
+                                out.get("infos_recherche", [])][:4],
             "rationale": str(out.get("rationale", ""))[:400],
             "llm_used": True,
         })

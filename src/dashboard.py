@@ -288,6 +288,12 @@ def frozen_card(pred: dict) -> str:
                + (f"<h4>Joueurs cl&eacute;s</h4><ul>{kf}</ul>" if kf else "")
                + (f"<h4>Facteur X</h4><div>{esc(llm.get('facteur_x',''))}</div>"
                   if llm.get("facteur_x") else "")
+               + (("<h4>Trouv&eacute; en ligne</h4><ul>" + "".join(
+                      f"<li>{esc(i)}</li>" for i in llm.get("infos_recherche", [])[:4])
+                      + "</ul>") if llm.get("infos_recherche") else "")
+               + (f"<h4>L'&oelig;il de l'expert (march&eacute;s)</h4>"
+                  f"<div>{esc(llm.get('angle_pari',''))}</div>"
+                  if llm.get("angle_pari") and llm.get("angle_pari") != "aucun" else "")
                + (f"<div class='verdict'>&#9889; {esc(llm.get('verdict',''))}</div>"
                   if llm.get("verdict") else "")
                + "</div>")

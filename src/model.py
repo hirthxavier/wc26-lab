@@ -172,7 +172,8 @@ def freeze_prediction(match: dict, stats_probs: dict, final_probs: dict,
                       if llm_result else None),
         "llm_analysis": ({k: llm_result.get(k) for k in
                           ("confidence", "key_factors", "rationale", "llm_used",
-                           "lecture_tactique", "facteur_x", "verdict")}
+                           "lecture_tactique", "facteur_x", "verdict",
+                           "angle_pari", "infos_recherche")}
                          if llm_result else None),
         "lineups_available": lineups is not None,
         "market_implied": market.get("implied_probs") if market else None,

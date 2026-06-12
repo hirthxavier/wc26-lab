@@ -1,4 +1,62 @@
 {
-  "per_match": [],
-  "summary": {}
+  "per_match": [
+    {
+      "match_id": 537327,
+      "match": "Mexico v South Africa",
+      "actual": "home",
+      "brier_stats": 0.027,
+      "logloss_stats": 0.1366,
+      "brier_news": 0.027,
+      "logloss_news": 0.1366,
+      "brier_llm": 0.0268,
+      "logloss_llm": 0.1359,
+      "brier_close": 0.167,
+      "logloss_close": 0.3974
+    },
+    {
+      "match_id": 537328,
+      "match": "South Korea v Czechia",
+      "actual": "home",
+      "brier_stats": 0.4171,
+      "logloss_stats": 0.7478,
+      "brier_news": 0.4171,
+      "logloss_news": 0.7478,
+      "brier_llm": 0.3626,
+      "logloss_llm": 0.6733
+    }
+  ],
+  "summary": {
+    "stats": {
+      "n": 2,
+      "mean_brier": 0.2221,
+      "brier_95ci": [
+        0.027,
+        0.4171
+      ]
+    },
+    "news": {
+      "n": 2,
+      "mean_brier": 0.2221,
+      "brier_95ci": [
+        0.027,
+        0.4171
+      ]
+    },
+    "llm": {
+      "n": 2,
+      "mean_brier": 0.1947,
+      "brier_95ci": [
+        0.0268,
+        0.3626
+      ]
+    },
+    "close": {
+      "n": 1,
+      "mean_brier": 0.167,
+      "brier_95ci": [
+        0.167,
+        0.167
+      ]
+    }
+  }
 }

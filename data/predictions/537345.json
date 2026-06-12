@@ -1,0 +1,214 @@
+{
+  "frozen_at_utc": "2026-06-12T18:34:33.023391+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537345,
+    "utc_kickoff": "2026-06-13T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "United States",
+    "away": "Paraguay",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.278,
+    "draw": 0.2957,
+    "away": 0.4263
+  },
+  "model_with_news": {
+    "home": 0.2786,
+    "draw": 0.2957,
+    "away": 0.4257
+  },
+  "model_llm": {
+    "home": 0.36,
+    "draw": 0.2917,
+    "away": 0.3483
+  },
+  "llm_analysis": {
+    "confidence": "medium",
+    "key_factors": [
+      "Julio Enciso (PAR) : retour surprise jeudi, entra\u00eenement sans douleur, sera titulaire \u2013 c'est 80 % de la cr\u00e9ativit\u00e9 paraguayenne, sans lui c'est le n\u00e9ant offensif",
+      "Christian Pulisic (USA) : 8 matchs sans but en s\u00e9lection, forme Milan m\u00e9diocre, mais c'est LE joueur qui peut d\u00e9bloquer un bunker dans les petits espaces",
+      "Chris Richards (USA) vs Antonio Sanabria (PAR) : le central USA revient de blessure, doit tenir Sanabria qui joue dos au but \u2013 si Richards flanche, Paraguay a sa chance",
+      "Gustavo G\u00f3mez & Omar Alderete (PAR) : la meilleure paire de centraux CONMEBOL, mur a\u00e9rien, base du dispositif Alfaro \u2013 ils doivent \u00e9touffer Balogun"
+    ],
+    "rationale": "J'ajuste fortement \u00e0 la hausse la probabilit\u00e9 USA (de 27,8 % \u00e0 48 %) pour int\u00e9grer l'avantage du terrain dans un Mondial \u00e0 domicile (SoFi plein, pression nationale), la sup\u00e9riorit\u00e9 offensive individuelle (Pulisic, Balogun, McKennie vs une attaque paraguayenne quasi-nulle sans Enciso), et le fait que Pochettino DOIT gagner ce match. Le retour d'Enciso jeudi change la donne pour Paraguay (je remonte",
+    "llm_used": true,
+    "lecture_tactique": "Pochettino sans identit\u00e9 claire (3 syst\u00e8mes en 2 matchs) face au bloc bas ultra-compact d'Alfaro (10 buts encaiss\u00e9s en 18 matches). USA devra casser un bunker paraguayen qui a tenu t\u00eate \u00e0 l'Argentine et au Br\u00e9sil. La cl\u00e9 : les transitions USA et la capacit\u00e9 de Pulisic/Balogun \u00e0 trouver la faille quand le match s'ouvrira apr\u00e8s l'heure de jeu.",
+    "facteur_x": "L'instabilit\u00e9 tactique de Pochettino (3 sch\u00e9mas diff\u00e9rents r\u00e9cemment, d\u00e9faite 5-2 Belgique) face \u00e0 la pression d'un stade plein et d'une nation enti\u00e8re. Si les USA paniquent en premi\u00e8re mi-temps st\u00e9rile, Paraguay peut voler un point ou trois sur un c",
+    "verdict": "USA arrache \u00e7a 1-0 ou 2-1 entre la 65e et la 85e, quand le public pousse et Paraguay fatigue. Pochettino a la qualit\u00e9 sur le banc (Reyna, Pepi), Alfaro n'a rien. Mais ce sera laid, serr\u00e9, nerveux \u2013 pas le gala attendu.",
+    "angle_pari": "Sous 2,5 buts \u00e0 ~1,80-1,90 est mal pric\u00e9 : Paraguay a le 2e meilleur xGA de CONMEBOL, les USA gal\u00e8rent \u00e0 marquer contre des blocs bas, Enciso revient \u00e0 peine de blessure. Sc\u00e9nario 1-0 ou 0-0 tr\u00e8s probable.",
+    "infos_recherche": [
+      "Chris Richards (USA) s'est dit pr\u00eat mercredi 11/06 apr\u00e8s blessure cheville en mai (Yahoo Sports, 11/06)",
+      "REVIREMENT : Julio Enciso (PAR) s'est entra\u00een\u00e9 normalement jeudi 12/06, aucune douleur, sera titulaire malgr\u00e9 blessure cuisse vs Nicaragua (Yahoo Deportes & 365Scores, 12/06)",
+      "Paraguay : seulement 10 buts encaiss\u00e9s en 18 matches \u00e9liminatoires CONMEBOL, 2e meilleure d\u00e9fense (Goal.com, 11/06)",
+      "USA sans identit\u00e9 tactique : 3 syst\u00e8mes diff\u00e9rents en 2 matchs (3-4-3, 4-2-3-1, 4-3-3), d\u00e9faite 5-2 Belgique alarmante (RotoWire, 11/06)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.04,
+    "injury_flags": [
+      "World Cup 2026: Canada and USA enter fray; empty seats; Mexico\u2019s winning start; McTominay fitness boost \u2013 as it happened - The Guardian"
+    ],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.15,
+    "lam_away": 1.469,
+    "elo_home": 1887.9,
+    "elo_away": 2057.0
+  },
+  "formstats": {
+    "form_home": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "V"
+    ],
+    "form_away": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "D"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Germany",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Senegal",
+        "score": "3-2",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Portugal",
+        "score": "0-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Belgium",
+        "score": "2-5",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Uruguay",
+        "score": "5-1",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-05",
+        "opp": "Nicaragua",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Morocco",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Greece",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Mexico",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-15",
+        "opp": "United States",
+        "score": "1-2",
+        "r": "D"
+      }
+    ],
+    "h2h": {
+      "played": 9,
+      "wins_a": 5,
+      "draws": 2,
+      "wins_b": 2,
+      "goals_a": 12,
+      "goals_b": 7,
+      "last_meetings": [
+        {
+          "date": "2025",
+          "score": "2-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2018",
+          "score": "1-0",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2016",
+          "score": "1-0",
+          "tournament": "Copa Am\u00e9rica"
+        },
+        {
+          "date": "2011",
+          "score": "0-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2007",
+          "score": "1-3",
+          "tournament": "Copa Am\u00e9rica"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1416
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0913
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0904
+    },
+    {
+      "score": "0-1",
+      "prob": 0.0886
+    },
+    {
+      "score": "0-2",
+      "prob": 0.0786
+    }
+  ],
+  "ev_summary": null
+}

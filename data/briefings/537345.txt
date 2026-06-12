@@ -1,0 +1,43 @@
+⚽ United States vs Paraguay — GROUP_STAGE
+Coup d'envoi : 13/06 03:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  United States: 27.8%  Draw: 29.6%  Paraguay: 42.6%
+  With news adjustment: 27.9% / 29.6% / 42.6%
+  Elo: 1887.9 vs 2057.0
+
+— NEWS: United States (sentiment +0.04) —
+  🏥 World Cup 2026: Canada and USA enter fray; empty seats; Mexico’s winning start; McTominay fitness boost – as it happened - The Guardian
+
+— NEWS: Paraguay (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: medium) —
+  36.0% / 29.2% / 34.8%
+  • Julio Enciso (PAR) : retour surprise jeudi, entraînement sans douleur, sera titulaire – c'est 80 % de la créativité paraguayenne, sans lui c'est le néant offensif
+  • Christian Pulisic (USA) : 8 matchs sans but en sélection, forme Milan médiocre, mais c'est LE joueur qui peut débloquer un bunker dans les petits espaces
+  • Chris Richards (USA) vs Antonio Sanabria (PAR) : le central USA revient de blessure, doit tenir Sanabria qui joue dos au but – si Richards flanche, Paraguay a sa chance
+  • Gustavo Gómez & Omar Alderete (PAR) : la meilleure paire de centraux CONMEBOL, mur aérien, base du dispositif Alfaro – ils doivent étouffer Balogun
+  J'ajuste fortement à la hausse la probabilité USA (de 27,8 % à 48 %) pour intégrer l'avantage du terrain dans un Mondial à domicile (SoFi plein, pression nationale), la supériorité offensive individuelle (Pulisic, Balogun, McKennie vs une attaque paraguayenne quasi-nulle sans Enciso), et le fait que Pochettino DOIT gagner ce match. Le retour d'Enciso jeudi change la donne pour Paraguay (je remonte
+
+— PANEL — 57 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Stati Uniti-Paraguay, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [Ole (AR)] La locura en Paraguay antes del debut: Asunción a full y productos insólitos a la venta
+  [Ole (AR)] Con Alfaro a la cabeza, Paraguay debuta con Estados Unidos
+  [Guardian (UK)] World Cup Group D view from Paraguay: the reborn team no one wants to face | Christian Pérez
+  [GoogleNews:"United States" world cup] World Cup 2026: Canada and USA enter fray; empty seats; Mexico’s winning start; McTominay fitness boost – as it happened - The Guardian
+  [GoogleNews:"United States" world cup] USA vs Paraguay: World Cup 2026 group match – Trump, schedule, lineups - Al Jazeera
+  [GoogleNews:"United States" world cup] The Epic Story of How Trump Seized the World Cup - Politico
+  [GoogleNews:"United States" world cup] The US and Canada open their World Cup campaigns as the 2026 tournament revs up - CNN
+
+— MOST LIKELY OUTCOME —
+  Paraguay (42.6%)
+  Tentative exact scores: 1-1 (14.2%), 0-0 (9.1%), 1-2 (9.0%)
+  xG: 1.15 - 1.47   O2.5: 48.6%   BTTS: 54.5%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

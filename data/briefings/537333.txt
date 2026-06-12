@@ -1,0 +1,43 @@
+⚽ Canada vs Bosnia-Herzegovina — GROUP_STAGE
+Coup d'envoi : 12/06 21:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Canada: 91.7%  Draw: 6.7%  Bosnia-Herzegovina: 1.6%
+  With news adjustment: 91.6% / 6.7% / 1.7%
+  Elo: 1981.3 vs 1500.0
+
+— NEWS: Canada (sentiment -0.04) —
+  No injury/turmoil flags detected.
+
+— NEWS: Bosnia-Herzegovina (sentiment +0.04) —
+  🏥 World Cup 2026: Canada and USA enter fray; empty seats; Mexico’s winning start; McTominay fitness boost – as it happened - The Guardian
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: medium) —
+  79.4% / 14.0% / 6.6%
+  • Jonathan David (Juventus) vs défense Katić–Muharemovic : seul finisseur de classe mondiale canadien, prend les penaltys, doit convertir face à un bloc regroupé
+  • Stephen Eustáquio (capitaine ce soir) vs Benjamin Tahirovic : double pivot, récupération et relance sous pression bosniaque
+  • Esmir Bajraktarević (PSV) en transition : l'arme rapide de la Bosnie pour punir les montées canadiennes, Hull teammate de Millar, connaît le jeu anglais
+  • Ermedin Demirović (Stuttgart) : doit tenir le ballon et permettre aux milieux bosniens de monter, travail sale pour libérer Bajraktarević
+  Ajustement modéré du modèle (0.917 → 0.75) car l'absence de Davies retire vitesse et créativité côté gauche, la Bosnie défend très bien (a tenu Italie et Pays de Galles), et les premiers matchs de Mondial sont souvent bloqués. Le Canada garde un net avantage (domicile, qualité David/Buchanan, Elo +481 points) mais la probabilité d'un nul ou d'une victoire courte grimpe sensiblement. L'écart Elo re
+
+— PANEL — 61 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Partey salta l&#39;esordio con il Ghana ai Mondiali: negato l&#39;ingresso in Canada, cosa &egrave; successo
+  [Corriere dello Sport (IT)] Canada-Bosnia diretta Mondiali: segui la partita di oggi LIVE
+  [L'Equipe (FR)] Le Canada avec Jonathan David et Derek Cornelius contre la Bosnie-Herzégovine, Edin Dzeko sur le banc
+  [L'Equipe (FR)] Interdit d'entrer au Canada, Thomas Partey ne pourra pas disputer le premier match du Ghana à la Coupe du monde
+  [BBC Sport (UK)] Partey denied entry to Canada for Ghana's World Cup opener
+  [Guardian (UK)] Canada v Bosnia and Herzegovina: World Cup 2026 – live
+  [Guardian (UK)] Thomas Partey out of Ghana’s World Cup opener after visa application to Canada refused
+  [Voetbal International (NL)] Tv-gids WK 12 juni: kijk hier naar openingsduels Canada en VS
+
+— MOST LIKELY OUTCOME —
+  Canada (91.6%)
+  Tentative exact scores: 3-0 (13.4%), 4-0 (12.2%), 2-0 (11.1%)
+  xG: 3.64 - 0.46   O2.5: 77.4%   BTTS: 36.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

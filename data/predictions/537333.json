@@ -1,0 +1,151 @@
+{
+  "frozen_at_utc": "2026-06-12T18:32:56.168387+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537333,
+    "utc_kickoff": "2026-06-12T19:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Canada",
+    "away": "Bosnia-Herzegovina",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.9173,
+    "draw": 0.0671,
+    "away": 0.0156
+  },
+  "model_with_news": {
+    "home": 0.9155,
+    "draw": 0.0671,
+    "away": 0.0174
+  },
+  "model_llm": {
+    "home": 0.7941,
+    "draw": 0.1395,
+    "away": 0.0664
+  },
+  "llm_analysis": {
+    "confidence": "medium",
+    "key_factors": [
+      "Jonathan David (Juventus) vs d\u00e9fense Kati\u0107\u2013Muharemovic : seul finisseur de classe mondiale canadien, prend les penaltys, doit convertir face \u00e0 un bloc regroup\u00e9",
+      "Stephen Eust\u00e1quio (capitaine ce soir) vs Benjamin Tahirovic : double pivot, r\u00e9cup\u00e9ration et relance sous pression bosniaque",
+      "Esmir Bajraktarevi\u0107 (PSV) en transition : l'arme rapide de la Bosnie pour punir les mont\u00e9es canadiennes, Hull teammate de Millar, conna\u00eet le jeu anglais",
+      "Ermedin Demirovi\u0107 (Stuttgart) : doit tenir le ballon et permettre aux milieux bosniens de monter, travail sale pour lib\u00e9rer Bajraktarevi\u0107"
+    ],
+    "rationale": "Ajustement mod\u00e9r\u00e9 du mod\u00e8le (0.917 \u2192 0.75) car l'absence de Davies retire vitesse et cr\u00e9ativit\u00e9 c\u00f4t\u00e9 gauche, la Bosnie d\u00e9fend tr\u00e8s bien (a tenu Italie et Pays de Galles), et les premiers matchs de Mondial sont souvent bloqu\u00e9s. Le Canada garde un net avantage (domicile, qualit\u00e9 David/Buchanan, Elo +481 points) mais la probabilit\u00e9 d'un nul ou d'une victoire courte grimpe sensiblement. L'\u00e9cart Elo re",
+    "llm_used": true,
+    "lecture_tactique": "Jesse Marsch priv\u00e9 de Davies (ischio) alignera un 4-4-2 tr\u00e8s haut, pressing intense de David\u2013Oluwaseyi (pas Larin finalement) sur Vasilj. Barbarez r\u00e9pond par un bloc bas compact 4-4-2, Dzeko sur le banc \u00e0 cause d'une alerte \u00e9paule, Demirovi\u0107\u2013Lukic devant, transition verticale vers Bajraktarevi\u0107. Le Canada dominera le ballon \u00e0 Toronto, mais cassera difficilement le verrou bosnien qui a \u00ab park\u00e9 le b",
+    "facteur_x": "L'atmosph\u00e8re de Toronto et la pression de r\u00e9ussir ENFIN un premier point en Coupe du Monde (0/6 all-time). Ce poids psychologique peut se retourner contre le Canada si la Bosnie tient 60 minutes : frustration, pr\u00e9cipitation, espace dans le dos. Tabak",
+    "verdict": "Canada gagne court dans la douleur, 1-0 ou 2-1 apr\u00e8s un but bosnien tardif sur corner/transition. Dzeko entrera pour bousculer en fin de match. Match cadenass\u00e9, ouverture du score d\u00e9cisive : celui qui marque en premier contr\u00f4le le tempo. David finit par faire la diff\u00e9rence mais ce ne sera pas le festival attendu.",
+    "angle_pari": "Under 2.5 buts mal pric\u00e9 \u00e0 ~1.55 alors que la Bosnie a produit <10.5 corners sur 8 matchs, que le Canada cale sur les blocs bas (0-0 Tunisie, Colombie, \u00c9quateur r\u00e9cemment) et que Barbarez assume le parking. Le 1-0 Canada est le sc\u00e9nario central, pas ",
+    "infos_recherche": [
+      "Alphonso Davies (Bayern) forfait officiel \u2013 ischio-jambiers, remplac\u00e9 par Laryea c\u00f4t\u00e9 gauche (confirm\u00e9 compo 12/06)",
+      "Edin Dzeko sur le banc (alerte \u00e9paule pr\u00e9WorldCup), Demirovi\u0107\u2013Lukic en pointe ; Haris Tabakovic (Gladbach) forfait m\u00e9tatarse (12/06)",
+      "Compo Canada confirm\u00e9e : Oluwaseyi titulaire devant aux c\u00f4t\u00e9s de David, pas Larin (L'\u00c9quipe, 12/06)",
+      "Bosnie invaincue sur 8 matchs mais 0-0 vs Mac\u00e9doine du Nord et 1-1 Panama en amicaux (juin 2026) \u2013 forme modeste"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": -0.04,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.04,
+    "injury_flags": [
+      "World Cup 2026: Canada and USA enter fray; empty seats; Mexico\u2019s winning start; McTominay fitness boost \u2013 as it happened - The Guardian"
+    ],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 3.64,
+    "lam_away": 0.464,
+    "elo_home": 1981.3,
+    "elo_away": 1500.0
+  },
+  "formstats": {
+    "form_home": [
+      "N",
+      "V",
+      "N",
+      "N",
+      "V"
+    ],
+    "form_away": [],
+    "form_home_detail": [
+      {
+        "date": "2026-06-05",
+        "opp": "Republic of Ireland",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Uzbekistan",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Tunisia",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Iceland",
+        "score": "2-2",
+        "r": "N"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Venezuela",
+        "score": "2-0",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "3-0",
+      "prob": 0.1343
+    },
+    {
+      "score": "4-0",
+      "prob": 0.1222
+    },
+    {
+      "score": "2-0",
+      "prob": 0.1107
+    },
+    {
+      "score": "5-0",
+      "prob": 0.089
+    },
+    {
+      "score": "3-1",
+      "prob": 0.0624
+    }
+  ],
+  "ev_summary": null
+}

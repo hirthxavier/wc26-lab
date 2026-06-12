@@ -5,10 +5,10 @@
     "stage": "GROUP_STAGE",
     "home": "South Korea",
     "away": "Czechia",
-    "status": "TIMED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     }
   },
   {

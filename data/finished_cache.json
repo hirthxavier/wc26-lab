@@ -22,5 +22,17 @@
       "home": 2,
       "away": 1
     }
+  },
+  {
+    "match_id": 537333,
+    "utc_kickoff": "2026-06-12T19:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Canada",
+    "away": "Bosnia-Herzegovina",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 1
+    }
   }
 ]

@@ -38,5 +38,35 @@
     "team_avg": null
   },
   "2026-06-12:injuries:United States": [],
-  "2026-06-12:injuries:Paraguay": []
+  "2026-06-12:injuries:Paraguay": [],
+  "2026-06-13:form:Brazil": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-13:form:Morocco": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-13:injuries:Brazil": [],
+  "2026-06-13:injuries:Morocco": [],
+  "2026-06-13:form:Haiti": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-13:form:Scotland": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-13:injuries:Haiti": [],
+  "2026-06-13:injuries:Scotland": [],
+  "2026-06-13:form:Australia": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-13:form:Turkey": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-13:injuries:Australia": [],
+  "2026-06-13:injuries:Turkey": []
 }

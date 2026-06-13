@@ -17,10 +17,10 @@
     "stage": "GROUP_STAGE",
     "home": "Qatar",
     "away": "Switzerland",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     }
   },
   {

@@ -1,0 +1,48 @@
+⚽ Australia vs Turkey — GROUP_STAGE
+Coup d'envoi : 14/06 06:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Australia: 20.3%  Draw: 27.5%  Turkey: 52.2%
+  With news adjustment: 20.3% / 27.5% / 52.2%
+  Elo: 1983.6 vs 2135.0
+
+— LINE MOVEMENT (where money went) —
+  Australia: 18.1% → 18.1%
+  Turkey: 56.5% → 56.5%
+  Draw: 25.4% → 25.4%
+
+— NEWS: Australia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Turkey (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: medium) —
+  24.0% / 27.0% / 49.0%
+  • Arda Güler vs bloc australien : le Real Madrid kid (21 ans, meilleur jeune UCL) doit trouver l'espace entre Irvine et Metcalfe, c'est le cœur du match
+  • Kenan Yildiz (incertain) vs Jacob Italiano : si le Juventini joue, il massacre le latéral autrichien en 1v1, sinon la Turquie perd 30% de sa menace
+  • Mo Toure (Norwich, 10 buts en 12 matches) : seul vrai finisseur australien, doit punir sur transition
+  • Hakan Çalhanoğlu : corners + coups francs, arme fatale turque (5 buts sur corner en qualifs)
+  Ajustement modéré des probabilités. Le modèle sous-estime légèrement la capacité de nuisance de l'Australie (défense de fer, Elo 1983 trompeur car qualifs AFC faciles) et surestime la régularité turque (a galéré en barrages UEFA). L'absence probable de Yildiz est MAJEURE : il terrorise les latéraux moyens en 1v1, sans lui la Turquie perd son mismatch principal. Je remonte home de 20.3% à 24%, car 
+
+— PANEL — 60 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Australia-Turchia, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Australia" world cup] Australia embraces immigrants on World Cup squad with message that soccer is for everyone - AP News
+  [GoogleNews:"Australia" world cup] Socceroos fans feel right at home in Vancouver: ‘Like a hilly Melbourne’ - The Guardian
+  [GoogleNews:"Australia" world cup] Australia begin World Cup with win over South Africa - BBC
+  [GoogleNews:"Australia" world cup] USMNT ticket prices soar on resale sites after World Cup opener - The New York Times
+  [GoogleNews:"Australia" world cup] Australia vs Turkey prediction, picks, analysis - USA Today
+  [GoogleNews:"Australia" world cup] World Cup Match Day 3: Brazil-Morocco, Australia-Türkiye Highlight Saturday Slate - FOX Sports
+  [GoogleNews:"Australia" world cup] Meet USMNT's World Cup opponents: What to know about Paraguay, Australia and Turkiye - CBS Sports
+
+— MOST LIKELY OUTCOME —
+  Turkey (52.2%)
+  Tentative exact scores: 1-1 (13.1%), 0-1 (9.8%), 0-2 (9.8%)
+  xG: 0.99 - 1.7   O2.5: 50.5%   BTTS: 53.2%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

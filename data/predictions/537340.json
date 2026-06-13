@@ -1,0 +1,188 @@
+{
+  "frozen_at_utc": "2026-06-13T19:57:56.463098+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537340,
+    "utc_kickoff": "2026-06-14T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Haiti",
+    "away": "Scotland",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.1679,
+    "draw": 0.2573,
+    "away": 0.5748
+  },
+  "model_with_news": {
+    "home": 0.1673,
+    "draw": 0.2573,
+    "away": 0.5754
+  },
+  "model_llm": {
+    "home": 0.2,
+    "draw": 0.27,
+    "away": 0.53
+  },
+  "llm_analysis": {
+    "confidence": "medium",
+    "key_factors": [
+      "McTominay (remis de sa gastro) vs Bellegarde : le Napolitain doit imposer sa percussion face au seul joueur ha\u00eftien capable de porter le ballon et d\u00e9clencher les contres de Wolves",
+      "Isidor-Nazon (duo Sunderland + meilleur buteur ha\u00eftien avec 44 buts) contre la charni\u00e8re Hanley-Souttar : si Ha\u00efti tient \u00e0 0-1 ou 1-1 \u00e0 la pause, ces deux-l\u00e0 peuvent punir sur transition rapide",
+      "Ben Doak sur le flanc droit face au lat\u00e9ral Arcus (discipline douteuse, 9 jaunes \u00e0 Angers cette saison) : le jeune ailier peut provoquer une expulsion qui bascule le match",
+      "Shankland (3 buts + 1 passe en pr\u00e9paration contre Cura\u00e7ao-Bolivie) : le nouveau Ranger doit confirmer son \u00e9tat de gr\u00e2ce devant le but pour \u00e9viter un sc\u00e9nario catastrophe \u00e9cossais"
+    ],
+    "rationale": "Ajustement minime du mod\u00e8le Elo-Poisson : je passe l'\u00c9cosse de 57,5% \u00e0 53% et Ha\u00efti de 16,8% \u00e0 20%. Raisons : (1) Ha\u00efti arrive sans aucune blessure et en pleine confiance d\u00e9fensive, leur structure 4-4-2 compacte peut g\u00eaner l'\u00c9cosse bien plus que Cura\u00e7ao/Bolivie ; (2) l'absence de Gilmour prive l'\u00c9cosse d'un relayeur cl\u00e9, et McKenna incertain fragilise la d\u00e9fense ; (3) surtout, le poids psychologiq",
+    "llm_used": true,
+    "lecture_tactique": "Ha\u00efti en 4-4-2 bas et compact cherchera \u00e0 frustrer l'\u00c9cosse par l'asphyxie d\u00e9fensive puis frapper en transition via Isidor et Nazon. L'\u00c9cosse de Clarke devrait dominer le milieu avec McTominay-Ferguson (ou Christie), mais leur faiblesse historique dans les tournois \u2014 jamais sortis de poule en 12 tentatives \u2014 et leur tendance \u00e0 convertir lentement risquent de laisser Ha\u00efti dans le match trop longte",
+    "facteur_x": "Le poids psychologique de 28 ans d'absence pour l'\u00c9cosse et leur trauma des phases de poule. Si Ha\u00efti marque en premier ou tient 0-0 jusqu'\u00e0 l'heure de jeu, la panique peut s'installer chez les \u00c9cossais \u2014 ils ont *toujours* \u00e9chou\u00e9 au 1er tour, et ce ",
+    "verdict": "L'\u00c9cosse doit gagner ce match, mais leur ADN de major tournament underperformers et la solidit\u00e9 d\u00e9fensive ha\u00eftienne (groupe complet, z\u00e9ro bless\u00e9) m'inqui\u00e8tent. Je vois une victoire \u00e9triqu\u00e9e 1-0 ou 2-0 \u00e9cossaise apr\u00e8s la pause, mais sans jamais vraiment d\u00e9coller \u2014 sc\u00e9nario typique qui annonce une \u00e9limination future face au Br\u00e9sil et au Maroc.",
+    "angle_pari": "Moins de 2,5 buts me semble sous-cot\u00e9 : Ha\u00efti n'a aucune blessure et arrive en pleine forme d\u00e9fensive (4-0 vs Nouvelle-Z\u00e9lande, tenu 80 minutes contre P\u00e9rou), et l'\u00c9cosse convertit mal (malgr\u00e9 8 buts contre Cura\u00e7ao/Bolivie, niveau faible). Un 1-0 ou ",
+    "infos_recherche": [
+      "Scott McTominay compl\u00e8tement r\u00e9tabli de sa gastro, confirm\u00e9 apte par Steve Clarke le 13/06 (Yahoo Sports, 14h ago)",
+      "Ha\u00efti : aucune blessure ni suspension, effectif de 26 joueurs au complet (Sports Mole, 18h ago)",
+      "Billy Gilmour (Napoli) forfait Coupe du Monde pour blessure au genou, remplac\u00e9 par Tyler Fletcher (Man Utd) \u2014 coup dur pour l'\u00c9cosse (Sports Mole, 13/06)",
+      "Scott McKenna (d\u00e9fenseur) incertain, absent de l'entra\u00eenement vendredi 13/06 pour un coup (Sports Mole, 1 day ago)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [
+      "Despite Haiti travel ban, Wyclef Jean and others bring World Cup party to USA - USA Today"
+    ],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 0.918,
+    "lam_away": 1.841,
+    "elo_home": 1753.8,
+    "elo_away": 1950.2
+  },
+  "formstats": {
+    "form_home": [
+      "D",
+      "V",
+      "N",
+      "D",
+      "V"
+    ],
+    "form_away": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-05",
+        "opp": "Peru",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "New Zealand",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Iceland",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Tunisia",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Nicaragua",
+        "score": "2-0",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Bolivia",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Cura\u00e7ao",
+        "score": "4-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Ivory Coast",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Japan",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Denmark",
+        "score": "4-2",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1232
+    },
+    {
+      "score": "0-2",
+      "prob": 0.1074
+    },
+    {
+      "score": "0-1",
+      "prob": 0.1006
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0986
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0794
+    }
+  ],
+  "ev_summary": null
+}

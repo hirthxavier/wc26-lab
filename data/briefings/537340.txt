@@ -1,0 +1,48 @@
+⚽ Haiti vs Scotland — GROUP_STAGE
+Coup d'envoi : 14/06 03:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Haiti: 16.8%  Draw: 25.7%  Scotland: 57.5%
+  With news adjustment: 16.7% / 25.7% / 57.5%
+  Elo: 1753.8 vs 1950.2
+
+— LINE MOVEMENT (where money went) —
+  Haiti: 16.1% → 16.2%
+  Scotland: 61.4% ↑ 62.7%
+  Draw: 22.5% ↓ 21.2%
+
+— NEWS: Haiti (sentiment +0.00) —
+  🏥 Despite Haiti travel ban, Wyclef Jean and others bring World Cup party to USA - USA Today
+
+— NEWS: Scotland (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: medium) —
+  20.0% / 27.0% / 53.0%
+  • McTominay (remis de sa gastro) vs Bellegarde : le Napolitain doit imposer sa percussion face au seul joueur haïtien capable de porter le ballon et déclencher les contres de Wolves
+  • Isidor-Nazon (duo Sunderland + meilleur buteur haïtien avec 44 buts) contre la charnière Hanley-Souttar : si Haïti tient à 0-1 ou 1-1 à la pause, ces deux-là peuvent punir sur transition rapide
+  • Ben Doak sur le flanc droit face au latéral Arcus (discipline douteuse, 9 jaunes à Angers cette saison) : le jeune ailier peut provoquer une expulsion qui bascule le match
+  • Shankland (3 buts + 1 passe en préparation contre Curaçao-Bolivie) : le nouveau Ranger doit confirmer son état de grâce devant le but pour éviter un scénario catastrophe écossais
+  Ajustement minime du modèle Elo-Poisson : je passe l'Écosse de 57,5% à 53% et Haïti de 16,8% à 20%. Raisons : (1) Haïti arrive sans aucune blessure et en pleine confiance défensive, leur structure 4-4-2 compacte peut gêner l'Écosse bien plus que Curaçao/Bolivie ; (2) l'absence de Gilmour prive l'Écosse d'un relayeur clé, et McKenna incertain fragilise la défense ; (3) surtout, le poids psychologiq
+
+— PANEL — 63 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Haiti-Scozia, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [BBC Sport (UK)] Might Scotland throw midfield curveball at Haiti?
+  [BBC Sport (UK)] The trauma and hope behind Haiti's rare World Cup appearance
+  [BBC Sport (UK)] Scotland return to centre stage at last in must-win World Cup opener
+  [BBC Sport (UK)] World Cup quiz: Name every player in Scotland's squad
+  [Guardian (UK)] Pipers and dreams: World Cup fever grips Scotland again after 28 years
+  [GoogleNews:"Haiti" world cup] World Cup 2026: Haiti's message of hope in rare appearance at finals - BBC
+  [GoogleNews:"Haiti" world cup] Scotland v Haiti LIVE: World Cup line-ups and McTominay news before must-win return - The Independent
+
+— MOST LIKELY OUTCOME —
+  Scotland (57.5%)
+  Tentative exact scores: 1-1 (12.3%), 0-2 (10.7%), 0-1 (10.1%)
+  xG: 0.92 - 1.84   O2.5: 52.1%   BTTS: 52.1%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

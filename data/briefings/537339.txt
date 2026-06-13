@@ -1,0 +1,48 @@
+⚽ Brazil vs Morocco — GROUP_STAGE
+Coup d'envoi : 14/06 00:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Brazil: 37.8%  Draw: 30.1%  Morocco: 32.1%
+  With news adjustment: 37.7% / 30.1% / 32.3%
+  Elo: 2122.2 vs 2096.0
+
+— LINE MOVEMENT (where money went) —
+  Brazil: 57.6% → 57.7%
+  Morocco: 17.3% → 17.1%
+  Draw: 25.1% → 25.2%
+
+— NEWS: Brazil (sentiment -0.04) —
+  🏥 Neymar ruled out of Brazil's World Cup 2026 opener against Morocco - olympics.com
+
+— NEWS: Morocco (sentiment +0.00) —
+  🏥 Neymar ruled out of Brazil's World Cup 2026 opener against Morocco - olympics.com
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: high) —
+  45.9% / 29.1% / 25.1%
+  • Vinicius Jr vs Hakimi : duel à couteaux tirés sur l'aile, Hakimi aime monter, Vini va exploiter l'espace derrière
+  • Brahim Diaz (Maroc) : seule vraie menace créative marocaine, doit porter l'attaque sans Ezzalzouli
+  • Bruno Guimarães : l'équilibriste brésilien, sa capacité à couvrir et progresser balle au pied conditionne tout
+  • Chadi Riad/Diop : charnière inexpérimentée face à Cunha-Raphinha, remplacement d'urgence d'Aguerd à gérer
+  Ajustement modéré (+8% Brésil, -6% Maroc) justifié par des faits matériels lourds : Maroc perd son duo Aguerd-Ezzalzouli (piliers 2022) + changement de coach à 3 mois du tournoi. Brésil compense mieux Neymar (Cunha/Martinelli/Endrick) que Maroc ne comble ses trous. Pas de sur-ajustement car match d'ouverture = tension, mais la supériorité brésilienne en banc + expérience Ancelotti face à Ouahbi no
+
+— PANEL — 58 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] Can Vinicius finally convince Brazil in Neymar's absence?
+  [Guardian (UK)] Injury deprived me of chance to play so I am going to the World Cup to support Brazil | Rodrygo
+  [GoogleNews:"Brazil" world cup] Brazil vs. Morocco: How to Watch, TV Channel, Live Stream - FOX Sports
+  [GoogleNews:"Brazil" world cup] World Cup 2026: Brazil ready to party; Scotland’s big return; England recover stolen boots – as it happened - The Guardian
+  [GoogleNews:"Brazil" world cup] 2026 World Cup Day 3: Qatar vs. Switzerland; Brazil vs. Morocco; Haiti vs. Scotland; Australia vs. Türkiye - Yahoo Sports
+  [GoogleNews:"Brazil" world cup] Brazil hopes to end a 24-year wait for World Cup glory. The pressure has never been greater - CNN
+  [GoogleNews:"Brazil" world cup] World Cup Match Day 3: Brazil-Morocco, Australia-Türkiye Highlight Saturday Slate - FOX Sports
+  [GoogleNews:"Brazil" world cup] World Cup 2026: Haiti's message of hope in rare appearance at finals - BBC
+
+— MOST LIKELY OUTCOME —
+  Brazil (37.8%)
+  Tentative exact scores: 1-1 (14.4%), 0-0 (9.3%), 2-1 (8.5%)
+  xG: 1.36 - 1.24   O2.5: 48.2%   BTTS: 54.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

@@ -1,0 +1,197 @@
+{
+  "frozen_at_utc": "2026-06-13T19:59:02.605420+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537346,
+    "utc_kickoff": "2026-06-14T04:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Australia",
+    "away": "Turkey",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.2033,
+    "draw": 0.2745,
+    "away": 0.5222
+  },
+  "model_with_news": {
+    "home": 0.2033,
+    "draw": 0.2745,
+    "away": 0.5222
+  },
+  "model_llm": {
+    "home": 0.24,
+    "draw": 0.27,
+    "away": 0.49
+  },
+  "llm_analysis": {
+    "confidence": "medium",
+    "key_factors": [
+      "Arda G\u00fcler vs bloc australien : le Real Madrid kid (21 ans, meilleur jeune UCL) doit trouver l'espace entre Irvine et Metcalfe, c'est le c\u0153ur du match",
+      "Kenan Yildiz (incertain) vs Jacob Italiano : si le Juventini joue, il massacre le lat\u00e9ral autrichien en 1v1, sinon la Turquie perd 30% de sa menace",
+      "Mo Toure (Norwich, 10 buts en 12 matches) : seul vrai finisseur australien, doit punir sur transition",
+      "Hakan \u00c7alhano\u011flu : corners + coups francs, arme fatale turque (5 buts sur corner en qualifs)"
+    ],
+    "rationale": "Ajustement mod\u00e9r\u00e9 des probabilit\u00e9s. Le mod\u00e8le sous-estime l\u00e9g\u00e8rement la capacit\u00e9 de nuisance de l'Australie (d\u00e9fense de fer, Elo 1983 trompeur car qualifs AFC faciles) et surestime la r\u00e9gularit\u00e9 turque (a gal\u00e9r\u00e9 en barrages UEFA). L'absence probable de Yildiz est MAJEURE : il terrorise les lat\u00e9raux moyens en 1v1, sans lui la Turquie perd son mismatch principal. Je remonte home de 20.3% \u00e0 24%, car ",
+    "llm_used": true,
+    "lecture_tactique": "Turquie en 4-2-3-1 avec G\u00fcler dans le pocket, \u00c7alhano\u011flu en chef d'orchestre ; Australie en 3-4-2-1 ultra-compacte pour casser les lignes de passe. Le match se jouera dans les couloirs : si Yildiz est absent (mollet), la pression sur les wing-backs australiens (Italiano/Bos) baisse drastiquement. Sinon, Popovic devra choisir entre presser G\u00fcler ou prot\u00e9ger les flancs.",
+    "facteur_x": "L'horreur statistique de l'Australie en match d'ouverture (5 d\u00e9faites sur 6) coupl\u00e9e \u00e0 l'absence probable de Yildiz, qui transforme un mismatch certain en \u00e9quilibre relatif sur les flancs.",
+    "verdict": "La Turquie a la qualit\u00e9 individuelle (G\u00fcler, \u00c7alhano\u011flu, Demiral), mais l'Australie de Popovic est une \u00e9quipe cauchemar en ouverture : organis\u00e9e, physique, difficile \u00e0 casser. Yildiz incertain change tout. Sc\u00e9nario probable : 1-0 Turquie sur coup de pied arr\u00eat\u00e9 ou G\u00fcler qui trouve enfin l'ouverture \u00e0 la 60e, apr\u00e8s que l'Australie ait tenu 0-0 pendant une heure.",
+    "angle_pari": "Under 2.5 buts mal pric\u00e9 : deux \u00e9quipes qui vivent de coups de pied arr\u00eat\u00e9s, Australie ultra-d\u00e9fensive (1 but encaiss\u00e9 en 4 matches 2026), Turquie qui a conc\u00e9d\u00e9 1 but en 4 matches r\u00e9cents. 1-0 ou 0-1 probable.",
+    "infos_recherche": [
+      "Kenan Yildiz (Juventus) incertain avec blessure au mollet, entra\u00eenement individuel ces derniers jours (13 juin 2026, Sports Mole)",
+      "Arda Guler (Real Madrid) d\u00e9clar\u00e9 apte malgr\u00e9 blessure fin de saison, titulaire attendu (13 juin 2026, Sports Mole)",
+      "Australie : aucune blessure ni suspension, effectif au complet selon Tony Popovic (13 juin 2026, Goal.com)",
+      "Calhanoglu d\u00e9clare vouloir 'dominer' l'Australie ; Turquie favorite malgr\u00e9 24 ans d'absence en Coupe du Monde (13 juin 2026, Socceroos.com.au)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 0.994,
+    "lam_away": 1.7,
+    "elo_home": 1983.6,
+    "elo_away": 2135.0
+  },
+  "formstats": {
+    "form_home": [
+      "N",
+      "D",
+      "V",
+      "V",
+      "D"
+    ],
+    "form_away": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "N"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Switzerland",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Mexico",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Cura\u00e7ao",
+        "score": "5-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Cameroon",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Colombia",
+        "score": "0-3",
+        "r": "D"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Venezuela",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "North Macedonia",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Kosovo",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-26",
+        "opp": "Romania",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Spain",
+        "score": "2-2",
+        "r": "N"
+      }
+    ],
+    "h2h": {
+      "played": 2,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 2,
+      "goals_a": 1,
+      "goals_b": 4,
+      "last_meetings": [
+        {
+          "date": "2004",
+          "score": "0-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2004",
+          "score": "1-3",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1314
+    },
+    {
+      "score": "0-1",
+      "prob": 0.0978
+    },
+    {
+      "score": "0-2",
+      "prob": 0.0977
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0971
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0848
+    }
+  ],
+  "ev_summary": null
+}

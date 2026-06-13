@@ -1,0 +1,206 @@
+{
+  "frozen_at_utc": "2026-06-13T19:56:56.670271+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537339,
+    "utc_kickoff": "2026-06-13T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Brazil",
+    "away": "Morocco",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.3779,
+    "draw": 0.3007,
+    "away": 0.3214
+  },
+  "model_with_news": {
+    "home": 0.3767,
+    "draw": 0.3007,
+    "away": 0.3226
+  },
+  "model_llm": {
+    "home": 0.4589,
+    "draw": 0.2906,
+    "away": 0.2505
+  },
+  "llm_analysis": {
+    "confidence": "high",
+    "key_factors": [
+      "Vinicius Jr vs Hakimi : duel \u00e0 couteaux tir\u00e9s sur l'aile, Hakimi aime monter, Vini va exploiter l'espace derri\u00e8re",
+      "Brahim Diaz (Maroc) : seule vraie menace cr\u00e9ative marocaine, doit porter l'attaque sans Ezzalzouli",
+      "Bruno Guimar\u00e3es : l'\u00e9quilibriste br\u00e9silien, sa capacit\u00e9 \u00e0 couvrir et progresser balle au pied conditionne tout",
+      "Chadi Riad/Diop : charni\u00e8re inexp\u00e9riment\u00e9e face \u00e0 Cunha-Raphinha, remplacement d'urgence d'Aguerd \u00e0 g\u00e9rer"
+    ],
+    "rationale": "Ajustement mod\u00e9r\u00e9 (+8% Br\u00e9sil, -6% Maroc) justifi\u00e9 par des faits mat\u00e9riels lourds : Maroc perd son duo Aguerd-Ezzalzouli (piliers 2022) + changement de coach \u00e0 3 mois du tournoi. Br\u00e9sil compense mieux Neymar (Cunha/Martinelli/Endrick) que Maroc ne comble ses trous. Pas de sur-ajustement car match d'ouverture = tension, mais la sup\u00e9riorit\u00e9 br\u00e9silienne en banc + exp\u00e9rience Ancelotti face \u00e0 Ouahbi no",
+    "llm_used": true,
+    "lecture_tactique": "Ancelotti d\u00e9ploie un 4-2-3-1 vertical pour isoler Vinicius sur les ailes, avec Guimar\u00e3es-Casemiro en sentinelles. Le Maroc d'Ouahbi devra compenser Ezzalzouli et Aguerd par un bloc compact ultra-disciplin\u00e9, mais la transition Regragui\u2192Ouahbi en plein Mondial introduit de l'incertitude.",
+    "facteur_x": "Le banc br\u00e9silien. Ancelotti a insist\u00e9 sur 'les 5 remplacements seront cl\u00e9s'. Avec Martinelli, Endrick, Igor Thiago en r\u00e9serve face \u00e0 un Maroc diminu\u00e9 physiquement en fin de match, l'impact des entrants peut faire basculer un 1-1 en 3-1.",
+    "verdict": "Le Br\u00e9sil gagnera sans briller (2-1 ou 2-0), profitant de la profondeur d'effectif et de l'inexp\u00e9rience d'Ouahbi en comp\u00e9tition majeure. Maroc tiendra 60-65 minutes avant de craquer sur coups de pied arr\u00eat\u00e9s ou entr\u00e9es offensives br\u00e9siliennes. Score type : 2-1.",
+    "angle_pari": "Over 2,5 buts (+100) sous-estim\u00e9 : Br\u00e9sil affam\u00e9 apr\u00e8s 24 ans de disette, Maroc fragilis\u00e9 d\u00e9fensivement (Aguerd out, Mazraoui incertain), les deux \u00e9quipes doivent gagner pour prendre la main sur le groupe face \u00e0 l'\u00c9cosse.",
+    "infos_recherche": [
+      "Neymar (mollet) forfait confirm\u00e9 pour Br\u00e9sil-Maroc, 13 juin (ESPN, 9 juin)",
+      "Ezzalzouli (genou) et Aguerd (pubalgie) officiellement retir\u00e9s du groupe marocain (FIFA, 11 juin)",
+      "Rodrygo (LCA+m\u00e9nisque mars 2026) absent du Mondial, Luiz Henrique appel\u00e9 (ESPN, mars 2026)",
+      "Mazraoui bless\u00e9 \u00e0 l'\u00e9paule vs Norv\u00e8ge, statut incertain (WhosScored, 11 juin)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": -0.04,
+    "injury_flags": [
+      "Neymar ruled out of Brazil's World Cup 2026 opener against Morocco - olympics.com"
+    ],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [
+      "Neymar ruled out of Brazil's World Cup 2026 opener against Morocco - olympics.com"
+    ],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.362,
+    "lam_away": 1.241,
+    "elo_home": 2122.2,
+    "elo_away": 2096.0
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "V",
+      "D",
+      "N"
+    ],
+    "form_away": [
+      "N",
+      "V",
+      "V",
+      "V",
+      "N"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Egypt",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Panama",
+        "score": "6-2",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Croatia",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-26",
+        "opp": "France",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Tunisia",
+        "score": "1-1",
+        "r": "N"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-07",
+        "opp": "Norway",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Madagascar",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-26",
+        "opp": "Burundi",
+        "score": "5-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Paraguay",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Ecuador",
+        "score": "1-1",
+        "r": "N"
+      }
+    ],
+    "h2h": {
+      "played": 3,
+      "wins_a": 2,
+      "draws": 0,
+      "wins_b": 1,
+      "goals_a": 6,
+      "goals_b": 2,
+      "last_meetings": [
+        {
+          "date": "2023",
+          "score": "1-2",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "1998",
+          "score": "3-0",
+          "tournament": "FIFA World Cup"
+        },
+        {
+          "date": "1997",
+          "score": "2-0",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1439
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0928
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0852
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0821
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0777
+    }
+  ],
+  "ev_summary": null
+}

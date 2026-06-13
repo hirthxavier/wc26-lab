@@ -34,5 +34,17 @@
       "home": 1,
       "away": 1
     }
+  },
+  {
+    "match_id": 537345,
+    "utc_kickoff": "2026-06-13T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "United States",
+    "away": "Paraguay",
+    "status": "FINISHED",
+    "score": {
+      "home": 4,
+      "away": 1
+    }
   }
 ]

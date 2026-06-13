@@ -5,10 +5,10 @@
     "stage": "GROUP_STAGE",
     "home": "United States",
     "away": "Paraguay",
-    "status": "TIMED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 4,
+      "away": 1
     }
   },
   {
@@ -89,7 +89,7 @@
     "stage": "GROUP_STAGE",
     "home": "Ivory Coast",
     "away": "Ecuador",
-    "status": "SCHEDULED",
+    "status": "TIMED",
     "score": {
       "home": null,
       "away": null

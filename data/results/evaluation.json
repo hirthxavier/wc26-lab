@@ -23,31 +23,53 @@
       "logloss_news": 0.7478,
       "brier_llm": 0.3626,
       "logloss_llm": 0.6733
+    },
+    {
+      "match_id": 537333,
+      "match": "Canada v Bosnia-Herzegovina",
+      "actual": "draw",
+      "brier_stats": 1.712,
+      "logloss_stats": 2.7016,
+      "brier_news": 1.7087,
+      "logloss_news": 2.7016,
+      "brier_llm": 1.3755,
+      "logloss_llm": 1.9697
+    },
+    {
+      "match_id": 537345,
+      "match": "United States v Paraguay",
+      "actual": "home",
+      "brier_stats": 0.7905,
+      "logloss_stats": 1.2801,
+      "brier_news": 0.7891,
+      "logloss_news": 1.278,
+      "brier_llm": 0.616,
+      "logloss_llm": 1.0217
     }
   ],
   "summary": {
     "stats": {
-      "n": 2,
-      "mean_brier": 0.2221,
+      "n": 4,
+      "mean_brier": 0.7367,
       "brier_95ci": [
-        0.027,
-        0.4171
+        0.1245,
+        1.3883
       ]
     },
     "news": {
-      "n": 2,
-      "mean_brier": 0.2221,
+      "n": 4,
+      "mean_brier": 0.7355,
       "brier_95ci": [
-        0.027,
-        0.4171
+        0.2175,
+        1.3858
       ]
     },
     "llm": {
-      "n": 2,
-      "mean_brier": 0.1947,
+      "n": 4,
+      "mean_brier": 0.5952,
       "brier_95ci": [
-        0.0268,
-        0.3626
+        0.1741,
+        1.1223
       ]
     },
     "close": {

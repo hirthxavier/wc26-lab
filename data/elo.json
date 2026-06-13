@@ -47,7 +47,7 @@
   "Burundi": 1324.3,
   "Cambodia": 998.4,
   "Cameroon": 1770.1,
-  "Canada": 1981.3,
+  "Canada": 1967.185905017114,
   "Canary Islands": 1533.0,
   "Cape Verde": 1704.5,
   "Cascadia": 1564.6,
@@ -221,7 +221,7 @@
   "Panama": 1926.5,
   "Panjab": 1598.4,
   "Papua New Guinea": 1383.7,
-  "Paraguay": 2057.0,
+  "Paraguay": 2001.5768646594483,
   "Parishes of Jersey": 1517.2,
   "Peru": 1792.5,
   "Philippines": 1318.8,
@@ -309,7 +309,7 @@
   "Ukraine": 1878.0,
   "United Arab Emirates": 1691.3,
   "United Koreans in Japan": 1495.0,
-  "United States": 1887.9,
+  "United States": 1943.3231353405517,
   "United States Virgin Islands": 868.5,
   "Uruguay": 2034.3,
   "Uzbekistan": 1882.5,
@@ -334,5 +334,6 @@
   "Zambia": 1525.5,
   "Zanzibar": 1571.9,
   "Zimbabwe": 1424.1,
-  "\u00c5land Islands": 1461.4
+  "\u00c5land Islands": 1461.4,
+  "Bosnia-Herzegovina": 1514.114094982886
 }

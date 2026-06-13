@@ -46,5 +46,17 @@
       "home": 4,
       "away": 1
     }
+  },
+  {
+    "match_id": 537334,
+    "utc_kickoff": "2026-06-13T19:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Qatar",
+    "away": "Switzerland",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 1
+    }
   }
 ]

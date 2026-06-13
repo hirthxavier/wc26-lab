@@ -17,9 +17,9 @@
     "stage": "GROUP_STAGE",
     "home": "Qatar",
     "away": "Switzerland",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 0,
+      "home": 1,
       "away": 1
     }
   },

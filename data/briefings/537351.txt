@@ -1,0 +1,46 @@
+⚽ Germany vs Curaçao — GROUP_STAGE
+Coup d'envoi : 14/06 19:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Germany: 81.8%  Draw: 13.6%  Curaçao: 4.7%
+  With news adjustment: 81.8% / 13.6% / 4.7%
+  Elo: 2096.2 vs 1664.0
+
+— LINE MOVEMENT (where money went) —
+  Curaçao: 2.3% → 2.3%
+  Germany: 92.4% ↑ 93.0%
+  Draw: 5.3% ↓ 4.7%
+
+— NEWS: Germany (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Curaçao (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: high) —
+  83.0% / 12.0% / 5.0%
+  • Wirtz & Musiala vs bloc bas : leur capacité à trouver les solutions dans les petits espaces déterminera la rapidité du festival allemand
+  • Nmecha-Pavlovic vs Bacuna brothers : double pivot allemande peu rodée face à deux milieux Eredivisie capables de porter le ballon au bon moment
+  • Neuer (40 ans) : son retour historique après blessure au mollet, premier test face à des contre-attaques potentiellement vives
+  • Armando Obispo (PSV) : seul défenseur de Curaçao avec du pedigree européen, devra défendre toute la soirée face à Havertz
+  Ajustement marginal des probabilités : je passe de 0.818 à 0.83 pour tenir compte de (1) l'effectif allemand au complet et en très grande forme (9 victoires consécutives), (2) le retour confirmé de Neuer qui apporte expérience et sérénité, (3) l'absence totale de blessures côté Curaçao qui ne change rien à leur statut d'outsider absolu. Le nul baisse légèrement (0.136 → 0.12) car Curaçao jouera tr
+
+— PANEL — 57 headlines from ES/IT/FR/AR/UK/BR sources —
+  [L'Equipe (FR)] L'Allemagne avec Florian Wirtz, Jamal Musiala et Manuel Neuer pour son entrée en lice face à Curaçao à la Coupe du monde
+  [L'Equipe (FR)] Advocaat, ténor du Curaçao
+  [BBC Sport (UK)] Fifa World Cup 2026: What you need to know about Germany
+  [Guardian (UK)] Germany v Curaçao: World Cup 2026 – live
+  [Voetbal International (NL)] VI Live: Curaçao gaat bij WK-debuut voor stunt tegen Duitsland
+  [Voetbal International (NL)] Met deze opstelling begint Curaçao aan zijn WK-debuut
+  [Globo Esporte (BR)] Alemanha x Curaçao - Copa do Mundo 2026 - Ao vivo - globoesporte.com
+  [GoogleNews:"Germany" world cup] Germany vs Curacao LIVE: FIFA World Cup 2026 Group E score, commentary, updates & stats - BBC
+
+— MOST LIKELY OUTCOME —
+  Germany (81.7%)
+  Tentative exact scores: 2-0 (13.1%), 3-0 (12.2%), 4-0 (8.5%)
+  xG: 2.8 - 0.6   O2.5: 65.9%   BTTS: 43.4%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

@@ -1,0 +1,186 @@
+{
+  "frozen_at_utc": "2026-06-14T16:57:48.991369+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537351,
+    "utc_kickoff": "2026-06-14T17:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Germany",
+    "away": "Cura\u00e7ao",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.8176,
+    "draw": 0.1356,
+    "away": 0.0468
+  },
+  "model_with_news": {
+    "home": 0.8176,
+    "draw": 0.1356,
+    "away": 0.0468
+  },
+  "model_llm": {
+    "home": 0.83,
+    "draw": 0.12,
+    "away": 0.05
+  },
+  "llm_analysis": {
+    "confidence": "high",
+    "key_factors": [
+      "Wirtz & Musiala vs bloc bas : leur capacit\u00e9 \u00e0 trouver les solutions dans les petits espaces d\u00e9terminera la rapidit\u00e9 du festival allemand",
+      "Nmecha-Pavlovic vs Bacuna brothers : double pivot allemande peu rod\u00e9e face \u00e0 deux milieux Eredivisie capables de porter le ballon au bon moment",
+      "Neuer (40 ans) : son retour historique apr\u00e8s blessure au mollet, premier test face \u00e0 des contre-attaques potentiellement vives",
+      "Armando Obispo (PSV) : seul d\u00e9fenseur de Cura\u00e7ao avec du pedigree europ\u00e9en, devra d\u00e9fendre toute la soir\u00e9e face \u00e0 Havertz"
+    ],
+    "rationale": "Ajustement marginal des probabilit\u00e9s : je passe de 0.818 \u00e0 0.83 pour tenir compte de (1) l'effectif allemand au complet et en tr\u00e8s grande forme (9 victoires cons\u00e9cutives), (2) le retour confirm\u00e9 de Neuer qui apporte exp\u00e9rience et s\u00e9r\u00e9nit\u00e9, (3) l'absence totale de blessures c\u00f4t\u00e9 Cura\u00e7ao qui ne change rien \u00e0 leur statut d'outsider absolu. Le nul baisse l\u00e9g\u00e8rement (0.136 \u2192 0.12) car Cura\u00e7ao jouera tr",
+    "llm_used": true,
+    "lecture_tactique": "L'Allemagne en 4-2-3-1 avec le trio cr\u00e9atif Wirtz-Musiala-San\u00e9 derri\u00e8re Havertz va pousser en permanence face au bloc ultra-compact 4-3-3 d\u00e9fensif de Cura\u00e7ao d'Advocaat. La cl\u00e9 : la double pivot Nmecha-Pavlovic, jeune et inexp\u00e9riment\u00e9e, pourrait laisser des espaces en contre. Cura\u00e7ao jouera sa vie sur le repli et les relances rapides via Chong et les Bacuna.",
+    "facteur_x": "La double pivot allemande Nmecha-Pavlovic : jeune et peu exp\u00e9riment\u00e9e, elle pourrait se faire prendre \u00e0 la relance si Juninho Bacuna trouve Chong ou Antonisse dans le dos. Le premier but allemand tardif ouvrirait une br\u00e8che psychologique.",
+    "verdict": "L'Allemagne va gagner large mais Cura\u00e7ao r\u00e9sistera 25-30 minutes avant de craquer sous la pression. Les changements allemands en seconde mi-temps feront exploser le score. 5-0 ou 4-0 probable.",
+    "angle_pari": "Over 4.5 buts \u00e0 6/5 : Cura\u00e7ao jouera compact mais l'Allemagne en grande forme (9 victoires d'affil\u00e9e) doit poser un gros \u00e9cart pour la diff de buts. Le verrou sautera.",
+    "infos_recherche": [
+      "Neuer (40 ans) confirm\u00e9 titulaire malgr\u00e9 blessure au mollet, manquait les 2 derniers amicaux (14/06/2026)",
+      "Lennart Karl forfait tournoi, remplac\u00e9 par Assan Ouedraogo dans la liste allemande (pr\u00e9-tournoi)",
+      "Cura\u00e7ao : aucune blessure ni suspension, Advocaat dispose de son effectif complet (13/06/2026)",
+      "Advocaat devient \u00e0 78 ans le plus vieux coach de l'histoire des Coupes du Monde (14/06/2026)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 2.795,
+    "lam_away": 0.605,
+    "elo_home": 2096.2,
+    "elo_away": 1664.0
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "form_away": [
+      "V",
+      "D",
+      "D",
+      "D",
+      "N"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "United States",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Finland",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-30",
+        "opp": "Ghana",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Switzerland",
+        "score": "4-3",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-17",
+        "opp": "Slovakia",
+        "score": "6-0",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Aruba",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Scotland",
+        "score": "1-4",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Australia",
+        "score": "1-5",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "China",
+        "score": "0-2",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Jamaica",
+        "score": "0-0",
+        "r": "N"
+      }
+    ],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "2-0",
+      "prob": 0.1307
+    },
+    {
+      "score": "3-0",
+      "prob": 0.1218
+    },
+    {
+      "score": "4-0",
+      "prob": 0.0851
+    },
+    {
+      "score": "1-0",
+      "prob": 0.085
+    },
+    {
+      "score": "2-1",
+      "prob": 0.079
+    }
+  ],
+  "ev_summary": null
+}

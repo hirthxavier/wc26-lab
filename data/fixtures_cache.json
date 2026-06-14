@@ -17,9 +17,9 @@
     "stage": "GROUP_STAGE",
     "home": "Australia",
     "away": "Turkey",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 0,
+      "home": 2,
       "away": 0
     }
   },
@@ -53,7 +53,7 @@
     "stage": "GROUP_STAGE",
     "home": "Ivory Coast",
     "away": "Ecuador",
-    "status": "TIMED",
+    "status": "SCHEDULED",
     "score": {
       "home": null,
       "away": null

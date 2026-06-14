@@ -82,5 +82,17 @@
       "home": 0,
       "away": 1
     }
+  },
+  {
+    "match_id": 537346,
+    "utc_kickoff": "2026-06-14T04:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Australia",
+    "away": "Turkey",
+    "status": "FINISHED",
+    "score": {
+      "home": 2,
+      "away": 0
+    }
   }
 ]

@@ -36,6 +36,32 @@
       "logloss_llm": 1.9697
     },
     {
+      "match_id": 537339,
+      "match": "Brazil v Morocco",
+      "actual": "draw",
+      "brier_stats": 0.7351,
+      "logloss_stats": 1.2016,
+      "brier_news": 0.735,
+      "logloss_news": 1.2016,
+      "brier_llm": 0.7766,
+      "logloss_llm": 1.2358,
+      "brier_close": 0.9158,
+      "logloss_close": 1.3705
+    },
+    {
+      "match_id": 537340,
+      "match": "Haiti v Scotland",
+      "actual": "away",
+      "brier_stats": 0.2752,
+      "logloss_stats": 0.5537,
+      "brier_news": 0.2745,
+      "logloss_news": 0.5527,
+      "brier_llm": 0.3338,
+      "logloss_llm": 0.6349,
+      "brier_close": 0.2072,
+      "logloss_close": 0.4626
+    },
+    {
       "match_id": 537345,
       "match": "United States v Paraguay",
       "actual": "home",
@@ -45,39 +71,52 @@
       "logloss_news": 1.278,
       "brier_llm": 0.616,
       "logloss_llm": 1.0217
+    },
+    {
+      "match_id": 537346,
+      "match": "Australia v Turkey",
+      "actual": "home",
+      "brier_stats": 0.9828,
+      "logloss_stats": 1.5931,
+      "brier_news": 0.9828,
+      "logloss_news": 1.5931,
+      "brier_llm": 0.8906,
+      "logloss_llm": 1.4271,
+      "brier_close": 1.0554,
+      "logloss_close": 1.7099
     }
   ],
   "summary": {
     "stats": {
-      "n": 4,
-      "mean_brier": 0.7367,
+      "n": 7,
+      "mean_brier": 0.7057,
       "brier_95ci": [
-        0.1245,
-        1.3883
+        0.3639,
+        1.0983
       ]
     },
     "news": {
-      "n": 4,
-      "mean_brier": 0.7355,
+      "n": 7,
+      "mean_brier": 0.7049,
       "brier_95ci": [
-        0.2175,
-        1.3858
+        0.3511,
+        1.1069
       ]
     },
     "llm": {
-      "n": 4,
-      "mean_brier": 0.5952,
+      "n": 7,
+      "mean_brier": 0.626,
       "brier_95ci": [
-        0.1741,
-        1.1223
+        0.3308,
+        0.9414
       ]
     },
     "close": {
-      "n": 1,
-      "mean_brier": 0.167,
+      "n": 4,
+      "mean_brier": 0.5863,
       "brier_95ci": [
-        0.167,
-        0.167
+        0.1871,
+        0.9856
       ]
     }
   }

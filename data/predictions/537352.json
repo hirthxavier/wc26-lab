@@ -1,0 +1,186 @@
+{
+  "frozen_at_utc": "2026-06-14T20:08:15.626650+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537352,
+    "utc_kickoff": "2026-06-14T23:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Ivory Coast",
+    "away": "Ecuador",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.1108,
+    "draw": 0.2157,
+    "away": 0.6735
+  },
+  "model_with_news": {
+    "home": 0.1108,
+    "draw": 0.2157,
+    "away": 0.6735
+  },
+  "model_llm": {
+    "home": 0.1767,
+    "draw": 0.2738,
+    "away": 0.5495
+  },
+  "llm_analysis": {
+    "confidence": "medium",
+    "key_factors": [
+      "Mois\u00e9s Caicedo (ECU) : le m\u00e9tronome. S'il coupe les lignes de passe vers Kessi\u00e9-Sangar\u00e9, l'\u00c9quateur contr\u00f4le.",
+      "Willian Pacho (ECU) : champion d'Europe avec le PSG, patron d'une d\u00e9fense qui a pris 5 buts en 18 matchs CONMEBOL. Lecture et vitesse.",
+      "Amad Diallo (CIV) : le dribbleur de Man United doit provoquer dans les couloirs. Si Estupi\u00f1\u00e1n ou Hincapi\u00e9 mordent, c'est l'ouverture.",
+      "Franck Kessi\u00e9 (CIV) : le capitaine. Doit \u00e9touffer Caicedo au milieu et poser le jeu ivoirien sans Ndicka derri\u00e8re pour s\u00e9curiser."
+    ],
+    "rationale": "J'ajuste les probabilit\u00e9s du mod\u00e8le Elo/Poisson (11/21.6/67.4) vers 25/35/40. Le mod\u00e8le sur-estime la victoire \u00e9quatorienne en ignorant deux facteurs : (1) la faiblesse offensive chronique de l'\u00c9quateur (1 but/match, beaucoup de nuls) et (2) la r\u00e9silience physique et technique de la C\u00f4te d'Ivoire malgr\u00e9 l'absence de Ndicka. L'\u00c9quateur reste favori gr\u00e2ce \u00e0 sa d\u00e9fense exceptionnelle (Pacho-Hincapi\u00e9-",
+    "llm_used": true,
+    "lecture_tactique": "Choc de styles : pressing haut \u00e9quatorien (\u00e9cole Bielsa) contre physicalit\u00e9 ivoirienne. L'absence de Ndicka fragilise la relance de la C\u00f4te d'Ivoire, exactement ce que le bloc Caicedo-Pacho-Hincapi\u00e9 peut exploiter. Mais l'\u00c9quateur ne marque pas assez (1 but/match sur 19 inv.), et Enner Valencia (36 ans) n'est plus un finisseur implacable. Le premier but verrouille ce match.",
+    "facteur_x": "Le manque de tueur devant chez l'\u00c9quateur. Ils peuvent dominer 70 minutes et repartir avec 0-0. Valencia a 36 ans, et aucun rempla\u00e7ant ne fait trembler. Si la C\u00f4te d'Ivoire tient physiquement le pressing initial (20 premi\u00e8res minutes), elle peut puni",
+    "verdict": "L'\u00c9quateur est favori mais pas \u00e0 67%. D\u00e9fense de fer (Pacho-Hincapi\u00e9-Caicedo) contre attaque ivoirienne priv\u00e9e de Ndicka en couverture. Le nul guette (35% de chances r\u00e9elles), sinon victoire courte \u00e9quatorienne. Score type : 1-0 \u00c9quateur ou 1-1, d\u00e9cid\u00e9 apr\u00e8s la 70e.",
+    "angle_pari": "Le BTTS-NO (les deux \u00e9quipes ne marquent pas) \u00e0 1.67 est int\u00e9ressant : l'\u00c9quateur a tenu 13 clean sheets sur 19 matchs, la C\u00f4te d'Ivoire n'a rien encaiss\u00e9 en 10 qualifs CAF. Match serr\u00e9 = 1-0 ou 0-0 probable.",
+    "infos_recherche": [
+      "Evan Ndicka (CIV) forfait - l\u00e9sion ischio-jambiers degr\u00e9 2, remplac\u00e9 par Agbadou (14 juin, TopMercato/Maxifoot)",
+      "\u00c9quateur invaincu depuis 2 ans (19 matchs), 13 clean sheets, seulement 5 buts encaiss\u00e9s en 18 matchs qualifs CONMEBOL (13 juin, Sports Mole/ESPN)",
+      "Willian Pacho champion d'Europe avec PSG, leader d\u00e9fense \u00e9quatorienne aux c\u00f4t\u00e9s Hincapi\u00e9 (Arsenal champion PL) (13 juin, RotoWire/WhoScored)",
+      "C\u00f4te d'Ivoire : victoire 2-1 vs France (4 juin), 4-0 vs Cor\u00e9e du Sud, 1-0 vs \u00c9cosse en pr\u00e9pa (13 juin, Goal.com)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 0.787,
+    "lam_away": 2.149,
+    "elo_home": 1889.7,
+    "elo_away": 2173.4
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "V",
+      "D",
+      "V"
+    ],
+    "form_away": [
+      "V",
+      "V",
+      "N",
+      "N",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-04",
+        "opp": "France",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Scotland",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "South Korea",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-01-10",
+        "opp": "Egypt",
+        "score": "2-3",
+        "r": "D"
+      },
+      {
+        "date": "2026-01-06",
+        "opp": "Burkina Faso",
+        "score": "3-0",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-07",
+        "opp": "Guatemala",
+        "score": "3-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Saudi Arabia",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Netherlands",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Morocco",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "New Zealand",
+        "score": "2-0",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.1227
+    },
+    {
+      "score": "1-1",
+      "prob": 0.1033
+    },
+    {
+      "score": "0-1",
+      "prob": 0.1007
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0965
+    },
+    {
+      "score": "0-3",
+      "prob": 0.0879
+    }
+  ],
+  "ev_summary": null
+}

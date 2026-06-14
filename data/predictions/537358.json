@@ -1,0 +1,209 @@
+{
+  "frozen_at_utc": "2026-06-14T20:09:18.598318+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537358,
+    "utc_kickoff": "2026-06-15T02:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Sweden",
+    "away": "Tunisia",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.419,
+    "draw": 0.2968,
+    "away": 0.2843
+  },
+  "model_with_news": {
+    "home": 0.4193,
+    "draw": 0.2968,
+    "away": 0.284
+  },
+  "model_llm": {
+    "home": 0.42,
+    "draw": 0.3,
+    "away": 0.28
+  },
+  "llm_analysis": {
+    "confidence": "medium",
+    "key_factors": [
+      "Gy\u00f6keres vs Talbi : le buteur d'Arsenal (champion EPL) face au patron d\u00e9fensif tunisien, c'est LE duel central",
+      "Isak-Gy\u00f6keres : 37 buts \u00e0 eux deux en s\u00e9lection, la paire la plus redout\u00e9e du tournoi contre une d\u00e9fense fragilis\u00e9e",
+      "Skhiri (Francfort) : le seul cadre tunisien de haut niveau, doit \u00e9touffer le milieu su\u00e9dois avec Khedira",
+      "Hannibal Mejbri : incertain (cuisse), son absence priverait la Tunisie de son seul cr\u00e9ateur"
+    ],
+    "rationale": "Aucun ajustement des probabilit\u00e9s. Les absences mineures (Gudmundsson incertain, Hannibal doute) ne changent pas la donne. Le mod\u00e8le Elo (1839 vs 1777) et Poisson refl\u00e8tent bien la r\u00e9alit\u00e9 : la Su\u00e8de est favorite gr\u00e2ce \u00e0 son attaque d'\u00e9lite, mais la Tunisie reste capable de frustrer (historique d\u00e9fensif en qualifs). La forme r\u00e9cente (Tunisie 0-5, 0-1 en amicaux vs Su\u00e8de 2V en barrages) confirme l'",
+    "llm_used": true,
+    "lecture_tactique": "Potter d\u00e9ploie un 3-4-1-2 pour nourrir le duo Gy\u00f6keres-Isak, pendant que Lamouchi verrouille en 4-2-3-1 avec Skhiri-Khedira en double pivot. La Su\u00e8de doit casser un bloc bas tunisien historiquement imperm\u00e9able (0 but encaiss\u00e9 en qualifs), mais qui vient de craquer 5-0 contre la Belgique.",
+    "facteur_x": "La pr\u00e9paration catastrophique de la Tunisie (1 but en 4 matchs, 0-5 vs Belgique) face \u00e0 une Su\u00e8de qui joue sans pression apr\u00e8s une qualif miraculeuse \u2014 le mental tunisien est \u00e0 vif",
+    "verdict": "La Su\u00e8de gagne court mais gagne. Gy\u00f6keres ou Isak d\u00e9bloque un verrou tunisien qui va tenir 60-70 minutes avant de craquer. Score type : 1-0 ou 2-0.",
+    "angle_pari": "Under 2.5 buts mal pric\u00e9 : la Tunisie ne marque plus, la Su\u00e8de manque de rythme, et Potter joue la prudence en ouverture. 1-0 ou 2-0 Su\u00e8de probable.",
+    "infos_recherche": [
+      "Gabriel Gudmundsson (Leeds) incertain pour la Su\u00e8de suite \u00e0 maladie, d\u00e9cision avant match (13-14 juin)",
+      "Hannibal Mejbri (Burnley) doute tunisien avec probl\u00e8me musculaire \u00e0 la cuisse, r\u00e9\u00e9valuation pr\u00e9-match (14 juin)",
+      "Tunisie : 0-5 vs Belgique le 6 juin, 1 seul but marqu\u00e9 en 4 derniers matchs, forme offensive alarmante",
+      "Dejan Kulusevski absent toute la saison (blessure cartilage), pas disponible pour la Su\u00e8de (confirm\u00e9 juin 2026)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": [
+      "Feared Sweden strike force faces tough Tunisia test in World Cup opener - Reuters"
+    ]
+  },
+  "diagnostics": {
+    "lam_home": 1.453,
+    "lam_away": 1.163,
+    "elo_home": 1839.6,
+    "elo_away": 1776.9
+  },
+  "formstats": {
+    "form_home": [
+      "N",
+      "D",
+      "V",
+      "V",
+      "N"
+    ],
+    "form_away": [
+      "D",
+      "D",
+      "N",
+      "V",
+      "N"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-04",
+        "opp": "Greece",
+        "score": "2-2",
+        "r": "N"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Norway",
+        "score": "1-3",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Poland",
+        "score": "3-2",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-26",
+        "opp": "Ukraine",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Slovenia",
+        "score": "1-1",
+        "r": "N"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Belgium",
+        "score": "0-5",
+        "r": "D"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Austria",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Canada",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Haiti",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-01-03",
+        "opp": "Mali",
+        "score": "1-1",
+        "r": "N"
+      }
+    ],
+    "h2h": {
+      "played": 4,
+      "wins_a": 2,
+      "draws": 1,
+      "wins_b": 1,
+      "goals_a": 3,
+      "goals_b": 2,
+      "last_meetings": [
+        {
+          "date": "2003",
+          "score": "0-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "1999",
+          "score": "1-0",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "1992",
+          "score": "1-0",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "1976",
+          "score": "1-1",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1421
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0916
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0897
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0877
+    },
+    {
+      "score": "2-0",
+      "prob": 0.0771
+    }
+  ],
+  "ev_summary": null
+}

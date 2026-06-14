@@ -1,0 +1,48 @@
+⚽ Ivory Coast vs Ecuador — GROUP_STAGE
+Coup d'envoi : 15/06 01:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Ivory Coast: 11.1%  Draw: 21.6%  Ecuador: 67.4%
+  With news adjustment: 11.1% / 21.6% / 67.4%
+  Elo: 1889.7 vs 2173.4
+
+— LINE MOVEMENT (where money went) —
+  Ecuador: 39.5% ↓ 37.0%
+  Ivory Coast: 26.7% ↑ 29.7%
+  Draw: 33.8% → 33.3%
+
+— NEWS: Ivory Coast (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Ecuador (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: medium) —
+  17.7% / 27.4% / 55.0%
+  • Moisés Caicedo (ECU) : le métronome. S'il coupe les lignes de passe vers Kessié-Sangaré, l'Équateur contrôle.
+  • Willian Pacho (ECU) : champion d'Europe avec le PSG, patron d'une défense qui a pris 5 buts en 18 matchs CONMEBOL. Lecture et vitesse.
+  • Amad Diallo (CIV) : le dribbleur de Man United doit provoquer dans les couloirs. Si Estupiñán ou Hincapié mordent, c'est l'ouverture.
+  • Franck Kessié (CIV) : le capitaine. Doit étouffer Caicedo au milieu et poser le jeu ivoirien sans Ndicka derrière pour sécuriser.
+  J'ajuste les probabilités du modèle Elo/Poisson (11/21.6/67.4) vers 25/35/40. Le modèle sur-estime la victoire équatorienne en ignorant deux facteurs : (1) la faiblesse offensive chronique de l'Équateur (1 but/match, beaucoup de nuls) et (2) la résilience physique et technique de la Côte d'Ivoire malgré l'absence de Ndicka. L'Équateur reste favori grâce à sa défense exceptionnelle (Pacho-Hincapié-
+
+— PANEL — 56 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Costa d&#39;Avorio-Ecuador, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Ivory Coast" world cup] 2026 World Cup live updates: Ivory Coast set to take on Ecuador in Philadelphia | What to know - 6abc Philadelphia
+  [GoogleNews:"Ivory Coast" world cup] Ivory Coast vs Ecuador weather forecast: Latest on World Cup Group E match - USA Today
+  [GoogleNews:"Ivory Coast" world cup] Ivory Coast vs Ecuador live updates: World Cup 2026 game latest score and news - The New York Times
+  [GoogleNews:"Ivory Coast" world cup] Ivory Coast vs. Ecuador Prediction, Odds, Picks For World Cup Match - FOX Sports
+  [GoogleNews:"Ivory Coast" world cup] Men’s World Cup Live (June 14th) — Netherlands vs. Japan, Ivory Coast, Sweden, and more! - Yahoo Sports
+  [GoogleNews:"Ivory Coast" world cup] FIFA World Cup is here. Our guide offers all you need to get in on fun - Delawareonline.com
+  [GoogleNews:"Ivory Coast" world cup] Where to watch Ivory Coast vs. Ecuador: Free online channels and how to unlock them - Business Insider
+
+— MOST LIKELY OUTCOME —
+  Ecuador (67.3%)
+  Tentative exact scores: 0-2 (12.3%), 1-1 (10.3%), 0-1 (10.1%)
+  xG: 0.79 - 2.15   O2.5: 56.2%   BTTS: 49.5%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

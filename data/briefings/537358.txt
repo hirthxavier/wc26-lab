@@ -1,0 +1,48 @@
+⚽ Sweden vs Tunisia — GROUP_STAGE
+Coup d'envoi : 15/06 04:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Sweden: 41.9%  Draw: 29.7%  Tunisia: 28.4%
+  With news adjustment: 41.9% / 29.7% / 28.4%
+  Elo: 1839.6 vs 1776.9
+
+— LINE MOVEMENT (where money went) —
+  Sweden: 50.0% ↓ 49.4%
+  Tunisia: 22.1% → 22.4%
+  Draw: 27.8% → 28.1%
+
+— NEWS: Sweden (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Tunisia (sentiment +0.00) —
+  ⚠️ Feared Sweden strike force faces tough Tunisia test in World Cup opener - Reuters
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: medium) —
+  42.0% / 30.0% / 28.0%
+  • Gyökeres vs Talbi : le buteur d'Arsenal (champion EPL) face au patron défensif tunisien, c'est LE duel central
+  • Isak-Gyökeres : 37 buts à eux deux en sélection, la paire la plus redoutée du tournoi contre une défense fragilisée
+  • Skhiri (Francfort) : le seul cadre tunisien de haut niveau, doit étouffer le milieu suédois avec Khedira
+  • Hannibal Mejbri : incertain (cuisse), son absence priverait la Tunisie de son seul créateur
+  Aucun ajustement des probabilités. Les absences mineures (Gudmundsson incertain, Hannibal doute) ne changent pas la donne. Le modèle Elo (1839 vs 1777) et Poisson reflètent bien la réalité : la Suède est favorite grâce à son attaque d'élite, mais la Tunisie reste capable de frustrer (historique défensif en qualifs). La forme récente (Tunisie 0-5, 0-1 en amicaux vs Suède 2V en barrages) confirme l'
+
+— PANEL — 51 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Svezia-Tunisia, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Sweden" world cup] Netherlands vs Japan is underway, shop Netherlands vs Sweden tickets - USA Today
+  [GoogleNews:"Sweden" world cup] 2026 World Cup, Day 4: Germany vs. Curaçao; Netherlands vs. Japan; Côte d’Ivoire vs. Ecuador; Sweden vs. Tunisia - Chiesa Di Totti
+  [GoogleNews:"Sweden" world cup] World Cup Match Day 4: Germany-Curaçao, Netherlands-Japan Make A Sunday Funday - FOX Sports
+  [GoogleNews:"Sweden" world cup] World Cup tourist gets hooked on American condiment she calls ‘crack’: ‘Won’t be able to live without it’ - New York Post
+  [GoogleNews:"Sweden" world cup] Sweden vs. Tunisia—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"Sweden" world cup] The Isak-Gyokeres conundrum that Graham Potter must solve to fire Sweden at the World Cup - The Independent
+  [GoogleNews:"Sweden" world cup] Viktor Gyokeres: Sweden's star man | Feature | News - Arsenal.com
+
+— MOST LIKELY OUTCOME —
+  Sweden (41.9%)
+  Tentative exact scores: 1-1 (14.2%), 0-0 (9.2%), 2-1 (9.0%)
+  xG: 1.45 - 1.16   O2.5: 48.6%   BTTS: 54.5%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

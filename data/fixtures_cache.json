@@ -41,10 +41,10 @@
     "stage": "GROUP_STAGE",
     "home": "Netherlands",
     "away": "Japan",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 2,
-      "away": 1
+      "away": 2
     }
   },
   {

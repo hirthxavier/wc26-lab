@@ -106,5 +106,17 @@
       "home": 7,
       "away": 1
     }
+  },
+  {
+    "match_id": 537357,
+    "utc_kickoff": "2026-06-14T20:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Netherlands",
+    "away": "Japan",
+    "status": "FINISHED",
+    "score": {
+      "home": 2,
+      "away": 2
+    }
   }
 ]

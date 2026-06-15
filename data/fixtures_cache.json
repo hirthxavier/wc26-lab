@@ -29,9 +29,9 @@
     "stage": "GROUP_STAGE",
     "home": "Belgium",
     "away": "Egypt",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 0,
+      "home": 1,
       "away": 1
     }
   },
@@ -41,10 +41,10 @@
     "stage": "GROUP_STAGE",
     "home": "Saudi Arabia",
     "away": "Uruguay",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   {

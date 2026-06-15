@@ -118,5 +118,29 @@
       "home": 2,
       "away": 2
     }
+  },
+  {
+    "match_id": 537352,
+    "utc_kickoff": "2026-06-14T23:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Ivory Coast",
+    "away": "Ecuador",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 0
+    }
+  },
+  {
+    "match_id": 537358,
+    "utc_kickoff": "2026-06-15T02:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Sweden",
+    "away": "Tunisia",
+    "status": "FINISHED",
+    "score": {
+      "home": 5,
+      "away": 1
+    }
   }
 ]

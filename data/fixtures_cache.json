@@ -5,10 +5,10 @@
     "stage": "GROUP_STAGE",
     "home": "Sweden",
     "away": "Tunisia",
-    "status": "TIMED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 5,
+      "away": 1
     }
   },
   {

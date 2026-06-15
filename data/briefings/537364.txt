@@ -1,0 +1,48 @@
+⚽ Iran vs New Zealand — GROUP_STAGE
+Coup d'envoi : 16/06 03:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Iran: 57.0%  Draw: 25.9%  New Zealand: 17.1%
+  With news adjustment: 56.9% / 25.9% / 17.2%
+  Elo: 1936.2 vs 1743.9
+
+— LINE MOVEMENT (where money went) —
+  Iran: 52.1% ↑ 53.8%
+  New Zealand: 20.7% ↓ 19.1%
+  Draw: 27.3% → 27.1%
+
+— NEWS: Iran (sentiment +0.00) —
+  🏥 FIFA’s pre-revolutionary Iranian flag ban upheld after emergency hearing - The New York Times
+
+— NEWS: New Zealand (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: medium) —
+  61.0% / 24.0% / 15.0%
+  • Taremi (60 buts en sélection) vs duo Boxall-Surman : qualité technique contre expérience vieillissante, le mismatch central
+  • Wood : revient de 6 mois d'absence (genou), seulement 3 buts en 15 matchs PL cette saison, porteur unique des espoirs néo-zélandais
+  • Ezatolahi-Ghoddos (Iran) vs Bell-Stamenic (NZ) : la bataille du double pivot conditionne qui contrôle le rythme
+  • Garbett (NZ) incertain dernière minute (ischio), perte créative majeure si forfait confirmé
+  Ajustement modéré : home 0.57 → 0.61. Les absences côté NZ (Garbett incertain, Thomas out, Wood diminué) amplifient le fossé technique. Iran a un effectif quasi-complet et Taremi en forme (5 passes dé. vs Corée du Nord récemment). La contrainte logistique iranienne est réelle mais compensée par l'écart de niveau. Le contexte politique ajoute de la pression mais Team Melli a l'habitude. NZ vient de
+
+— PANEL — 59 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] Political tension has undermined World Cup joy, says Iran striker
+  [Voetbal International (NL)] VI Live: veelbesproken Iran start dan toch aan WK tegen Nieuw-Zeeland
+  [GoogleNews:"Iran" world cup] World Cup 2026: Fifa urged to remove official over hand gesture; teams hit back at Ceferin; Iran arrive in US – as it happened - The Guardian
+  [GoogleNews:"Iran" world cup] Trump’s World Cup czar calls early entry for Iran team a ‘goodwill gesture’ - Politico
+  [GoogleNews:"Iran" world cup] FIFA World Cup Day 5 live updates: Cape Verde holds Spain to a stunning draw; Iran to play in U.S. amid peace deal - NBC News
+  [GoogleNews:"Iran" world cup] From The Sports Desk: One day after peace agreement, Iran takes field for World Cup - NBC News
+  [GoogleNews:"Iran" world cup] FIFA’s pre-revolutionary Iranian flag ban upheld after emergency hearing - The New York Times
+  [GoogleNews:"Iran" world cup] Political tension has undermined World Cup joy, says Iran striker - BBC
+
+— MOST LIKELY OUTCOME —
+  Iran (57.0%)
+  Tentative exact scores: 1-1 (12.4%), 2-0 (10.7%), 1-0 (10.0%)
+  xG: 1.83 - 0.92   O2.5: 51.9%   BTTS: 52.2%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

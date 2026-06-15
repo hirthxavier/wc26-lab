@@ -1,0 +1,48 @@
+⚽ Saudi Arabia vs Uruguay — GROUP_STAGE
+Coup d'envoi : 16/06 00:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Saudi Arabia: 9.9%  Draw: 20.4%  Uruguay: 69.7%
+  With news adjustment: 9.9% / 20.4% / 69.7%
+  Elo: 1729.0 vs 2034.3
+
+— LINE MOVEMENT (where money went) —
+  Saudi Arabia: 12.1% ↓ 11.4%
+  Uruguay: 66.4% → 66.7%
+  Draw: 21.5% → 21.9%
+
+— NEWS: Saudi Arabia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Uruguay (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: high) —
+  12.0% / 21.0% / 67.0%
+  • Valverde (capitaine/milieu droit): le patron uruguayen face à un bloc saoudien regroupé, sa capacité à casser les lignes sera décisive
+  • Darwin Núñez vs charnière saoudite (Tambakti-Lajami): l'ex-Liverpool doit exploiter les espaces dans le dos contre une défense 100% domestique sauf Abdulhamid
+  • Salem Al-Dawsari (2 fois meilleur joueur asiatique): seule menace saoudienne en transition, MVP du choc vs Argentine 2022, homme à surveiller absolument
+  • Bentancur-Ugarte: le double pivot doit compenser l'absence de De Arrascaeta et imposer le rythme Bielsa face au bloc de Kanno-Al-Khaibari
+  Ajustement mineur de 0.099→0.12 (home) et 0.697→0.67 (away). Les blessures uruguayennes (3 titulaires majeurs) et le chaos logistique sont matériels mais pas assez pour inverser la dynamique : l'écart Elo (305 points), la supériorité technique (Valverde, Bentancur, Núñez vs effectif 100% domestique saoudien) et l'expérience de Bielsa restent déterminants. L'Arabie peut marquer (d'où BTTS intéressa
+
+— PANEL — 66 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Arabia Saudita-Uruguay, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [Corriere dello Sport (IT)] Uruguay, odissea finita. Bielsa sbarca finalmente a Miami e allenta la tensione: &quot;Nessun problema...&quot;
+  [L'Equipe (FR)] Muslera, le Neuer de l'Uruguay qui veut marquer l'histoire
+  [Ole (AR)] A qué hora juega Uruguay vs. Arabia Saudita y cómo ver hoy EN VIVO el Mundial 2026
+  [Ole (AR)] El contratiempo que tuvo Uruguay a un día del debut en el Mundial
+  [Guardian (UK)] Saudi Arabia v Uruguay: World Cup 2026 – live
+  [Voetbal International (NL)] VI Live: hevige regenval verwacht tijdens duel Saoedi-Arabië en Uruguay
+  [GoogleNews:"Saudi Arabia" world cup] Saudi Arabia vs. Uruguay Prediction, Odds, Picks For World Cup Match - FOX Sports
+
+— MOST LIKELY OUTCOME —
+  Uruguay (69.7%)
+  Tentative exact scores: 0-2 (12.5%), 0-1 (10.0%), 1-1 (9.8%)
+  xG: 0.76 - 2.23   O2.5: 57.4%   BTTS: 48.7%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

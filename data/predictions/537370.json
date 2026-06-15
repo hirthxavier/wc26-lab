@@ -1,0 +1,202 @@
+{
+  "frozen_at_utc": "2026-06-15T20:17:34.468896+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537370,
+    "utc_kickoff": "2026-06-15T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.099,
+    "draw": 0.2043,
+    "away": 0.6967
+  },
+  "model_with_news": {
+    "home": 0.099,
+    "draw": 0.2043,
+    "away": 0.6967
+  },
+  "model_llm": {
+    "home": 0.12,
+    "draw": 0.21,
+    "away": 0.67
+  },
+  "llm_analysis": {
+    "confidence": "high",
+    "key_factors": [
+      "Valverde (capitaine/milieu droit): le patron uruguayen face \u00e0 un bloc saoudien regroup\u00e9, sa capacit\u00e9 \u00e0 casser les lignes sera d\u00e9cisive",
+      "Darwin N\u00fa\u00f1ez vs charni\u00e8re saoudite (Tambakti-Lajami): l'ex-Liverpool doit exploiter les espaces dans le dos contre une d\u00e9fense 100% domestique sauf Abdulhamid",
+      "Salem Al-Dawsari (2 fois meilleur joueur asiatique): seule menace saoudienne en transition, MVP du choc vs Argentine 2022, homme \u00e0 surveiller absolument",
+      "Bentancur-Ugarte: le double pivot doit compenser l'absence de De Arrascaeta et imposer le rythme Bielsa face au bloc de Kanno-Al-Khaibari"
+    ],
+    "rationale": "Ajustement mineur de 0.099\u21920.12 (home) et 0.697\u21920.67 (away). Les blessures uruguayennes (3 titulaires majeurs) et le chaos logistique sont mat\u00e9riels mais pas assez pour inverser la dynamique : l'\u00e9cart Elo (305 points), la sup\u00e9riorit\u00e9 technique (Valverde, Bentancur, N\u00fa\u00f1ez vs effectif 100% domestique saoudien) et l'exp\u00e9rience de Bielsa restent d\u00e9terminants. L'Arabie peut marquer (d'o\u00f9 BTTS int\u00e9ressa",
+    "llm_used": true,
+    "lecture_tactique": "Uruguay de Bielsa attaquera en 4-4-2 avec pressing haut malgr\u00e9 une d\u00e9fense d\u00e9cim\u00e9e (Ara\u00fajo, Gim\u00e9nez, De Arrascaeta OUT avec desgarros). C\u00e1ceres-Olivera en charni\u00e8re improvis\u00e9e, Valverde capitaine d\u00e9cal\u00e9 sur l'aile droite. Arabie Saudite (nouveau coach Donis, 12 s\u00e9ances seulement) jouera tr\u00e8s bas en 4-2-3-1, bloc compact et contres via Salem Al-Dawsari.",
+    "facteur_x": "La fragilit\u00e9 mentale uruguayenne apr\u00e8s le chaos logistique (vol retard\u00e9 24h avant), les 3 blessures en pr\u00e9pa et les tensions Bielsa-Suarez/Cavani. Si l'Arabie tient 60 minutes \u00e0 0-0, la nervosit\u00e9 peut gripper la Celeste.",
+    "verdict": "Uruguay s'impose mais souffre. Bielsa assumera son jeu offensif malgr\u00e9 les absences, N\u00fa\u00f1ez-Vi\u00f1as feront plier un bloc saoudien trop inexp\u00e9riment\u00e9 tactiquement (Donis parachut\u00e9 en avril). Score type : 2-1 ou 1-0 laborieux pour la Celeste.",
+    "angle_pari": "Uruguay gagne sans clean sheet (BTTS-Yes \u00e0 2.10) me semble sous-\u00e9valu\u00e9 : d\u00e9fense uruguayenne remani\u00e9e (C\u00e1ceres-Olivera in\u00e9dits ensemble) + Al-Dawsari peut punir sur un contre. Mais Uruguay trop fort pour ne pas s'imposer.",
+    "infos_recherche": [
+      "Ronald Ara\u00fajo, Jos\u00e9 Mar\u00eda Gim\u00e9nez et Giorgian De Arrascaeta confirm\u00e9s OUT pour le match d'ouverture avec desgarros musculaires (Infobae, 15/06)",
+      "Bielsa assume la responsabilit\u00e9 des blessures mais d\u00e9fend ses protocoles m\u00e9dicaux (Reuters, 15/06)",
+      "Georgios Donis (Arabie Saoudite) n'a dirig\u00e9 que 12 s\u00e9ances d'entra\u00eenement avant le Mondial, coach parachut\u00e9 en avril (Goal.com, 14/06)",
+      "Vol Uruguay retard\u00e9 de 3h \u00e0 cause de probl\u00e8mes administratifs, arriv\u00e9e perturb\u00e9e \u00e0 Miami moins de 24h avant le match (Goal.com, 14/06)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 0.757,
+    "lam_away": 2.232,
+    "elo_home": 1729.0,
+    "elo_away": 2034.3
+  },
+  "formstats": {
+    "form_home": [
+      "N",
+      "V",
+      "D",
+      "D",
+      "D"
+    ],
+    "form_away": [
+      "N",
+      "N",
+      "D",
+      "N",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-09",
+        "opp": "Senegal",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-06-05",
+        "opp": "Puerto Rico",
+        "score": "3-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Ecuador",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Serbia",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Egypt",
+        "score": "0-4",
+        "r": "D"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-03-31",
+        "opp": "Algeria",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "England",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "United States",
+        "score": "1-5",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-15",
+        "opp": "Mexico",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2025-10-13",
+        "opp": "Uzbekistan",
+        "score": "2-1",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 3,
+      "wins_a": 1,
+      "draws": 1,
+      "wins_b": 1,
+      "goals_a": 4,
+      "goals_b": 4,
+      "last_meetings": [
+        {
+          "date": "2018",
+          "score": "0-1",
+          "tournament": "FIFA World Cup"
+        },
+        {
+          "date": "2014",
+          "score": "1-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2002",
+          "score": "3-2",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.1254
+    },
+    {
+      "score": "0-1",
+      "prob": 0.0996
+    },
+    {
+      "score": "1-1",
+      "prob": 0.0978
+    },
+    {
+      "score": "1-2",
+      "prob": 0.095
+    },
+    {
+      "score": "0-3",
+      "prob": 0.0934
+    }
+  ],
+  "ev_summary": null
+}

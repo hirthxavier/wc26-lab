@@ -1,0 +1,199 @@
+{
+  "frozen_at_utc": "2026-06-15T20:18:30.660567+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537364,
+    "utc_kickoff": "2026-06-16T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Iran",
+    "away": "New Zealand",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.57,
+    "draw": 0.259,
+    "away": 0.171
+  },
+  "model_with_news": {
+    "home": 0.5694,
+    "draw": 0.259,
+    "away": 0.1716
+  },
+  "model_llm": {
+    "home": 0.61,
+    "draw": 0.24,
+    "away": 0.15
+  },
+  "llm_analysis": {
+    "confidence": "medium",
+    "key_factors": [
+      "Taremi (60 buts en s\u00e9lection) vs duo Boxall-Surman : qualit\u00e9 technique contre exp\u00e9rience vieillissante, le mismatch central",
+      "Wood : revient de 6 mois d'absence (genou), seulement 3 buts en 15 matchs PL cette saison, porteur unique des espoirs n\u00e9o-z\u00e9landais",
+      "Ezatolahi-Ghoddos (Iran) vs Bell-Stamenic (NZ) : la bataille du double pivot conditionne qui contr\u00f4le le rythme",
+      "Garbett (NZ) incertain derni\u00e8re minute (ischio), perte cr\u00e9ative majeure si forfait confirm\u00e9"
+    ],
+    "rationale": "Ajustement mod\u00e9r\u00e9 : home 0.57 \u2192 0.61. Les absences c\u00f4t\u00e9 NZ (Garbett incertain, Thomas out, Wood diminu\u00e9) amplifient le foss\u00e9 technique. Iran a un effectif quasi-complet et Taremi en forme (5 passes d\u00e9. vs Cor\u00e9e du Nord r\u00e9cemment). La contrainte logistique iranienne est r\u00e9elle mais compens\u00e9e par l'\u00e9cart de niveau. Le contexte politique ajoute de la pression mais Team Melli a l'habitude. NZ vient de",
+    "llm_used": true,
+    "lecture_tactique": "Iran en 4-3-3 classique, bloc moyen-bas, exploite Taremi en pivot. Nouvelle-Z\u00e9lande en 4-2-3-1 ultra-d\u00e9fensif, c\u00e8de le ballon, murs compacts, mise tout sur coups de pied arr\u00eat\u00e9s avec Wood. Match de gestion iranienne vs r\u00e9silience kiwi, d\u00e9cid\u00e9 sur un d\u00e9tail ou une erreur All Whites.",
+    "facteur_x": "La contrainte logistique iranienne : Team Melli entre aux USA jour-match uniquement, repart dans les 24h. Fatigue mentale et rythme perturb\u00e9 face \u00e0 une \u00e9quipe invaincue en 2010 qui sait frustrer.",
+    "verdict": "L'Iran dispose de trop de qualit\u00e9 individuelle (Taremi, Jahanbakhsh si apte) et d'exp\u00e9rience pour ne pas s'imposer face \u00e0 la nation la moins bien class\u00e9e du tournoi (85e FIFA). La Nouvelle-Z\u00e9lande, accabl\u00e9e par les blessures de Wood et la forme catastrophique (9 d\u00e9faites en 11), r\u00e9sistera un temps mais craquera. 2-0 ou 1-0 Iran, propre et chirurgical.",
+    "angle_pari": "Under 2.5 buts semble solide : Iran lents en 1\u00e8re mi-temps historiquement (8 derniers buts WC en 2nde p\u00e9riode), NZ n'a pas marqu\u00e9 lors de 4 des 5 derniers matchs. Prudence partag\u00e9e.",
+    "infos_recherche": [
+      "Iran : Jahanbakhsh, Eckert, Torabi bless\u00e9s absents ; Cheshmi et Ezatolahi r\u00e9cup\u00e9r\u00e9s cette semaine (14-15 juin)",
+      "Nouvelle-Z\u00e9lande : Matt Garbett douteux (ischio, n'a pas termin\u00e9 l'entra\u00eenement du 14 juin), Ryan Thomas forfait (ischio)",
+      "Chris Wood apte mais sort de 6 mois d'absence (genou, retour avril), seulement 3 buts PL en 15 matchs cette saison",
+      "Iran contraint d'entrer/sortir des USA jour-match uniquement, tension politique maximale \u00e0 LA (15 juin 2026)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [
+      "FIFA\u2019s pre-revolutionary Iranian flag ban upheld after emergency hearing - The New York Times"
+    ],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.828,
+    "lam_away": 0.925,
+    "elo_home": 1936.2,
+    "elo_away": 1743.9
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "V",
+      "D",
+      "N"
+    ],
+    "form_away": [
+      "D",
+      "D",
+      "V",
+      "D",
+      "D"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-04",
+        "opp": "Mali",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-29",
+        "opp": "Gambia",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Costa Rica",
+        "score": "5-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Nigeria",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Uzbekistan",
+        "score": "0-0",
+        "r": "N"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "England",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Haiti",
+        "score": "0-4",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-30",
+        "opp": "Chile",
+        "score": "4-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Finland",
+        "score": "0-2",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Ecuador",
+        "score": "0-2",
+        "r": "D"
+      }
+    ],
+    "h2h": {
+      "played": 2,
+      "wins_a": 1,
+      "draws": 1,
+      "wins_b": 0,
+      "goals_a": 3,
+      "goals_b": 0,
+      "last_meetings": [
+        {
+          "date": "2003",
+          "score": "3-0",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "1973",
+          "score": "0-0",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.124
+    },
+    {
+      "score": "2-0",
+      "prob": 0.1065
+    },
+    {
+      "score": "1-0",
+      "prob": 0.1004
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0985
+    },
+    {
+      "score": "0-0",
+      "prob": 0.08
+    }
+  ],
+  "ev_summary": null
+}

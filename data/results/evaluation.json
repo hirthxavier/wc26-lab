@@ -25,17 +25,6 @@
       "logloss_llm": 0.6733
     },
     {
-      "match_id": 537333,
-      "match": "Canada v Bosnia-Herzegovina",
-      "actual": "draw",
-      "brier_stats": 1.712,
-      "logloss_stats": 2.7016,
-      "brier_news": 1.7087,
-      "logloss_news": 2.7016,
-      "brier_llm": 1.3755,
-      "logloss_llm": 1.9697
-    },
-    {
       "match_id": 537339,
       "match": "Brazil v Morocco",
       "actual": "draw",
@@ -123,39 +112,65 @@
       "logloss_llm": 0.8675,
       "brier_close": 0.368,
       "logloss_close": 0.6811
+    },
+    {
+      "match_id": 537364,
+      "match": "Iran v New Zealand",
+      "actual": "draw",
+      "brier_stats": 0.9032,
+      "logloss_stats": 1.3509,
+      "brier_news": 0.9027,
+      "logloss_news": 1.3509,
+      "brier_llm": 0.9722,
+      "logloss_llm": 1.4271,
+      "brier_close": 0.8487,
+      "logloss_close": 1.2982
+    },
+    {
+      "match_id": 537370,
+      "match": "Saudi Arabia v Uruguay",
+      "actual": "draw",
+      "brier_stats": 1.1283,
+      "logloss_stats": 1.5882,
+      "brier_news": 1.1283,
+      "logloss_news": 1.5882,
+      "brier_llm": 1.0874,
+      "logloss_llm": 1.5606,
+      "brier_close": 1.0676,
+      "logloss_close": 1.519
     }
   ],
   "summary": {
     "stats": {
-      "n": 10,
-      "mean_brier": 0.6791,
+      "n": 11,
+      "mean_brier": 0.6464,
       "brier_95ci": [
-        0.3741,
-        1.0133
+        0.4073,
+        0.877
       ]
     },
     "news": {
-      "n": 10,
-      "mean_brier": 0.6785,
+      "n": 11,
+      "mean_brier": 0.6461,
       "brier_95ci": [
-        0.3792,
-        1.0074
+        0.4103,
+        0.8893
       ]
     },
     "llm": {
-      "n": 10,
-      "mean_brier": 0.5987,
+      "n": 11,
+      "mean_brier": 0.6065,
       "brier_95ci": [
-        0.3492,
-        0.8595
+        0.3853,
+        0.8202
       ]
     },
     "close": {
-      "n": 7,
-      "mean_brier": 0.4966,
+      "n": 9,
+      "mean_brier": 0.5991,
       "brier_95ci": [
-        0.2171,
-        0.7828
+        0.3448,
+        0.8418
       ]
     }
   }

@@ -1,53 +1,5 @@
 [
   {
-    "match_id": 537358,
-    "utc_kickoff": "2026-06-15T02:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Sweden",
-    "away": "Tunisia",
-    "status": "FINISHED",
-    "score": {
-      "home": 5,
-      "away": 1
-    }
-  },
-  {
-    "match_id": 537369,
-    "utc_kickoff": "2026-06-15T16:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Spain",
-    "away": "Cape Verde Islands",
-    "status": "FINISHED",
-    "score": {
-      "home": 0,
-      "away": 0
-    }
-  },
-  {
-    "match_id": 537363,
-    "utc_kickoff": "2026-06-15T19:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Belgium",
-    "away": "Egypt",
-    "status": "FINISHED",
-    "score": {
-      "home": 1,
-      "away": 1
-    }
-  },
-  {
-    "match_id": 537370,
-    "utc_kickoff": "2026-06-15T22:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Saudi Arabia",
-    "away": "Uruguay",
-    "status": "IN_PLAY",
-    "score": {
-      "home": 0,
-      "away": 0
-    }
-  },
-  {
     "match_id": 537364,
     "utc_kickoff": "2026-06-16T01:00:00Z",
     "stage": "GROUP_STAGE",
@@ -185,6 +137,42 @@
     "stage": "GROUP_STAGE",
     "home": "Canada",
     "away": "Qatar",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537330,
+    "utc_kickoff": "2026-06-19T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Mexico",
+    "away": "South Korea",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537348,
+    "utc_kickoff": "2026-06-19T19:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "United States",
+    "away": "Australia",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537342,
+    "utc_kickoff": "2026-06-19T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Scotland",
+    "away": "Morocco",
     "status": "TIMED",
     "score": {
       "home": null,

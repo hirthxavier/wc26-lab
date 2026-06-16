@@ -31,8 +31,8 @@
     "away": "Bosnia-Herzegovina",
     "status": "FINISHED",
     "score": {
-      "home": 1,
-      "away": 1
+      "home": null,
+      "away": null
     }
   },
   {
@@ -161,6 +161,18 @@
     "stage": "GROUP_STAGE",
     "home": "Belgium",
     "away": "Egypt",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "match_id": 537370,
+    "utc_kickoff": "2026-06-15T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Saudi Arabia",
+    "away": "Uruguay",
     "status": "FINISHED",
     "score": {
       "home": 1,

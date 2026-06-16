@@ -1,0 +1,48 @@
+⚽ Iraq vs Norway — GROUP_STAGE
+Coup d'envoi : 17/06 00:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Iraq: 9.8%  Draw: 20.4%  Norway: 69.8%
+  With news adjustment: 9.9% / 20.4% / 69.7%
+  Elo: 1833.6 vs 2140.3
+
+— LINE MOVEMENT (where money went) —
+  Iraq: 6.5% → 6.8%
+  Norway: 79.5% → 79.2%
+  Draw: 13.9% → 14.0%
+
+— NEWS: Iraq (sentiment +0.04) —
+  No injury/turmoil flags detected.
+
+— NEWS: Norway (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: high) —
+  12.0% / 18.0% / 70.0%
+  • Haaland vs défense centrale irakienne (Tahseen/Sulaka) : 55 buts en 50 sélections, 16 en qualifs, c'est SON moment historique. La physicalité et le timing du Cyborg vont terroriser une charnière vieillissante
+  • Ødegaard (c) : Le métronome arsenal dicte tout. Ses changements de rythme et passes entre lignes vont désorganiser le bloc irakien. Pleine forme confirmée après blessure
+  • Zidane Iqbal : L'ex-United, seul capable techniquement de tenir le ballon sous pression et lancer les contres. Si la Norvège l'étouffe, l'Irak n'existe pas offensivement
+  • Aymen Hussein : 34 buts en 96 sélections, leader émotionnel. Doit transformer la moindre demi-occasion, car il n'en aura que 2-3 maximum
+  Ajustement léger à la baisse du nul (0.204 → 0.18) et légère hausse de la victoire Norvège (0.698 → 0.70) car les recherches confirment : effectif norvégien au complet et en forme optimale, Haaland affûté, tandis que l'Irak perd un latéral titulaire et vient de perdre 0-2 contre le Venezuela. La forme récente et l'absence de problèmes physiques chez les Scandinaves renforcent leur statut de favori
+
+— PANEL — 57 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] Meet the Iraq player set to make history for Pakistan
+  [GoogleNews:"Iraq" world cup] World Cup 2026: Iraq's former Man Utd player Zidane Iqbal to become first Pakistani to play at World Cup - BBC
+  [GoogleNews:"Iraq" world cup] Iraq vs. Norway Prediction, Odds, Picks For World Cup Match - FOX Sports
+  [GoogleNews:"Iraq" world cup] When is France's next World Cup game? France World Cup schedule, ticket prices - USA Today
+  [GoogleNews:"Iraq" world cup] US visa rules leave Iraq’s World Cup fans behind - Al Jazeera
+  [GoogleNews:"Iraq" world cup] Meet Iraq’s World Cup team - WPRI.com
+  [GoogleNews:"Iraq" world cup] 2026 World Cup: Iraq to face Norway at Boston Stadium - NBC Boston
+  [GoogleNews:"Iraq" world cup] Norway, Erling Haaland look to make World Cup statement vs. Iraq in Foxboro - Boston Herald
+
+— MOST LIKELY OUTCOME —
+  Norway (69.8%)
+  Tentative exact scores: 0-2 (12.6%), 0-1 (10.0%), 1-1 (9.8%)
+  xG: 0.76 - 2.24   O2.5: 57.5%   BTTS: 48.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

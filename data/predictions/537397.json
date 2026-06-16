@@ -1,0 +1,192 @@
+{
+  "frozen_at_utc": "2026-06-16T19:54:21.588143+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537397,
+    "utc_kickoff": "2026-06-17T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Argentina",
+    "away": "Algeria",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.6804,
+    "draw": 0.2123,
+    "away": 0.1072
+  },
+  "model_with_news": {
+    "home": 0.6804,
+    "draw": 0.2123,
+    "away": 0.1072
+  },
+  "model_llm": {
+    "home": 0.7,
+    "draw": 0.2,
+    "away": 0.1
+  },
+  "llm_analysis": {
+    "confidence": "high",
+    "key_factors": [
+      "**Messi vs Bensebaini (ou rempla\u00e7ant)** : si Bensebaini ne joue pas \u00e0 100%, Messi va d\u00e9vorer ce couloir, d\u00e9crocher entre lignes et cr\u00e9er",
+      "**De Paul\u2013Fernandez\u2013Mac Allister** : ce trio dictera tempo et occupation ; l'Alg\u00e9rie doit les harceler haut sinon c'est la ronde",
+      "**Amoura\u2013Mahrez en contre** : seule arme alg\u00e9rienne r\u00e9elle, mais ils devront sprinter 70 m\u00e8tres sans soutien face \u00e0 Romero\u2013Otamendi",
+      "**Lautaro Martinez** : doit attaquer l'espace, Mandi et Ait Nouri auront du mal \u00e0 suivre ses appels"
+    ],
+    "rationale": "Ajustement modeste (+2% ARG, -1% NUL, -1% ALG) justifi\u00e9 par l'incertitude Bensebaini, lat\u00e9ral gauche cl\u00e9 face au c\u00f4t\u00e9 fort argentin. Tagliafico forfait compens\u00e9 par Medina/Lisandro. Forme r\u00e9cente, Elo (2244 vs 1954), et profondeur de banc confirment domination attendue. Pas de surajustement : un match d'ouverture de Coupe du Monde reste impr\u00e9visible (cf. Arabie 2022), d'o\u00f9 draw maintenu \u00e0 20%.",
+    "llm_used": true,
+    "lecture_tactique": "L'Argentine jouera en 4-3-3 avec Messi faux ailier droit et Almada c\u00f4t\u00e9 gauche, exploitant l'axe De Paul\u2013Fernandez\u2013Mac Allister pour casser le bloc alg\u00e9rien. L'Alg\u00e9rie de Petkovic d\u00e9fendra en 4-2-3-1 compact, misera sur Mahrez en transition et Amoura en contre, mais l'absence probable de Bensebaini (cheville) fragilise leur flanc gauche face aux mont\u00e9es de Molina et aux diagonales de Messi.",
+    "facteur_x": "La gestion de Messi par Scaloni : \u00e0 39 ans et apr\u00e8s une g\u00eane ischio, il pourrait sortir \u00e0 la 65e si c'est pli\u00e9 \u2014 mais 20 minutes de Messi suffisent pour tuer un match d'ouverture nerveux",
+    "verdict": "L'Argentine contr\u00f4le, casse le verrou alg\u00e9rien vers la 55e\u201365e, et acc\u00e9l\u00e8re en fin de match. Sc\u00e9nario type : **2-0 ou 3-0**, clean sheet, Messi impliqu\u00e9, Lautaro ou Almada finisseurs. L'Alg\u00e9rie vendra ch\u00e8rement sa peau 60 minutes, puis pliera.",
+    "angle_pari": "**Messi buteur OU passeur** (cote ~1.70) semble sous-cot\u00e9 : en forme, 200e s\u00e9lection, motivation symbolique, et l'Alg\u00e9rie sans Bensebaini solide va souffrir sur son c\u00f4t\u00e9",
+    "infos_recherche": [
+      "Tagliafico (ARG) forfait \u2014 d\u00e9chirure sol\u00e9us vs Honduras (15 juin)",
+      "Messi, E. Martinez, Romero d\u00e9clar\u00e9s aptes malgr\u00e9 p\u00e9pins (15-16 juin)",
+      "Bensebaini (ALG) incertain cheville, probable absence (16 juin)",
+      "Alg\u00e9rie : aucune suspension/blessure majeure confirm\u00e9e ailleurs (16 juin)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 2.173,
+    "lam_away": 0.778,
+    "elo_home": 2244.2,
+    "elo_away": 1954.1
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "form_away": [
+      "V",
+      "N",
+      "V",
+      "D",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-09",
+        "opp": "Iceland",
+        "score": "3-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Honduras",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Zambia",
+        "score": "5-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Mauritania",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-14",
+        "opp": "Angola",
+        "score": "2-0",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-03",
+        "opp": "Netherlands",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Uruguay",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Guatemala",
+        "score": "7-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-01-10",
+        "opp": "Nigeria",
+        "score": "0-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-01-06",
+        "opp": "DR Congo",
+        "score": "1-0",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 1,
+      "wins_a": 1,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 4,
+      "goals_b": 3,
+      "last_meetings": [
+        {
+          "date": "2007",
+          "score": "4-3",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "2-0",
+      "prob": 0.1235
+    },
+    {
+      "score": "1-1",
+      "prob": 0.1017
+    },
+    {
+      "score": "1-0",
+      "prob": 0.1004
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0961
+    },
+    {
+      "score": "3-0",
+      "prob": 0.0895
+    }
+  ],
+  "ev_summary": null
+}

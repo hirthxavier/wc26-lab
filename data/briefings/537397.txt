@@ -1,0 +1,48 @@
+⚽ Argentina vs Algeria — GROUP_STAGE
+Coup d'envoi : 17/06 03:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Argentina: 68.0%  Draw: 21.2%  Algeria: 10.7%
+  With news adjustment: 68.0% / 21.2% / 10.7%
+  Elo: 2244.2 vs 1954.1
+
+— LINE MOVEMENT (where money went) —
+  Algeria: 10.6% ↑ 11.8%
+  Argentina: 68.8% ↓ 66.8%
+  Draw: 20.6% ↑ 21.4%
+
+— NEWS: Argentina (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Algeria (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: high) —
+  70.0% / 20.0% / 10.0%
+  • **Messi vs Bensebaini (ou remplaçant)** : si Bensebaini ne joue pas à 100%, Messi va dévorer ce couloir, décrocher entre lignes et créer
+  • **De Paul–Fernandez–Mac Allister** : ce trio dictera tempo et occupation ; l'Algérie doit les harceler haut sinon c'est la ronde
+  • **Amoura–Mahrez en contre** : seule arme algérienne réelle, mais ils devront sprinter 70 mètres sans soutien face à Romero–Otamendi
+  • **Lautaro Martinez** : doit attaquer l'espace, Mandi et Ait Nouri auront du mal à suivre ses appels
+  Ajustement modeste (+2% ARG, -1% NUL, -1% ALG) justifié par l'incertitude Bensebaini, latéral gauche clé face au côté fort argentin. Tagliafico forfait compensé par Medina/Lisandro. Forme récente, Elo (2244 vs 1954), et profondeur de banc confirment domination attendue. Pas de surajustement : un match d'ouverture de Coupe du Monde reste imprévisible (cf. Arabie 2022), d'où draw maintenu à 20%.
+
+— PANEL — 59 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Scontri tra tifosi per Argentina-Algeria: pugni e calci a Times Square. &Egrave; caos a New York
+  [Corriere dello Sport (IT)] Dove vedere Argentina-Algeria, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [Guardian (UK)] Class acts: the maths teacher who taught Argentina’s Álvarez and Fernández
+  [Record (PT)] <![CDATA[ José vs Mourinho e as hipóteses da Argentina: «Têm o grande para os liderar» ]]>
+  [GoogleNews:"Argentina" world cup] How to Watch the World Cup Today: Schedule, Times, TV, Streaming for France, Argentina, More - FOX Sports
+  [GoogleNews:"Argentina" world cup] Where is Argentina vs. Algeria being played? World Cup 2026 group match - USA Today
+  [GoogleNews:"Argentina" world cup] Can Messi and Argentina repeat as FIFA World Cup champions? 🇦🇷 - FOX Sports
+  [GoogleNews:"Argentina" world cup] Argentina vs. Algeria Prediction, Odds, Picks For World Cup Match - FOX Sports
+
+— MOST LIKELY OUTCOME —
+  Argentina (68.0%)
+  Tentative exact scores: 2-0 (12.3%), 1-1 (10.2%), 1-0 (10.0%)
+  xG: 2.17 - 0.78   O2.5: 56.6%   BTTS: 49.2%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

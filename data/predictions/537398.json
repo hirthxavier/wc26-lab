@@ -1,0 +1,186 @@
+{
+  "frozen_at_utc": "2026-06-16T19:55:25.234955+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537398,
+    "utc_kickoff": "2026-06-17T04:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Austria",
+    "away": "Jordan",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.4707,
+    "draw": 0.2876,
+    "away": 0.2416
+  },
+  "model_with_news": {
+    "home": 0.4707,
+    "draw": 0.2876,
+    "away": 0.2416
+  },
+  "model_llm": {
+    "home": 0.52,
+    "draw": 0.26,
+    "away": 0.22
+  },
+  "llm_analysis": {
+    "confidence": "medium",
+    "key_factors": [
+      "Sabitzer vs Al-Rashdan : le Munichois doit d\u00e9border le milieu d\u00e9fensif jordanien, cl\u00e9 du verrou",
+      "Tamari vs Laimer : l'ailier de Rennes (7 buts, 11 passes \u00e0 Ligue 1) seule arme offensive cr\u00e9dible face au piston bavarois reconverti",
+      "Alaba : le capitaine madril\u00e8ne revient de p\u00e9pins, son leadership d\u00e9fensif sera scrut\u00e9",
+      "Arnautovic : 47 buts en s\u00e9lection, le v\u00e9t\u00e9ran doit punir une d\u00e9fense inexp\u00e9riment\u00e9e \u00e0 ce niveau"
+    ],
+    "rationale": "J'ajuste l\u00e9g\u00e8rement \u00e0 la hausse la probabilit\u00e9 autrichienne (0.471 \u2192 0.52) en raison de l'absence prolong\u00e9e d'Al-Naimat (meilleur buteur jordanien en qualifs) qui fragilise encore l'attaque d\u00e9j\u00e0 limit\u00e9e, et de la pr\u00e9sence confirm\u00e9e d'Alaba qui s\u00e9curise l'arri\u00e8re-garde. Le nul baisse (0.288 \u2192 0.26) car l'Autriche, \u00e0 domicile technique \u00e0 Levi's et sous pression de r\u00e9sultat avant Argentine, cherchera",
+    "llm_used": true,
+    "lecture_tactique": "Rangnick d\u00e9ploie son gegenpressing en 4-2-3-1 avec le double pivot Xaver Schlager-Seiwald pour \u00e9touffer. La Jordanie r\u00e9pond en 3-4-3 ultra-compact devenant 5-2-3 sans ballon, pariant sur Tamari en transition. Le match se jouera sur la capacit\u00e9 autrichienne \u00e0 casser ce bloc disciplin\u00e9 avant que la frustration ne s'installe.",
+    "facteur_x": "L'absence de Baumgartner prive l'Autriche de cr\u00e9ativit\u00e9 dans les petits espaces. Si Gregoritsch ne compense pas en faux-9, le pressing autrichien pourrait tourner \u00e0 vide contre un bloc jordanien qui a tenu t\u00eate au Maroc (2-3 en finale Arab Cup) et co",
+    "verdict": "L'Autriche s'impose mais sans \u00e9clat, 2-0 ou 1-0. La Jordanie fera le dos rond 70 minutes, Tamari inqui\u00e9tera ponctuellement, mais l'\u00e9cart de Bundesliga/exp\u00e9rience Euro fera la diff\u00e9rence en seconde p\u00e9riode via set-piece ou pressing haut. Pas de feu d'artifice, juste un travail professionnel autrichien.",
+    "angle_pari": "Under 2.5 buts tentant : l'Autriche joue propre (3 clean sheets sur 5), la Jordanie encaisse mais contre des g\u00e9ants (Colombie, Suisse). Premier match de Mondial, nervosit\u00e9, prudence tactique : 1-0 ou 2-0 plus probable que festival.",
+    "infos_recherche": [
+      "16 juin : Baumgartner (blessure cuisse grave) forfait confirm\u00e9, remplac\u00e9 par Ljubicic (multiples sources)",
+      "16 juin : Alaba apte apr\u00e8s contracture, titulaire pr\u00e9vu avec Lienhart (Goal.com, 4h)",
+      "16 juin : Jordanie priv\u00e9e d'Al-Naimat (8 buts en qualifs, LCA depuis d\u00e9cembre) et Sabra (Sports Mole, 16h)",
+      "16 juin : aucune suspension ni blessure suppl\u00e9mentaire confirm\u00e9e pour les deux \u00e9quipes (Goal.com, WhosScored, 12h)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.573,
+    "lam_away": 1.075,
+    "elo_home": 1942.5,
+    "elo_away": 1835.0
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "V",
+      "N",
+      "V"
+    ],
+    "form_away": [
+      "D",
+      "D",
+      "N",
+      "N",
+      "D"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-01",
+        "opp": "Tunisia",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "South Korea",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Ghana",
+        "score": "5-1",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Bosnia and Herzegovina",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2025-11-15",
+        "opp": "Cyprus",
+        "score": "2-0",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-07",
+        "opp": "Colombia",
+        "score": "0-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Switzerland",
+        "score": "1-4",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Nigeria",
+        "score": "2-2",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Costa Rica",
+        "score": "2-2",
+        "r": "N"
+      },
+      {
+        "date": "2025-12-18",
+        "opp": "Morocco",
+        "score": "2-3",
+        "r": "D"
+      }
+    ],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1377
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0941
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0935
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0888
+    },
+    {
+      "score": "2-0",
+      "prob": 0.0876
+    }
+  ],
+  "ev_summary": null
+}

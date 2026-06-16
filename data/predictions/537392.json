@@ -1,0 +1,186 @@
+{
+  "frozen_at_utc": "2026-06-16T19:53:17.167044+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537392,
+    "utc_kickoff": "2026-06-16T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Iraq",
+    "away": "Norway",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.0983,
+    "draw": 0.2035,
+    "away": 0.6982
+  },
+  "model_with_news": {
+    "home": 0.0995,
+    "draw": 0.2035,
+    "away": 0.697
+  },
+  "model_llm": {
+    "home": 0.12,
+    "draw": 0.18,
+    "away": 0.7
+  },
+  "llm_analysis": {
+    "confidence": "high",
+    "key_factors": [
+      "Haaland vs d\u00e9fense centrale irakienne (Tahseen/Sulaka) : 55 buts en 50 s\u00e9lections, 16 en qualifs, c'est SON moment historique. La physicalit\u00e9 et le timing du Cyborg vont terroriser une charni\u00e8re vieillissante",
+      "\u00d8degaard (c) : Le m\u00e9tronome arsenal dicte tout. Ses changements de rythme et passes entre lignes vont d\u00e9sorganiser le bloc irakien. Pleine forme confirm\u00e9e apr\u00e8s blessure",
+      "Zidane Iqbal : L'ex-United, seul capable techniquement de tenir le ballon sous pression et lancer les contres. Si la Norv\u00e8ge l'\u00e9touffe, l'Irak n'existe pas offensivement",
+      "Aymen Hussein : 34 buts en 96 s\u00e9lections, leader \u00e9motionnel. Doit transformer la moindre demi-occasion, car il n'en aura que 2-3 maximum"
+    ],
+    "rationale": "Ajustement l\u00e9ger \u00e0 la baisse du nul (0.204 \u2192 0.18) et l\u00e9g\u00e8re hausse de la victoire Norv\u00e8ge (0.698 \u2192 0.70) car les recherches confirment : effectif norv\u00e9gien au complet et en forme optimale, Haaland aff\u00fbt\u00e9, tandis que l'Irak perd un lat\u00e9ral titulaire et vient de perdre 0-2 contre le Venezuela. La forme r\u00e9cente et l'absence de probl\u00e8mes physiques chez les Scandinaves renforcent leur statut de favori",
+    "llm_used": true,
+    "lecture_tactique": "Choc de styles total : l'Irak d'Arnold en bloc d\u00e9fensif ultra-compact 4-4-2, misera sur la discipline et les contres via Hussein/Al-Hamadi. Face \u00e0 eux, le 4-3-3 norv\u00e9gien est une machine \u00e0 broyer, construite autour du triangle \u00d8degaard-Haaland-S\u00f8rloth. La Norv\u00e8ge va monopoliser le ballon, presser haut avec Berge/Aursnes, et chercher \u00e0 alimenter Haaland dans la profondeur. L'Irak doit r\u00e9sister \u00e0 la",
+    "facteur_x": "La gestion \u00e9motionnelle de l'Irak : leur premi\u00e8re Coupe du Monde depuis 1986, une nation qui a attendu 40 ans. L'adr\u00e9naline peut les porter 20-30 minutes ou les t\u00e9taniser face \u00e0 la pression Haaland. Si la Norv\u00e8ge marque t\u00f4t, \u00e7a peut virer au massacre",
+    "verdict": "La Norv\u00e8ge va d\u00e9rouler. Haaland ouvre le score avant la 30e, \u00d8degaard orchestre, et la profondeur de banc (Bobb, Strand Larsen) enfonce le clou en fin de match. L'Irak peut tenir une mi-temps gr\u00e2ce \u00e0 son organisation, mais la qualit\u00e9 individuelle norv\u00e9gienne fera la diff\u00e9rence. Score attendu : 0-3 ou 1-3 si l'Irak gratte un but en transition.",
+    "angle_pari": "Norway -1.5 Asian Handicap autour de 1.80-1.90 me semble sous-cot\u00e9. La Norv\u00e8ge a massacr\u00e9 l'Italie 4-1 \u00e0 l'ext\u00e9rieur, marqu\u00e9 37 buts en 8 qualifs. L'Irak n'a marqu\u00e9 qu'un but sur ses deux derniers matchs. Le +2 buts d'\u00e9cart est r\u00e9aliste, surtout si H",
+    "infos_recherche": [
+      "Aucune blessure ni suspension pour les deux \u00e9quipes (16 juin 2026)",
+      "Haaland confirm\u00e9 \u00e0 100% physiquement par le s\u00e9lectionneur Solbakken (15 juin)",
+      "\u00d8degaard en pleine forme apr\u00e8s inqui\u00e9tudes, a marqu\u00e9 vs Maroc (7 juin)",
+      "Irak : blessure du lat\u00e9ral Ahmed Yahya (remplac\u00e9 par Maknzi), Aymen Hussein disponible malgr\u00e9 retard a\u00e9roport Chicago (14-15 juin)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.04,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 0.755,
+    "lam_away": 2.238,
+    "elo_home": 1833.6,
+    "elo_away": 2140.3
+  },
+  "formstats": {
+    "form_home": [
+      "D",
+      "N",
+      "V",
+      "V",
+      "D"
+    ],
+    "form_away": [
+      "N",
+      "V",
+      "N",
+      "D",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-09",
+        "opp": "Venezuela",
+        "score": "0-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Spain",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-05-29",
+        "opp": "Andorra",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Bolivia",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2025-12-12",
+        "opp": "Jordan",
+        "score": "0-1",
+        "r": "D"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-07",
+        "opp": "Morocco",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Sweden",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Switzerland",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Netherlands",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-16",
+        "opp": "Italy",
+        "score": "4-1",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.1256
+    },
+    {
+      "score": "0-1",
+      "prob": 0.0995
+    },
+    {
+      "score": "1-1",
+      "prob": 0.0975
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0949
+    },
+    {
+      "score": "0-3",
+      "prob": 0.0937
+    }
+  ],
+  "ev_summary": null
+}

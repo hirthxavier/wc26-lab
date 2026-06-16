@@ -31,8 +31,8 @@
     "away": "Bosnia-Herzegovina",
     "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   {
@@ -177,6 +177,18 @@
     "score": {
       "home": 1,
       "away": 1
+    }
+  },
+  {
+    "match_id": 537364,
+    "utc_kickoff": "2026-06-16T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Iran",
+    "away": "New Zealand",
+    "status": "FINISHED",
+    "score": {
+      "home": 2,
+      "away": 2
     }
   }
 ]

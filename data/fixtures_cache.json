@@ -5,10 +5,10 @@
     "stage": "GROUP_STAGE",
     "home": "Iran",
     "away": "New Zealand",
-    "status": "TIMED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 2
     }
   },
   {

@@ -1,0 +1,48 @@
+⚽ England vs Croatia — GROUP_STAGE
+Coup d'envoi : 17/06 22:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  England: 52.4%  Draw: 27.4%  Croatia: 20.2%
+  With news adjustment: 52.2% / 27.4% / 20.4%
+  Elo: 2209.1 vs 2056.4
+
+— LINE MOVEMENT (where money went) —
+  Croatia: 19.5% ↓ 17.7%
+  England: 55.4% ↑ 57.2%
+  Draw: 25.2% → 25.1%
+
+— NEWS: England (sentiment -0.04) —
+  🏥 World Cup 2026: England’s Livramento ruled out; Ghana seek to overturn Partey ban; Iran player’s visa expires – as it happened - The Guardian
+
+— NEWS: Croatia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: high) —
+  54.0% / 26.0% / 20.0%
+  • Bellingham vs Modrić : le maestro de 40 ans, revenu d'une fracture de la pommette, dictera le tempo croate — Bellingham doit le presser haut sans faute
+  • Kane vs Vušković (19 ans) : le gamin du Spurs affrontera l'élite, physique et agressif mais vulnérable face au jeu de leurre de Kane — duels de fouls attendus
+  • Gvardiol de retour de fracture du tibia (confirmé titulaire par Dalić) : clé défensive croate mais rusty, Gordon et Madueke peuvent l'attaquer en un-contre-un
+  • Saka sur le banc (Achille), Konsa-Stones en charnière (Guehi remplaçant), Kovačić en méforme mais titulaire — zones de faiblesse à exploiter des deux côtés
+  Aucun ajustement matériel des probabilités Elo. Les absences (Livramento côté anglais, aucune côté croate hors méforme de Kovačić) ne bouleversent pas l'équilibre. L'Angleterre reste favorite légitime (Elo 2209 vs 2056, forme stratosphérique, clean sheets en série). La Croatie, malgré son pedigree, arrive avec une défense poreuse et des cadres vieillissants. Les compos officielles confirment : Tuc
+
+— PANEL — 61 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] Can Bellingham become England's superstar once more at the World Cup?
+  [BBC Sport (UK)] How Modric and Croatia continue to defy the odds
+  [BBC Sport (UK)] England won't change style despite US heat - Tuchel
+  [Guardian (UK)] England v Croatia: World Cup 2026 – live
+  [Kicker (DE)] LIVE! Erstes WM-Spiel für Tuchel: England um Kane fordert Modrics Kroatien zum Topspiel
+  [GoogleNews:"England" world cup] World Cup 2026: Starmer tells England to ‘dare to dream’, environment protests planned for Mexico match – as it happened - The Guardian
+  [GoogleNews:"England" world cup] LIVE from England vs Croatia: World Cup lineups, where to watch showdown - USA Today
+  [GoogleNews:"England" world cup] Who does England play next in World Cup? Shop tickets, see schedule - USA Today
+
+— MOST LIKELY OUTCOME —
+  England (52.4%)
+  Tentative exact scores: 1-1 (13.1%), 2-0 (9.8%), 1-0 (9.8%)
+  xG: 1.7 - 0.99   O2.5: 50.5%   BTTS: 53.2%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

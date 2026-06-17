@@ -1,0 +1,188 @@
+{
+  "frozen_at_utc": "2026-06-17T19:38:50.130991+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537410,
+    "utc_kickoff": "2026-06-17T23:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Ghana",
+    "away": "Panama",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.1385,
+    "draw": 0.2384,
+    "away": 0.6231
+  },
+  "model_with_news": {
+    "home": 0.1382,
+    "draw": 0.2384,
+    "away": 0.6234
+  },
+  "model_llm": {
+    "home": 0.2078,
+    "draw": 0.2758,
+    "away": 0.5164
+  },
+  "llm_analysis": {
+    "confidence": "medium",
+    "key_factors": [
+      "Anibal Godoy (PAN, 36 ans, 156 s\u00e9lections): cerveau du milieu, s'il trouve l'espace entre les lignes il lib\u00e8re les attaquants. Owusu/Sibo doivent l'asphyxier.",
+      "Antoine Semenyo (GHA): 21 contributions en PL avec City, seule vraie menace de rupture pour le Ghana. Jos\u00e9 C\u00f3rdoba devra \u00eatre impeccable.",
+      "Ismael D\u00edaz (PAN): Golden Boot Gold Cup 2025, finisseur clinique. La d\u00e9fense ghan\u00e9enne poreuse (conc\u00e8de 2+ buts/match depuis 6 matchs WC) peut craquer.",
+      "Elisha Owusu (GHA): rempla\u00e7ant de Partey, 29 matchs \u00e0 Auxerre. Son duel avec Godoy dictera le tempo."
+    ],
+    "rationale": "Le mod\u00e8le Elo/Poisson donne Panama ultra-favori (62.3%), ce qui me semble excessif mais pas absurde. L'absence de Partey et Kudus enl\u00e8ve deux tauliers, la forme r\u00e9cente du Ghana est catastrophique (1D-6L sur 7), et Panama a montr\u00e9 une solidit\u00e9 d\u00e9fensive remarquable en qualifs. MAIS: Opta supercomputer donne Ghana 45.1% vs Panama 28.1%, Kalshi traders 45%/29%, march\u00e9s bookmakers Ghana l\u00e9ger favori ",
+    "llm_used": true,
+    "lecture_tactique": "Ghana sans Partey ni Kudus, d\u00e9fense fragile (0 clean sheet en 10 matchs WC), attaque reposant sur Semenyo/Williams/Ayew. Panama ultra-organis\u00e9, pressing agressif, d\u00e9fense disciplin\u00e9e (6 clean sheets en 10 qualifs CONCACAF), cherchera \u00e0 \u00e9touffer les transitions ghan\u00e9ennes. Match pivot: qui perd voit ses chances d'avancer r\u00e9duites \u00e0 z\u00e9ro face \u00e0 l'Angleterre et la Croatie.",
+    "facteur_x": "La psychologie du 'must-win': les deux savent qu'une d\u00e9faite ici ferme tout. Panama arrive plus serein (invaincu en qualifs, stable depuis 6 ans sous Christiansen), Ghana arrive en crise (6 d\u00e9faites sur 7, coach nomm\u00e9 il y a 2 mois). L'exp\u00e9rience de ",
+    "verdict": "Ghana a les individualit\u00e9s, Panama a le collectif et la s\u00e9r\u00e9nit\u00e9. Je vois un match verrouill\u00e9, nerveux, sans rythme, que Panama peut arracher sur transition ou coup de pied arr\u00eat\u00e9. Si Semenyo allume, Ghana 2-1. Sinon, 1-1 ou victoire panam\u00e9enne 1-0. Je penche l\u00e9g\u00e8rement Panama.",
+    "angle_pari": "Nul \u00e0 2.50+ est mispriced. Forme horrible du Ghana (mais talent sup\u00e9rieur sur le papier) + solidit\u00e9 d\u00e9fensive de Panama (mais jamais gagn\u00e9 un match de WC) = sc\u00e9nario 1-1 cr\u00e9dible, surtout que les deux ont peur de perdre.",
+    "infos_recherche": [
+      "Thomas Partey exclu (refus visa Canada confirm\u00e9 17/06), Elisha Owusu le remplace au milieu (Sky Sports, 17/06)",
+      "Mohammed Kudus absent (blessure), Antoine Semenyo m\u00e8ne l'attaque (WhoScored, 17/06)",
+      "Adalberto Carrasquilla (PAN) aper\u00e7u \u00e0 l'entra\u00eenement dimanche mais incertain apr\u00e8s blessure finale Liga MX (Sports Mole, 15/06)",
+      "Ghana: 0 victoire en 7 derniers matchs, 6 d\u00e9faites dont 5-1 vs Autriche. Panama: invaincu en qualifs CONCACAF (Opta Analyst, 17/06)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": [
+      "Ghana coach enters record books at his fifth World Cup in row - Reuters"
+    ]
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 0.852,
+    "lam_away": 1.983,
+    "elo_home": 1688.1,
+    "elo_away": 1926.5
+  },
+  "formstats": {
+    "form_home": [
+      "N",
+      "D",
+      "D",
+      "D",
+      "D"
+    ],
+    "form_away": [
+      "N",
+      "V",
+      "D",
+      "V",
+      "N"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-02",
+        "opp": "Wales",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-05-22",
+        "opp": "Mexico",
+        "score": "0-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-30",
+        "opp": "Germany",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Austria",
+        "score": "1-5",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "South Korea",
+        "score": "0-1",
+        "r": "D"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Bosnia and Herzegovina",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-06-03",
+        "opp": "Dominican Republic",
+        "score": "4-2",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Brazil",
+        "score": "2-6",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "South Africa",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "South Africa",
+        "score": "1-1",
+        "r": "N"
+      }
+    ],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.1154
+    },
+    {
+      "score": "1-1",
+      "prob": 0.1141
+    },
+    {
+      "score": "0-1",
+      "prob": 0.1016
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0984
+    },
+    {
+      "score": "0-3",
+      "prob": 0.0763
+    }
+  ],
+  "ev_summary": null
+}

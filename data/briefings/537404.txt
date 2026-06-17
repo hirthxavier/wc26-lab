@@ -1,0 +1,48 @@
+⚽ Uzbekistan vs Colombia — GROUP_STAGE
+Coup d'envoi : 18/06 04:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Uzbekistan: 13.6%  Draw: 23.7%  Colombia: 62.7%
+  With news adjustment: 13.7% / 23.7% / 62.6%
+  Elo: 1882.5 vs 2124.5
+
+— LINE MOVEMENT (where money went) —
+  Colombia: 68.9% ↑ 70.1%
+  Uzbekistan: 10.8% ↓ 10.1%
+  Draw: 20.3% → 19.8%
+
+— NEWS: Uzbekistan (sentiment +0.04) —
+  No injury/turmoil flags detected.
+
+— NEWS: Colombia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: high) —
+  15.0% / 25.0% / 60.0%
+  • Luis Díaz vs défense ouzbèke : le Bavarois (7 buts qualifs) peut punir chaque erreur, surtout avec Khusanov sous-rythmé.
+  • James Rodríguez (34 ans) : son dernier grand bal mondial, capable de déverrouiller le bloc bas avec UNE passe géniale.
+  • Eldor Shomurodov (44 buts, capitaine) : seule menace ouzbèke, mais isolé et sevré de ballons exploitables.
+  • Richard Ríos (Benfica) : le récupérateur-relanceur qui empêchera toute sortie propre de l'Ouzbékistan.
+  Ajustement léger : le modèle donne 63% Colombie, je passe à 60% en raison de l'altitude et de la nervosité d'un match d'ouverture. Les absences (Masharipov) et le manque de rythme (Khusanov) pèsent sur l'Ouzbékistan mais ne changent pas le rapport de force fondamental : l'écart de classe est réel, la Colombie a battu le Brésil en qualifs et atteint la finale Copa 2024. L'Ouzbékistan n'a jamais aff
+
+— PANEL — 48 headlines from ES/IT/FR/AR/UK/BR sources —
+  [GoogleNews:"Uzbekistan" world cup] Portugal level with Congo at World Cup, get Portugal 2026 World Cup tickets - USA Today
+  [GoogleNews:"Uzbekistan" world cup] Where is Uzbekistan? Meet the first-timers led by Fabio Cannavaro - Yahoo Sports
+  [GoogleNews:"Uzbekistan" world cup] Group K at the 2026 World Cup: Teams, records, stats to know - ESPN
+  [GoogleNews:"Uzbekistan" world cup] Where to stream Uzbekistan vs. Colombia World Cup free today - MassLive
+  [GoogleNews:"Uzbekistan" world cup] Uzbekistan vs. Colombia—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"Uzbekistan" world cup] Uzbekistan vs Colombia Prediction, Pick, Odds -- World Cup 6/17 - Action Network
+  [GoogleNews:"Uzbekistan" world cup] Colombia vs. Uzbekistan World Cup Prediction, Best Bets and Picks for Today (June 17) - FanDuel
+  [GoogleNews:"Uzbekistan" world cup] Italy legend Fabio Cannavaro returns to World Cup as Uzbekistan coach - USA Today
+
+— MOST LIKELY OUTCOME —
+  Colombia (62.7%)
+  Tentative exact scores: 0-2 (11.6%), 1-1 (11.3%), 0-1 (10.2%)
+  xG: 0.85 - 2.0   O2.5: 54.1%   BTTS: 50.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

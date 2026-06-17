@@ -148,5 +148,35 @@
     "team_avg": null
   },
   "2026-06-16:injuries:Austria": [],
-  "2026-06-16:injuries:Jordan": []
+  "2026-06-16:injuries:Jordan": [],
+  "2026-06-17:form:England": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-17:form:Croatia": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-17:injuries:England": [],
+  "2026-06-17:injuries:Croatia": [],
+  "2026-06-17:form:Ghana": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-17:form:Panama": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-17:injuries:Ghana": [],
+  "2026-06-17:injuries:Panama": [],
+  "2026-06-17:form:Uzbekistan": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-17:form:Colombia": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-17:injuries:Uzbekistan": [],
+  "2026-06-17:injuries:Colombia": []
 }

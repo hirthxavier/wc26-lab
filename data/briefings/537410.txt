@@ -1,0 +1,48 @@
+⚽ Ghana vs Panama — GROUP_STAGE
+Coup d'envoi : 18/06 01:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Ghana: 13.9%  Draw: 23.8%  Panama: 62.3%
+  With news adjustment: 13.8% / 23.8% / 62.3%
+  Elo: 1688.1 vs 1926.5
+
+— LINE MOVEMENT (where money went) —
+  Ghana: 44.9% ↓ 41.0%
+  Panama: 27.2% ↑ 29.0%
+  Draw: 27.8% ↑ 30.0%
+
+— NEWS: Ghana (sentiment +0.00) —
+  ⚠️ Ghana coach enters record books at his fifth World Cup in row - Reuters
+
+— NEWS: Panama (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: medium) —
+  20.8% / 27.6% / 51.6%
+  • Anibal Godoy (PAN, 36 ans, 156 sélections): cerveau du milieu, s'il trouve l'espace entre les lignes il libère les attaquants. Owusu/Sibo doivent l'asphyxier.
+  • Antoine Semenyo (GHA): 21 contributions en PL avec City, seule vraie menace de rupture pour le Ghana. José Córdoba devra être impeccable.
+  • Ismael Díaz (PAN): Golden Boot Gold Cup 2025, finisseur clinique. La défense ghanéenne poreuse (concède 2+ buts/match depuis 6 matchs WC) peut craquer.
+  • Elisha Owusu (GHA): remplaçant de Partey, 29 matchs à Auxerre. Son duel avec Godoy dictera le tempo.
+  Le modèle Elo/Poisson donne Panama ultra-favori (62.3%), ce qui me semble excessif mais pas absurde. L'absence de Partey et Kudus enlève deux tauliers, la forme récente du Ghana est catastrophique (1D-6L sur 7), et Panama a montré une solidité défensive remarquable en qualifs. MAIS: Opta supercomputer donne Ghana 45.1% vs Panama 28.1%, Kalshi traders 45%/29%, marchés bookmakers Ghana léger favori 
+
+— PANEL — 41 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Ghana-Panama, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Ghana" world cup] World Cup 2026: Ghana government challenges Thomas Partey's visa denial in court - BBC
+  [GoogleNews:"Ghana" world cup] Ghana vs. Panama—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"Ghana" world cup] Ghana's FIFA World Cup begins without Thomas Partey as Panama test arrives at pivotal moment - ESPN
+  [GoogleNews:"Ghana" world cup] Ghana vs. Panama live stream: How to watch FIFA World Cup, odds, prediction, pick, lineups, channel - CBS Sports
+  [GoogleNews:"Ghana" world cup] Thomas Partey to miss Ghana World Cup opener after visa appeal rejected - ESPN
+  [GoogleNews:"Ghana" world cup] World Cup 2026: England’s Livramento ruled out; Ghana seek to overturn Partey ban; Iran player’s visa expires – as it happened - The Guardian
+  [GoogleNews:"Ghana" world cup] Who does England play next in World Cup? Shop tickets, see schedule - USA Today
+
+— MOST LIKELY OUTCOME —
+  Panama (62.3%)
+  Tentative exact scores: 0-2 (11.5%), 1-1 (11.4%), 0-1 (10.2%)
+  xG: 0.85 - 1.98   O2.5: 53.9%   BTTS: 50.9%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

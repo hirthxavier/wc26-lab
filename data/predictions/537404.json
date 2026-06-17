@@ -1,0 +1,186 @@
+{
+  "frozen_at_utc": "2026-06-17T19:39:59.257164+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537404,
+    "utc_kickoff": "2026-06-18T02:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Uzbekistan",
+    "away": "Colombia",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.1362,
+    "draw": 0.2366,
+    "away": 0.6272
+  },
+  "model_with_news": {
+    "home": 0.1374,
+    "draw": 0.2366,
+    "away": 0.626
+  },
+  "model_llm": {
+    "home": 0.15,
+    "draw": 0.25,
+    "away": 0.6
+  },
+  "llm_analysis": {
+    "confidence": "high",
+    "key_factors": [
+      "Luis D\u00edaz vs d\u00e9fense ouzb\u00e8ke : le Bavarois (7 buts qualifs) peut punir chaque erreur, surtout avec Khusanov sous-rythm\u00e9.",
+      "James Rodr\u00edguez (34 ans) : son dernier grand bal mondial, capable de d\u00e9verrouiller le bloc bas avec UNE passe g\u00e9niale.",
+      "Eldor Shomurodov (44 buts, capitaine) : seule menace ouzb\u00e8ke, mais isol\u00e9 et sevr\u00e9 de ballons exploitables.",
+      "Richard R\u00edos (Benfica) : le r\u00e9cup\u00e9rateur-relanceur qui emp\u00eachera toute sortie propre de l'Ouzb\u00e9kistan."
+    ],
+    "rationale": "Ajustement l\u00e9ger : le mod\u00e8le donne 63% Colombie, je passe \u00e0 60% en raison de l'altitude et de la nervosit\u00e9 d'un match d'ouverture. Les absences (Masharipov) et le manque de rythme (Khusanov) p\u00e8sent sur l'Ouzb\u00e9kistan mais ne changent pas le rapport de force fondamental : l'\u00e9cart de classe est r\u00e9el, la Colombie a battu le Br\u00e9sil en qualifs et atteint la finale Copa 2024. L'Ouzb\u00e9kistan n'a jamais aff",
+    "llm_used": true,
+    "lecture_tactique": "Cannavaro alignera son bloc 3-4-2-1 d\u00e9fensif \u00e0 l'Azteca, mais Khusanov manque de rythme (banc \u00e0 City) et Masharipov est out. Face au trio D\u00edaz-James-Arias, l'Ouzb\u00e9kistan devra survivre sans ballon puis exploiter Shomurodov sur transition \u2013 mission quasi impossible contre cette Colombie qui a battu le Br\u00e9sil en qualifs.",
+    "facteur_x": "L'altitude de l'Azteca (2 240 m) : elle peut fatiguer la Colombie en 2e mi-temps et offrir 15-20 minutes de chaos o\u00f9 l'Ouzb\u00e9kistan, lib\u00e9r\u00e9 de la pression \u00e9motionnelle initiale, pourrait pousser. Mais Cannavaro joue trop bas pour en profiter.",
+    "verdict": "La Colombie gagnera sans briller, tuant le match par la ma\u00eetrise technique et un ou deux \u00e9clairs de D\u00edaz/James. L'Ouzb\u00e9kistan d\u00e9fendra avec honneur mais n'a ni les armes offensives ni le rythme (Khusanov) pour tenir 90 minutes. Score probable : 2-0 Colombie.",
+    "angle_pari": "Under 2.5 buts \u00e0 ~1.35 me semble sous-cot\u00e9 : premiers matchs mondiaux, Ouzb\u00e9kistan ultra-compact (\u22642 buts encaiss\u00e9s sur 20 matchs), altitude qui ralentit le rythme. Je vois 2-0 ou 1-0 Colombie, pas de festival.",
+    "infos_recherche": [
+      "Aucune blessure/suspension confirm\u00e9e pour les deux \u00e9quipes (17 juin 2026, Sports Mole & WhoScored)",
+      "Jaloliddin Masharipov (milieu cr\u00e9atif ouzbek) list\u00e9 comme bless\u00e9, absent du XI projet\u00e9 (17 juin 2026, Goal.com)",
+      "Abdukodir Khusanov (Man City) arrive sous-rythm\u00e9, peu de temps de jeu en Premier League cette saison (29 mai 2026, ColombiaOne)",
+      "Cannavaro : 5 victoires en 6 matchs depuis sa prise de fonction, dont victoires vs \u00c9gypte, Iran, Venezuela ; d\u00e9faites vs Pays-Bas (1-2) et Canada (0-2) en pr\u00e9pa (17 juin 2026, ESPN)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.04,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 0.847,
+    "lam_away": 1.996,
+    "elo_home": 1882.5,
+    "elo_away": 2124.5
+  },
+  "formstats": {
+    "form_home": [
+      "D",
+      "D",
+      "N",
+      "V",
+      "N"
+    ],
+    "form_away": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-08",
+        "opp": "Netherlands",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Canada",
+        "score": "0-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-30",
+        "opp": "Venezuela",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Gabon",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-01-26",
+        "opp": "China",
+        "score": "2-2",
+        "r": "N"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-07",
+        "opp": "Jordan",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Costa Rica",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-29",
+        "opp": "France",
+        "score": "1-3",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-26",
+        "opp": "Croatia",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Australia",
+        "score": "3-0",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.1161
+    },
+    {
+      "score": "1-1",
+      "prob": 0.1133
+    },
+    {
+      "score": "0-1",
+      "prob": 0.1016
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0983
+    },
+    {
+      "score": "0-3",
+      "prob": 0.0772
+    }
+  ],
+  "ev_summary": null
+}

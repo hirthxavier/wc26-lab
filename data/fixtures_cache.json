@@ -29,10 +29,10 @@
     "stage": "GROUP_STAGE",
     "home": "Portugal",
     "away": "Congo DR",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   {

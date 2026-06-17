@@ -17,10 +17,10 @@
     "stage": "GROUP_STAGE",
     "home": "Austria",
     "away": "Jordan",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "score": {
-      "home": 1,
-      "away": 0
+      "home": 3,
+      "away": 1
     }
   },
   {

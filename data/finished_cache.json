@@ -202,5 +202,29 @@
       "home": 3,
       "away": 1
     }
+  },
+  {
+    "match_id": 537392,
+    "utc_kickoff": "2026-06-16T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Iraq",
+    "away": "Norway",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 4
+    }
+  },
+  {
+    "match_id": 537397,
+    "utc_kickoff": "2026-06-17T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Argentina",
+    "away": "Algeria",
+    "status": "FINISHED",
+    "score": {
+      "home": 3,
+      "away": 0
+    }
   }
 ]

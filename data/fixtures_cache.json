@@ -1,50 +1,14 @@
 [
   {
-    "match_id": 537364,
-    "utc_kickoff": "2026-06-16T01:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Iran",
-    "away": "New Zealand",
-    "status": "FINISHED",
-    "score": {
-      "home": 2,
-      "away": 2
-    }
-  },
-  {
-    "match_id": 537391,
-    "utc_kickoff": "2026-06-16T19:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "France",
-    "away": "Senegal",
-    "status": "FINISHED",
-    "score": {
-      "home": 3,
-      "away": 1
-    }
-  },
-  {
-    "match_id": 537392,
-    "utc_kickoff": "2026-06-16T22:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Iraq",
-    "away": "Norway",
-    "status": "IN_PLAY",
-    "score": {
-      "home": 1,
-      "away": 3
-    }
-  },
-  {
     "match_id": 537397,
     "utc_kickoff": "2026-06-17T01:00:00Z",
     "stage": "GROUP_STAGE",
     "home": "Argentina",
     "away": "Algeria",
-    "status": "TIMED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 3,
+      "away": 0
     }
   },
   {
@@ -53,10 +17,10 @@
     "stage": "GROUP_STAGE",
     "home": "Austria",
     "away": "Jordan",
-    "status": "TIMED",
+    "status": "PAUSED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   {
@@ -173,6 +137,66 @@
     "stage": "GROUP_STAGE",
     "home": "Scotland",
     "away": "Morocco",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537341,
+    "utc_kickoff": "2026-06-20T00:30:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Brazil",
+    "away": "Haiti",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537347,
+    "utc_kickoff": "2026-06-20T03:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Turkey",
+    "away": "Paraguay",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537359,
+    "utc_kickoff": "2026-06-20T17:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Netherlands",
+    "away": "Sweden",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537353,
+    "utc_kickoff": "2026-06-20T20:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Germany",
+    "away": "Ivory Coast",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537354,
+    "utc_kickoff": "2026-06-21T00:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Ecuador",
+    "away": "Cura\u00e7ao",
     "status": "TIMED",
     "score": {
       "home": null,

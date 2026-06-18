@@ -5,10 +5,10 @@
     "stage": "GROUP_STAGE",
     "home": "Uzbekistan",
     "away": "Colombia",
-    "status": "TIMED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 3
     }
   },
   {

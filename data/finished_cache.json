@@ -31,8 +31,8 @@
     "away": "Bosnia-Herzegovina",
     "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   {

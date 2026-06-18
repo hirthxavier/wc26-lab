@@ -1,0 +1,192 @@
+{
+  "frozen_at_utc": "2026-06-18T20:00:39.223871+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537336,
+    "utc_kickoff": "2026-06-18T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Canada",
+    "away": "Qatar",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.8472,
+    "draw": 0.1164,
+    "away": 0.0364
+  },
+  "model_with_news": {
+    "home": 0.8472,
+    "draw": 0.1164,
+    "away": 0.0364
+  },
+  "model_llm": {
+    "home": 0.79,
+    "draw": 0.14,
+    "away": 0.07
+  },
+  "llm_analysis": {
+    "confidence": "high",
+    "key_factors": [
+      "Jonathan David vs d\u00e9fense centrale Qatar (Miguel/Khoukhi) : le Juve-man a rat\u00e9 4 occasions nettes vs Bosnie, il DOIT convertir ici ou le Canada va souffrir",
+      "Akram Afif en contre : seul Qatari capable d'un \u00e9clair (7 occasions cr\u00e9\u00e9es en 2 Mondiaux, plus que tous ses co\u00e9quipiers), mais sans ballon il n'existe pas",
+      "Richie Laryea vs Junior/Al-Oui : a gagn\u00e9 ses 8 duels au sol J1, couloir gauche canadien = autoroute si Davies reste sur le banc",
+      "Cyle Larin en impact sub ou titulaire : 2 minutes pour marquer vs Bosnie, son pragmatisme peut tuer un Qatar qui se bat pour le 0-0"
+    ],
+    "rationale": "Ajustement mod\u00e9r\u00e9 \u00e0 la baisse du home (84.7\u219279%) car Davies incertain au coup d'envoi enl\u00e8ve 20% de la menace offensive, et David a montr\u00e9 des limites de finition J1. Mais le diff\u00e9rentiel reste \u00e9norme : Qatar incapable d'attaquer (3 touches surface 2e MT vs Suisse), Canada solide d\u00e9fensivement (6 clean sheets/9) et \u00e0 domicile. L'\u00e9cart Elo (370 points) + forme + contexte justifient une large faveur",
+    "llm_used": true,
+    "lecture_tactique": "Canada en 4-4-2 va \u00e9touffer un Qatar ultra-compact (4-3-3 d\u00e9fensif) qui n'a produit qu'un tir cadr\u00e9 entre la 3e et 89e minute face \u00e0 la Suisse. Marsch doit lib\u00e9rer David et Larin dans les espaces que Buchanan/Johnston cr\u00e9eront sur les c\u00f4t\u00e9s. Le bloc qatari tiendra 60 minutes max sous la pression d'un BC Place bouillant.",
+    "facteur_x": "La gestion \u00e9motionnelle du Canada \u00e0 domicile. Marsch doit \u00e9viter le syndrome 'trop d'envie' qui les a crisp\u00e9s vs Bosnie. Si le premier but tombe avant la 30e, Qatar implose (z\u00e9ro r\u00e9silience apr\u00e8s encaissement, cf. Zimbabwe 2-1 malgr\u00e9 ouverture du sco",
+    "verdict": "Le Canada va gagner son premier match de Coupe du Monde, mais ce sera plus laborieux que pr\u00e9vu tant que David ne se d\u00e9bloque pas. Qatar d\u00e9fendra bas, cassera le rythme, et Marsch fera entrer Davies vers la 65e pour d\u00e9bloquer. Score type : 2-0 ou 1-0 (but tardif assurance), clean sheet quasi-certain.",
+    "angle_pari": "Canada gagne sans encaisser (clean sheet) autour de 1.62 est sous-cot\u00e9 : Qatar n'a produit que 3 touches dans la surface adverse en 2e MT vs Suisse, le Canada a gard\u00e9 6 clean sheets sur 9 matchs r\u00e9cents. \u00c9vitez le -1.5 handicap, la finition canadienn",
+    "infos_recherche": [
+      "Alphonso Davies disponible mais ne d\u00e9butera probablement pas (ischio depuis 6 mai, protocole retour), Laryea titulaire gauche (17 juin, ESPN/CBC)",
+      "Moise Bombito retour complet entra\u00eenement, 'game-time decision' apr\u00e8s fracture tibia octobre (16 juin, Bet365)",
+      "Qatar 7 matchs sans victoire depuis nov. 2025, pire attaque du groupe (6 tirs, 32% possession J1) (18 juin, Opta/SI)",
+      "Canada 4 victoires cons\u00e9cutives \u00e0 Vancouver 17-2, Jonathan David 'wasteful' vs Bosnie mais Larin efficace en 2 min (17 juin, RotoWire/Yahoo)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 2.986,
+    "lam_away": 0.566,
+    "elo_home": 1967.2,
+    "elo_away": 1597.7
+  },
+  "formstats": {
+    "form_home": [
+      "N",
+      "V",
+      "N",
+      "N",
+      "V"
+    ],
+    "form_away": [
+      "N",
+      "D",
+      "D",
+      "N",
+      "D"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-05",
+        "opp": "Republic of Ireland",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "Uzbekistan",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Tunisia",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Iceland",
+        "score": "2-2",
+        "r": "N"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Venezuela",
+        "score": "2-0",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "El Salvador",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-05-28",
+        "opp": "Republic of Ireland",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2025-12-07",
+        "opp": "Tunisia",
+        "score": "0-3",
+        "r": "D"
+      },
+      {
+        "date": "2025-12-04",
+        "opp": "Syria",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2025-12-01",
+        "opp": "Palestine",
+        "score": "0-1",
+        "r": "D"
+      }
+    ],
+    "h2h": {
+      "played": 1,
+      "wins_a": 1,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 2,
+      "goals_b": 0,
+      "last_meetings": [
+        {
+          "date": "2022",
+          "score": "2-0",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "2-0",
+      "prob": 0.1283
+    },
+    {
+      "score": "3-0",
+      "prob": 0.1277
+    },
+    {
+      "score": "4-0",
+      "prob": 0.0953
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0786
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0726
+    }
+  ],
+  "ev_summary": null
+}

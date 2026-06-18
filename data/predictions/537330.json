@@ -1,0 +1,212 @@
+{
+  "frozen_at_utc": "2026-06-18T20:02:10.604794+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537330,
+    "utc_kickoff": "2026-06-19T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Mexico",
+    "away": "South Korea",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.5774,
+    "draw": 0.2563,
+    "away": 0.1663
+  },
+  "model_with_news": {
+    "home": 0.5774,
+    "draw": 0.2563,
+    "away": 0.1663
+  },
+  "model_llm": {
+    "home": 0.52,
+    "draw": 0.3,
+    "away": 0.18
+  },
+  "llm_analysis": {
+    "confidence": "medium",
+    "key_factors": [
+      "Edson \u00c1lvarez (MEX) : milieu reconverti en d\u00e9fense centrale d'urgence, devra g\u00e9rer Son et les contres cor\u00e9ens sans Montes.",
+      "Son Heung-min (COR) : 2 buts sur ses 3 derniers vs Mexique, sera le poison en transition si le Mexique se d\u00e9couvre.",
+      "Ra\u00fal Jim\u00e9nez (MEX) : 2 buts sur ses 2 derniers vs Cor\u00e9e, vient de d\u00e9bloquer son compteur mondial, pivot offensif du Tri.",
+      "Lee Kang-in (COR) : feu follet du PSG, 100% passes + 5 dribbles + 1 passe d\u00e9c. \u00e0 J1, cl\u00e9 de vo\u00fbte cr\u00e9ative cor\u00e9enne."
+    ],
+    "rationale": "J'ajuste le mod\u00e8le \u00e0 la baisse pour le Mexique (\u22125,7 pts \u2192 52%) et \u00e0 la hausse pour le nul (+4,4 pts \u2192 30%) en raison de l'absence de Montes (pilier d\u00e9fensif), du doute sur Qui\u00f1ones (buteur J1), et de l'excellente forme cor\u00e9enne (effectif au complet, mentalit\u00e9 prouv\u00e9e). L'altitude et le public donnent un l\u00e9ger edge au Mexique, mais la Cor\u00e9e a les armes (Son, Lee Kang-in, Hwang) pour frustrer et pu",
+    "llm_used": true,
+    "lecture_tactique": "Mexique en 4-3-3 voudra contr\u00f4ler, exploiter l'altitude et alimenter Jim\u00e9nez par les ailes. Cor\u00e9e en bloc bas 3-4-2-1, compacte, pr\u00eate \u00e0 punir en transition via Son et Lee Kang-in. \u00c7a se jouera sur la capacit\u00e9 d'\u00c1lvarez (d\u00e9plac\u00e9 en d\u00e9fense) \u00e0 colmater l'absence de Montes face aux fus\u00e9es cor\u00e9ennes.",
+    "facteur_x": "L'altitude de Guadalajara (1 550 m) : la Cor\u00e9e a d\u00e9j\u00e0 jou\u00e9 \u00e0 J1 dans cette ville, mais encha\u00eener deux matchs \u00e0 haute intensit\u00e9 en 7 jours \u00e0 cette altitude pourrait peser dans les 20 derni\u00e8res minutes, moment o\u00f9 le Mexique a tu\u00e9 J1 et o\u00f9 la Cor\u00e9e a re",
+    "verdict": "Match pi\u00e8ge, bien plus serr\u00e9 que les 58-17 du mod\u00e8le. Je vois un 1-1 ou 2-1 tr\u00e8s disput\u00e9, le Mexique poussant sans trouver l'ouverture face \u00e0 un bloc cor\u00e9en disciplin\u00e9, avec un risque constant de but cor\u00e9en sur transition. Sc\u00e9nario favori : 1-1, but mexicain premi\u00e8re mi-temps (Jim\u00e9nez ou Qui\u00f1ones si apte), \u00e9galisation cor\u00e9enne fin de match (Son ou Hwang In-beom).",
+    "angle_pari": "Le nul \u00e0 ~2,40-2,50 est sous-cot\u00e9. Deux \u00e9quipes sur 3 points, un nul arrange quasi les deux (4 pts = qualification quasiment assur\u00e9e), et tactiquement c'est un vrai combat d'\u00e9checs entre la possession mexicaine et la r\u00e9silience cor\u00e9enne.",
+    "infos_recherche": [
+      "C\u00e9sar Montes (MEX) suspendu apr\u00e8s carton rouge vs Afrique du Sud, Edson \u00c1lvarez recule en d\u00e9fense centrale (WhoScored, 18/06/26)",
+      "Juli\u00e1n Qui\u00f1ones (buteur J1) incertain, a demand\u00e9 son remplacement pendant le match d'ouverture (Sports Mole, 16/06/26)",
+      "Cor\u00e9e du Sud : aucun bless\u00e9 ni suspendu, Kim Tae-hyeon (cheville) de retour \u00e0 l'entra\u00eenement (Goal.com, 18/06/26)",
+      "Superordinateur Opta : Mexique vainqueur dans 48,8% des simulations, match tr\u00e8s \u00e9quilibr\u00e9 (The Analyst, 18/06/26)"
+    ]
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.848,
+    "lam_away": 0.914,
+    "elo_home": 2085.5,
+    "elo_away": 1986.8
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "V",
+      "N",
+      "N"
+    ],
+    "form_away": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-04",
+        "opp": "Serbia",
+        "score": "5-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Australia",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-22",
+        "opp": "Ghana",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Belgium",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Portugal",
+        "score": "0-0",
+        "r": "N"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-03",
+        "opp": "El Salvador",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Trinidad and Tobago",
+        "score": "5-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Austria",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Ivory Coast",
+        "score": "0-4",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Ghana",
+        "score": "1-0",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 14,
+      "wins_a": 8,
+      "draws": 3,
+      "wins_b": 3,
+      "goals_a": 28,
+      "goals_b": 15,
+      "last_meetings": [
+        {
+          "date": "2025",
+          "score": "2-2",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2020",
+          "score": "3-2",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2018",
+          "score": "2-1",
+          "tournament": "FIFA World Cup"
+        },
+        {
+          "date": "2014",
+          "score": "4-0",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2006",
+          "score": "0-1",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1227
+    },
+    {
+      "score": "2-0",
+      "prob": 0.1078
+    },
+    {
+      "score": "1-0",
+      "prob": 0.1007
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0986
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0791
+    }
+  ],
+  "ev_summary": null
+}

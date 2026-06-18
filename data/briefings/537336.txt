@@ -1,0 +1,48 @@
+⚽ Canada vs Qatar — GROUP_STAGE
+Coup d'envoi : 19/06 00:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Canada: 84.7%  Draw: 11.6%  Qatar: 3.6%
+  With news adjustment: 84.7% / 11.6% / 3.6%
+  Elo: 1967.2 vs 1597.7
+
+— LINE MOVEMENT (where money went) —
+  Canada: 73.0% ↑ 73.7%
+  Qatar: 8.9% → 9.0%
+  Draw: 18.1% ↓ 17.3%
+
+— NEWS: Canada (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Qatar (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: high) —
+  79.0% / 14.0% / 7.0%
+  • Jonathan David vs défense centrale Qatar (Miguel/Khoukhi) : le Juve-man a raté 4 occasions nettes vs Bosnie, il DOIT convertir ici ou le Canada va souffrir
+  • Akram Afif en contre : seul Qatari capable d'un éclair (7 occasions créées en 2 Mondiaux, plus que tous ses coéquipiers), mais sans ballon il n'existe pas
+  • Richie Laryea vs Junior/Al-Oui : a gagné ses 8 duels au sol J1, couloir gauche canadien = autoroute si Davies reste sur le banc
+  • Cyle Larin en impact sub ou titulaire : 2 minutes pour marquer vs Bosnie, son pragmatisme peut tuer un Qatar qui se bat pour le 0-0
+  Ajustement modéré à la baisse du home (84.7→79%) car Davies incertain au coup d'envoi enlève 20% de la menace offensive, et David a montré des limites de finition J1. Mais le différentiel reste énorme : Qatar incapable d'attaquer (3 touches surface 2e MT vs Suisse), Canada solide défensivement (6 clean sheets/9) et à domicile. L'écart Elo (370 points) + forme + contexte justifient une large faveur
+
+— PANEL — 59 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Canada-Qatar, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [L'Equipe (FR)] Elye Wahi finalement autorisé à se rendre au Canada pour participer à Allemagne-Côte d'Ivoire
+  [Guardian (UK)] Côte d’Ivoire’s Wahi denied Canada visa for World Cup match amid fixing investigation
+  [GoogleNews:"Canada" world cup] Co-hosts Canada begin World Cup with Bosnia draw - BBC
+  [GoogleNews:"Canada" world cup] Canada Comes Together for FIFA WORLD CUP 2026™, with Audiences Up +47% Over First Four Days - Bell Media
+  [GoogleNews:"Canada" world cup] Ivory Coast’s Elye Wahi denied entry to Canada at World Cup amid betting probe - CNN
+  [GoogleNews:"Canada" world cup] Elye Wahi, World Cup player accused of fixing offences, allowed into Canada after visa U-turn - The Athletic - The New York Times
+  [GoogleNews:"Canada" world cup] World Cup 2026: Ivory Coast's Elye Wahi denied entry to Canada - BBC
+
+— MOST LIKELY OUTCOME —
+  Canada (84.7%)
+  Tentative exact scores: 2-0 (12.8%), 3-0 (12.8%), 4-0 (9.5%)
+  xG: 2.99 - 0.57   O2.5: 68.8%   BTTS: 41.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

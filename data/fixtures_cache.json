@@ -17,10 +17,10 @@
     "stage": "GROUP_STAGE",
     "home": "Czechia",
     "away": "South Africa",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 1,
-      "away": 0
+      "away": 1
     }
   },
   {

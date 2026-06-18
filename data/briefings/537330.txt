@@ -1,0 +1,48 @@
+⚽ Mexico vs South Korea — GROUP_STAGE
+Coup d'envoi : 19/06 03:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Mexico: 57.7%  Draw: 25.6%  South Korea: 16.6%
+  With news adjustment: 57.7% / 25.6% / 16.6%
+  Elo: 2085.5 vs 1986.8
+
+— LINE MOVEMENT (where money went) —
+  Mexico: 52.8% ↓ 46.1%
+  South Korea: 20.5% ↑ 24.4%
+  Draw: 26.7% ↑ 29.6%
+
+— NEWS: Mexico (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: South Korea (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— LLM ANALYST (confidence: medium) —
+  52.0% / 30.0% / 18.0%
+  • Edson Álvarez (MEX) : milieu reconverti en défense centrale d'urgence, devra gérer Son et les contres coréens sans Montes.
+  • Son Heung-min (COR) : 2 buts sur ses 3 derniers vs Mexique, sera le poison en transition si le Mexique se découvre.
+  • Raúl Jiménez (MEX) : 2 buts sur ses 2 derniers vs Corée, vient de débloquer son compteur mondial, pivot offensif du Tri.
+  • Lee Kang-in (COR) : feu follet du PSG, 100% passes + 5 dribbles + 1 passe déc. à J1, clé de voûte créative coréenne.
+  J'ajuste le modèle à la baisse pour le Mexique (−5,7 pts → 52%) et à la hausse pour le nul (+4,4 pts → 30%) en raison de l'absence de Montes (pilier défensif), du doute sur Quiñones (buteur J1), et de l'excellente forme coréenne (effectif au complet, mentalité prouvée). L'altitude et le public donnent un léger edge au Mexique, mais la Corée a les armes (Son, Lee Kang-in, Hwang) pour frustrer et pu
+
+— PANEL — 58 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Guardian (UK)] Mexico military brings down drone near South Korea World Cup training camp
+  [GoogleNews:"Mexico" world cup] Mexico vs. South Korea: How to Watch, TV Channel, Live Stream - FOX Sports
+  [GoogleNews:"Mexico" world cup] 2026 World Cup: How teams can advance to the knockout rounds - ESPN
+  [GoogleNews:"Mexico" world cup] The Great Hydration Break Debate takes over the World Cup - CNN
+  [GoogleNews:"Mexico" world cup] Merlin, the Duck in a Mexico World Cup Team Jersey, Finds Unexpected Fame - The New York Times
+  [GoogleNews:"Mexico" world cup] Merlin the duck: From Mexico City streets to World Cup stardom - Reuters
+  [GoogleNews:"Mexico" world cup] Quack quack! Merlin the duck is Mexico's World Cup superfan - USA Today
+  [GoogleNews:"Mexico" world cup] World Cup 2026 schedule, scores, live updates: Switzerland facing Bosnia and Herzegovina; Mexico, Canada return later - Yahoo Sports
+
+— MOST LIKELY OUTCOME —
+  Mexico (57.7%)
+  Tentative exact scores: 1-1 (12.3%), 2-0 (10.8%), 1-0 (10.1%)
+  xG: 1.85 - 0.91   O2.5: 52.2%   BTTS: 52.1%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

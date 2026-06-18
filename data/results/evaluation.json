@@ -188,39 +188,78 @@
       "logloss_llm": 0.6539,
       "brier_close": 0.1326,
       "logloss_close": 0.3477
+    },
+    {
+      "match_id": 537404,
+      "match": "Uzbekistan v Colombia",
+      "actual": "away",
+      "brier_stats": 0.2135,
+      "logloss_stats": 0.4665,
+      "brier_news": 0.2147,
+      "logloss_news": 0.4684,
+      "brier_llm": 0.245,
+      "logloss_llm": 0.5108,
+      "brier_close": 0.1467,
+      "logloss_close": 0.3674
+    },
+    {
+      "match_id": 537409,
+      "match": "England v Croatia",
+      "actual": "home",
+      "brier_stats": 0.3429,
+      "logloss_stats": 0.6468,
+      "brier_news": 0.3453,
+      "logloss_news": 0.6503,
+      "brier_llm": 0.3192,
+      "logloss_llm": 0.6162,
+      "brier_close": 0.2774,
+      "logloss_close": 0.5585
+    },
+    {
+      "match_id": 537410,
+      "match": "Ghana v Panama",
+      "actual": "home",
+      "brier_stats": 1.1873,
+      "logloss_stats": 1.9769,
+      "brier_news": 1.1882,
+      "logloss_news": 1.9791,
+      "brier_llm": 0.9703,
+      "logloss_llm": 1.5712,
+      "brier_close": 0.5313,
+      "logloss_close": 0.9041
     }
   ],
   "summary": {
     "stats": {
-      "n": 15,
-      "mean_brier": 0.6363,
+      "n": 18,
+      "mean_brier": 0.6271,
       "brier_95ci": [
-        0.4079,
-        0.8844
+        0.4173,
+        0.8508
       ]
     },
     "news": {
-      "n": 15,
-      "mean_brier": 0.6359,
+      "n": 18,
+      "mean_brier": 0.6271,
       "brier_95ci": [
-        0.3992,
-        0.8841
+        0.4202,
+        0.847
       ]
     },
     "llm": {
-      "n": 15,
-      "mean_brier": 0.578,
+      "n": 18,
+      "mean_brier": 0.5669,
       "brier_95ci": [
-        0.3751,
-        0.7952
+        0.3887,
+        0.7543
       ]
     },
     "close": {
-      "n": 12,
-      "mean_brier": 0.4824,
+      "n": 15,
+      "mean_brier": 0.4496,
       "brier_95ci": [
-        0.2694,
-        0.7056
+        0.2731,
+        0.6359
       ]
     }
   }

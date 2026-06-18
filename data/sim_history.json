@@ -166,5 +166,26 @@
       "Turkey": 0.018,
       "Croatia": 0.0153
     }
+  },
+  {
+    "date": "2026-06-18",
+    "champion": {
+      "Spain": 0.2847,
+      "Argentina": 0.1136,
+      "France": 0.1021,
+      "England": 0.0965,
+      "Mexico": 0.0409,
+      "Norway": 0.0401,
+      "Colombia": 0.0359,
+      "Brazil": 0.0335,
+      "Ecuador": 0.0324,
+      "Germany": 0.0244,
+      "Morocco": 0.0238,
+      "Japan": 0.0217,
+      "Netherlands": 0.0212,
+      "Turkey": 0.0176,
+      "Portugal": 0.0138,
+      "Switzerland": 0.0117
+    }
   }
 ]

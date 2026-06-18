@@ -298,5 +298,17 @@
       "home": 1,
       "away": 1
     }
+  },
+  {
+    "match_id": 537335,
+    "utc_kickoff": "2026-06-18T19:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Switzerland",
+    "away": "Bosnia-Herzegovina",
+    "status": "FINISHED",
+    "score": {
+      "home": 4,
+      "away": 1
+    }
   }
 ]

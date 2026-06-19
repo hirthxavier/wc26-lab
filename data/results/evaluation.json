@@ -25,6 +25,19 @@
       "logloss_llm": 0.6733
     },
     {
+      "match_id": 537330,
+      "match": "Mexico v South Korea",
+      "actual": "home",
+      "brier_stats": 0.2719,
+      "logloss_stats": 0.5492,
+      "brier_news": 0.2719,
+      "logloss_news": 0.5492,
+      "brier_llm": 0.3528,
+      "logloss_llm": 0.6539,
+      "brier_close": 0.4254,
+      "logloss_close": 0.7587
+    },
+    {
       "match_id": 537333,
       "match": "Canada v Bosnia-Herzegovina",
       "actual": "draw",
@@ -34,6 +47,19 @@
       "logloss_news": 2.7016,
       "brier_llm": 1.3755,
       "logloss_llm": 1.9697
+    },
+    {
+      "match_id": 537336,
+      "match": "Canada v Qatar",
+      "actual": "home",
+      "brier_stats": 0.0382,
+      "logloss_stats": 0.1658,
+      "brier_news": 0.0382,
+      "logloss_news": 0.1658,
+      "brier_llm": 0.0686,
+      "logloss_llm": 0.2357,
+      "brier_close": 0.1072,
+      "logloss_close": 0.3053
     },
     {
       "match_id": 537339,
@@ -231,35 +257,35 @@
   ],
   "summary": {
     "stats": {
-      "n": 18,
-      "mean_brier": 0.6271,
+      "n": 20,
+      "mean_brier": 0.5799,
       "brier_95ci": [
-        0.4173,
-        0.8508
+        0.3848,
+        0.8013
       ]
     },
     "news": {
-      "n": 18,
-      "mean_brier": 0.6271,
+      "n": 20,
+      "mean_brier": 0.5799,
       "brier_95ci": [
-        0.4202,
-        0.847
+        0.3821,
+        0.8057
       ]
     },
     "llm": {
-      "n": 18,
-      "mean_brier": 0.5669,
+      "n": 20,
+      "mean_brier": 0.5313,
       "brier_95ci": [
-        0.3887,
-        0.7543
+        0.3661,
+        0.7199
       ]
     },
     "close": {
-      "n": 15,
-      "mean_brier": 0.4496,
+      "n": 17,
+      "mean_brier": 0.428,
       "brier_95ci": [
-        0.2731,
-        0.6359
+        0.267,
+        0.6012
       ]
     }
   }

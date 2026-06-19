@@ -1,0 +1,40 @@
+⚽ Scotland vs Morocco — GROUP_STAGE
+Coup d'envoi : 20/06 00:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Scotland: 21.8%  Draw: 28.0%  Morocco: 50.1%
+  With news adjustment: 21.8% / 28.0% / 50.1%
+  Elo: 1963.4 vs 2097.2
+
+— LINE MOVEMENT (where money went) —
+  Morocco: 47.9% ↑ 57.9%
+  Scotland: 23.2% ↓ 15.9%
+  Draw: 28.9% ↓ 26.2%
+
+— NEWS: Scotland (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Morocco (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 63 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] After the big one comes the even bigger one for Scotland
+  [BBC Sport (UK)] The maths whizz turned teen star who chose Morocco over France
+  [Guardian (UK)] Scotland v Morocco: World Cup 2026 – live
+  [GoogleNews:"Scotland" world cup] Scotland vs Morocco live updates: World Cup 2026 game latest news and buildup - The New York Times
+  [GoogleNews:"Scotland" world cup] World Cup Daily: Scotland superfan Donny the Duck; USMNT, Brazil in action - ESPN
+  [GoogleNews:"Scotland" world cup] Massachusetts Gov. Healey calls haggis executive order a 'joke' amid Scotland's World Cup takeover - Boston Herald
+  [GoogleNews:"Scotland" world cup] World Cup 2026: Scotland's Boston love affair one for the ages - BBC
+  [GoogleNews:"Scotland" world cup] 2 Scottish Couples Wed in Massachusetts After Traveling for Scotland’s First FIFA World Cup Appearance Since 1998 - People.com
+
+— MOST LIKELY OUTCOME —
+  Morocco (50.1%)
+  Tentative exact scores: 1-1 (13.4%), 0-1 (9.6%), 1-2 (9.6%)
+  xG: 1.03 - 1.65   O2.5: 50.0%   BTTS: 53.5%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

@@ -1,0 +1,40 @@
+⚽ Turkey vs Paraguay — GROUP_STAGE
+Coup d'envoi : 20/06 05:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Turkey: 44.6%  Draw: 29.3%  Paraguay: 26.2%
+  With news adjustment: 44.5% / 29.3% / 26.3%
+  Elo: 2087.7 vs 2001.6
+
+— LINE MOVEMENT (where money went) —
+  Paraguay: 27.6% ↓ 25.2%
+  Turkey: 42.6% ↑ 46.4%
+  Draw: 29.7% ↓ 28.4%
+
+— NEWS: Turkey (sentiment -0.04) —
+  No injury/turmoil flags detected.
+
+— NEWS: Paraguay (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 60 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Turchia-Paraguay, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [Ole (AR)] El ex River y Vélez que llegó a un grande de Paraguay
+  [Kicker (DE)] Wer überträgt Türkei gegen Paraguay live im TV & Stream in Österreich?
+  [GoogleNews:"Turkey" world cup] Australia 2-0 Turkey: Nestory Irankunda makes World Cup history for Socceroos - BBC
+  [GoogleNews:"Turkey" world cup] Turkey vs Paraguay Predictions, Picks & Odds: Friday, June 19 World Cup Match - Covers.com
+  [GoogleNews:"Turkey" world cup] The political exile next door: How a World Cup icon found refuge in the Bay Area - The San Francisco Standard
+  [GoogleNews:"Turkey" world cup] World Cup scores, results: Brazil and Morocco battle to 1-1 draw while Australia stuns Türkiye in the nightcap - Yahoo Sports
+  [GoogleNews:"Turkey" world cup] Nobody saw Popovic’s Turkey masterclass coming. Now for his next trick - SMH.com.au
+
+— MOST LIKELY OUTCOME —
+  Turkey (44.6%)
+  Tentative exact scores: 1-1 (14.0%), 2-1 (9.2%), 1-0 (9.1%)
+  xG: 1.51 - 1.12   O2.5: 48.9%   BTTS: 54.3%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

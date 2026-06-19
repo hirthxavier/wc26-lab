@@ -1,0 +1,176 @@
+{
+  "frozen_at_utc": "2026-06-19T20:16:38.683306+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537347,
+    "utc_kickoff": "2026-06-20T03:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Turkey",
+    "away": "Paraguay",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.4458,
+    "draw": 0.2926,
+    "away": 0.2616
+  },
+  "model_with_news": {
+    "home": 0.4446,
+    "draw": 0.2926,
+    "away": 0.2628
+  },
+  "model_llm": {
+    "home": 0.4458,
+    "draw": 0.2926,
+    "away": 0.2616
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": -0.04,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.514,
+    "lam_away": 1.116,
+    "elo_home": 2087.7,
+    "elo_away": 2001.6
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "N"
+    ],
+    "form_away": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "D"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Venezuela",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-06-01",
+        "opp": "North Macedonia",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Kosovo",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-26",
+        "opp": "Romania",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Spain",
+        "score": "2-2",
+        "r": "N"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-05",
+        "opp": "Nicaragua",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Morocco",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Greece",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Mexico",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-15",
+        "opp": "United States",
+        "score": "1-2",
+        "r": "D"
+      }
+    ],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1401
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0922
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0908
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0903
+    },
+    {
+      "score": "2-0",
+      "prob": 0.0826
+    }
+  ],
+  "ev_summary": null
+}

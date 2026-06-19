@@ -17,7 +17,7 @@
     "stage": "GROUP_STAGE",
     "home": "United States",
     "away": "Australia",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 2,
       "away": 0

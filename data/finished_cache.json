@@ -334,5 +334,17 @@
       "home": 1,
       "away": 0
     }
+  },
+  {
+    "match_id": 537348,
+    "utc_kickoff": "2026-06-19T19:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "United States",
+    "away": "Australia",
+    "status": "FINISHED",
+    "score": {
+      "home": 2,
+      "away": 0
+    }
   }
 ]

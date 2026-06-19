@@ -310,5 +310,17 @@
       "home": 4,
       "away": 1
     }
+  },
+  {
+    "match_id": 537336,
+    "utc_kickoff": "2026-06-18T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Canada",
+    "away": "Qatar",
+    "status": "FINISHED",
+    "score": {
+      "home": 6,
+      "away": 0
+    }
   }
 ]

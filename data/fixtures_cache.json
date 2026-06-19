@@ -1,53 +1,5 @@
 [
   {
-    "match_id": 537404,
-    "utc_kickoff": "2026-06-18T02:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Uzbekistan",
-    "away": "Colombia",
-    "status": "FINISHED",
-    "score": {
-      "home": 1,
-      "away": 3
-    }
-  },
-  {
-    "match_id": 537329,
-    "utc_kickoff": "2026-06-18T16:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Czechia",
-    "away": "South Africa",
-    "status": "FINISHED",
-    "score": {
-      "home": 1,
-      "away": 1
-    }
-  },
-  {
-    "match_id": 537335,
-    "utc_kickoff": "2026-06-18T19:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Switzerland",
-    "away": "Bosnia-Herzegovina",
-    "status": "FINISHED",
-    "score": {
-      "home": 4,
-      "away": 1
-    }
-  },
-  {
-    "match_id": 537336,
-    "utc_kickoff": "2026-06-18T22:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Canada",
-    "away": "Qatar",
-    "status": "IN_PLAY",
-    "score": {
-      "home": 1,
-      "away": 0
-    }
-  },
-  {
     "match_id": 537330,
     "utc_kickoff": "2026-06-19T01:00:00Z",
     "stage": "GROUP_STAGE",
@@ -185,6 +137,54 @@
     "stage": "GROUP_STAGE",
     "home": "Uruguay",
     "away": "Cape Verde Islands",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537366,
+    "utc_kickoff": "2026-06-22T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "New Zealand",
+    "away": "Egypt",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537399,
+    "utc_kickoff": "2026-06-22T17:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Argentina",
+    "away": "Austria",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537393,
+    "utc_kickoff": "2026-06-22T21:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "France",
+    "away": "Iraq",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537394,
+    "utc_kickoff": "2026-06-23T00:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Norway",
+    "away": "Senegal",
     "status": "TIMED",
     "score": {
       "home": null,

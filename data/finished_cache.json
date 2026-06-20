@@ -394,5 +394,17 @@
       "home": 5,
       "away": 1
     }
+  },
+  {
+    "match_id": 537353,
+    "utc_kickoff": "2026-06-20T20:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Germany",
+    "away": "Ivory Coast",
+    "status": "FINISHED",
+    "score": {
+      "home": 2,
+      "away": 1
+    }
   }
 ]

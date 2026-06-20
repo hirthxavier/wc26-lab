@@ -41,9 +41,9 @@
     "stage": "GROUP_STAGE",
     "home": "Germany",
     "away": "Ivory Coast",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 0,
+      "home": 2,
       "away": 1
     }
   },

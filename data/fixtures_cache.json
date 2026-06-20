@@ -1,50 +1,14 @@
 [
   {
-    "match_id": 537330,
-    "utc_kickoff": "2026-06-19T01:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Mexico",
-    "away": "South Korea",
-    "status": "FINISHED",
-    "score": {
-      "home": 1,
-      "away": 0
-    }
-  },
-  {
-    "match_id": 537348,
-    "utc_kickoff": "2026-06-19T19:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "United States",
-    "away": "Australia",
-    "status": "FINISHED",
-    "score": {
-      "home": 2,
-      "away": 0
-    }
-  },
-  {
-    "match_id": 537342,
-    "utc_kickoff": "2026-06-19T22:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Scotland",
-    "away": "Morocco",
-    "status": "IN_PLAY",
-    "score": {
-      "home": 0,
-      "away": 1
-    }
-  },
-  {
     "match_id": 537341,
     "utc_kickoff": "2026-06-20T00:30:00Z",
     "stage": "GROUP_STAGE",
     "home": "Brazil",
     "away": "Haiti",
-    "status": "TIMED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 3,
+      "away": 0
     }
   },
   {
@@ -53,10 +17,10 @@
     "stage": "GROUP_STAGE",
     "home": "Turkey",
     "away": "Paraguay",
-    "status": "TIMED",
+    "status": "PAUSED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     }
   },
   {
@@ -185,6 +149,54 @@
     "stage": "GROUP_STAGE",
     "home": "Norway",
     "away": "Senegal",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537400,
+    "utc_kickoff": "2026-06-23T03:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Jordan",
+    "away": "Algeria",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537405,
+    "utc_kickoff": "2026-06-23T17:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537411,
+    "utc_kickoff": "2026-06-23T20:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "England",
+    "away": "Ghana",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537412,
+    "utc_kickoff": "2026-06-23T23:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Panama",
+    "away": "Croatia",
     "status": "TIMED",
     "score": {
       "home": null,

@@ -208,5 +208,26 @@
       "Portugal": 0.0153,
       "Canada": 0.0112
     }
+  },
+  {
+    "date": "2026-06-20",
+    "champion": {
+      "Spain": 0.2801,
+      "Argentina": 0.1156,
+      "France": 0.1,
+      "England": 0.0958,
+      "Mexico": 0.0538,
+      "Norway": 0.0376,
+      "Colombia": 0.0366,
+      "Brazil": 0.0347,
+      "Ecuador": 0.0306,
+      "Morocco": 0.0301,
+      "Germany": 0.026,
+      "Japan": 0.0203,
+      "Netherlands": 0.0193,
+      "Portugal": 0.015,
+      "Switzerland": 0.0137,
+      "Canada": 0.0121
+    }
   }
 ]

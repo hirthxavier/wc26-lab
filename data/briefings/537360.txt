@@ -1,0 +1,40 @@
+⚽ Tunisia vs Japan — GROUP_STAGE
+Coup d'envoi : 21/06 06:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Tunisia: 8.0%  Draw: 18.3%  Japan: 73.7%
+  With news adjustment: 8.0% / 18.3% / 73.7%
+  Elo: 1742.6 vs 2086.5
+
+— LINE MOVEMENT (where money went) —
+  Japan: 55.5% ↑ 64.1%
+  Tunisia: 17.8% ↓ 13.1%
+  Draw: 26.6% ↓ 22.8%
+
+— NEWS: Tunisia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Japan (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 50 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Tunisia-Giappone, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Tunisia" world cup] Japan v Tunisia marks 1,000th World Cup match, FIFA says - Reuters
+  [GoogleNews:"Tunisia" world cup] Hervé Renard is back on the world stage as the Tunisia manager for the remainder of the FIFA World Cup - FOX Sports
+  [GoogleNews:"Tunisia" world cup] Japan vs. Tunisia Prediction, Odds, Picks For World Cup Match - FOX Sports
+  [GoogleNews:"Tunisia" world cup] Tunisia vs. Japan: How to watch the Group F World Cup match: TV channel, start time, where to stream free, and more - Yahoo Sports
+  [GoogleNews:"Tunisia" world cup] Japan vs. Tunisia odds, prediction, time: 2026 World Cup picks, best bets from expert on 19-9 run - CBS Sports
+  [GoogleNews:"Tunisia" world cup] Tunisia vs. Japan 2026 livestream: How to watch World Cup for free - Mashable
+  [GoogleNews:"Tunisia" world cup] What time is Tunisia vs Japan on? How to watch World Cup Saturday - azcentral.com and The Arizona Republic
+
+— MOST LIKELY OUTCOME —
+  Japan (73.6%)
+  Tentative exact scores: 0-2 (12.9%), 0-3 (10.3%), 0-1 (9.7%)
+  xG: 0.71 - 2.39   O2.5: 59.8%   BTTS: 47.2%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

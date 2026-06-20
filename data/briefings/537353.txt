@@ -1,0 +1,40 @@
+⚽ Germany vs Ivory Coast — GROUP_STAGE
+Coup d'envoi : 20/06 22:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Germany: 54.2%  Draw: 26.8%  Ivory Coast: 18.9%
+  With news adjustment: 54.3% / 26.8% / 18.8%
+  Elo: 2103.4 vs 1935.0
+
+— LINE MOVEMENT (where money went) —
+  Germany: 61.3% ↑ 66.5%
+  Ivory Coast: 16.6% ↓ 13.7%
+  Draw: 22.1% ↓ 19.8%
+
+— NEWS: Germany (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Ivory Coast (sentiment -0.04) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 57 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Guardian (UK)] Germany v Côte d’Ivoire: World Cup 2026 – live
+  [GoogleNews:"Germany" world cup] Germany vs Ivory Coast live updates: World Cup 2026 game latest news and buildup - The Athletic - The New York Times
+  [GoogleNews:"Germany" world cup] World Cup 2026: Netherlands, Germany and Sweden in action on Saturday - BBC
+  [GoogleNews:"Germany" world cup] Viral World Cup fan Freddy gets stranded at airport, airlines start bidding war to fly him to Canada - Fox News
+  [GoogleNews:"Germany" world cup] World Cup 2026 Power Rankings after one game: Who is No. 1? - ESPN
+  [GoogleNews:"Germany" world cup] World Cup 2026 schedule, live updates: Netherlands routs Sweden; Germany vs. Ivory Coast up next - Yahoo Sports
+  [GoogleNews:"Germany" world cup] Kai Havertz’s wife Sophia stuns in polka dot bikini before Germany World Cup match - New York Post
+  [GoogleNews:"Germany" world cup] How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Germany, Netherlands, More - FOX Sports
+
+— MOST LIKELY OUTCOME —
+  Germany (54.2%)
+  Tentative exact scores: 1-1 (12.8%), 2-0 (10.1%), 1-0 (9.9%)
+  xG: 1.75 - 0.96   O2.5: 51.0%   BTTS: 52.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

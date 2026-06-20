@@ -382,5 +382,17 @@
       "home": 0,
       "away": 1
     }
+  },
+  {
+    "match_id": 537359,
+    "utc_kickoff": "2026-06-20T17:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Netherlands",
+    "away": "Sweden",
+    "status": "FINISHED",
+    "score": {
+      "home": 5,
+      "away": 1
+    }
   }
 ]

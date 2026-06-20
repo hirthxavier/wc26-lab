@@ -1,0 +1,40 @@
+⚽ Ecuador vs Curaçao — GROUP_STAGE
+Coup d'envoi : 21/06 02:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Ecuador: 84.9%  Draw: 11.6%  Curaçao: 3.6%
+  With news adjustment: 84.9% / 11.6% / 3.6%
+  Elo: 2128.1 vs 1656.8
+
+— LINE MOVEMENT (where money went) —
+  Curaçao: 6.7% ↓ 5.3%
+  Ecuador: 79.5% ↑ 83.0%
+  Draw: 13.8% ↓ 11.7%
+
+— NEWS: Ecuador (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Curaçao (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 53 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Ecuador-Cura&ccedil;ao, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [Ole (AR)] Ecuador, del "si perdemos, estamos afuera" al sueño de pasar de ronda
+  [Kicker (DE)] FCZ-Comencia glaubt nach historischem Tor gegen Deutschland an erste WM-Punkte gegen Ecuador
+  [Voetbal International (NL)] VI Live: Koninklijk Paar en prinses bezoeken ook WK-duel Curaçao
+  [GoogleNews:"Ecuador" world cup] Ecuador vs. Curacao—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"Ecuador" world cup] Germany, Netherlands, Japan Among Top World Cup Teams In Action On Match Day 10 - FOX Sports
+  [GoogleNews:"Ecuador" world cup] 2026 World Cup, Day 10: Netherlands vs. Sweden; Germany vs. Côte d’Ivoire; Ecuador vs. Curaçao; Tunisia vs. Japan - Chiesa Di Totti
+  [GoogleNews:"Ecuador" world cup] What soccer games are today? Breaking down World Cup schedule for June 20 - USA Today
+
+— MOST LIKELY OUTCOME —
+  Ecuador (84.8%)
+  Tentative exact scores: 2-0 (12.8%), 3-0 (12.8%), 4-0 (9.6%)
+  xG: 3.0 - 0.56   O2.5: 68.9%   BTTS: 41.7%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

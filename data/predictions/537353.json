@@ -1,0 +1,182 @@
+{
+  "frozen_at_utc": "2026-06-20T19:42:47.620441+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537353,
+    "utc_kickoff": "2026-06-20T20:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Germany",
+    "away": "Ivory Coast",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.5421,
+    "draw": 0.2684,
+    "away": 0.1895
+  },
+  "model_with_news": {
+    "home": 0.5433,
+    "draw": 0.2684,
+    "away": 0.1883
+  },
+  "model_llm": {
+    "home": 0.5421,
+    "draw": 0.2684,
+    "away": 0.1895
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": -0.04,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.752,
+    "lam_away": 0.965,
+    "elo_home": 2103.4,
+    "elo_away": 1935.0
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "form_away": [
+      "V",
+      "V",
+      "V",
+      "D",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "United States",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Finland",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-30",
+        "opp": "Ghana",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Switzerland",
+        "score": "4-3",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-17",
+        "opp": "Slovakia",
+        "score": "6-0",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-04",
+        "opp": "France",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Scotland",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "South Korea",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-01-10",
+        "opp": "Egypt",
+        "score": "2-3",
+        "r": "D"
+      },
+      {
+        "date": "2026-01-06",
+        "opp": "Burkina Faso",
+        "score": "3-0",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 1,
+      "wins_a": 0,
+      "draws": 1,
+      "wins_b": 0,
+      "goals_a": 2,
+      "goals_b": 2,
+      "last_meetings": [
+        {
+          "date": "2009",
+          "score": "2-2",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1285
+    },
+    {
+      "score": "2-0",
+      "prob": 0.1014
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0991
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0979
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0829
+    }
+  ],
+  "ev_summary": null
+}

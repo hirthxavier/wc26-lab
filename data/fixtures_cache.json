@@ -29,10 +29,10 @@
     "stage": "GROUP_STAGE",
     "home": "Spain",
     "away": "Saudi Arabia",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   {

@@ -31,7 +31,7 @@
     "away": "Saudi Arabia",
     "status": "FINISHED",
     "score": {
-      "home": 5,
+      "home": 4,
       "away": 0
     }
   },
@@ -41,7 +41,7 @@
     "stage": "GROUP_STAGE",
     "home": "Belgium",
     "away": "Iran",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "score": {
       "home": 0,
       "away": 0

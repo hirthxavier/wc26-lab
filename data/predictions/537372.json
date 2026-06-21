@@ -1,0 +1,139 @@
+{
+  "frozen_at_utc": "2026-06-21T20:04:13.853217+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537372,
+    "utc_kickoff": "2026-06-21T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Uruguay",
+    "away": "Cape Verde Islands",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.8739,
+    "draw": 0.0983,
+    "away": 0.0278
+  },
+  "model_with_news": {
+    "home": 0.8739,
+    "draw": 0.0983,
+    "away": 0.0278
+  },
+  "model_llm": {
+    "home": 0.8739,
+    "draw": 0.0983,
+    "away": 0.0278
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 3.192,
+    "lam_away": 0.529,
+    "elo_home": 2023.0,
+    "elo_away": 1515.8
+  },
+  "formstats": {
+    "form_home": [
+      "N",
+      "N",
+      "D",
+      "N",
+      "V"
+    ],
+    "form_away": [],
+    "form_home_detail": [
+      {
+        "date": "2026-03-31",
+        "opp": "Algeria",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "England",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "United States",
+        "score": "1-5",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-15",
+        "opp": "Mexico",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2025-10-13",
+        "opp": "Uzbekistan",
+        "score": "2-1",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "3-0",
+      "prob": 0.1319
+    },
+    {
+      "score": "2-0",
+      "prob": 0.124
+    },
+    {
+      "score": "4-0",
+      "prob": 0.1053
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0715
+    },
+    {
+      "score": "3-1",
+      "prob": 0.0698
+    }
+  ],
+  "ev_summary": null
+}

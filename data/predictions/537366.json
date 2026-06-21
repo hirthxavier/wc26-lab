@@ -1,0 +1,198 @@
+{
+  "frozen_at_utc": "2026-06-21T20:04:27.201073+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537366,
+    "utc_kickoff": "2026-06-22T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "New Zealand",
+    "away": "Egypt",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.2106,
+    "draw": 0.2774,
+    "away": 0.512
+  },
+  "model_with_news": {
+    "home": 0.2112,
+    "draw": 0.2774,
+    "away": 0.5114
+  },
+  "model_llm": {
+    "home": 0.2106,
+    "draw": 0.2774,
+    "away": 0.512
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": [
+      "Egypt coach denies Salah rift before World Cup match against New Zealand - Al Jazeera"
+    ]
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": [
+      "World Cup 2026: Egypt manager denies Salah rift; Spain screening scrapped due to Madrid heat \u2013 as it happened - The Guardian",
+      "World Cup 2026 LIVE: Curacao goalkeeper makes history, Egypt coach denies Salah rift, another team crashes out - The Independent",
+      "Egypt coach denies Salah rift before World Cup match against New Zealand - Al Jazeera"
+    ]
+  },
+  "diagnostics": {
+    "lam_home": 1.01,
+    "lam_away": 1.674,
+    "elo_home": 1752.0,
+    "elo_away": 1894.7
+  },
+  "formstats": {
+    "form_home": [
+      "D",
+      "D",
+      "V",
+      "D",
+      "D"
+    ],
+    "form_away": [
+      "D",
+      "V",
+      "N",
+      "V",
+      "N"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "England",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Haiti",
+        "score": "0-4",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-30",
+        "opp": "Chile",
+        "score": "4-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Finland",
+        "score": "0-2",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Ecuador",
+        "score": "0-2",
+        "r": "D"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Brazil",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-05-28",
+        "opp": "Russia",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Spain",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Saudi Arabia",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-01-17",
+        "opp": "Nigeria",
+        "score": "0-0",
+        "r": "N"
+      }
+    ],
+    "h2h": {
+      "played": 3,
+      "wins_a": 0,
+      "draws": 1,
+      "wins_b": 2,
+      "goals_a": 1,
+      "goals_b": 3,
+      "last_meetings": [
+        {
+          "date": "2024",
+          "score": "0-1",
+          "tournament": "FIFA Series"
+        },
+        {
+          "date": "1999",
+          "score": "0-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "1999",
+          "score": "1-1",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1328
+    },
+    {
+      "score": "0-1",
+      "prob": 0.0971
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0966
+    },
+    {
+      "score": "0-2",
+      "prob": 0.0957
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0856
+    }
+  ],
+  "ev_summary": null
+}

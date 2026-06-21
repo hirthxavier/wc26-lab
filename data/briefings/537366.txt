@@ -1,0 +1,42 @@
+⚽ New Zealand vs Egypt — GROUP_STAGE
+Coup d'envoi : 22/06 03:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  New Zealand: 21.1%  Draw: 27.7%  Egypt: 51.2%
+  With news adjustment: 21.1% / 27.7% / 51.1%
+  Elo: 1752.0 vs 1894.7
+
+— LINE MOVEMENT (where money went) —
+  Egypt: 54.7% ↑ 60.6%
+  New Zealand: 19.7% ↓ 15.9%
+  Draw: 25.6% ↓ 23.6%
+
+— NEWS: New Zealand (sentiment +0.00) —
+  ⚠️ Egypt coach denies Salah rift before World Cup match against New Zealand - Al Jazeera
+
+— NEWS: Egypt (sentiment +0.00) —
+  ⚠️ World Cup 2026: Egypt manager denies Salah rift; Spain screening scrapped due to Madrid heat – as it happened - The Guardian
+  ⚠️ World Cup 2026 LIVE: Curacao goalkeeper makes history, Egypt coach denies Salah rift, another team crashes out - The Independent
+  ⚠️ Egypt coach denies Salah rift before World Cup match against New Zealand - Al Jazeera
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 54 headlines from ES/IT/FR/AR/UK/BR sources —
+  [GoogleNews:"New Zealand" world cup] IR Iran v New Zealand 2-2 | Result, Stats & Highlights | First Stage | FIFA World Cup 2026 - FIFA
+  [GoogleNews:"New Zealand" world cup] Egypt coach denies Salah rift before World Cup match against New Zealand - Al Jazeera
+  [GoogleNews:"New Zealand" world cup] Shaun Evans officiating first World Cup game after being cleared of making alleged White power gesture - The New York Times
+  [GoogleNews:"New Zealand" world cup] More than just happy to be here, New Zealand hunts first-ever knockout run - AP News
+  [GoogleNews:"New Zealand" world cup] New Zealand vs. Egypt—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"New Zealand" world cup] Chris Wood: New Zealand are hugely motivated to get first World Cup win - ESPN
+  [GoogleNews:"New Zealand" world cup] New Zealand make World Cup history with first mother-son duo - BBC
+  [GoogleNews:"New Zealand" world cup] New Zealand's Singh proud to blaze a trail for Sikh community at World Cup - Reuters
+
+— MOST LIKELY OUTCOME —
+  Egypt (51.2%)
+  Tentative exact scores: 1-1 (13.3%), 0-1 (9.7%), 1-2 (9.7%)
+  xG: 1.01 - 1.67   O2.5: 50.2%   BTTS: 53.4%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

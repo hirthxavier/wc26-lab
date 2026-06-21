@@ -430,5 +430,17 @@
       "home": 0,
       "away": 4
     }
+  },
+  {
+    "match_id": 537371,
+    "utc_kickoff": "2026-06-21T16:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Spain",
+    "away": "Saudi Arabia",
+    "status": "FINISHED",
+    "score": {
+      "home": 5,
+      "away": 0
+    }
   }
 ]

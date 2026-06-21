@@ -1,0 +1,35 @@
+⚽ Uruguay vs Cape Verde Islands — GROUP_STAGE
+Coup d'envoi : 22/06 00:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Uruguay: 87.4%  Draw: 9.8%  Cape Verde Islands: 2.8%
+  With news adjustment: 87.4% / 9.8% / 2.8%
+  Elo: 2023.0 vs 1515.8
+
+— NEWS: Uruguay (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Cape Verde Islands (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 44 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Marca (ES)] Cuándo juega España contra Uruguay en el Mundial: fecha y horario de la selección española en grupos
+  [Corriere dello Sport (IT)] Dove vedere Uruguay-Capo Verde, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Uruguay" world cup] Hydration breaks at World Cup add nothing but take away a lot, says Bielsa - Reuters
+  [GoogleNews:"Uruguay" world cup] Saudi Arabia v Uruguay 1-1 | Result, Stats & Highlights | First Stage | FIFA World Cup 2026 - FIFA
+  [GoogleNews:"Uruguay" world cup] Uruguay vs Cape Verde Predictions, Picks & Odds: Sunday, June 21 World Cup Match - Covers.com
+  [GoogleNews:"Uruguay" world cup] 'Garra Charrúa': The cultural identity that defines Uruguayan soccer - USA Today
+  [GoogleNews:"Uruguay" world cup] World Cup 2026 schedule, live updates: Lamine Yamal, Spain blowing out Saudi Arabia; Belgium, Uruguay return on Sunday - Yahoo Sports
+  [GoogleNews:"Uruguay" world cup] Biggest FIFA World Cup Controversies: Battle of Santiago, Zinedine Zidane’s Headbutt, and More - Britannica
+
+— MOST LIKELY OUTCOME —
+  Uruguay (87.3%)
+  Tentative exact scores: 3-0 (13.2%), 2-0 (12.4%), 4-0 (10.5%)
+  xG: 3.19 - 0.53   O2.5: 71.7%   BTTS: 40.0%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

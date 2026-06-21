@@ -17,10 +17,10 @@
     "stage": "GROUP_STAGE",
     "home": "Tunisia",
     "away": "Japan",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 0,
-      "away": 2
+      "away": 4
     }
   },
   {

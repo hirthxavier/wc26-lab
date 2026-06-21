@@ -177,6 +177,32 @@
       "logloss_close": 1.2331
     },
     {
+      "match_id": 537353,
+      "match": "Germany v Ivory Coast",
+      "actual": "home",
+      "brier_stats": 0.3176,
+      "logloss_stats": 0.6123,
+      "brier_news": 0.3161,
+      "logloss_news": 0.6101,
+      "brier_llm": 0.3176,
+      "logloss_llm": 0.6123,
+      "brier_close": 0.17,
+      "logloss_close": 0.4077
+    },
+    {
+      "match_id": 537354,
+      "match": "Ecuador v Cura\u00e7ao",
+      "actual": "draw",
+      "brier_stats": 1.5036,
+      "logloss_stats": 2.1585,
+      "brier_news": 1.5036,
+      "logloss_news": 2.1585,
+      "brier_llm": 1.5036,
+      "logloss_llm": 2.1585,
+      "brier_close": 1.481,
+      "logloss_close": 2.1755
+    },
+    {
       "match_id": 537358,
       "match": "Sweden v Tunisia",
       "actual": "home",
@@ -188,6 +214,19 @@
       "logloss_llm": 0.8675,
       "brier_close": 0.368,
       "logloss_close": 0.6811
+    },
+    {
+      "match_id": 537360,
+      "match": "Tunisia v Japan",
+      "actual": "away",
+      "brier_stats": 0.1095,
+      "logloss_stats": 0.3058,
+      "brier_news": 0.1095,
+      "logloss_news": 0.3058,
+      "brier_llm": 0.1095,
+      "logloss_llm": 0.3058,
+      "brier_close": 0.1811,
+      "logloss_close": 0.4202
     },
     {
       "match_id": 537364,
@@ -296,35 +335,35 @@
   ],
   "summary": {
     "stats": {
-      "n": 23,
-      "mean_brier": 0.5602,
+      "n": 26,
+      "mean_brier": 0.5699,
       "brier_95ci": [
-        0.3782,
-        0.7568
+        0.3908,
+        0.7615
       ]
     },
     "news": {
-      "n": 23,
-      "mean_brier": 0.5601,
+      "n": 26,
+      "mean_brier": 0.5696,
       "brier_95ci": [
-        0.3829,
-        0.7473
+        0.393,
+        0.7644
       ]
     },
     "llm": {
-      "n": 23,
-      "mean_brier": 0.518,
+      "n": 26,
+      "mean_brier": 0.5325,
       "brier_95ci": [
-        0.3675,
-        0.6812
+        0.3812,
+        0.6966
       ]
     },
     "close": {
-      "n": 20,
-      "mean_brier": 0.4221,
+      "n": 23,
+      "mean_brier": 0.4467,
       "brier_95ci": [
-        0.2732,
-        0.5823
+        0.2959,
+        0.619
       ]
     }
   }

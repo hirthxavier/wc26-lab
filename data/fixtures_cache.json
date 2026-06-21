@@ -53,10 +53,10 @@
     "stage": "GROUP_STAGE",
     "home": "Uruguay",
     "away": "Cape Verde Islands",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   {

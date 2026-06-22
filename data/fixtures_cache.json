@@ -17,10 +17,10 @@
     "stage": "GROUP_STAGE",
     "home": "Argentina",
     "away": "Austria",
-    "status": "TIMED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 0
     }
   },
   {

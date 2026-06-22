@@ -278,5 +278,35 @@
     "team_avg": null
   },
   "2026-06-21:injuries:New Zealand": [],
-  "2026-06-21:injuries:Egypt": []
+  "2026-06-21:injuries:Egypt": [],
+  "2026-06-22:form:France": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-22:form:Iraq": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-22:injuries:France": [],
+  "2026-06-22:injuries:Iraq": [],
+  "2026-06-22:form:Norway": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-22:form:Senegal": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-22:injuries:Norway": [],
+  "2026-06-22:injuries:Senegal": [],
+  "2026-06-22:form:Jordan": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-22:form:Algeria": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-22:injuries:Jordan": [],
+  "2026-06-22:injuries:Algeria": []
 }

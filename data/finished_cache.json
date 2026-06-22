@@ -478,5 +478,17 @@
       "home": 1,
       "away": 3
     }
+  },
+  {
+    "match_id": 537399,
+    "utc_kickoff": "2026-06-22T17:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Argentina",
+    "away": "Austria",
+    "status": "FINISHED",
+    "score": {
+      "home": 2,
+      "away": 0
+    }
   }
 ]

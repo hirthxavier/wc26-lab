@@ -1,0 +1,40 @@
+⚽ Norway vs Senegal — GROUP_STAGE
+Coup d'envoi : 23/06 02:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Norway: 54.8%  Draw: 26.6%  Senegal: 18.5%
+  With news adjustment: 54.8% / 26.6% / 18.5%
+  Elo: 2151.5 vs 1977.9
+
+— LINE MOVEMENT (where money went) —
+  Norway: 44.5% ↓ 42.3%
+  Senegal: 28.2% ↑ 29.6%
+  Draw: 27.3% ↑ 28.1%
+
+— NEWS: Norway (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Senegal (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 58 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Norvegia-Senegal, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Norway" world cup] World Cup Daily: Messi makes history with 17th and 18th World Cup goals - ESPN
+  [GoogleNews:"Norway" world cup] Updated World Cup Group I standings, bracket: Where does France rank? - USA Today
+  [GoogleNews:"Norway" world cup] World Cup 2026: Cape Verde celebrations; Norway v Senegal weather warning – as it happened - The Guardian
+  [GoogleNews:"Norway" world cup] Norway vs. Senegal—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"Norway" world cup] Norway vs Senegal live updates: World Cup 2026 game latest news and buildup - The New York Times
+  [GoogleNews:"Norway" world cup] NYC Gridlock Alert for Norway-Senegal World Cup match in New Jersey. Here's what to know. - CBS News
+  [GoogleNews:"Norway" world cup] How Monday's storms could impact the Norway-Senegal World Cup match - NBC New York
+
+— MOST LIKELY OUTCOME —
+  Norway (54.8%)
+  Tentative exact scores: 1-1 (12.8%), 2-0 (10.3%), 1-0 (9.9%)
+  xG: 1.77 - 0.96   O2.5: 51.2%   BTTS: 52.7%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

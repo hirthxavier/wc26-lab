@@ -1,0 +1,40 @@
+⚽ France vs Iraq — GROUP_STAGE
+Coup d'envoi : 22/06 23:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  France: 80.8%  Draw: 14.2%  Iraq: 5.1%
+  With news adjustment: 80.8% / 14.2% / 5.1%
+  Elo: 2242.9 vs 1822.4
+
+— LINE MOVEMENT (where money went) —
+  France: 85.1% ↑ 89.3%
+  Iraq: 4.0% ↓ 3.0%
+  Draw: 10.9% ↓ 7.7%
+
+— NEWS: France (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Iraq (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 58 headlines from ES/IT/FR/AR/UK/BR sources —
+  [L'Equipe (FR)] «L'orage principal est passé» : toutes les infos avant France-Irak
+  [L'Equipe (FR)] Alerte tonnerre à Philadelphie, le coup d'envoi de France-Irak retardé ?
+  [BBC Sport (UK)] Gates open after bad weather affects France-Iraq tie
+  [Guardian (UK)] France v Iraq: World Cup 2026 – live
+  [Globo Esporte (BR)] França x Iraque - Copa do Mundo 2026 - Ao vivo - globoesporte.com
+  [GoogleNews:"France" world cup] France vs Iraq live updates: World Cup 2026 latest, with storm warning before kick-off - The New York Times
+  [GoogleNews:"France" world cup] This college field in Massachusetts is key to France’s World Cup hopes - The Washington Post
+  [GoogleNews:"France" world cup] France v Iraq: World Cup 2026 – live - The Guardian
+
+— MOST LIKELY OUTCOME —
+  France (80.7%)
+  Tentative exact scores: 2-0 (13.1%), 3-0 (12.0%), 1-0 (8.7%)
+  xG: 2.74 - 0.62   O2.5: 65.1%   BTTS: 44.0%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

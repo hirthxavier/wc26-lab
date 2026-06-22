@@ -1,0 +1,40 @@
+⚽ Jordan vs Algeria — GROUP_STAGE
+Coup d'envoi : 23/06 05:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Jordan: 22.1%  Draw: 28.1%  Algeria: 49.8%
+  With news adjustment: 22.1% / 28.1% / 49.8%
+  Elo: 1811.5 vs 1942.0
+
+— LINE MOVEMENT (where money went) —
+  Algeria: 62.5% → 62.7%
+  Jordan: 14.9% → 14.9%
+  Draw: 22.6% → 22.4%
+
+— NEWS: Jordan (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Algeria (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 57 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Giordania-Algeria, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Jordan" world cup] World Cup 2026: Austria beat Jordan for first World Cup win since 1990 - BBC
+  [GoogleNews:"Jordan" world cup] Jordan vs. Algeria—World Cup: Predictions, Previews and Lineups - Sports Illustrated
+  [GoogleNews:"Jordan" world cup] One more chance to see Messi, shop tickets to Argentina's final group stage game - USA Today
+  [GoogleNews:"Jordan" world cup] Algeria vs. Jordan Odds, Predictions, Picks For World Cup Match - FOX Sports
+  [GoogleNews:"Jordan" world cup] World Cup appearance sparks ‘once-in-a-lifetime’ national pride for Jordanians - The Mercury News
+  [GoogleNews:"Jordan" world cup] World Cup 2026: How Argentina clinched a spot in the knockout round from Group J - SB Nation
+  [GoogleNews:"Jordan" world cup] Jordan vs Argentina World Cup 2026 Odds & Prediction Market - CryptoSlate
+
+— MOST LIKELY OUTCOME —
+  Algeria (49.8%)
+  Tentative exact scores: 1-1 (13.5%), 0-1 (9.6%), 1-2 (9.6%)
+  xG: 1.03 - 1.64   O2.5: 49.9%   BTTS: 53.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

@@ -29,10 +29,10 @@
     "stage": "GROUP_STAGE",
     "home": "France",
     "away": "Iraq",
-    "status": "TIMED",
+    "status": "PAUSED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   {

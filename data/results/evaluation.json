@@ -242,6 +242,19 @@
       "logloss_close": 1.2982
     },
     {
+      "match_id": 537366,
+      "match": "New Zealand v Egypt",
+      "actual": "away",
+      "brier_stats": 0.3594,
+      "logloss_stats": 0.6694,
+      "brier_news": 0.3603,
+      "logloss_news": 0.6706,
+      "brier_llm": 0.3594,
+      "logloss_llm": 0.6694,
+      "brier_close": 0.2305,
+      "logloss_close": 0.4938
+    },
+    {
       "match_id": 537370,
       "match": "Saudi Arabia v Uruguay",
       "actual": "draw",
@@ -253,6 +266,17 @@
       "logloss_llm": 1.5606,
       "brier_close": 1.0676,
       "logloss_close": 1.519
+    },
+    {
+      "match_id": 537372,
+      "match": "Uruguay v Cape Verde Islands",
+      "actual": "draw",
+      "brier_stats": 1.5775,
+      "logloss_stats": 2.3197,
+      "brier_news": 1.5775,
+      "logloss_news": 2.3197,
+      "brier_llm": 1.5775,
+      "logloss_llm": 2.3197
     },
     {
       "match_id": 537392,
@@ -335,35 +359,35 @@
   ],
   "summary": {
     "stats": {
-      "n": 26,
-      "mean_brier": 0.5699,
+      "n": 28,
+      "mean_brier": 0.5983,
       "brier_95ci": [
-        0.3908,
-        0.7615
+        0.4166,
+        0.7968
       ]
     },
     "news": {
-      "n": 26,
-      "mean_brier": 0.5696,
+      "n": 28,
+      "mean_brier": 0.5982,
       "brier_95ci": [
-        0.393,
-        0.7644
+        0.4198,
+        0.7916
       ]
     },
     "llm": {
-      "n": 26,
-      "mean_brier": 0.5325,
+      "n": 28,
+      "mean_brier": 0.5636,
       "brier_95ci": [
-        0.3812,
-        0.6966
+        0.4064,
+        0.7304
       ]
     },
     "close": {
-      "n": 23,
-      "mean_brier": 0.4467,
+      "n": 24,
+      "mean_brier": 0.4377,
       "brier_95ci": [
-        0.2959,
-        0.619
+        0.2898,
+        0.6044
       ]
     }
   }

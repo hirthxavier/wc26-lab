@@ -454,5 +454,17 @@
       "home": 0,
       "away": 0
     }
+  },
+  {
+    "match_id": 537372,
+    "utc_kickoff": "2026-06-21T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Uruguay",
+    "away": "Cape Verde Islands",
+    "status": "FINISHED",
+    "score": {
+      "home": 2,
+      "away": 2
+    }
   }
 ]

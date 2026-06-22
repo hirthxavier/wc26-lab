@@ -466,5 +466,17 @@
       "home": 2,
       "away": 2
     }
+  },
+  {
+    "match_id": 537366,
+    "utc_kickoff": "2026-06-22T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "New Zealand",
+    "away": "Egypt",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 3
+    }
   }
 ]

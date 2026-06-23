@@ -5,10 +5,10 @@
     "stage": "GROUP_STAGE",
     "home": "Norway",
     "away": "Senegal",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "score": {
       "home": 3,
-      "away": 1
+      "away": 2
     }
   },
   {
@@ -17,10 +17,10 @@
     "stage": "GROUP_STAGE",
     "home": "Jordan",
     "away": "Algeria",
-    "status": "TIMED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 2
     }
   },
   {

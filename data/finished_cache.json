@@ -502,5 +502,29 @@
       "home": 3,
       "away": 0
     }
+  },
+  {
+    "match_id": 537394,
+    "utc_kickoff": "2026-06-23T00:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Norway",
+    "away": "Senegal",
+    "status": "FINISHED",
+    "score": {
+      "home": 3,
+      "away": 2
+    }
+  },
+  {
+    "match_id": 537400,
+    "utc_kickoff": "2026-06-23T03:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Jordan",
+    "away": "Algeria",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 2
+    }
   }
 ]

@@ -29,10 +29,10 @@
     "stage": "GROUP_STAGE",
     "home": "Portugal",
     "away": "Uzbekistan",
-    "status": "TIMED",
+    "status": "PAUSED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 3,
+      "away": 0
     }
   },
   {

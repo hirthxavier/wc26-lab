@@ -292,6 +292,32 @@
       "logloss_close": 0.2332
     },
     {
+      "match_id": 537393,
+      "match": "France v Iraq",
+      "actual": "home",
+      "brier_stats": 0.0596,
+      "logloss_stats": 0.2136,
+      "brier_news": 0.0596,
+      "logloss_news": 0.2136,
+      "brier_llm": 0.0596,
+      "logloss_llm": 0.2136,
+      "brier_close": 0.0184,
+      "logloss_close": 0.1135
+    },
+    {
+      "match_id": 537394,
+      "match": "Norway v Senegal",
+      "actual": "home",
+      "brier_stats": 0.3095,
+      "logloss_stats": 0.6011,
+      "brier_news": 0.3095,
+      "logloss_news": 0.6011,
+      "brier_llm": 0.3095,
+      "logloss_llm": 0.6011,
+      "brier_close": 0.5396,
+      "logloss_close": 0.9148
+    },
+    {
       "match_id": 537397,
       "match": "Argentina v Algeria",
       "actual": "home",
@@ -316,6 +342,19 @@
       "logloss_llm": 0.6539,
       "brier_close": 0.1326,
       "logloss_close": 0.3477
+    },
+    {
+      "match_id": 537400,
+      "match": "Jordan v Algeria",
+      "actual": "away",
+      "brier_stats": 0.3803,
+      "logloss_stats": 0.6978,
+      "brier_news": 0.3803,
+      "logloss_news": 0.6978,
+      "brier_llm": 0.3803,
+      "logloss_llm": 0.6978,
+      "brier_close": 0.2038,
+      "logloss_close": 0.4557
     },
     {
       "match_id": 537404,
@@ -359,35 +398,35 @@
   ],
   "summary": {
     "stats": {
-      "n": 28,
-      "mean_brier": 0.5983,
+      "n": 31,
+      "mean_brier": 0.5646,
       "brier_95ci": [
-        0.4166,
-        0.7968
+        0.3983,
+        0.7418
       ]
     },
     "news": {
-      "n": 28,
-      "mean_brier": 0.5982,
+      "n": 31,
+      "mean_brier": 0.5644,
       "brier_95ci": [
-        0.4198,
-        0.7916
+        0.4043,
+        0.7424
       ]
     },
     "llm": {
-      "n": 28,
-      "mean_brier": 0.5636,
+      "n": 31,
+      "mean_brier": 0.5332,
       "brier_95ci": [
-        0.4064,
-        0.7304
+        0.3862,
+        0.6962
       ]
     },
     "close": {
-      "n": 24,
-      "mean_brier": 0.4377,
+      "n": 27,
+      "mean_brier": 0.4173,
       "brier_95ci": [
-        0.2898,
-        0.6044
+        0.2821,
+        0.5676
       ]
     }
   }

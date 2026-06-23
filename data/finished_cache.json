@@ -526,5 +526,17 @@
       "home": 1,
       "away": 2
     }
+  },
+  {
+    "match_id": 537405,
+    "utc_kickoff": "2026-06-23T17:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Portugal",
+    "away": "Uzbekistan",
+    "status": "FINISHED",
+    "score": {
+      "home": 5,
+      "away": 0
+    }
   }
 ]

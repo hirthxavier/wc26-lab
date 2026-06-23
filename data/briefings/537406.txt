@@ -1,0 +1,35 @@
+⚽ Colombia vs Congo DR — GROUP_STAGE
+Coup d'envoi : 24/06 04:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Colombia: 93.7%  Draw: 5.3%  Congo DR: 1.1%
+  With news adjustment: 93.7% / 5.3% / 1.1%
+  Elo: 2137.9 vs 1514.9
+
+— NEWS: Colombia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Congo DR (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 50 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Colombia-Congo, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Colombia" world cup] Colombia vs. DR Congo Prediction, Odds, Picks For World Cup Match - FOX Sports
+  [GoogleNews:"Colombia" world cup] Portugal vs. Colombia World Cup ticket prices rise ahead of matchup in Miami - USA Today
+  [GoogleNews:"Colombia" world cup] Uzbekistan 1-3 Colombia: Diaz, Campaz, Munoz score to hold off spirited Uzbek side - as it happened - ESPN
+  [GoogleNews:"Colombia" world cup] Want to see Ronaldo and Rodriguez at the Colombia-Portugal World Cup match? Expect to pay as much as $60K - WSVN
+  [GoogleNews:"Colombia" world cup] Uzbekistan 1-3 Colombia: World Cup 2026 – as it happened - The Guardian
+  [GoogleNews:"Colombia" world cup] Stunning Colombia World Cup fan shows support for Luis Diaz and Co with eye-popping busty display at game - The Sun
+  [GoogleNews:"Colombia" world cup] Fifa World Cup: Colombia to face DR Congo with ‘warm hearts, cold heads’ - South China Morning Post
+
+— MOST LIKELY OUTCOME —
+  Colombia (93.5%)
+  Tentative exact scores: 3-0 (13.2%), 4-0 (12.9%), 5-0 (10.1%)
+  xG: 3.92 - 0.43   O2.5: 80.5%   BTTS: 34.7%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

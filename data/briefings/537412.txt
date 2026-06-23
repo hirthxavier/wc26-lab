@@ -1,0 +1,40 @@
+⚽ Panama vs Croatia — GROUP_STAGE
+Coup d'envoi : 24/06 01:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Panama: 20.2%  Draw: 27.4%  Croatia: 52.5%
+  With news adjustment: 20.2% / 27.4% / 52.5%
+  Elo: 1883.3 vs 2036.7
+
+— LINE MOVEMENT (where money went) —
+  Croatia: 61.2% ↑ 66.8%
+  Panama: 14.7% ↓ 12.4%
+  Draw: 24.1% ↓ 20.8%
+
+— NEWS: Panama (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Croatia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 48 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Panama-Croazia, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Panama" world cup] Panama vs. Croatia—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"Panama" world cup] Ghana 1-0 Panama: Ghana's 95th-minute winner denies Panama first World Cup point - BBC
+  [GoogleNews:"Panama" world cup] 2026 World Cup, Day 13: Portugal vs. Uzbekistan; England vs. Ghana; Panama vs. Croatia; Colombia vs. DR Congo - We Ain't Got No History
+  [GoogleNews:"Panama" world cup] World Cup Best Bets Today (Picks for England-Ghana, Panama-Croatia, and More) - Sports Illustrated
+  [GoogleNews:"Panama" world cup] Use DraftKings promo code for $200 in bonus bets by targeting England-Ghana, Panama-Croatia, 2026 World Cup - CBS Sports
+  [GoogleNews:"Panama" world cup] England sent new pitch warning, FIFA statement, angry World Cup fans demand game is moved - The Mirror
+  [GoogleNews:"Panama" world cup] How Ghana beat Panama with stoppage-time winner at World Cup 2026 - The New York Times
+
+— MOST LIKELY OUTCOME —
+  Croatia (52.5%)
+  Tentative exact scores: 1-1 (13.1%), 0-2 (9.8%), 0-1 (9.8%)
+  xG: 0.99 - 1.71   O2.5: 50.6%   BTTS: 53.2%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

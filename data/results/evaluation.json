@@ -370,6 +370,17 @@
       "logloss_close": 0.3674
     },
     {
+      "match_id": 537406,
+      "match": "Colombia v Congo DR",
+      "actual": "home",
+      "brier_stats": 0.0069,
+      "logloss_stats": 0.0655,
+      "brier_news": 0.0069,
+      "logloss_news": 0.0655,
+      "brier_llm": 0.0069,
+      "logloss_llm": 0.0655
+    },
+    {
       "match_id": 537409,
       "match": "England v Croatia",
       "actual": "home",
@@ -394,39 +405,52 @@
       "logloss_llm": 1.5712,
       "brier_close": 0.5313,
       "logloss_close": 0.9041
+    },
+    {
+      "match_id": 537412,
+      "match": "Panama v Croatia",
+      "actual": "away",
+      "brier_stats": 0.3417,
+      "logloss_stats": 0.6453,
+      "brier_news": 0.3417,
+      "logloss_news": 0.6453,
+      "brier_llm": 0.3417,
+      "logloss_llm": 0.6453,
+      "brier_close": 0.1706,
+      "logloss_close": 0.4059
     }
   ],
   "summary": {
     "stats": {
-      "n": 31,
-      "mean_brier": 0.5646,
+      "n": 33,
+      "mean_brier": 0.5409,
       "brier_95ci": [
-        0.3983,
-        0.7418
+        0.3836,
+        0.7114
       ]
     },
     "news": {
-      "n": 31,
-      "mean_brier": 0.5644,
+      "n": 33,
+      "mean_brier": 0.5408,
       "brier_95ci": [
-        0.4043,
-        0.7424
+        0.3827,
+        0.7134
       ]
     },
     "llm": {
-      "n": 31,
-      "mean_brier": 0.5332,
+      "n": 33,
+      "mean_brier": 0.5115,
       "brier_95ci": [
-        0.3862,
-        0.6962
+        0.3692,
+        0.664
       ]
     },
     "close": {
-      "n": 27,
-      "mean_brier": 0.4173,
+      "n": 28,
+      "mean_brier": 0.4085,
       "brier_95ci": [
-        0.2821,
-        0.5676
+        0.2792,
+        0.5587
       ]
     }
   }

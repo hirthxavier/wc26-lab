@@ -1,0 +1,35 @@
+⚽ Bosnia-Herzegovina vs Qatar — GROUP_STAGE
+Coup d'envoi : 24/06 21:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Bosnia-Herzegovina: 27.0%  Draw: 29.4%  Qatar: 43.5%
+  With news adjustment: 27.0% / 29.4% / 43.5%
+  Elo: 1510.7 vs 1587.6
+
+— NEWS: Bosnia-Herzegovina (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Qatar (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 52 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Guardian (UK)] Bosnia and Herzegovina v Qatar: World Cup  2026 – live
+  [Record (PT)] <![CDATA[ Bósnia-Qatar, em direto ]]>
+  [GoogleNews:"Bosnia-Herzegovina" world cup] Bosnia-Herzegovina vs Qatar LIVE: FIFA World Cup Group B score, lineups, commentary & updates - BBC
+  [GoogleNews:"Bosnia-Herzegovina" world cup] 2026 World Cup Group B Scenarios: What Canada, Switzerland, Bosnia, Qatar Need To Advance - FOX Sports
+  [GoogleNews:"Bosnia-Herzegovina" world cup] How to watch Bosnia and Herzegovina vs. Qatar online for free - Mashable
+  [GoogleNews:"Bosnia-Herzegovina" world cup] Watch Bosnia and Herzegovina vs Qatar World Cup game: Start time, TV channel, streaming - USA Today
+  [GoogleNews:"Bosnia-Herzegovina" world cup] How to watch Bosnia and Herzegovina vs Qatar: Free Streams, TV Channels & Kick-Off time for FIFA World Cup 2026 - TechRadar
+  [GoogleNews:"Bosnia-Herzegovina" world cup] World Cup Group B fixtures - Sky Sports
+
+— MOST LIKELY OUTCOME —
+  Qatar (43.5%)
+  Tentative exact scores: 1-1 (14.1%), 1-2 (9.1%), 0-0 (9.1%)
+  xG: 1.13 - 1.49   O2.5: 48.8%   BTTS: 54.4%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

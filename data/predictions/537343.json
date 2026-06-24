@@ -1,0 +1,206 @@
+{
+  "frozen_at_utc": "2026-06-24T18:55:45.786462+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537343,
+    "utc_kickoff": "2026-06-24T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Scotland",
+    "away": "Brazil",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.1785,
+    "draw": 0.263,
+    "away": 0.5585
+  },
+  "model_with_news": {
+    "home": 0.1785,
+    "draw": 0.263,
+    "away": 0.5585
+  },
+  "model_llm": {
+    "home": 0.1785,
+    "draw": 0.263,
+    "away": 0.5585
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": [
+      "World Cup 2026: Norway\u2019s \u2018Viking row\u2019 celebration irks neighbours; Infantino defends hydration breaks \u2013 as it happened - The Guardian"
+    ]
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": [
+      "World Cup 2026: Norway\u2019s \u2018Viking row\u2019 celebration irks neighbours; Infantino defends hydration breaks \u2013 as it happened - The Guardian"
+    ]
+  },
+  "diagnostics": {
+    "lam_home": 0.941,
+    "lam_away": 1.796,
+    "elo_home": 1946.3,
+    "elo_away": 2128.7
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "D",
+      "D",
+      "V"
+    ],
+    "form_away": [
+      "V",
+      "V",
+      "V",
+      "D",
+      "N"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Bolivia",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Cura\u00e7ao",
+        "score": "4-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Ivory Coast",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Japan",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Denmark",
+        "score": "4-2",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Egypt",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Panama",
+        "score": "6-2",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Croatia",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-26",
+        "opp": "France",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Tunisia",
+        "score": "1-1",
+        "r": "N"
+      }
+    ],
+    "h2h": {
+      "played": 10,
+      "wins_a": 0,
+      "draws": 2,
+      "wins_b": 8,
+      "goals_a": 3,
+      "goals_b": 16,
+      "last_meetings": [
+        {
+          "date": "2011",
+          "score": "0-2",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "1998",
+          "score": "1-2",
+          "tournament": "FIFA World Cup"
+        },
+        {
+          "date": "1990",
+          "score": "0-1",
+          "tournament": "FIFA World Cup"
+        },
+        {
+          "date": "1987",
+          "score": "0-2",
+          "tournament": "Rous Cup"
+        },
+        {
+          "date": "1982",
+          "score": "1-4",
+          "tournament": "FIFA World Cup"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1259
+    },
+    {
+      "score": "0-2",
+      "prob": 0.1045
+    },
+    {
+      "score": "0-1",
+      "prob": 0.0999
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0983
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0812
+    }
+  ],
+  "ev_summary": null
+}

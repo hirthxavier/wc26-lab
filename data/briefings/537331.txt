@@ -1,0 +1,35 @@
+⚽ Czechia vs Mexico — GROUP_STAGE
+Coup d'envoi : 25/06 03:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Czechia: 11.7%  Draw: 22.1%  Mexico: 66.2%
+  With news adjustment: 11.6% / 22.1% / 66.3%
+  Elo: 1832.1 vs 2105.1
+
+— NEWS: Czechia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Mexico (sentiment +0.04) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 52 headlines from ES/IT/FR/AR/UK/BR sources —
+  [GoogleNews:"Czechia" world cup] Mexico players back Ochoa for historic World Cup start vs. Czechia - ESPN
+  [GoogleNews:"Czechia" world cup] Czech Republic vs South Africa LIVE: Watch FIFA World Cup Group A TV stream, score, commentary & updates - BBC
+  [GoogleNews:"Czechia" world cup] 2026 World Cup Group A Scenarios: What South Korea, Czechia, South Africa Need To Advance - FOX Sports
+  [GoogleNews:"Czechia" world cup] Czechia vs. Mexico 2026 livestream: How to watch World Cup for free - Mashable
+  [GoogleNews:"Czechia" world cup] What time is the Mexico game today vs. Czechia in 2026 World Cup - El Paso Times
+  [GoogleNews:"Czechia" world cup] Czechia vs. Mexico prediction, pick for Wednesday 6/24/26 - DraftKings Network
+  [GoogleNews:"Czechia" world cup] Mexico XI vs Czechia – Predicted lineup and team news - Yahoo Sports
+  [GoogleNews:"Czechia" world cup] Czechia vs. Mexico at World Cup 2026: TV channel, how to watch in UK, kick-off time, live stream, referee, predicted line-ups - ESPN
+
+— MOST LIKELY OUTCOME —
+  Mexico (66.2%)
+  Tentative exact scores: 0-2 (12.1%), 1-1 (10.6%), 0-1 (10.1%)
+  xG: 0.8 - 2.11   O2.5: 55.6%   BTTS: 49.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

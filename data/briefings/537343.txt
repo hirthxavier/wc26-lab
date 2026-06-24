@@ -1,0 +1,40 @@
+⚽ Scotland vs Brazil — GROUP_STAGE
+Coup d'envoi : 25/06 00:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Scotland: 17.9%  Draw: 26.3%  Brazil: 55.8%
+  With news adjustment: 17.9% / 26.3% / 55.8%
+  Elo: 1946.3 vs 2128.7
+
+— LINE MOVEMENT (where money went) —
+  Brazil: 65.0% ↑ 73.4%
+  Scotland: 14.2% ↓ 9.2%
+  Draw: 20.8% ↓ 17.4%
+
+— NEWS: Scotland (sentiment +0.00) —
+  ⚠️ World Cup 2026: Norway’s ‘Viking row’ celebration irks neighbours; Infantino defends hydration breaks – as it happened - The Guardian
+
+— NEWS: Brazil (sentiment +0.00) —
+  ⚠️ World Cup 2026: Norway’s ‘Viking row’ celebration irks neighbours; Infantino defends hydration breaks – as it happened - The Guardian
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 62 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] Scotland primed for game of their lives against fallible Brazil
+  [BBC Sport (UK)] England to face Scotland? World Cup knockout stage as it stands
+  [BBC Sport (UK)] What are Scotland's chances of progressing as third-place finishers?
+  [Guardian (UK)] ‘For future generations’: Brazil working hard to ensure successful 2027 Women’s World Cup
+  [GoogleNews:"Scotland" world cup] Scotland on 'brink of history' ahead of Brazil World Cup tie - BBC
+  [GoogleNews:"Scotland" world cup] Which nation will Scotland face in the 2026 FIFA World Cup Round of 32 if they advance? - Yahoo Sports
+  [GoogleNews:"Scotland" world cup] World’s oldest football travels from Scotland to Miami for the World Cup - NBC News
+  [GoogleNews:"Scotland" world cup] How does Ronaldo turning up change things? Re-ranking the 48 World Cup teams after day 13 - The Athletic - The New York Times
+
+— MOST LIKELY OUTCOME —
+  Brazil (55.8%)
+  Tentative exact scores: 1-1 (12.6%), 0-2 (10.4%), 0-1 (10.0%)
+  xG: 0.94 - 1.8   O2.5: 51.5%   BTTS: 52.5%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

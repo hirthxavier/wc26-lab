@@ -1,0 +1,139 @@
+{
+  "frozen_at_utc": "2026-06-24T18:55:57.627564+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537331,
+    "utc_kickoff": "2026-06-25T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Czechia",
+    "away": "Mexico",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.117,
+    "draw": 0.2212,
+    "away": 0.6617
+  },
+  "model_with_news": {
+    "home": 0.1158,
+    "draw": 0.2212,
+    "away": 0.6629
+  },
+  "model_llm": {
+    "home": 0.117,
+    "draw": 0.2212,
+    "away": 0.6617
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.04,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 0.802,
+    "lam_away": 2.108,
+    "elo_home": 1832.1,
+    "elo_away": 2105.1
+  },
+  "formstats": {
+    "form_home": [],
+    "form_away": [
+      "V",
+      "V",
+      "V",
+      "N",
+      "N"
+    ],
+    "form_home_detail": [],
+    "form_away_detail": [
+      {
+        "date": "2026-06-04",
+        "opp": "Serbia",
+        "score": "5-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Australia",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-22",
+        "opp": "Ghana",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Belgium",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Portugal",
+        "score": "0-0",
+        "r": "N"
+      }
+    ],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.1211
+    },
+    {
+      "score": "1-1",
+      "prob": 0.1059
+    },
+    {
+      "score": "0-1",
+      "prob": 0.1011
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0971
+    },
+    {
+      "score": "0-3",
+      "prob": 0.0851
+    }
+  ],
+  "ev_summary": null
+}

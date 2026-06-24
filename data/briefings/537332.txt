@@ -1,0 +1,40 @@
+⚽ South Africa vs South Korea — GROUP_STAGE
+Coup d'envoi : 25/06 03:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  South Africa: 10.7%  Draw: 21.2%  South Korea: 68.2%
+  With news adjustment: 10.7% / 21.2% / 68.2%
+  Elo: 1676.0 vs 1967.2
+
+— LINE MOVEMENT (where money went) —
+  South Africa: 23.6% ↓ 15.7%
+  South Korea: 48.3% ↑ 60.3%
+  Draw: 28.1% ↓ 24.0%
+
+— NEWS: South Africa (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: South Korea (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 59 headlines from ES/IT/FR/AR/UK/BR sources —
+  [GoogleNews:"South Africa" world cup] South Africa vs. South Korea - Kick-off time, how to watch, Bafana permutations, team news - ESPN
+  [GoogleNews:"South Africa" world cup] Mexico 2-0 South Africa: Raul Jimenez scores in World Cup opener as three players sent off - BBC
+  [GoogleNews:"South Africa" world cup] 2026 World Cup Group A Scenarios: What South Korea, Czechia, South Africa Need To Advance - FOX Sports
+  [GoogleNews:"South Africa" world cup] Czechia 1-1 South Africa: World Cup – as it happened - The Guardian
+  [GoogleNews:"South Africa" world cup] Where to watch South Korea vs. South Africa live stream, TV channel, start time for World Cup Group A match - Yahoo Sports
+  [GoogleNews:"South Africa" world cup] Re-ranking all 10 African teams at the World Cup ahead of their final group game - ESPN
+  [GoogleNews:"South Africa" world cup] Watch live as South Africa take on South Korea in Monterrey - BBC
+  [GoogleNews:"South Africa" world cup] Is the rest of Africa really 'hate-watching' Bafana at the FIFA World Cup? - ESPN
+
+— MOST LIKELY OUTCOME —
+  South Korea (68.1%)
+  Tentative exact scores: 0-2 (12.4%), 1-1 (10.1%), 0-1 (10.0%)
+  xG: 0.78 - 2.18   O2.5: 56.6%   BTTS: 49.2%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

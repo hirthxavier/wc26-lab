@@ -1,0 +1,40 @@
+⚽ Switzerland vs Canada — GROUP_STAGE
+Coup d'envoi : 24/06 21:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Switzerland: 43.0%  Draw: 29.5%  Canada: 27.4%
+  With news adjustment: 43.2% / 29.5% / 27.3%
+  Elo: 2049.9 vs 1977.2
+
+— LINE MOVEMENT (where money went) —
+  Canada: 27.0% ↑ 30.1%
+  Switzerland: 44.4% ↓ 37.8%
+  Draw: 28.6% ↑ 32.0%
+
+— NEWS: Switzerland (sentiment +0.04) —
+  No injury/turmoil flags detected.
+
+— NEWS: Canada (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 56 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Guardian (UK)] Switzerland v Canada: World Cup 2026 – live
+  [GoogleNews:"Switzerland" world cup] Switzerland v Canada: World Cup 2026 – live - The Guardian
+  [GoogleNews:"Switzerland" world cup] Greetings from sweltering Switzerland - NPR
+  [GoogleNews:"Switzerland" world cup] Switzerland vs Canada LIVE: FIFA World Cup Group B score, lineups, commentary & updates - BBC
+  [GoogleNews:"Switzerland" world cup] World Cup predictions: Scotland vs Brazil, Switzerland vs Canada and the rest of matchday 14 - The New York Times
+  [GoogleNews:"Switzerland" world cup] World Cup 2026 live updates: Canada vs. Switzerland, Qatar vs. Bosnia begin end of the group stage - NBC News
+  [GoogleNews:"Switzerland" world cup] Qatar v Switzerland 1-1 | Result, Stats & Highlights | First Stage | FIFA World Cup 2026 - FIFA
+  [GoogleNews:"Switzerland" world cup] World Cup Group B fixtures - Sky Sports
+
+— MOST LIKELY OUTCOME —
+  Switzerland (43.0%)
+  Tentative exact scores: 1-1 (14.1%), 0-0 (9.1%), 2-1 (9.1%)
+  xG: 1.48 - 1.14   O2.5: 48.7%   BTTS: 54.4%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

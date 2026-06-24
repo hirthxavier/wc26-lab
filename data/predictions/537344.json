@@ -1,0 +1,178 @@
+{
+  "frozen_at_utc": "2026-06-24T18:55:33.993396+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537344,
+    "utc_kickoff": "2026-06-24T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Morocco",
+    "away": "Haiti",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.7728,
+    "draw": 0.1628,
+    "away": 0.0644
+  },
+  "model_with_news": {
+    "home": 0.7731,
+    "draw": 0.1628,
+    "away": 0.0641
+  },
+  "model_llm": {
+    "home": 0.7728,
+    "draw": 0.1628,
+    "away": 0.0644
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": [
+      "Brazil 3-0 Haiti: Cunha brace, Vinicius strike as Ancelotti's side stroll to victory - as it happened - ESPN India"
+    ]
+  },
+  "diagnostics": {
+    "lam_home": 2.555,
+    "lam_away": 0.661,
+    "elo_home": 2114.4,
+    "elo_away": 1732.9
+  },
+  "formstats": {
+    "form_home": [
+      "N",
+      "V",
+      "V",
+      "V",
+      "N"
+    ],
+    "form_away": [
+      "D",
+      "V",
+      "N",
+      "D",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-07",
+        "opp": "Norway",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Madagascar",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-26",
+        "opp": "Burundi",
+        "score": "5-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Paraguay",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Ecuador",
+        "score": "1-1",
+        "r": "N"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-05",
+        "opp": "Peru",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "New Zealand",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Iceland",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Tunisia",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Nicaragua",
+        "score": "2-0",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "2-0",
+      "prob": 0.1311
+    },
+    {
+      "score": "3-0",
+      "prob": 0.1116
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0924
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0867
+    },
+    {
+      "score": "1-1",
+      "prob": 0.078
+    }
+  ],
+  "ev_summary": null
+}

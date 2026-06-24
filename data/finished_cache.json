@@ -550,5 +550,17 @@
       "home": 0,
       "away": 0
     }
+  },
+  {
+    "match_id": 537412,
+    "utc_kickoff": "2026-06-23T23:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Panama",
+    "away": "Croatia",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 1
+    }
   }
 ]

@@ -17,7 +17,7 @@
     "stage": "GROUP_STAGE",
     "home": "Switzerland",
     "away": "Canada",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 2,
       "away": 1
@@ -29,7 +29,7 @@
     "stage": "GROUP_STAGE",
     "home": "Bosnia-Herzegovina",
     "away": "Qatar",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 3,
       "away": 1
@@ -41,10 +41,10 @@
     "stage": "GROUP_STAGE",
     "home": "Morocco",
     "away": "Haiti",
-    "status": "TIMED",
+    "status": "LIVE",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     }
   },
   {
@@ -53,10 +53,10 @@
     "stage": "GROUP_STAGE",
     "home": "Scotland",
     "away": "Brazil",
-    "status": "TIMED",
+    "status": "LIVE",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     }
   },
   {

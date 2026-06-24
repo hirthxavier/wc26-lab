@@ -41,10 +41,10 @@
     "stage": "GROUP_STAGE",
     "home": "Morocco",
     "away": "Haiti",
-    "status": "LIVE",
+    "status": "IN_PLAY",
     "score": {
-      "home": 0,
-      "away": 1
+      "home": 2,
+      "away": 2
     }
   },
   {
@@ -53,10 +53,10 @@
     "stage": "GROUP_STAGE",
     "home": "Scotland",
     "away": "Brazil",
-    "status": "LIVE",
+    "status": "PAUSED",
     "score": {
       "home": 0,
-      "away": 1
+      "away": 3
     }
   },
   {

@@ -52594,5 +52594,437 @@
     },
     "overround": 0.0424,
     "n_books": 22
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Bosnia & Herzegovina",
+    "away": "Qatar",
+    "commence": "2026-06-24T19:00:00Z",
+    "avg_odds": {
+      "Bosnia & Herzegovina": 1.0754545454545454,
+      "Qatar": 197.35363636363635,
+      "Draw": 33.560909090909085
+    },
+    "implied_probs": {
+      "Bosnia & Herzegovina": 0.9638607772338175,
+      "Qatar": 0.005252441622871753,
+      "Draw": 0.03088678114331084
+    },
+    "overround": -0.0353,
+    "n_books": 11
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Switzerland",
+    "away": "Canada",
+    "commence": "2026-06-24T19:00:00Z",
+    "avg_odds": {
+      "Canada": 60.934375,
+      "Switzerland": 1.2168749999999997,
+      "Draw": 6.093125000000001
+    },
+    "implied_probs": {
+      "Canada": 0.016373315142270504,
+      "Switzerland": 0.8198851360018815,
+      "Draw": 0.16374154885584805
+    },
+    "overround": 0.0023,
+    "n_books": 16
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Scotland",
+    "away": "Brazil",
+    "commence": "2026-06-24T22:00:00Z",
+    "avg_odds": {
+      "Brazil": 1.31375,
+      "Scotland": 10.358333333333333,
+      "Draw": 5.4816666666666665
+    },
+    "implied_probs": {
+      "Brazil": 0.7318004373589443,
+      "Scotland": 0.09281443197879129,
+      "Draw": 0.17538513066226447
+    },
+    "overround": 0.0401,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Morocco",
+    "away": "Haiti",
+    "commence": "2026-06-24T22:00:00Z",
+    "avg_odds": {
+      "Haiti": 17.231666666666666,
+      "Morocco": 1.185,
+      "Draw": 7.396666666666666
+    },
+    "implied_probs": {
+      "Haiti": 0.05595612727004374,
+      "Morocco": 0.8136855131434347,
+      "Draw": 0.13035835958652148
+    },
+    "overround": 0.0371,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Czech Republic",
+    "away": "Mexico",
+    "commence": "2026-06-25T01:00:00Z",
+    "avg_odds": {
+      "Czech Republic": 3.790833333333334,
+      "Mexico": 1.9366666666666668,
+      "Draw": 3.8566666666666656
+    },
+    "implied_probs": {
+      "Czech Republic": 0.2537857844668679,
+      "Mexico": 0.49676055660059476,
+      "Draw": 0.2494536589325373
+    },
+    "overround": 0.0394,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "South Africa",
+    "away": "South Korea",
+    "commence": "2026-06-25T01:00:00Z",
+    "avg_odds": {
+      "South Africa": 6.038749999999999,
+      "South Korea": 1.6000000000000003,
+      "Draw": 3.9820833333333336
+    },
+    "implied_probs": {
+      "South Africa": 0.15896485098013335,
+      "South Korea": 0.5999681211601751,
+      "Draw": 0.24106702785969158
+    },
+    "overround": 0.0417,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Cura\u00e7ao",
+    "away": "Ivory Coast",
+    "commence": "2026-06-25T20:00:00Z",
+    "avg_odds": {
+      "Cura\u00e7ao": 18.922083333333333,
+      "Ivory Coast": 1.1545833333333333,
+      "Draw": 8.138333333333334
+    },
+    "implied_probs": {
+      "Cura\u00e7ao": 0.05072608128651228,
+      "Ivory Coast": 0.8313329229391492,
+      "Draw": 0.11794099577433863
+    },
+    "overround": 0.0418,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Ecuador",
+    "away": "Germany",
+    "commence": "2026-06-25T20:00:00Z",
+    "avg_odds": {
+      "Ecuador": 3.8745833333333333,
+      "Germany": 1.8470833333333339,
+      "Draw": 4.074166666666666
+    },
+    "implied_probs": {
+      "Ecuador": 0.2469935333331096,
+      "Germany": 0.5181125347314652,
+      "Draw": 0.2348939319354251
+    },
+    "overround": 0.0449,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Japan",
+    "away": "Sweden",
+    "commence": "2026-06-25T23:00:00Z",
+    "avg_odds": {
+      "Japan": 1.884166666666667,
+      "Sweden": 4.327500000000001,
+      "Draw": 3.5220833333333332
+    },
+    "implied_probs": {
+      "Japan": 0.5075235796831981,
+      "Sweden": 0.22097261961558076,
+      "Draw": 0.2715038007012211
+    },
+    "overround": 0.0457,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Tunisia",
+    "away": "Netherlands",
+    "commence": "2026-06-25T23:00:00Z",
+    "avg_odds": {
+      "Netherlands": 1.108695652173913,
+      "Tunisia": 25.70173913043478,
+      "Draw": 10.220869565217392
+    },
+    "implied_probs": {
+      "Netherlands": 0.868348999761183,
+      "Tunisia": 0.03745796172465096,
+      "Draw": 0.0941930385141661
+    },
+    "overround": 0.0387,
+    "n_books": 23
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Paraguay",
+    "away": "Australia",
+    "commence": "2026-06-26T02:00:00Z",
+    "avg_odds": {
+      "Australia": 3.9108333333333327,
+      "Paraguay": 2.8787499999999997,
+      "Draw": 2.249583333333334
+    },
+    "implied_probs": {
+      "Australia": 0.24408175205900623,
+      "Paraguay": 0.33158942319088613,
+      "Draw": 0.4243288247501077
+    },
+    "overround": 0.0476,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Turkey",
+    "away": "USA",
+    "commence": "2026-06-26T02:00:00Z",
+    "avg_odds": {
+      "Turkey": 3.6054166666666663,
+      "USA": 1.9158333333333335,
+      "Draw": 4.067500000000002
+    },
+    "implied_probs": {
+      "Turkey": 0.26537155395528733,
+      "USA": 0.4994041009950198,
+      "Draw": 0.23522434504969272
+    },
+    "overround": 0.0452,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Norway",
+    "away": "France",
+    "commence": "2026-06-26T19:00:00Z",
+    "avg_odds": {
+      "France": 1.66,
+      "Norway": 4.715416666666668,
+      "Draw": 4.352083333333334
+    },
+    "implied_probs": {
+      "France": 0.5768798291106083,
+      "Norway": 0.20308290529086,
+      "Draw": 0.22003726559853165
+    },
+    "overround": 0.0443,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Senegal",
+    "away": "Iraq",
+    "commence": "2026-06-26T19:00:00Z",
+    "avg_odds": {
+      "Iraq": 12.965416666666668,
+      "Senegal": 1.22625,
+      "Draw": 6.6625000000000005
+    },
+    "implied_probs": {
+      "Iraq": 0.0739685818976646,
+      "Senegal": 0.7820864298027963,
+      "Draw": 0.14394498829953906
+    },
+    "overround": 0.0427,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Cape Verde",
+    "away": "Saudi Arabia",
+    "commence": "2026-06-27T00:00:00Z",
+    "avg_odds": {
+      "Cape Verde": 2.4450000000000003,
+      "Saudi Arabia": 2.909583333333334,
+      "Draw": 3.4395833333333337
+    },
+    "implied_probs": {
+      "Cape Verde": 0.3919772570407042,
+      "Saudi Arabia": 0.32938887932333555,
+      "Draw": 0.2786338636359603
+    },
+    "overround": 0.0434,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Uruguay",
+    "away": "Spain",
+    "commence": "2026-06-27T00:00:00Z",
+    "avg_odds": {
+      "Spain": 1.502916666666667,
+      "Uruguay": 7.03875,
+      "Draw": 4.190416666666667
+    },
+    "implied_probs": {
+      "Spain": 0.6360610800047357,
+      "Uruguay": 0.13581201181418825,
+      "Draw": 0.2281269081810761
+    },
+    "overround": 0.0461,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "New Zealand",
+    "away": "Belgium",
+    "commence": "2026-06-27T03:00:00Z",
+    "avg_odds": {
+      "Belgium": 1.1625,
+      "New Zealand": 17.549166666666668,
+      "Draw": 8.008750000000001
+    },
+    "implied_probs": {
+      "Belgium": 0.8254937568755961,
+      "New Zealand": 0.05468273853656188,
+      "Draw": 0.1198235045878421
+    },
+    "overround": 0.0421,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Egypt",
+    "away": "Iran",
+    "commence": "2026-06-27T03:00:00Z",
+    "avg_odds": {
+      "Egypt": 2.47125,
+      "Iran": 3.772083333333334,
+      "Draw": 2.65875
+    },
+    "implied_probs": {
+      "Egypt": 0.3869040590110071,
+      "Iran": 0.25347707654857865,
+      "Draw": 0.3596188644404142
+    },
+    "overround": 0.0459,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Croatia",
+    "away": "Ghana",
+    "commence": "2026-06-27T21:00:00Z",
+    "avg_odds": {
+      "Croatia": 1.7766666666666666,
+      "Ghana": 5.618749999999999,
+      "Draw": 3.2833333333333328
+    },
+    "implied_probs": {
+      "Croatia": 0.5384101998072983,
+      "Ghana": 0.17024702202286396,
+      "Draw": 0.2913427781698376
+    },
+    "overround": 0.0454,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Panama",
+    "away": "England",
+    "commence": "2026-06-27T21:00:00Z",
+    "avg_odds": {
+      "England": 1.1679166666666665,
+      "Panama": 16.187916666666666,
+      "Draw": 7.8879166666666665
+    },
+    "implied_probs": {
+      "England": 0.8195300857279902,
+      "Panama": 0.05912699364998472,
+      "Draw": 0.12134292062202506
+    },
+    "overround": 0.0448,
+    "n_books": 24
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Colombia",
+    "away": "Portugal",
+    "commence": "2026-06-27T23:30:00Z",
+    "avg_odds": {
+      "Colombia": 4.034545454545455,
+      "Portugal": 1.888636363636364,
+      "Draw": 3.7081818181818176
+    },
+    "implied_probs": {
+      "Colombia": 0.2367293555061037,
+      "Portugal": 0.5057063199692361,
+      "Draw": 0.2575643245246601
+    },
+    "overround": 0.047,
+    "n_books": 22
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "DR Congo",
+    "away": "Uzbekistan",
+    "commence": "2026-06-27T23:30:00Z",
+    "avg_odds": {
+      "DR Congo": 1.7554545454545456,
+      "Uzbekistan": 4.319090909090909,
+      "Draw": 4.090000000000002
+    },
+    "implied_probs": {
+      "DR Congo": 0.5447669783178157,
+      "Uzbekistan": 0.22141549887006992,
+      "Draw": 0.2338175228121142
+    },
+    "overround": 0.0457,
+    "n_books": 22
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Algeria",
+    "away": "Austria",
+    "commence": "2026-06-28T02:00:00Z",
+    "avg_odds": {
+      "Algeria": 3.847272727272726,
+      "Austria": 2.805454545454545,
+      "Draw": 2.282272727272727
+    },
+    "implied_probs": {
+      "Algeria": 0.2464830273273324,
+      "Austria": 0.33801560973728795,
+      "Draw": 0.41550136293537965
+    },
+    "overround": 0.0545,
+    "n_books": 22
+  },
+  {
+    "ts": "2026-06-24T20:49:43.911860+00:00",
+    "home": "Jordan",
+    "away": "Argentina",
+    "commence": "2026-06-28T02:00:00Z",
+    "avg_odds": {
+      "Argentina": 1.1927272727272726,
+      "Jordan": 15.003636363636362,
+      "Draw": 7.257727272727272
+    },
+    "implied_probs": {
+      "Argentina": 0.8039652667622461,
+      "Jordan": 0.06391192619922849,
+      "Draw": 0.13212280703852533
+    },
+    "overround": 0.0428,
+    "n_books": 22
   }
 ]

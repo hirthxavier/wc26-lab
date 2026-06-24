@@ -17,10 +17,10 @@
     "stage": "GROUP_STAGE",
     "home": "Switzerland",
     "away": "Canada",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     }
   },
   {
@@ -29,10 +29,10 @@
     "stage": "GROUP_STAGE",
     "home": "Bosnia-Herzegovina",
     "away": "Qatar",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 3,
+      "away": 1
     }
   },
   {

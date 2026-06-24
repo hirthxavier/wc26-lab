@@ -5,10 +5,10 @@
     "stage": "GROUP_STAGE",
     "home": "Colombia",
     "away": "Congo DR",
-    "status": "SCHEDULED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   {

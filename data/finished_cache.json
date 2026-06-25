@@ -622,5 +622,29 @@
       "home": 0,
       "away": 3
     }
+  },
+  {
+    "match_id": 537331,
+    "utc_kickoff": "2026-06-25T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Czechia",
+    "away": "Mexico",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 3
+    }
+  },
+  {
+    "match_id": 537332,
+    "utc_kickoff": "2026-06-25T01:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "South Africa",
+    "away": "South Korea",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 0
+    }
   }
 ]

@@ -5,10 +5,10 @@
     "stage": "GROUP_STAGE",
     "home": "Czechia",
     "away": "Mexico",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 0,
-      "away": 0
+      "away": 3
     }
   },
   {
@@ -17,9 +17,9 @@
     "stage": "GROUP_STAGE",
     "home": "South Africa",
     "away": "South Korea",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 0,
+      "home": 1,
       "away": 0
     }
   },

@@ -29,10 +29,10 @@
     "stage": "GROUP_STAGE",
     "home": "Ecuador",
     "away": "Germany",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   {
@@ -41,10 +41,10 @@
     "stage": "GROUP_STAGE",
     "home": "Cura\u00e7ao",
     "away": "Ivory Coast",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     }
   },
   {

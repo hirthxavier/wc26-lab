@@ -1,0 +1,40 @@
+⚽ Ecuador vs Germany — GROUP_STAGE
+Coup d'envoi : 25/06 22:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Ecuador: 34.5%  Draw: 30.2%  Germany: 35.4%
+  With news adjustment: 34.5% / 30.2% / 35.4%
+  Elo: 2114.1 vs 2118.3
+
+— LINE MOVEMENT (where money went) —
+  Ecuador: 20.0% → 20.2%
+  Germany: 54.8% ↑ 58.8%
+  Draw: 25.1% ↓ 21.0%
+
+— NEWS: Ecuador (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Germany (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 56 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Guardian (UK)] Ecuador v Germany: World Cup 2026 – live
+  [GoogleNews:"Ecuador" world cup] Ecuador vs Germany live updates: World Cup 2026 game latest news and buildup - The New York Times
+  [GoogleNews:"Ecuador" world cup] Ecuador vs Curacao LIVE: Watch FIFA World Cup Group E TV stream - score commentary, updates & stats - BBC
+  [GoogleNews:"Ecuador" world cup] Germany's Ruediger back in defence for injured Schlotterbeck against Ecuador - Reuters
+  [GoogleNews:"Ecuador" world cup] World Cup group stage nears the end with high-stakes matches and betting opportunities across four games - Fox News
+  [GoogleNews:"Ecuador" world cup] Ecuador and Germany fans ignite Times Square battle of the bands ahead of match-up - New York Post
+  [GoogleNews:"Ecuador" world cup] World Cup 2026 live updates: Germany vs. Ecuador, Ivory Coast vs. Curaçao kick off early action - NBC News
+  [GoogleNews:"Ecuador" world cup] Ecuador vs Germany LIVE: Watch FIFA World Cup Group E TV stream, score, prediction, commentary & updates - BBC
+
+— MOST LIKELY OUTCOME —
+  Germany (35.4%)
+  Tentative exact scores: 1-1 (14.4%), 0-0 (9.3%), 1-2 (8.2%)
+  xG: 1.29 - 1.31   O2.5: 48.2%   BTTS: 54.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

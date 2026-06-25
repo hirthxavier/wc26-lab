@@ -1,0 +1,35 @@
+⚽ Turkey vs United States — GROUP_STAGE
+Coup d'envoi : 26/06 04:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Turkey: 42.6%  Draw: 29.6%  United States: 27.8%
+  With news adjustment: 42.6% / 29.6% / 27.8%
+  Elo: 2054.0 vs 1985.2
+
+— NEWS: Turkey (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: United States (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 59 headlines from ES/IT/FR/AR/UK/BR sources —
+  [GoogleNews:"Turkey" world cup] USMNT vs. Turkey World Cup mega-preview: Predictions, odds, must-reads and more - The New York Times
+  [GoogleNews:"Turkey" world cup] USA vs Turkey Predictions, Picks & Odds: Today's World Cup Match - Yahoo Sports
+  [GoogleNews:"Turkey" world cup] What channel is United States vs Turkey on? How to watch World Cup - The Coloradoan
+  [GoogleNews:"Turkey" world cup] What time is USA soccer game today? How to watch World Cup vs Turkey - USA Today
+  [GoogleNews:"Turkey" world cup] Where to watch USA vs. Turkey live stream, TV channel, start time for World Cup Group D match - Yahoo Sports
+  [GoogleNews:"Turkey" world cup] How to Watch the USA vs. Turkey World Cup Game - Rolling Stone
+  [GoogleNews:"Turkey" world cup] World Cup what to know: U.S. faces decisions for final group-stage game against winless Turkey - Spectrum News
+  [GoogleNews:"Turkey" world cup] World Cup odds, best bets for Thursday’s matches including USA-Turkey - The New York Times
+
+— MOST LIKELY OUTCOME —
+  Turkey (42.6%)
+  Tentative exact scores: 1-1 (14.2%), 0-0 (9.1%), 2-1 (9.0%)
+  xG: 1.47 - 1.15   O2.5: 48.6%   BTTS: 54.5%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

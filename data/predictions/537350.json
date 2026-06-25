@@ -1,0 +1,204 @@
+{
+  "frozen_at_utc": "2026-06-25T19:31:27.272725+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537350,
+    "utc_kickoff": "2026-06-26T02:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Paraguay",
+    "away": "Australia",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.4002,
+    "draw": 0.299,
+    "away": 0.3008
+  },
+  "model_with_news": {
+    "home": 0.3996,
+    "draw": 0.299,
+    "away": 0.3014
+  },
+  "model_llm": {
+    "home": 0.4002,
+    "draw": 0.299,
+    "away": 0.3008
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [
+      "Paraguay\u2019s Almiron suspended for one game after red card for covering mouth - Al Jazeera"
+    ],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.411,
+    "lam_away": 1.198,
+    "elo_home": 2035.2,
+    "elo_away": 1989.1
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "D"
+    ],
+    "form_away": [
+      "N",
+      "D",
+      "V",
+      "V",
+      "D"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-05",
+        "opp": "Nicaragua",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Morocco",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Greece",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Mexico",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-15",
+        "opp": "United States",
+        "score": "1-2",
+        "r": "D"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Switzerland",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-05-30",
+        "opp": "Mexico",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Cura\u00e7ao",
+        "score": "5-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Cameroon",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Colombia",
+        "score": "0-3",
+        "r": "D"
+      }
+    ],
+    "h2h": {
+      "played": 5,
+      "wins_a": 0,
+      "draws": 3,
+      "wins_b": 2,
+      "goals_a": 2,
+      "goals_b": 4,
+      "last_meetings": [
+        {
+          "date": "2010",
+          "score": "0-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2006",
+          "score": "1-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2000",
+          "score": "1-2",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2000",
+          "score": "0-0",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2000",
+          "score": "0-0",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1431
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0923
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0878
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0852
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0745
+    }
+  ],
+  "ev_summary": null
+}

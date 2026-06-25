@@ -1,0 +1,40 @@
+⚽ Japan vs Sweden — GROUP_STAGE
+Coup d'envoi : 26/06 01:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Japan: 62.7%  Draw: 23.7%  Sweden: 13.6%
+  With news adjustment: 62.7% / 23.7% / 13.6%
+  Elo: 2096.7 vs 1854.6
+
+— LINE MOVEMENT (where money went) —
+  Japan: 45.2% ↑ 47.9%
+  Sweden: 26.8% ↓ 24.1%
+  Draw: 28.0% → 28.0%
+
+— NEWS: Japan (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Sweden (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 55 headlines from ES/IT/FR/AR/UK/BR sources —
+  [GoogleNews:"Japan" world cup] Tunisia vs Japan LIVE: Watch FIFA World Cup Group F TV stream - score, commentary, updates & stats - BBC
+  [GoogleNews:"Japan" world cup] Japan vs. Sweden—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"Japan" world cup] World Cup schedule, live updates: Germany, Japan and USA return as Matchday 3 continues - Yahoo Sports
+  [GoogleNews:"Japan" world cup] World Cup Group F Scenarios, Standings: What Netherlands, Japan, Sweden Need To Advance - FOX Sports
+  [GoogleNews:"Japan" world cup] Japanese fans turn downtown Dallas park blue ahead of FIFA World Cup match against Sweden - KERA News
+  [GoogleNews:"Japan" world cup] The World Cup’s latest viral trend is surprisingly wholesome - Mashable
+  [GoogleNews:"Japan" world cup] Netherlands v Japan 2-2 | Result, Stats & Highlights | First Stage | FIFA World Cup 2026 - FIFA
+  [GoogleNews:"Japan" world cup] Cote d’Ivoire eyeing knockout round, Netherlands, Japan and Sweden all hoping to avoid Brazil on TSN - TSN
+
+— MOST LIKELY OUTCOME —
+  Japan (62.7%)
+  Tentative exact scores: 2-0 (11.6%), 1-1 (11.3%), 1-0 (10.2%)
+  xG: 2.0 - 0.85   O2.5: 54.1%   BTTS: 50.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

@@ -1,0 +1,40 @@
+⚽ Curaçao vs Ivory Coast — GROUP_STAGE
+Coup d'envoi : 25/06 22:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Curaçao: 13.1%  Draw: 23.3%  Ivory Coast: 63.5%
+  With news adjustment: 13.1% / 23.3% / 63.5%
+  Elo: 1670.8 vs 1920.1
+
+— LINE MOVEMENT (where money went) —
+  Curaçao: 7.4% ↓ 5.9%
+  Ivory Coast: 77.2% ↑ 81.7%
+  Draw: 15.4% ↓ 12.3%
+
+— NEWS: Curaçao (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Ivory Coast (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 56 headlines from ES/IT/FR/AR/UK/BR sources —
+  [L'Equipe (FR)] Où et quand voir Côte d'Ivoire - Curaçao ?
+  [Guardian (UK)] Curaçao v Côte d’Ivoire: World Cup 2026 – live
+  [Voetbal International (NL)] VI Live: Advocaat wijzigt opstelling Curaçao niet voor duel met Ivoorkust
+  [Voetbal International (NL)] De Curaçao-liefde van Willems: ‘Volle borst vooruit en door, het gaat gebeuren!’
+  [Globo Esporte (BR)] Curaçao x Costa do Marfim - Copa do Mundo 2026 - Ao vivo - globoesporte.com
+  [Globo Esporte (BR)] Curaçao x Cabo Verde: as ilhas carisma que disputam o "título" simbólico de sensação da Copa
+  [GoogleNews:"Curaçao" world cup] Curaçao vs Ivory Coast LIVE: Watch FIFA World Cup Group E TV stream, score, prediction, commentary & updates - BBC
+  [GoogleNews:"Curaçao" world cup] 'Crying long before the anthems': A week in the life of a 2026 World Cup player - ESPN
+
+— MOST LIKELY OUTCOME —
+  Ivory Coast (63.5%)
+  Tentative exact scores: 0-2 (11.7%), 1-1 (11.2%), 0-1 (10.2%)
+  xG: 0.84 - 2.02   O2.5: 54.4%   BTTS: 50.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

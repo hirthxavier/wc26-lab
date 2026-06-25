@@ -1,0 +1,40 @@
+⚽ Tunisia vs Netherlands — GROUP_STAGE
+Coup d'envoi : 26/06 01:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Tunisia: 6.9%  Draw: 16.9%  Netherlands: 76.2%
+  With news adjustment: 6.9% / 16.9% / 76.2%
+  Elo: 1732.5 vs 2102.3
+
+— LINE MOVEMENT (where money went) —
+  Netherlands: 62.7% ↑ 87.2%
+  Tunisia: 14.9% ↓ 3.7%
+  Draw: 22.4% ↓ 9.2%
+
+— NEWS: Tunisia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Netherlands (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 52 headlines from ES/IT/FR/AR/UK/BR sources —
+  [GoogleNews:"Tunisia" world cup] Tunisia vs Japan LIVE: Watch FIFA World Cup Group F TV stream - score, commentary, updates & stats - BBC
+  [GoogleNews:"Tunisia" world cup] Netherlands, Tunisia World Cup teams prepare for potential storms in Kansas City - Kansas City Star
+  [GoogleNews:"Tunisia" world cup] World Cup weather: Storm threat for Tunisia vs Netherlands, sunshine for USA vs Turkey - The New York Times
+  [GoogleNews:"Tunisia" world cup] Oranje Fanwalk takes over Kansas City as fans prep for Netherlands-Tunisia World Cup match - KCUR
+  [GoogleNews:"Tunisia" world cup] Tunisia v Netherlands: Line-ups, Score & Live Updates | First Stage | FIFA World Cup 2026 - FIFA
+  [GoogleNews:"Tunisia" world cup] Tunisia head coach Herve Renard's deal ends after just two FIFA World Cup matches - ESPN
+  [GoogleNews:"Tunisia" world cup] World Cup Group F scenarios: Tunisia eliminated; Netherlands, Japan and Sweden fight to advance to knockouts - CBS Sports
+  [GoogleNews:"Tunisia" world cup] Many parents letting their kids stay up late to watch Oranje vs Tunisia World Cup match - NL Times
+
+— MOST LIKELY OUTCOME —
+  Netherlands (76.2%)
+  Tentative exact scores: 0-2 (13.1%), 0-3 (10.9%), 0-1 (9.4%)
+  xG: 0.68 - 2.5   O2.5: 61.5%   BTTS: 46.1%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

@@ -598,5 +598,29 @@
       "home": 3,
       "away": 1
     }
+  },
+  {
+    "match_id": 537344,
+    "utc_kickoff": "2026-06-24T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Morocco",
+    "away": "Haiti",
+    "status": "FINISHED",
+    "score": {
+      "home": 4,
+      "away": 2
+    }
+  },
+  {
+    "match_id": 537343,
+    "utc_kickoff": "2026-06-24T22:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Scotland",
+    "away": "Brazil",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 3
+    }
   }
 ]

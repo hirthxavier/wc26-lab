@@ -29,9 +29,9 @@
     "stage": "GROUP_STAGE",
     "home": "Ecuador",
     "away": "Germany",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 1,
+      "home": 2,
       "away": 1
     }
   },
@@ -41,10 +41,10 @@
     "stage": "GROUP_STAGE",
     "home": "Cura\u00e7ao",
     "away": "Ivory Coast",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 0,
-      "away": 1
+      "away": 2
     }
   },
   {

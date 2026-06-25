@@ -646,5 +646,29 @@
       "home": 1,
       "away": 0
     }
+  },
+  {
+    "match_id": 537355,
+    "utc_kickoff": "2026-06-25T20:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Ecuador",
+    "away": "Germany",
+    "status": "FINISHED",
+    "score": {
+      "home": 2,
+      "away": 1
+    }
+  },
+  {
+    "match_id": 537356,
+    "utc_kickoff": "2026-06-25T20:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Cura\u00e7ao",
+    "away": "Ivory Coast",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 2
+    }
   }
 ]

@@ -38,6 +38,30 @@
       "logloss_close": 0.7587
     },
     {
+      "match_id": 537331,
+      "match": "Czechia v Mexico",
+      "actual": "away",
+      "brier_stats": 0.1771,
+      "logloss_stats": 0.4129,
+      "brier_news": 0.176,
+      "logloss_news": 0.4111,
+      "brier_llm": 0.1771,
+      "logloss_llm": 0.4129
+    },
+    {
+      "match_id": 537332,
+      "match": "South Africa v South Korea",
+      "actual": "home",
+      "brier_stats": 1.3076,
+      "logloss_stats": 2.2387,
+      "brier_news": 1.3076,
+      "logloss_news": 2.2387,
+      "brier_llm": 1.3076,
+      "logloss_llm": 2.2387,
+      "brier_close": 1.103,
+      "logloss_close": 1.8033
+    },
+    {
       "match_id": 537333,
       "match": "Canada v Bosnia-Herzegovina",
       "actual": "draw",
@@ -60,6 +84,30 @@
       "logloss_llm": 0.2357,
       "brier_close": 0.1072,
       "logloss_close": 0.3053
+    },
+    {
+      "match_id": 537337,
+      "match": "Switzerland v Canada",
+      "actual": "home",
+      "brier_stats": 0.4868,
+      "logloss_stats": 0.843,
+      "brier_news": 0.4848,
+      "logloss_news": 0.8403,
+      "brier_llm": 0.4868,
+      "logloss_llm": 0.843,
+      "brier_close": 0.5804,
+      "logloss_close": 0.9727
+    },
+    {
+      "match_id": 537338,
+      "match": "Bosnia-Herzegovina v Qatar",
+      "actual": "home",
+      "brier_stats": 0.8086,
+      "logloss_stats": 1.3082,
+      "brier_news": 0.8086,
+      "logloss_news": 1.3082,
+      "brier_llm": 0.8086,
+      "logloss_llm": 1.3082
     },
     {
       "match_id": 537339,
@@ -112,6 +160,32 @@
       "logloss_llm": 0.6902,
       "brier_close": 0.2808,
       "logloss_close": 0.5608
+    },
+    {
+      "match_id": 537343,
+      "match": "Scotland v Brazil",
+      "actual": "away",
+      "brier_stats": 0.296,
+      "logloss_stats": 0.5825,
+      "brier_news": 0.296,
+      "logloss_news": 0.5825,
+      "brier_llm": 0.296,
+      "logloss_llm": 0.5825,
+      "brier_close": 0.1113,
+      "logloss_close": 0.3122
+    },
+    {
+      "match_id": 537344,
+      "match": "Morocco v Haiti",
+      "actual": "home",
+      "brier_stats": 0.0823,
+      "logloss_stats": 0.2577,
+      "brier_news": 0.0821,
+      "logloss_news": 0.2573,
+      "brier_llm": 0.0823,
+      "logloss_llm": 0.2577,
+      "brier_close": 0.0548,
+      "logloss_close": 0.2062
     },
     {
       "match_id": 537345,
@@ -422,35 +496,35 @@
   ],
   "summary": {
     "stats": {
-      "n": 33,
-      "mean_brier": 0.5409,
+      "n": 39,
+      "mean_brier": 0.5387,
       "brier_95ci": [
-        0.3836,
-        0.7114
+        0.3962,
+        0.6959
       ]
     },
     "news": {
-      "n": 33,
-      "mean_brier": 0.5408,
+      "n": 39,
+      "mean_brier": 0.5385,
       "brier_95ci": [
-        0.3827,
-        0.7134
+        0.3993,
+        0.6877
       ]
     },
     "llm": {
-      "n": 33,
-      "mean_brier": 0.5115,
+      "n": 39,
+      "mean_brier": 0.5138,
       "brier_95ci": [
-        0.3692,
-        0.664
+        0.3812,
+        0.6494
       ]
     },
     "close": {
-      "n": 28,
-      "mean_brier": 0.4085,
+      "n": 32,
+      "mean_brier": 0.4152,
       "brier_95ci": [
-        0.2792,
-        0.5587
+        0.2879,
+        0.5549
       ]
     }
   }

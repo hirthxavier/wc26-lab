@@ -76,262 +76,262 @@
   },
   "probabilities": {
     "Spain": {
-      "champion": 0.281,
-      "final": 0.3946,
-      "semi": 0.5313,
+      "champion": 0.2756,
+      "final": 0.3866,
+      "semi": 0.5266,
       "win_group": 0.9088
     },
     "Argentina": {
-      "champion": 0.1281,
-      "final": 0.2228,
-      "semi": 0.3599,
+      "champion": 0.1318,
+      "final": 0.2249,
+      "semi": 0.3643,
       "win_group": 0.8002
     },
     "France": {
-      "champion": 0.1038,
-      "final": 0.186,
-      "semi": 0.3113,
+      "champion": 0.1011,
+      "final": 0.1808,
+      "semi": 0.3057,
       "win_group": 0.5851
     },
     "England": {
-      "champion": 0.0765,
-      "final": 0.1516,
-      "semi": 0.2722,
+      "champion": 0.0826,
+      "final": 0.1549,
+      "semi": 0.2744,
       "win_group": 0.6942
     },
     "Mexico": {
-      "champion": 0.0516,
-      "final": 0.1159,
-      "semi": 0.2406,
-      "win_group": 0.7829
+      "champion": 0.0618,
+      "final": 0.1376,
+      "semi": 0.2649,
+      "win_group": 0.8358
     },
     "Norway": {
-      "champion": 0.0435,
-      "final": 0.0931,
-      "semi": 0.1862,
+      "champion": 0.0385,
+      "final": 0.0882,
+      "semi": 0.1776,
       "win_group": 0.3379
     },
+    "Brazil": {
+      "champion": 0.0381,
+      "final": 0.0868,
+      "semi": 0.1763,
+      "win_group": 0.4807
+    },
     "Colombia": {
-      "champion": 0.0369,
-      "final": 0.0812,
-      "semi": 0.1699,
+      "champion": 0.0353,
+      "final": 0.0792,
+      "semi": 0.1683,
       "win_group": 0.5237
     },
-    "Brazil": {
-      "champion": 0.0338,
-      "final": 0.0768,
-      "semi": 0.157,
-      "win_group": 0.4455
-    },
-    "Germany": {
-      "champion": 0.0283,
-      "final": 0.0677,
-      "semi": 0.1498,
-      "win_group": 0.4513
-    },
     "Ecuador": {
-      "champion": 0.0277,
-      "final": 0.0689,
-      "semi": 0.1557,
+      "champion": 0.0272,
+      "final": 0.068,
+      "semi": 0.157,
       "win_group": 0.4445
     },
     "Morocco": {
-      "champion": 0.0271,
-      "final": 0.0631,
-      "semi": 0.1435,
-      "win_group": 0.4179
+      "champion": 0.027,
+      "final": 0.0658,
+      "semi": 0.1495,
+      "win_group": 0.4167
     },
-    "Portugal": {
-      "champion": 0.0223,
-      "final": 0.0538,
-      "semi": 0.1211,
-      "win_group": 0.3813
+    "Germany": {
+      "champion": 0.0257,
+      "final": 0.0652,
+      "semi": 0.1459,
+      "win_group": 0.4513
     },
     "Netherlands": {
-      "champion": 0.0221,
-      "final": 0.0552,
-      "semi": 0.1294,
+      "champion": 0.0224,
+      "final": 0.0559,
+      "semi": 0.1285,
       "win_group": 0.4719
     },
     "Japan": {
-      "champion": 0.0215,
-      "final": 0.0558,
-      "semi": 0.1285,
+      "champion": 0.0199,
+      "final": 0.0538,
+      "semi": 0.1251,
       "win_group": 0.4422
     },
-    "Switzerland": {
-      "champion": 0.0125,
-      "final": 0.0385,
-      "semi": 0.1052,
-      "win_group": 0.4375
+    "Portugal": {
+      "champion": 0.0187,
+      "final": 0.0503,
+      "semi": 0.1141,
+      "win_group": 0.3813
     },
-    "Canada": {
-      "champion": 0.011,
-      "final": 0.0373,
-      "semi": 0.1028,
-      "win_group": 0.5228
+    "Switzerland": {
+      "champion": 0.018,
+      "final": 0.0492,
+      "semi": 0.1254,
+      "win_group": 0.5093
     },
     "Croatia": {
-      "champion": 0.0108,
-      "final": 0.033,
-      "semi": 0.0874,
+      "champion": 0.0106,
+      "final": 0.0337,
+      "semi": 0.0915,
       "win_group": 0.2404
     },
     "Belgium": {
-      "champion": 0.0094,
-      "final": 0.0304,
-      "semi": 0.0801,
+      "champion": 0.0095,
+      "final": 0.0295,
+      "semi": 0.0826,
       "win_group": 0.4855
     },
     "Turkey": {
-      "champion": 0.0088,
-      "final": 0.0241,
-      "semi": 0.0688,
+      "champion": 0.009,
+      "final": 0.0255,
+      "semi": 0.0641,
       "win_group": 0.2668
     },
     "United States": {
-      "champion": 0.0081,
-      "final": 0.024,
-      "semi": 0.0674,
+      "champion": 0.0076,
+      "final": 0.0224,
+      "semi": 0.0657,
       "win_group": 0.3328
     },
+    "Canada": {
+      "champion": 0.0075,
+      "final": 0.0281,
+      "semi": 0.0844,
+      "win_group": 0.4532
+    },
     "Paraguay": {
-      "champion": 0.0067,
-      "final": 0.0201,
-      "semi": 0.0535,
+      "champion": 0.007,
+      "final": 0.0204,
+      "semi": 0.0561,
       "win_group": 0.2353
     },
     "Uruguay": {
-      "champion": 0.0063,
-      "final": 0.0198,
-      "semi": 0.0589,
+      "champion": 0.0061,
+      "final": 0.021,
+      "semi": 0.0617,
       "win_group": 0.0852
     },
-    "South Korea": {
-      "champion": 0.0038,
-      "final": 0.0138,
-      "semi": 0.0425,
-      "win_group": 0.1648
-    },
     "Australia": {
-      "champion": 0.0029,
-      "final": 0.0083,
-      "semi": 0.0318,
+      "champion": 0.0035,
+      "final": 0.009,
+      "semi": 0.0319,
       "win_group": 0.1651
     },
-    "Algeria": {
-      "champion": 0.0028,
-      "final": 0.0094,
-      "semi": 0.0323,
-      "win_group": 0.0933
-    },
-    "Austria": {
-      "champion": 0.0025,
-      "final": 0.0083,
-      "semi": 0.0277,
-      "win_group": 0.0917
-    },
-    "Scotland": {
-      "champion": 0.0023,
-      "final": 0.0086,
-      "semi": 0.0279,
-      "win_group": 0.1213
-    },
-    "Iran": {
-      "champion": 0.0022,
-      "final": 0.009,
-      "semi": 0.0309,
-      "win_group": 0.2502
-    },
     "Senegal": {
-      "champion": 0.0018,
-      "final": 0.0074,
+      "champion": 0.0024,
+      "final": 0.0072,
       "semi": 0.026,
       "win_group": 0.0637
     },
-    "Ivory Coast": {
+    "Austria": {
+      "champion": 0.0022,
+      "final": 0.0074,
+      "semi": 0.027,
+      "win_group": 0.0917
+    },
+    "Iran": {
+      "champion": 0.0021,
+      "final": 0.0082,
+      "semi": 0.0304,
+      "win_group": 0.2502
+    },
+    "Algeria": {
+      "champion": 0.0019,
+      "final": 0.0079,
+      "semi": 0.029,
+      "win_group": 0.0933
+    },
+    "Egypt": {
       "champion": 0.0014,
       "final": 0.0057,
-      "semi": 0.0227,
+      "semi": 0.0241,
+      "win_group": 0.2238
+    },
+    "South Korea": {
+      "champion": 0.0014,
+      "final": 0.0068,
+      "semi": 0.0261,
+      "win_group": 0.1116
+    },
+    "Ivory Coast": {
+      "champion": 0.0012,
+      "final": 0.0054,
+      "semi": 0.0226,
       "win_group": 0.0969
+    },
+    "Scotland": {
+      "champion": 0.001,
+      "final": 0.0055,
+      "semi": 0.0215,
+      "win_group": 0.0913
     },
     "Panama": {
       "champion": 0.0009,
-      "final": 0.0028,
-      "semi": 0.0114,
+      "final": 0.0027,
+      "semi": 0.0103,
       "win_group": 0.0529
     },
-    "Egypt": {
-      "champion": 0.0007,
-      "final": 0.0057,
-      "semi": 0.0232,
-      "win_group": 0.2238
-    },
-    "Sweden": {
-      "champion": 0.0003,
-      "final": 0.0024,
-      "semi": 0.0095,
-      "win_group": 0.0683
-    },
-    "Jordan": {
-      "champion": 0.0002,
-      "final": 0.0006,
-      "semi": 0.0026,
-      "win_group": 0.0148
-    },
     "Uzbekistan": {
-      "champion": 0.0001,
-      "final": 0.0014,
-      "semi": 0.006,
+      "champion": 0.0003,
+      "final": 0.0015,
+      "semi": 0.0066,
       "win_group": 0.0478
     },
     "Czech Republic": {
-      "champion": 0.0001,
+      "champion": 0.0002,
       "final": 0.0007,
-      "semi": 0.0082,
-      "win_group": 0.0439
+      "semi": 0.0064,
+      "win_group": 0.0388
     },
     "Haiti": {
       "champion": 0.0001,
       "final": 0.0001,
-      "semi": 0.0007,
-      "win_group": 0.0153
+      "semi": 0.0006,
+      "win_group": 0.0113
+    },
+    "New Zealand": {
+      "champion": 0.0001,
+      "final": 0.0002,
+      "semi": 0.001,
+      "win_group": 0.0405
+    },
+    "DR Congo": {
+      "champion": 0.0001,
+      "final": 0.0009,
+      "semi": 0.0064,
+      "win_group": 0.0472
     },
     "Iraq": {
       "champion": 0.0001,
       "final": 0.0003,
-      "semi": 0.002,
+      "semi": 0.0022,
       "win_group": 0.0133
+    },
+    "Bosnia and Herzegovina": {
+      "champion": 0.0001,
+      "final": 0.0003,
+      "semi": 0.0023,
+      "win_group": 0.0357
+    },
+    "Ghana": {
+      "champion": 0.0,
+      "final": 0.0002,
+      "semi": 0.0008,
+      "win_group": 0.0125
+    },
+    "Qatar": {
+      "champion": 0.0,
+      "final": 0.0,
+      "semi": 0.0,
+      "win_group": 0.0018
     },
     "Cape Verde": {
       "champion": 0.0,
       "final": 0.0,
-      "semi": 0.0005,
+      "semi": 0.0008,
       "win_group": 0.0023
     },
-    "DR Congo": {
-      "champion": 0.0,
-      "final": 0.0008,
-      "semi": 0.006,
-      "win_group": 0.0472
-    },
-    "New Zealand": {
-      "champion": 0.0,
-      "final": 0.0004,
-      "semi": 0.0018,
-      "win_group": 0.0405
-    },
-    "Tunisia": {
+    "Cura\u00e7ao": {
       "champion": 0.0,
       "final": 0.0,
-      "semi": 0.0008,
-      "win_group": 0.0176
-    },
-    "Bosnia and Herzegovina": {
-      "champion": 0.0,
-      "final": 0.0002,
-      "semi": 0.002,
-      "win_group": 0.034
+      "semi": 0.0001,
+      "win_group": 0.0073
     },
     "Saudi Arabia": {
       "champion": 0.0,
@@ -339,29 +339,29 @@
       "semi": 0.0015,
       "win_group": 0.0037
     },
-    "Qatar": {
-      "champion": 0.0,
-      "final": 0.0,
-      "semi": 0.0,
-      "win_group": 0.0057
-    },
     "South Africa": {
       "champion": 0.0,
-      "final": 0.0,
-      "semi": 0.0006,
-      "win_group": 0.0084
+      "final": 0.0003,
+      "semi": 0.0014,
+      "win_group": 0.0138
     },
-    "Cura\u00e7ao": {
+    "Sweden": {
+      "champion": 0.0,
+      "final": 0.0015,
+      "semi": 0.0083,
+      "win_group": 0.0683
+    },
+    "Tunisia": {
       "champion": 0.0,
       "final": 0.0001,
-      "semi": 0.0002,
-      "win_group": 0.0073
+      "semi": 0.0011,
+      "win_group": 0.0176
     },
-    "Ghana": {
+    "Jordan": {
       "champion": 0.0,
       "final": 0.0002,
-      "semi": 0.0007,
-      "win_group": 0.0125
+      "semi": 0.0019,
+      "win_group": 0.0148
     }
   },
   "method_notes": [

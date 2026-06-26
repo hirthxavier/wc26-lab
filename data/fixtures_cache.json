@@ -29,10 +29,10 @@
     "stage": "GROUP_STAGE",
     "home": "Norway",
     "away": "France",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "score": {
       "home": 1,
-      "away": 3
+      "away": 4
     }
   },
   {
@@ -41,9 +41,9 @@
     "stage": "GROUP_STAGE",
     "home": "Senegal",
     "away": "Iraq",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "score": {
-      "home": 1,
+      "home": 5,
       "away": 0
     }
   },
@@ -171,8 +171,8 @@
     "match_id": 537417,
     "utc_kickoff": "2026-06-28T19:00:00Z",
     "stage": "LAST_32",
-    "home": null,
-    "away": null,
+    "home": "South Africa",
+    "away": "Canada",
     "status": "TIMED",
     "score": {
       "home": null,
@@ -183,8 +183,8 @@
     "match_id": 537423,
     "utc_kickoff": "2026-06-29T17:00:00Z",
     "stage": "LAST_32",
-    "home": null,
-    "away": null,
+    "home": "Brazil",
+    "away": "Japan",
     "status": "TIMED",
     "score": {
       "home": null,
@@ -195,7 +195,7 @@
     "match_id": 537415,
     "utc_kickoff": "2026-06-29T20:30:00Z",
     "stage": "LAST_32",
-    "home": null,
+    "home": "Germany",
     "away": null,
     "status": "TIMED",
     "score": {

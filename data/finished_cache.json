@@ -31,8 +31,8 @@
     "away": "Bosnia-Herzegovina",
     "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 1
     }
   },
   {
@@ -669,6 +669,54 @@
     "score": {
       "home": 0,
       "away": 2
+    }
+  },
+  {
+    "match_id": 537361,
+    "utc_kickoff": "2026-06-25T23:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Tunisia",
+    "away": "Netherlands",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 3
+    }
+  },
+  {
+    "match_id": 537362,
+    "utc_kickoff": "2026-06-25T23:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Japan",
+    "away": "Sweden",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 1
+    }
+  },
+  {
+    "match_id": 537349,
+    "utc_kickoff": "2026-06-26T02:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Turkey",
+    "away": "United States",
+    "status": "FINISHED",
+    "score": {
+      "home": 3,
+      "away": 2
+    }
+  },
+  {
+    "match_id": 537350,
+    "utc_kickoff": "2026-06-26T02:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Paraguay",
+    "away": "Australia",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 0
     }
   }
 ]

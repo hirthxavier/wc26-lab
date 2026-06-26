@@ -5,10 +5,10 @@
     "stage": "GROUP_STAGE",
     "home": "Turkey",
     "away": "United States",
-    "status": "TIMED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 3,
+      "away": 2
     }
   },
   {
@@ -17,10 +17,10 @@
     "stage": "GROUP_STAGE",
     "home": "Paraguay",
     "away": "Australia",
-    "status": "TIMED",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   {
@@ -195,7 +195,7 @@
     "match_id": 537415,
     "utc_kickoff": "2026-06-29T20:30:00Z",
     "stage": "LAST_32",
-    "home": "Germany",
+    "home": null,
     "away": null,
     "status": "TIMED",
     "score": {

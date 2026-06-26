@@ -1,0 +1,40 @@
+⚽ Uruguay vs Spain — GROUP_STAGE
+Coup d'envoi : 27/06 02:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Uruguay: 7.4%  Draw: 17.6%  Spain: 75.0%
+  With news adjustment: 7.2% / 17.6% / 75.2%
+  Elo: 2008.6 vs 2365.9
+
+— LINE MOVEMENT (where money went) —
+  Spain: 57.9% ↓ 56.7%
+  Uruguay: 17.8% ↓ 15.8%
+  Draw: 24.3% ↑ 27.6%
+
+— NEWS: Uruguay (sentiment +0.00) —
+  ⚠️ Uruguay Faces Locker Room Tension Ahead of Must-Win World Cup Match vs. Spain - Yahoo Sports
+
+— NEWS: Spain (sentiment +0.08) —
+  ⚠️ World Cup 2026: Egypt manager denies Salah rift; Spain screening scrapped due to Madrid heat – as it happened - The Guardian
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 65 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Marca (ES)] Últimas horas para comprar tus entradas para el Uruguay vs España
+  [Marca (ES)] La mala racha que necesita superar Uruguay para seguir 'viva' en el Mundial
+  [Marca (ES)] Alineación probable de España hoy contra Uruguay: once del partido de fase de grupos del Mundial
+  [Marca (ES)] España se mide a Uruguay para quedar como líder de su grupo: compra ya tus entradas para el partido
+  [Marca (ES)] "Uruguay va a intentar llevarse puesto a más de uno"
+  [Marca (ES)] A qué hora es Uruguay - España: horario, canal y dónde ver en TV y online el partido del Mundial 2026 en directo
+  [Corriere dello Sport (IT)] Caos in casa Uruguay: fronda contro Bielsa, i senatori contestano l&#39;allenatore per la tattica contro la Spagna
+  [BBC Sport (UK)] Why there's more to Spain than Lamine Yamal - Azpilicueta
+
+— MOST LIKELY OUTCOME —
+  Spain (74.9%)
+  Tentative exact scores: 0-2 (13.0%), 0-3 (10.6%), 0-1 (9.5%)
+  xG: 0.69 - 2.45   O2.5: 60.7%   BTTS: 46.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

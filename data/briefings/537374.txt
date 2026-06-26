@@ -1,0 +1,35 @@
+⚽ Cape Verde Islands vs Saudi Arabia — GROUP_STAGE
+Coup d'envoi : 27/06 02:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Cape Verde Islands: 16.0%  Draw: 25.2%  Saudi Arabia: 58.8%
+  With news adjustment: 16.0% / 25.2% / 58.8%
+  Elo: 1530.2 vs 1738.0
+
+— NEWS: Cape Verde Islands (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Saudi Arabia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 46 headlines from ES/IT/FR/AR/UK/BR sources —
+  [GoogleNews:"Cape Verde Islands" world cup] Cape Verde, the FIFA World Cup 2026 team with a Moroccan Jewish history - The Jerusalem Post
+  [GoogleNews:"Cape Verde Islands" world cup] ‘Everyone is talking about Cape Verde’: World Cup run delights diaspora community in UK - The Guardian
+  [GoogleNews:"Cape Verde Islands" world cup] FIFA World Cup 2026 underdog Cape Verde isn't just making headlines on the field; where is it and what should travellers know - The Times of India
+  [GoogleNews:"Cape Verde Islands" world cup] Another World Cup stunner: Cape Verde gets 1st goal of tournament and holds Uruguay to 2-2 draw - AP News
+  [GoogleNews:"Cape Verde Islands" world cup] Spain vs Cape Verde LIVE: FIFA World Cup Group H score, commentary, updates & stats - BBC
+  [GoogleNews:"Cape Verde Islands" world cup] The joy and wonder of Cabo Verde's unlikely World Cup journey - ESPN
+  [GoogleNews:"Cape Verde Islands" world cup] Cape Verde Has Become World Cup Darlings Without Winning A Game - Forbes
+  [GoogleNews:"Cape Verde Islands" world cup] Cape Verde: Tiny nation, massive World Cup dream - NPR
+
+— MOST LIKELY OUTCOME —
+  Saudi Arabia (58.8%)
+  Tentative exact scores: 1-1 (12.1%), 0-2 (11.0%), 0-1 (10.1%)
+  xG: 0.9 - 1.88   O2.5: 52.5%   BTTS: 51.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

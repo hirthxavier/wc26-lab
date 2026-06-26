@@ -29,10 +29,10 @@
     "stage": "GROUP_STAGE",
     "home": "Norway",
     "away": "France",
-    "status": "TIMED",
+    "status": "PAUSED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 3
     }
   },
   {
@@ -41,10 +41,10 @@
     "stage": "GROUP_STAGE",
     "home": "Senegal",
     "away": "Iraq",
-    "status": "TIMED",
+    "status": "PAUSED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   {

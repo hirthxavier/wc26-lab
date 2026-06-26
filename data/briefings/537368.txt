@@ -1,0 +1,40 @@
+⚽ Egypt vs Iran — GROUP_STAGE
+Coup d'envoi : 27/06 05:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Egypt: 33.0%  Draw: 30.1%  Iran: 36.9%
+  With news adjustment: 33.0% / 30.1% / 36.9%
+  Elo: 1915.2 vs 1933.0
+
+— LINE MOVEMENT (where money went) —
+  Egypt: 42.1% ↓ 38.5%
+  Iran: 26.6% ↓ 25.1%
+  Draw: 31.3% ↑ 36.4%
+
+— NEWS: Egypt (sentiment +0.00) —
+  ⚠️ Why did these World Cup ads strike a nerve in Egypt? - Al Jazeera
+
+— NEWS: Iran (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 56 headlines from ES/IT/FR/AR/UK/BR sources —
+  [L'Equipe (FR)] Les prix délirants des transports pour se rendre au stade de Boston
+  [BBC Sport (UK)] Rainbow flags await Egypt and Iran at awkward Pride Match
+  [GoogleNews:"Egypt" world cup] FIFA clashes with Iran, Egypt over rainbow symbols at World Cup Pride Match - The Athletic - The New York Times
+  [GoogleNews:"Egypt" world cup] Egypt coach offers support for Iranian team before crucial World Cup match - Al Jazeera
+  [GoogleNews:"Egypt" world cup] What to know when Egypt plays Iran in World Cup match in Seattle - The Seattle Times
+  [GoogleNews:"Egypt" world cup] 2026 World Cup Group G Scenarios, Standings: What Egypt, Iran, Belgium, New Zealand Need To Advance - FOX Sports
+  [GoogleNews:"Egypt" world cup] Who could Egypt play in the World Cup Round of 32? - USA Today
+  [GoogleNews:"Egypt" world cup] Egypt vs Iran at the World Cup: A Century of History on One Pitch - WIRED Middle East
+
+— MOST LIKELY OUTCOME —
+  Iran (36.9%)
+  Tentative exact scores: 1-1 (14.4%), 0-0 (9.3%), 1-2 (8.4%)
+  xG: 1.26 - 1.34   O2.5: 48.2%   BTTS: 54.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

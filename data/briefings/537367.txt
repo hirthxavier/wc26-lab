@@ -1,0 +1,40 @@
+⚽ New Zealand vs Belgium — GROUP_STAGE
+Coup d'envoi : 27/06 05:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  New Zealand: 10.2%  Draw: 20.7%  Belgium: 69.1%
+  With news adjustment: 10.1% / 20.7% / 69.2%
+  Elo: 1731.4 vs 2031.8
+
+— LINE MOVEMENT (where money went) —
+  Belgium: 73.1% ↑ 80.9%
+  New Zealand: 9.9% ↓ 6.7%
+  Draw: 17.0% ↓ 12.3%
+
+— NEWS: New Zealand (sentiment +0.00) —
+  ⚠️ Egypt coach denies Salah rift before World Cup match against New Zealand - Al Jazeera
+
+— NEWS: Belgium (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 54 headlines from ES/IT/FR/AR/UK/BR sources —
+  [GoogleNews:"New Zealand" world cup] New Zealand eye Belgium shock as World Cup surprises fuel belief - Reuters
+  [GoogleNews:"New Zealand" world cup] Belgium vs New Zealand Predictions, Picks & Odds for Today's World Cup Match - Yahoo Sports
+  [GoogleNews:"New Zealand" world cup] New Zealand vs. Belgium—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"New Zealand" world cup] 2026 World Cup Group G Scenarios, Standings: What Egypt, Iran, Belgium, New Zealand Need To Advance - FOX Sports
+  [GoogleNews:"New Zealand" world cup] New Zealand 1-3 Egypt: World Cup 2026 – as it happened - The Guardian
+  [GoogleNews:"New Zealand" world cup] How Egypt earned historic win over New Zealand at World Cup 2026 as Salah scores winning goal - The New York Times
+  [GoogleNews:"New Zealand" world cup] New Zealand vs Belgium World Cup prediction, picks, analysis - USA Today
+  [GoogleNews:"New Zealand" world cup] 'Least-known' World Cup player goes viral and gains over 1m followers - BBC
+
+— MOST LIKELY OUTCOME —
+  Belgium (69.1%)
+  Tentative exact scores: 0-2 (12.5%), 0-1 (10.0%), 1-1 (9.9%)
+  xG: 0.76 - 2.21   O2.5: 57.1%   BTTS: 48.9%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

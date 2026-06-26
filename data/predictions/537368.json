@@ -1,0 +1,184 @@
+{
+  "frozen_at_utc": "2026-06-26T20:12:05.367503+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537368,
+    "utc_kickoff": "2026-06-27T03:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Egypt",
+    "away": "Iran",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.3302,
+    "draw": 0.3012,
+    "away": 0.3686
+  },
+  "model_with_news": {
+    "home": 0.3299,
+    "draw": 0.3012,
+    "away": 0.3689
+  },
+  "model_llm": {
+    "home": 0.3302,
+    "draw": 0.3012,
+    "away": 0.3686
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": [
+      "Why did these World Cup ads strike a nerve in Egypt? - Al Jazeera"
+    ]
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.26,
+    "lam_away": 1.342,
+    "elo_home": 1915.2,
+    "elo_away": 1933.0
+  },
+  "formstats": {
+    "form_home": [
+      "D",
+      "V",
+      "N",
+      "V",
+      "N"
+    ],
+    "form_away": [
+      "V",
+      "V",
+      "V",
+      "D",
+      "N"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Brazil",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-05-28",
+        "opp": "Russia",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Spain",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Saudi Arabia",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-01-17",
+        "opp": "Nigeria",
+        "score": "0-0",
+        "r": "N"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-04",
+        "opp": "Mali",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-29",
+        "opp": "Gambia",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Costa Rica",
+        "score": "5-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Nigeria",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Uzbekistan",
+        "score": "0-0",
+        "r": "N"
+      }
+    ],
+    "h2h": {
+      "played": 1,
+      "wins_a": 0,
+      "draws": 1,
+      "wins_b": 0,
+      "goals_a": 1,
+      "goals_b": 1,
+      "last_meetings": [
+        {
+          "date": "2000",
+          "score": "1-1",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1442
+    },
+    {
+      "score": "0-0",
+      "prob": 0.093
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0841
+    },
+    {
+      "score": "0-1",
+      "prob": 0.0807
+    },
+    {
+      "score": "2-1",
+      "prob": 0.079
+    }
+  ],
+  "ev_summary": null
+}

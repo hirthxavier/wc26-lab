@@ -171,8 +171,8 @@
     "match_id": 537417,
     "utc_kickoff": "2026-06-28T19:00:00Z",
     "stage": "LAST_32",
-    "home": "South Africa",
-    "away": "Canada",
+    "home": null,
+    "away": null,
     "status": "TIMED",
     "score": {
       "home": null,
@@ -183,8 +183,8 @@
     "match_id": 537423,
     "utc_kickoff": "2026-06-29T17:00:00Z",
     "stage": "LAST_32",
-    "home": "Brazil",
-    "away": "Japan",
+    "home": null,
+    "away": null,
     "status": "TIMED",
     "score": {
       "home": null,
@@ -195,7 +195,7 @@
     "match_id": 537415,
     "utc_kickoff": "2026-06-29T20:30:00Z",
     "stage": "LAST_32",
-    "home": "Germany",
+    "home": null,
     "away": null,
     "status": "TIMED",
     "score": {

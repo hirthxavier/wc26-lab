@@ -225,6 +225,30 @@
       "logloss_close": 1.3821
     },
     {
+      "match_id": 537349,
+      "match": "Turkey v United States",
+      "actual": "home",
+      "brier_stats": 0.4945,
+      "logloss_stats": 0.8536,
+      "brier_news": 0.4945,
+      "logloss_news": 0.8536,
+      "brier_llm": 0.4945,
+      "logloss_llm": 0.8536
+    },
+    {
+      "match_id": 537350,
+      "match": "Paraguay v Australia",
+      "actual": "draw",
+      "brier_stats": 0.742,
+      "logloss_stats": 1.2073,
+      "brier_news": 0.7419,
+      "logloss_news": 1.2073,
+      "brier_llm": 0.742,
+      "logloss_llm": 1.2073,
+      "brier_close": 0.522,
+      "logloss_close": 0.8791
+    },
+    {
       "match_id": 537351,
       "match": "Germany v Cura\u00e7ao",
       "actual": "home",
@@ -277,6 +301,32 @@
       "logloss_close": 2.1755
     },
     {
+      "match_id": 537355,
+      "match": "Ecuador v Germany",
+      "actual": "home",
+      "brier_stats": 0.6456,
+      "logloss_stats": 1.0654,
+      "brier_news": 0.6456,
+      "logloss_news": 1.0654,
+      "brier_llm": 0.6456,
+      "logloss_llm": 1.0654,
+      "brier_close": 1.0272,
+      "logloss_close": 1.6006
+    },
+    {
+      "match_id": 537356,
+      "match": "Cura\u00e7ao v Ivory Coast",
+      "actual": "away",
+      "brier_stats": 0.2045,
+      "logloss_stats": 0.4533,
+      "brier_news": 0.2045,
+      "logloss_news": 0.4533,
+      "brier_llm": 0.2045,
+      "logloss_llm": 0.4533,
+      "brier_close": 0.0521,
+      "logloss_close": 0.2016
+    },
+    {
       "match_id": 537358,
       "match": "Sweden v Tunisia",
       "actual": "home",
@@ -301,6 +351,32 @@
       "logloss_llm": 0.3058,
       "brier_close": 0.1811,
       "logloss_close": 0.4202
+    },
+    {
+      "match_id": 537361,
+      "match": "Tunisia v Netherlands",
+      "actual": "away",
+      "brier_stats": 0.0901,
+      "logloss_stats": 0.2721,
+      "brier_news": 0.0901,
+      "logloss_news": 0.2721,
+      "brier_llm": 0.0901,
+      "logloss_llm": 0.2721,
+      "brier_close": 0.036,
+      "logloss_close": 0.1642
+    },
+    {
+      "match_id": 537362,
+      "match": "Japan v Sweden",
+      "actual": "draw",
+      "brier_stats": 0.9947,
+      "logloss_stats": 1.4414,
+      "brier_news": 0.9947,
+      "logloss_news": 1.4414,
+      "brier_llm": 0.9947,
+      "logloss_llm": 1.4414,
+      "brier_close": 0.7805,
+      "logloss_close": 1.2668
     },
     {
       "match_id": 537364,
@@ -496,35 +572,35 @@
   ],
   "summary": {
     "stats": {
-      "n": 39,
-      "mean_brier": 0.5387,
+      "n": 45,
+      "mean_brier": 0.5374,
       "brier_95ci": [
-        0.3962,
-        0.6959
+        0.41,
+        0.6692
       ]
     },
     "news": {
-      "n": 39,
-      "mean_brier": 0.5385,
+      "n": 45,
+      "mean_brier": 0.5372,
       "brier_95ci": [
-        0.3993,
-        0.6877
+        0.4092,
+        0.6773
       ]
     },
     "llm": {
-      "n": 39,
-      "mean_brier": 0.5138,
+      "n": 45,
+      "mean_brier": 0.5157,
       "brier_95ci": [
-        0.3812,
-        0.6494
+        0.3962,
+        0.6421
       ]
     },
     "close": {
-      "n": 32,
-      "mean_brier": 0.4152,
+      "n": 37,
+      "mean_brier": 0.4245,
       "brier_95ci": [
-        0.2879,
-        0.5549
+        0.3039,
+        0.5553
       ]
     }
   }

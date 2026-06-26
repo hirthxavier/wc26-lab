@@ -1,77 +1,5 @@
 [
   {
-    "match_id": 537331,
-    "utc_kickoff": "2026-06-25T01:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Czechia",
-    "away": "Mexico",
-    "status": "FINISHED",
-    "score": {
-      "home": 0,
-      "away": 3
-    }
-  },
-  {
-    "match_id": 537332,
-    "utc_kickoff": "2026-06-25T01:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "South Africa",
-    "away": "South Korea",
-    "status": "FINISHED",
-    "score": {
-      "home": 1,
-      "away": 0
-    }
-  },
-  {
-    "match_id": 537355,
-    "utc_kickoff": "2026-06-25T20:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Ecuador",
-    "away": "Germany",
-    "status": "FINISHED",
-    "score": {
-      "home": 2,
-      "away": 1
-    }
-  },
-  {
-    "match_id": 537356,
-    "utc_kickoff": "2026-06-25T20:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Cura\u00e7ao",
-    "away": "Ivory Coast",
-    "status": "FINISHED",
-    "score": {
-      "home": 0,
-      "away": 2
-    }
-  },
-  {
-    "match_id": 537361,
-    "utc_kickoff": "2026-06-25T23:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Tunisia",
-    "away": "Netherlands",
-    "status": "TIMED",
-    "score": {
-      "home": null,
-      "away": null
-    }
-  },
-  {
-    "match_id": 537362,
-    "utc_kickoff": "2026-06-25T23:00:00Z",
-    "stage": "GROUP_STAGE",
-    "home": "Japan",
-    "away": "Sweden",
-    "status": "TIMED",
-    "score": {
-      "home": null,
-      "away": null
-    }
-  },
-  {
     "match_id": 537349,
     "utc_kickoff": "2026-06-26T02:00:00Z",
     "stage": "GROUP_STAGE",
@@ -244,6 +172,30 @@
     "utc_kickoff": "2026-06-28T19:00:00Z",
     "stage": "LAST_32",
     "home": null,
+    "away": null,
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537423,
+    "utc_kickoff": "2026-06-29T17:00:00Z",
+    "stage": "LAST_32",
+    "home": null,
+    "away": null,
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537415,
+    "utc_kickoff": "2026-06-29T20:30:00Z",
+    "stage": "LAST_32",
+    "home": "Germany",
     "away": null,
     "status": "TIMED",
     "score": {

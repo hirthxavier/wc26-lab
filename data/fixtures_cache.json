@@ -53,7 +53,7 @@
     "stage": "GROUP_STAGE",
     "home": "Panama",
     "away": "England",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 0,
       "away": 2
@@ -65,10 +65,10 @@
     "stage": "GROUP_STAGE",
     "home": "Croatia",
     "away": "Ghana",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 1,
-      "away": 0
+      "home": 2,
+      "away": 1
     }
   },
   {
@@ -77,10 +77,10 @@
     "stage": "GROUP_STAGE",
     "home": "Colombia",
     "away": "Portugal",
-    "status": "TIMED",
+    "status": "LIVE",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   {
@@ -89,10 +89,10 @@
     "stage": "GROUP_STAGE",
     "home": "Congo DR",
     "away": "Uzbekistan",
-    "status": "TIMED",
+    "status": "LIVE",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   {

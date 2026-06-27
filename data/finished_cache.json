@@ -790,5 +790,29 @@
       "home": 1,
       "away": 1
     }
+  },
+  {
+    "match_id": 537413,
+    "utc_kickoff": "2026-06-27T21:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Panama",
+    "away": "England",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 2
+    }
+  },
+  {
+    "match_id": 537414,
+    "utc_kickoff": "2026-06-27T21:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Croatia",
+    "away": "Ghana",
+    "status": "FINISHED",
+    "score": {
+      "home": 2,
+      "away": 1
+    }
   }
 ]

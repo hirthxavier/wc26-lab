@@ -1,0 +1,40 @@
+⚽ Jordan vs Argentina — GROUP_STAGE
+Coup d'envoi : 28/06 04:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Jordan: 3.6%  Draw: 11.5%  Argentina: 85.0%
+  With news adjustment: 3.6% / 11.5% / 85.0%
+  Elo: 1794.1 vs 2266.9
+
+— LINE MOVEMENT (where money went) —
+  Argentina: 79.1% ↑ 84.8%
+  Jordan: 6.9% ↓ 4.7%
+  Draw: 14.1% ↓ 10.6%
+
+— NEWS: Jordan (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Argentina (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 63 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Giordania-Argentina, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [Ole (AR)] Nico Paz seguiría en Cómo: avances con el Madrid antes de su gran chance ante Jordania
+  [BBC Sport (UK)] 'Nothing is impossible' - Cape Verde make history to set up Argentina tie
+  [Guardian (UK)] Cape Verde’s World Cup fairytale continues after Saudi Arabia draw secures Argentina tie
+  [GoogleNews:"Jordan" world cup] Jordan vs. Argentina—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"Jordan" world cup] Despite elimination, Jordan celebrates first World Cup appearance with Downtown Arlington festival - KERA News
+  [GoogleNews:"Jordan" world cup] Jordan v Argentina: Line-ups, Score & Live Updates | First Stage | FIFA World Cup 2026 - FIFA
+  [GoogleNews:"Jordan" world cup] Argentina vs. Jordan Prediction, Odds, Picks For World Cup Match - FOX Sports
+
+— MOST LIKELY OUTCOME —
+  Argentina (84.9%)
+  Tentative exact scores: 0-3 (12.8%), 0-2 (12.8%), 0-4 (9.6%)
+  xG: 0.56 - 3.0   O2.5: 69.0%   BTTS: 41.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

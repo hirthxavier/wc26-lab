@@ -1,0 +1,40 @@
+⚽ Algeria vs Austria — GROUP_STAGE
+Coup d'envoi : 28/06 04:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Algeria: 35.4%  Draw: 30.2%  Austria: 34.5%
+  With news adjustment: 35.4% / 30.2% / 34.5%
+  Elo: 1959.4 vs 1955.4
+
+— LINE MOVEMENT (where money went) —
+  Algeria: 26.3% ↑ 26.8%
+  Austria: 43.8% ↓ 26.5%
+  Draw: 29.9% ↑ 46.7%
+
+— NEWS: Algeria (sentiment +0.00) —
+  🏥 PREVIEW Soccer-Austria, Algeria in shoot-out for second place in Group J - Reuters
+
+— NEWS: Austria (sentiment +0.00) —
+  🏥 PREVIEW Soccer-Austria, Algeria in shoot-out for second place in Group J - Reuters
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 53 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Algeria-Austria, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Algeria" world cup] Algeria, Austria dismiss trying not to win to avoid Spain - ESPN
+  [GoogleNews:"Algeria" world cup] Why Algeria vs Austria is this World Cup's biggest grudge match - Middle East Eye
+  [GoogleNews:"Algeria" world cup] Austria vs. Algeria Prediction, Odds, Picks For World Cup Match - FOX Sports
+  [GoogleNews:"Algeria" world cup] World Cup 2026 third place standings, explained: Updated scenarios for Austria, Algeria and more on last day of group play - Yahoo Sports
+  [GoogleNews:"Algeria" world cup] World Cup Group J scenarios: Argentina clinched; Austria, Algeria can advance with draw - CBS Sports
+  [GoogleNews:"Algeria" world cup] With Algeria's World Cup future in the balance, Lawrence is ready 'to keep the party rocking' - KCUR
+  [GoogleNews:"Algeria" world cup] Lawrence can cheer on Team Algeria in final group stage match, plus more World Cup events - The Lawrence Times
+
+— MOST LIKELY OUTCOME —
+  Algeria (35.4%)
+  Tentative exact scores: 1-1 (14.4%), 0-0 (9.3%), 2-1 (8.2%)
+  xG: 1.31 - 1.29   O2.5: 48.2%   BTTS: 54.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

@@ -1,0 +1,40 @@
+⚽ Panama vs England — GROUP_STAGE
+Coup d'envoi : 27/06 23:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Panama: 7.9%  Draw: 18.2%  England: 74.0%
+  With news adjustment: 7.7% / 18.2% / 74.1%
+  Elo: 1867.4 vs 2214.5
+
+— LINE MOVEMENT (where money went) —
+  England: 73.4% ↑ 84.0%
+  Panama: 10.2% ↓ 5.2%
+  Draw: 16.4% ↓ 10.8%
+
+— NEWS: Panama (sentiment -0.04) —
+  🏥 Elliot Anderson a doubt for England vs. Panama, Reece James out - The Athletic - The New York Times
+
+— NEWS: England (sentiment +0.00) —
+  🏥 Elliot Anderson a doubt for England vs. Panama, Reece James out - The Athletic - The New York Times
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 67 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Panama-Inghilterra, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [BBC Sport (UK)] Who could England face in last 32 after qualifying for next round?
+  [BBC Sport (UK)] Who are the Panama players England need to look out for?
+  [BBC Sport (UK)] World Cup quiz: Name the team from England v Panama 2018
+  [Guardian (UK)] World Cup 2026: England through, Scotland wait goes on and Spain hit by injuries – live
+  [Guardian (UK)] Thomas Tuchel searches for solutions to overcome Panama’s low block
+  [Guardian (UK)] Cold War Steve on … England’s haunted team-building barbecue
+  [Guardian (UK)] Who would the US need to beat to win the World Cup? Probably only Spain, France and England
+
+— MOST LIKELY OUTCOME —
+  England (73.9%)
+  Tentative exact scores: 0-2 (12.9%), 0-3 (10.4%), 0-1 (9.6%)
+  xG: 0.7 - 2.4   O2.5: 60.0%   BTTS: 47.1%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

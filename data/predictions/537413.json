@@ -1,0 +1,186 @@
+{
+  "frozen_at_utc": "2026-06-27T18:52:45.038517+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537413,
+    "utc_kickoff": "2026-06-27T21:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Panama",
+    "away": "England",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.0787,
+    "draw": 0.1816,
+    "away": 0.7397
+  },
+  "model_with_news": {
+    "home": 0.0775,
+    "draw": 0.1816,
+    "away": 0.7409
+  },
+  "model_llm": {
+    "home": 0.0787,
+    "draw": 0.1816,
+    "away": 0.7397
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": -0.04,
+    "injury_flags": [
+      "Elliot Anderson a doubt for England vs. Panama, Reece James out - The Athletic - The New York Times"
+    ],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [
+      "Elliot Anderson a doubt for England vs. Panama, Reece James out - The Athletic - The New York Times"
+    ],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 0.703,
+    "lam_away": 2.404,
+    "elo_home": 1867.4,
+    "elo_away": 2214.5
+  },
+  "formstats": {
+    "form_home": [
+      "N",
+      "V",
+      "D",
+      "V",
+      "N"
+    ],
+    "form_away": [
+      "V",
+      "D",
+      "N",
+      "V",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Bosnia and Herzegovina",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-06-03",
+        "opp": "Dominican Republic",
+        "score": "4-2",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Brazil",
+        "score": "2-6",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "South Africa",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "South Africa",
+        "score": "1-1",
+        "r": "N"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "New Zealand",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Japan",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Uruguay",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2025-11-16",
+        "opp": "Albania",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-13",
+        "opp": "Serbia",
+        "score": "2-0",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 1,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 1,
+      "goals_a": 1,
+      "goals_b": 6,
+      "last_meetings": [
+        {
+          "date": "2018",
+          "score": "1-6",
+          "tournament": "FIFA World Cup"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "0-2",
+      "prob": 0.1294
+    },
+    {
+      "score": "0-3",
+      "prob": 0.1037
+    },
+    {
+      "score": "0-1",
+      "prob": 0.0963
+    },
+    {
+      "score": "1-2",
+      "prob": 0.091
+    },
+    {
+      "score": "1-1",
+      "prob": 0.087
+    }
+  ],
+  "ev_summary": null
+}

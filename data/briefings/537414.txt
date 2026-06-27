@@ -1,0 +1,40 @@
+⚽ Croatia vs Ghana — GROUP_STAGE
+Coup d'envoi : 27/06 23:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Croatia: 69.8%  Draw: 20.3%  Ghana: 9.8%
+  With news adjustment: 69.8% / 20.3% / 9.8%
+  Elo: 2052.5 vs 1745.6
+
+— LINE MOVEMENT (where money went) —
+  Croatia: 57.2% ↓ 52.9%
+  Ghana: 17.5% → 17.3%
+  Draw: 25.2% ↑ 29.7%
+
+— NEWS: Croatia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Ghana (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 57 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Croazia-Ghana, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Croatia" world cup] Croatia vs. Ghana—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"Croatia" world cup] Croatian World Cup fans take over Philadelphia and invade some couple's wedding photos - Fox News
+  [GoogleNews:"Croatia" world cup] Croatian fans CRASH wedding during World Cup match - Fox News
+  [GoogleNews:"Croatia" world cup] Ghana and Croatia fans in Philadelphia celebrate heritage ahead of World Cup match - 6abc Philadelphia
+  [GoogleNews:"Croatia" world cup] England vs Panama live updates: World Cup 2026 game latest news and buildup - The New York Times
+  [GoogleNews:"Croatia" world cup] Panama 0-1 Croatia: Croatia keep their World Cup hopes alive as they knock Panama out of tournament - BBC
+  [GoogleNews:"Croatia" world cup] England 4-2 Croatia: World Cup 2026 – as it happened - The Guardian
+
+— MOST LIKELY OUTCOME —
+  Croatia (69.8%)
+  Tentative exact scores: 2-0 (12.6%), 1-0 (10.0%), 1-1 (9.7%)
+  xG: 2.24 - 0.75   O2.5: 57.5%   BTTS: 48.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

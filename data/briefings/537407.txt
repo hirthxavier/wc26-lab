@@ -1,0 +1,40 @@
+⚽ Colombia vs Portugal — GROUP_STAGE
+Coup d'envoi : 28/06 01:30 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Colombia: 40.1%  Draw: 29.9%  Portugal: 30.0%
+  With news adjustment: 40.1% / 29.9% / 30.0%
+  Elo: 2139.3 vs 2092.3
+
+— LINE MOVEMENT (where money went) —
+  Colombia: 27.0% ↑ 27.6%
+  Portugal: 44.3% ↑ 47.6%
+  Draw: 28.7% ↓ 24.8%
+
+— NEWS: Colombia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Portugal (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 59 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Marca (ES)] Un Colombia - Portugal... con España muy pendiente
+  [Corriere dello Sport (IT)] Colombia-Portogallo, la partita pi&ugrave; costosa dei Mondiali: i prezzi dei biglietti a Miami sono senza senso!
+  [Corriere dello Sport (IT)] Dove vedere Colombia-Portogallo, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [Record (PT)] <![CDATA[ Os cinco possíveis adversários de Portugal nos 16 'avos' do Mundial e o que dizem as probabilidades ]]>
+  [Record (PT)] <![CDATA[ «Sinto orgulho por ainda fazeres história»: Dolores envia mensagem especial a Cristiano Ronaldo a horas do Colômbia-Portugal ]]>
+  [GoogleNews:"Colombia" world cup] Ronaldo and Portugal face a tough test against Colombia in Miami showdown - NBC News
+  [GoogleNews:"Colombia" world cup] Portugal vs Colombia World Cup Prediction: Best Prop Bets Today For Cristiano Ronaldo - FanDuel
+  [GoogleNews:"Colombia" world cup] Croatia faces elimination while Colombia and Portugal set up marquee World Cup clash in Group C - Fox News
+
+— MOST LIKELY OUTCOME —
+  Colombia (40.1%)
+  Tentative exact scores: 1-1 (14.3%), 0-0 (9.2%), 2-1 (8.8%)
+  xG: 1.41 - 1.2   O2.5: 48.4%   BTTS: 54.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

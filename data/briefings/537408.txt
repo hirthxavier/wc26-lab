@@ -1,0 +1,35 @@
+⚽ Congo DR vs Uzbekistan — GROUP_STAGE
+Coup d'envoi : 28/06 01:30 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Congo DR: 8.5%  Draw: 18.9%  Uzbekistan: 72.7%
+  With news adjustment: 8.5% / 18.9% / 72.7%
+  Elo: 1513.5 vs 1847.9
+
+— NEWS: Congo DR (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Uzbekistan (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 54 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Congo-Uzbekistan, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [GoogleNews:"Congo DR" world cup] 2026 World Cup Group K Scenarios, Standings: Where Portugal, Colombia, DR Congo, Uzbekistan Stand - FOX Sports
+  [GoogleNews:"Congo DR" world cup] Colombia 1-0 Congo DR: Daniel Munoz scores his second goal of the World Cup as Colombia progress to the last 32 - BBC
+  [GoogleNews:"Congo DR" world cup] World Cup 2026 - updates as Ghana prepare to face Croatia after Cape Verde set up Argentina clash - ESPN
+  [GoogleNews:"Congo DR" world cup] Here's how DR Congo can qualify for World Cup Round of 32 with this result vs. Uzbekistan - Yahoo Sports
+  [GoogleNews:"Congo DR" world cup] World Cup Group K standings and scenarios: What Colombia, Portugal and DR Congo need to advance to knockouts - Yahoo Sports
+  [GoogleNews:"Congo DR" world cup] DR Congo vs. Uzbekistan—World Cup: Preview, Predictions and Lineups - Sports Illustrated
+  [GoogleNews:"Congo DR" world cup] Visa hurdles likely keep Lumumba Vea from DR Congo World Cup match in Atlanta - AJC.com
+
+— MOST LIKELY OUTCOME —
+  Uzbekistan (72.7%)
+  Tentative exact scores: 0-2 (12.8%), 0-3 (10.1%), 0-1 (9.8%)
+  xG: 0.72 - 2.35   O2.5: 59.2%   BTTS: 47.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

@@ -29,10 +29,10 @@
     "stage": "GROUP_STAGE",
     "home": "New Zealand",
     "away": "Belgium",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 0,
-      "away": 2
+      "home": 1,
+      "away": 5
     }
   },
   {
@@ -41,7 +41,7 @@
     "stage": "GROUP_STAGE",
     "home": "Egypt",
     "away": "Iran",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 1,
       "away": 1

@@ -405,6 +405,32 @@
       "logloss_close": 0.4938
     },
     {
+      "match_id": 537367,
+      "match": "New Zealand v Belgium",
+      "actual": "away",
+      "brier_stats": 0.1483,
+      "logloss_stats": 0.3689,
+      "brier_news": 0.1481,
+      "logloss_news": 0.3685,
+      "brier_llm": 0.1483,
+      "logloss_llm": 0.3689,
+      "brier_close": 0.0568,
+      "logloss_close": 0.2134
+    },
+    {
+      "match_id": 537368,
+      "match": "Egypt v Iran",
+      "actual": "draw",
+      "brier_stats": 0.7332,
+      "logloss_stats": 1.2,
+      "brier_news": 0.7332,
+      "logloss_news": 1.2,
+      "brier_llm": 0.7332,
+      "logloss_llm": 1.2,
+      "brier_close": 0.6152,
+      "logloss_close": 1.0171
+    },
+    {
       "match_id": 537370,
       "match": "Saudi Arabia v Uruguay",
       "actual": "draw",
@@ -427,6 +453,30 @@
       "logloss_news": 2.3197,
       "brier_llm": 1.5775,
       "logloss_llm": 2.3197
+    },
+    {
+      "match_id": 537373,
+      "match": "Uruguay v Spain",
+      "actual": "away",
+      "brier_stats": 0.0992,
+      "logloss_stats": 0.2881,
+      "brier_news": 0.0976,
+      "logloss_news": 0.2849,
+      "brier_llm": 0.0992,
+      "logloss_llm": 0.2881,
+      "brier_close": 0.249,
+      "logloss_close": 0.5155
+    },
+    {
+      "match_id": 537374,
+      "match": "Cape Verde Islands v Saudi Arabia",
+      "actual": "draw",
+      "brier_stats": 0.9304,
+      "logloss_stats": 1.3771,
+      "brier_news": 0.9304,
+      "logloss_news": 1.3771,
+      "brier_llm": 0.9304,
+      "logloss_llm": 1.3771
     },
     {
       "match_id": 537392,
@@ -572,35 +622,35 @@
   ],
   "summary": {
     "stats": {
-      "n": 45,
-      "mean_brier": 0.5374,
+      "n": 49,
+      "mean_brier": 0.5325,
       "brier_95ci": [
-        0.41,
-        0.6692
+        0.4147,
+        0.6648
       ]
     },
     "news": {
-      "n": 45,
-      "mean_brier": 0.5372,
+      "n": 49,
+      "mean_brier": 0.5323,
       "brier_95ci": [
-        0.4092,
-        0.6773
+        0.4115,
+        0.662
       ]
     },
     "llm": {
-      "n": 45,
-      "mean_brier": 0.5157,
+      "n": 49,
+      "mean_brier": 0.5126,
       "brier_95ci": [
-        0.3962,
-        0.6421
+        0.3959,
+        0.6348
       ]
     },
     "close": {
-      "n": 37,
-      "mean_brier": 0.4245,
+      "n": 40,
+      "mean_brier": 0.4157,
       "brier_95ci": [
-        0.3039,
-        0.5553
+        0.3037,
+        0.5379
       ]
     }
   }

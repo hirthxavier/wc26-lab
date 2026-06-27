@@ -53,10 +53,10 @@
     "stage": "GROUP_STAGE",
     "home": "Panama",
     "away": "England",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   {
@@ -65,10 +65,10 @@
     "stage": "GROUP_STAGE",
     "home": "Croatia",
     "away": "Ghana",
-    "status": "TIMED",
+    "status": "LIVE",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   {

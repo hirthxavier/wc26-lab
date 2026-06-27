@@ -56,7 +56,7 @@
     "status": "IN_PLAY",
     "score": {
       "home": 0,
-      "away": 0
+      "away": 2
     }
   },
   {
@@ -65,9 +65,9 @@
     "stage": "GROUP_STAGE",
     "home": "Croatia",
     "away": "Ghana",
-    "status": "LIVE",
+    "status": "IN_PLAY",
     "score": {
-      "home": 0,
+      "home": 1,
       "away": 0
     }
   },
@@ -123,8 +123,8 @@
     "match_id": 537417,
     "utc_kickoff": "2026-06-28T19:00:00Z",
     "stage": "LAST_32",
-    "home": null,
-    "away": null,
+    "home": "South Africa",
+    "away": "Canada",
     "status": "TIMED",
     "score": {
       "home": null,
@@ -135,8 +135,8 @@
     "match_id": 537423,
     "utc_kickoff": "2026-06-29T17:00:00Z",
     "stage": "LAST_32",
-    "home": null,
-    "away": null,
+    "home": "Brazil",
+    "away": "Japan",
     "status": "TIMED",
     "score": {
       "home": null,
@@ -147,7 +147,7 @@
     "match_id": 537415,
     "utc_kickoff": "2026-06-29T20:30:00Z",
     "stage": "LAST_32",
-    "home": null,
+    "home": "Germany",
     "away": null,
     "status": "TIMED",
     "score": {
@@ -159,8 +159,8 @@
     "match_id": 537418,
     "utc_kickoff": "2026-06-30T01:00:00Z",
     "stage": "LAST_32",
-    "home": null,
-    "away": null,
+    "home": "Netherlands",
+    "away": "Morocco",
     "status": "TIMED",
     "score": {
       "home": null,
@@ -171,7 +171,7 @@
     "match_id": 537424,
     "utc_kickoff": "2026-06-30T17:00:00Z",
     "stage": "LAST_32",
-    "home": null,
+    "home": "Ivory Coast",
     "away": null,
     "status": "TIMED",
     "score": {

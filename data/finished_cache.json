@@ -742,5 +742,29 @@
       "home": 5,
       "away": 0
     }
+  },
+  {
+    "match_id": 537373,
+    "utc_kickoff": "2026-06-27T00:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Uruguay",
+    "away": "Spain",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 1
+    }
+  },
+  {
+    "match_id": 537374,
+    "utc_kickoff": "2026-06-27T00:00:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Cape Verde Islands",
+    "away": "Saudi Arabia",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 0
+    }
   }
 ]

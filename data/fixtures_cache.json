@@ -29,10 +29,10 @@
     "stage": "LAST_32",
     "home": "South Africa",
     "away": "Canada",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 0,
-      "away": 0
+      "away": 1
     }
   },
   {

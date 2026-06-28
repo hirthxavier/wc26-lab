@@ -862,5 +862,17 @@
       "home": 3,
       "away": 3
     }
+  },
+  {
+    "match_id": 537417,
+    "utc_kickoff": "2026-06-28T19:00:00Z",
+    "stage": "LAST_32",
+    "home": "South Africa",
+    "away": "Canada",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 1
+    }
   }
 ]

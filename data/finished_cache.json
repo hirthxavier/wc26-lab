@@ -814,5 +814,29 @@
       "home": 2,
       "away": 1
     }
+  },
+  {
+    "match_id": 537407,
+    "utc_kickoff": "2026-06-27T23:30:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Colombia",
+    "away": "Portugal",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 0
+    }
+  },
+  {
+    "match_id": 537408,
+    "utc_kickoff": "2026-06-27T23:30:00Z",
+    "stage": "GROUP_STAGE",
+    "home": "Congo DR",
+    "away": "Uzbekistan",
+    "status": "FINISHED",
+    "score": {
+      "home": 3,
+      "away": 1
+    }
   }
 ]

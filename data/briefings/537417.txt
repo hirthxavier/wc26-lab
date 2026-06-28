@@ -1,0 +1,40 @@
+⚽ South Africa vs Canada — LAST_32
+Coup d'envoi : 28/06 21:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  South Africa: 14.1%  Draw: 24.0%  Canada: 61.8%
+  With news adjustment: 14.0% / 24.0% / 61.9%
+  Elo: 1721.7 vs 1955.7
+
+— LINE MOVEMENT (where money went) —
+  Canada: 56.4% ↓ 52.5%
+  South Africa: 17.4% ↑ 19.2%
+  Draw: 26.2% ↑ 28.3%
+
+— NEWS: South Africa (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Canada (sentiment +0.04) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 58 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] Derided by Leeds, snubbed by USA - but Marsch becoming Canada hero
+  [Guardian (UK)] South Africa v Canada: World Cup 2026 last 32 – live
+  [Voetbal International (NL)] VI Live: Oranje kijkt aandachtig mee bij Canada - Zuid-Afrika
+  [GoogleNews:"South Africa" world cup] South Africa v Canada: World Cup 2026 last 32 – live - The Guardian
+  [GoogleNews:"South Africa" world cup] World Cup group stage winners and losers: Cape Verde and South Africa dream big while Uruguay and Türkiye wallow in despair - Yahoo Sports
+  [GoogleNews:"South Africa" world cup] World Cup Daily LIVE: Iran despair after late Austria drama; South Africa face Canada as round of 32 begins - ESPN
+  [GoogleNews:"South Africa" world cup] South Africa v Canada: Bafana Bafana look to lay ghosts of 2010 to rest in World Cup 2026 tie - BBC
+  [GoogleNews:"South Africa" world cup] Canada starting lineup vs. South Africa: World Cup Round of 32 - MLSsoccer.com
+
+— MOST LIKELY OUTCOME —
+  Canada (61.8%)
+  Tentative exact scores: 1-1 (11.5%), 0-2 (11.5%), 0-1 (10.2%)
+  xG: 0.86 - 1.97   O2.5: 53.7%   BTTS: 51.1%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

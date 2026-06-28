@@ -557,6 +557,32 @@
       "logloss_close": 0.4557
     },
     {
+      "match_id": 537401,
+      "match": "Jordan v Argentina",
+      "actual": "away",
+      "brier_stats": 0.0371,
+      "logloss_stats": 0.163,
+      "brier_news": 0.0371,
+      "logloss_news": 0.163,
+      "brier_llm": 0.0371,
+      "logloss_llm": 0.163,
+      "brier_close": 0.0375,
+      "logloss_close": 0.1677
+    },
+    {
+      "match_id": 537402,
+      "match": "Algeria v Austria",
+      "actual": "draw",
+      "brier_stats": 0.7317,
+      "logloss_stats": 1.1987,
+      "brier_news": 0.7317,
+      "logloss_news": 1.1987,
+      "brier_llm": 0.7317,
+      "logloss_llm": 1.1987,
+      "brier_close": 0.4448,
+      "logloss_close": 0.7865
+    },
+    {
       "match_id": 537404,
       "match": "Uzbekistan v Colombia",
       "actual": "away",
@@ -579,6 +605,30 @@
       "logloss_news": 0.0655,
       "brier_llm": 0.0069,
       "logloss_llm": 0.0655
+    },
+    {
+      "match_id": 537407,
+      "match": "Colombia v Portugal",
+      "actual": "draw",
+      "brier_stats": 0.7424,
+      "logloss_stats": 1.2076,
+      "brier_news": 0.7424,
+      "logloss_news": 1.2076,
+      "brier_llm": 0.7424,
+      "logloss_llm": 1.2076,
+      "brier_close": 0.8894,
+      "logloss_close": 1.4141
+    },
+    {
+      "match_id": 537408,
+      "match": "Congo DR v Uzbekistan",
+      "actual": "home",
+      "brier_stats": 1.4021,
+      "logloss_stats": 2.471,
+      "brier_news": 1.4021,
+      "logloss_news": 2.471,
+      "brier_llm": 1.4021,
+      "logloss_llm": 2.471
     },
     {
       "match_id": 537409,
@@ -618,39 +668,65 @@
       "logloss_llm": 0.6453,
       "brier_close": 0.1706,
       "logloss_close": 0.4059
+    },
+    {
+      "match_id": 537413,
+      "match": "Panama v England",
+      "actual": "away",
+      "brier_stats": 0.1069,
+      "logloss_stats": 0.3015,
+      "brier_news": 0.1061,
+      "logloss_news": 0.2999,
+      "brier_llm": 0.1069,
+      "logloss_llm": 0.3015,
+      "brier_close": 0.0414,
+      "logloss_close": 0.1782
+    },
+    {
+      "match_id": 537414,
+      "match": "Croatia v Ghana",
+      "actual": "home",
+      "brier_stats": 0.1419,
+      "logloss_stats": 0.3588,
+      "brier_news": 0.1419,
+      "logloss_news": 0.3588,
+      "brier_llm": 0.1419,
+      "logloss_llm": 0.3588,
+      "brier_close": 0.3379,
+      "logloss_close": 0.6343
     }
   ],
   "summary": {
     "stats": {
-      "n": 49,
-      "mean_brier": 0.5325,
+      "n": 55,
+      "mean_brier": 0.5319,
       "brier_95ci": [
-        0.4147,
-        0.6648
+        0.417,
+        0.6552
       ]
     },
     "news": {
-      "n": 49,
-      "mean_brier": 0.5323,
+      "n": 55,
+      "mean_brier": 0.5317,
       "brier_95ci": [
-        0.4115,
-        0.662
+        0.4153,
+        0.6581
       ]
     },
     "llm": {
-      "n": 49,
-      "mean_brier": 0.5126,
+      "n": 55,
+      "mean_brier": 0.5142,
       "brier_95ci": [
-        0.3959,
-        0.6348
+        0.4041,
+        0.6309
       ]
     },
     "close": {
-      "n": 40,
-      "mean_brier": 0.4157,
+      "n": 45,
+      "mean_brier": 0.4084,
       "brier_95ci": [
-        0.3037,
-        0.5379
+        0.3025,
+        0.5224
       ]
     }
   }

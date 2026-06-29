@@ -1,0 +1,40 @@
+⚽ Netherlands vs Morocco — LAST_32
+Coup d'envoi : 30/06 03:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Netherlands: 33.7%  Draw: 30.1%  Morocco: 36.2%
+  With news adjustment: 33.7% / 30.1% / 36.2%
+  Elo: 2109.4 vs 2121.1
+
+— LINE MOVEMENT (where money went) —
+  Morocco: 26.2% ↑ 28.0%
+  Netherlands: 44.8% ↓ 41.4%
+  Draw: 29.1% ↑ 30.7%
+
+— NEWS: Netherlands (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Morocco (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 60 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Guardian (UK)] Morocco and the Netherlands look to move mountains in Monterrey matchup
+  [GoogleNews:"Netherlands" world cup] Netherlands vs. Morocco odds, prediction, time: 2026 World Cup Round of 32 picks from expert on 25-13 run - CBS Sports
+  [GoogleNews:"Netherlands" world cup] Netherlands team-mates supporting Cody Gakpo after death of unborn baby son - The New York Times
+  [GoogleNews:"Netherlands" world cup] Dutch striker Cody Gakpo mourns the loss of unborn son at World Cup - NBC News
+  [GoogleNews:"Netherlands" world cup] Netherlands forward Cody Gakpo shares loss of unborn son - ESPN
+  [GoogleNews:"Netherlands" world cup] Netherlands vs. Morocco (Jun 29, 2026) Live Score - ESPN
+  [GoogleNews:"Netherlands" world cup] Men’s World Cup Daily — Brazil vs. Japan, Netherlands vs. Morocco, Germany vs. Paraguay - Bavarian Football Works
+  [GoogleNews:"Netherlands" world cup] Brazil, Germany, Netherlands Ready For A Supercharged Round Of 32 Slate - FOX Sports
+
+— MOST LIKELY OUTCOME —
+  Morocco (36.2%)
+  Tentative exact scores: 1-1 (14.4%), 0-0 (9.3%), 1-2 (8.3%)
+  xG: 1.27 - 1.33   O2.5: 48.2%   BTTS: 54.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

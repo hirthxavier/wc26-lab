@@ -1,0 +1,40 @@
+⚽ Germany vs Paraguay — LAST_32
+Coup d'envoi : 29/06 22:30 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Germany: 41.3%  Draw: 29.7%  Paraguay: 28.9%
+  With news adjustment: 41.4% / 29.7% / 28.9%
+  Elo: 2090.9 vs 2033.1
+
+— LINE MOVEMENT (where money went) —
+  Germany: 70.3% ↑ 71.3%
+  Paraguay: 10.8% ↓ 10.0%
+  Draw: 18.9% → 18.7%
+
+— NEWS: Germany (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Paraguay (sentiment +0.00) —
+  ⚠️ Live: Japan in dreamland with stunning strike against Brazil - Australian Broadcasting Corporation
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 56 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Paraguay re del Mundialido
+  [Guardian (UK)] Germany v Paraguay: World Cup 2026 last 32 – live
+  [GoogleNews:"Germany" world cup] Germany vs Paraguay Predictions, Picks & Odds: Today's World Cup Match - Covers.com
+  [GoogleNews:"Germany" world cup] Germany trapped between past and future with team lost in identity malaise | Jonathan Liew - The Guardian
+  [GoogleNews:"Germany" world cup] How to watch Paraguay vs. Germany World Cup game in Spanish, Telemundo free stream - USA Today
+  [GoogleNews:"Germany" world cup] Dortmund World Cup Roundup: Week of June 22-28 + Fast Facts about Germany - Yahoo Sports
+  [GoogleNews:"Germany" world cup] Germany vs Paraguay live updates: World Cup 2026 round of 32 game latest team news and buildup - The New York Times
+  [GoogleNews:"Germany" world cup] World Cup 2026 Power Rankings after group stage: Who's No. 1? - ESPN
+
+— MOST LIKELY OUTCOME —
+  Germany (41.3%)
+  Tentative exact scores: 1-1 (14.2%), 0-0 (9.2%), 2-1 (8.9%)
+  xG: 1.44 - 1.17   O2.5: 48.5%   BTTS: 54.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

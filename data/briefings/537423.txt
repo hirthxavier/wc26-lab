@@ -1,0 +1,38 @@
+⚽ Brazil vs Japan — LAST_32
+Coup d'envoi : 29/06 19:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Brazil: 41.8%  Draw: 29.7%  Japan: 28.5%
+  With news adjustment: 41.8% / 29.7% / 28.5%
+  Elo: 2148.5 vs 2087.0
+
+— LINE MOVEMENT (where money went) —
+  Brazil: 55.6% ↓ 54.6%
+  Japan: 18.8% → 18.5%
+  Draw: 25.6% ↑ 27.0%
+
+— NEWS: Brazil (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Japan (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 59 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] A new Brazil is taking shape - and Cunha is key
+  [Guardian (UK)] Brazil v Japan: World Cup 2026 last 32 – live
+  [Guardian (UK)] Father figure Carlo Ancelotti will have a plan for Brazil. He always has a plan | Rodrygo
+  [Guardian (UK)] Brazil fans were waiting for Vinícius Júnior to be their hero. He’s arrived
+  [Kicker (DE)] LIVE! Frühes Top-Duell: Brasilien fordert Japan im Sechzehntelfinale
+  [GoogleNews:"Brazil" world cup] Brazil vs Japan live updates: Neymar on bench for today’s 2026 World Cup knockout clash - The New York Times
+  [GoogleNews:"Brazil" world cup] From The Sports Desk: Jesse Marsch calls Canada ‘heroes’ after historic World Cup knockout victory - NBC News
+  [GoogleNews:"Brazil" world cup] World Cup 2026 today: Live updates and news as Brazil and Japan prep for knockout clash - June 29 - ESPN
+
+— MOST LIKELY OUTCOME —
+  Brazil (41.8%)
+  Tentative exact scores: 1-1 (14.2%), 0-0 (9.2%), 2-1 (9.0%)
+  xG: 1.45 - 1.17   O2.5: 48.5%   BTTS: 54.5%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

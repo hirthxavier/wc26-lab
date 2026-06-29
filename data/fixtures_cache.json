@@ -17,10 +17,10 @@
     "stage": "LAST_32",
     "home": "Germany",
     "away": "Paraguay",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 1,
-      "away": 1
+      "home": 5,
+      "away": 5
     }
   },
   {

@@ -694,39 +694,52 @@
       "logloss_llm": 0.3588,
       "brier_close": 0.3379,
       "logloss_close": 0.6343
+    },
+    {
+      "match_id": 537417,
+      "match": "South Africa v Canada",
+      "actual": "away",
+      "brier_stats": 0.2236,
+      "logloss_stats": 0.4809,
+      "brier_news": 0.2223,
+      "logloss_news": 0.479,
+      "brier_llm": 0.2236,
+      "logloss_llm": 0.4809,
+      "brier_close": 0.342,
+      "logloss_close": 0.6436
     }
   ],
   "summary": {
     "stats": {
-      "n": 55,
-      "mean_brier": 0.5319,
+      "n": 56,
+      "mean_brier": 0.5264,
       "brier_95ci": [
-        0.417,
-        0.6552
+        0.4111,
+        0.6494
       ]
     },
     "news": {
-      "n": 55,
-      "mean_brier": 0.5317,
+      "n": 56,
+      "mean_brier": 0.5262,
       "brier_95ci": [
-        0.4153,
-        0.6581
+        0.4123,
+        0.6453
       ]
     },
     "llm": {
-      "n": 55,
-      "mean_brier": 0.5142,
+      "n": 56,
+      "mean_brier": 0.509,
       "brier_95ci": [
-        0.4041,
-        0.6309
+        0.4027,
+        0.6217
       ]
     },
     "close": {
-      "n": 45,
-      "mean_brier": 0.4084,
+      "n": 46,
+      "mean_brier": 0.4069,
       "brier_95ci": [
-        0.3025,
-        0.5224
+        0.3074,
+        0.5186
       ]
     }
   }

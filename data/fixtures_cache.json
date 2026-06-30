@@ -29,7 +29,7 @@
     "stage": "LAST_32",
     "home": "France",
     "away": "Sweden",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 3,
       "away": 0

@@ -588,5 +588,25 @@
     "team_avg": null
   },
   "2026-06-29:injuries:Netherlands": [],
-  "2026-06-29:injuries:Morocco": []
+  "2026-06-29:injuries:Morocco": [],
+  "2026-06-30:form:France": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-30:form:Sweden": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-30:injuries:France": [],
+  "2026-06-30:injuries:Sweden": [],
+  "2026-06-30:form:Mexico": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-30:form:Ecuador": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-06-30:injuries:Mexico": [],
+  "2026-06-30:injuries:Ecuador": []
 }

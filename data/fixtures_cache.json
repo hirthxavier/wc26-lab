@@ -17,10 +17,10 @@
     "stage": "LAST_32",
     "home": "Ivory Coast",
     "away": "Norway",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 0,
-      "away": 0
+      "home": 1,
+      "away": 2
     }
   },
   {

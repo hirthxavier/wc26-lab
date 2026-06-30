@@ -1,0 +1,40 @@
+⚽ France vs Sweden — LAST_32
+Coup d'envoi : 30/06 23:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  France: 80.2%  Draw: 14.5%  Sweden: 5.3%
+  With news adjustment: 80.3% / 14.5% / 5.1%
+  Elo: 2278.4 vs 1864.3
+
+— LINE MOVEMENT (where money went) —
+  France: 74.4% ↑ 75.4%
+  Sweden: 8.9% → 8.7%
+  Draw: 16.7% ↓ 15.8%
+
+— NEWS: France (sentiment +0.04) —
+  No injury/turmoil flags detected.
+
+— NEWS: Sweden (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 58 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] France superstars thriving thanks to Deschamps' bold changes
+  [Guardian (UK)] France v Sweden: World Cup 2026 last 32 – live
+  [GoogleNews:"France" world cup] France vs. Sweden Prediction, Odds, Picks For World Cup Match - FOX Sports
+  [GoogleNews:"France" world cup] France is one of the heavy favorites to win the World Cup. This is what makes them so good - CNN
+  [GoogleNews:"France" world cup] World Cup 2026 Power Rankings after group stage: Who's No. 1? - ESPN
+  [GoogleNews:"France" world cup] France tactics: Didier Deschamps tweaks Kylian Mbappe position - BBC
+  [GoogleNews:"France" world cup] World Cup 2026: Last 16 for Paraguay, Morocco & Brazil as Germany, Netherlands and Japan go out - BBC
+  [GoogleNews:"France" world cup] 2026 World Cup picks, odds, predictions: Best bets for France-Sweden, Mexico-Ecuador on Tuesday - CBS Sports
+
+— MOST LIKELY OUTCOME —
+  France (80.2%)
+  Tentative exact scores: 2-0 (13.1%), 3-0 (11.8%), 1-0 (8.8%)
+  xG: 2.71 - 0.62   O2.5: 64.6%   BTTS: 44.2%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

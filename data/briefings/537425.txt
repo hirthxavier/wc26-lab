@@ -1,0 +1,40 @@
+⚽ Mexico vs Ecuador — LAST_32
+Coup d'envoi : 01/07 03:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Mexico: 43.5%  Draw: 29.4%  Ecuador: 27.1%
+  With news adjustment: 43.5% / 29.4% / 27.1%
+  Elo: 2118.2 vs 2141.5
+
+— LINE MOVEMENT (where money went) —
+  Ecuador: 24.1% ↓ 23.5%
+  Mexico: 45.8% ↓ 43.1%
+  Draw: 30.1% ↑ 33.4%
+
+— NEWS: Mexico (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Ecuador (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 57 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Guardian (UK)] Mexico face up to their most terrifying opponent: the ghost of World Cup game four
+  [GoogleNews:"Mexico" world cup] How Mexico's World Cup run brought a small Oregon town to life - ESPN
+  [GoogleNews:"Mexico" world cup] FIFA World Cup: Tuesday schedule, predictions and eliminated teams - Al Jazeera
+  [GoogleNews:"Mexico" world cup] World Cup predictions round of 32: France vs Sweden, Mexico vs Ecuador and rest of matchday 20 - The New York Times
+  [GoogleNews:"Mexico" world cup] Iran builds bond with Mexico in World Cup diplomacy - Yahoo Sports
+  [GoogleNews:"Mexico" world cup] Mexico vs. Ecuador - Live Score - June 30, 2026 - FOX Sports
+  [GoogleNews:"Mexico" world cup] Mexico’s human trafficking survivors have a message for World Cup fans - CNN
+  [GoogleNews:"Mexico" world cup] Get Ready For Mbappé, Haaland, Mexico In High-Stakes Round Of 32 Action - FOX Sports
+
+— MOST LIKELY OUTCOME —
+  Mexico (43.5%)
+  Tentative exact scores: 1-1 (14.1%), 2-1 (9.1%), 0-0 (9.1%)
+  xG: 1.49 - 1.13   O2.5: 48.8%   BTTS: 54.4%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

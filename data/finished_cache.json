@@ -898,5 +898,17 @@
       "home": 4,
       "away": 5
     }
+  },
+  {
+    "match_id": 537418,
+    "utc_kickoff": "2026-06-30T01:00:00Z",
+    "stage": "LAST_32",
+    "home": "Netherlands",
+    "away": "Morocco",
+    "status": "FINISHED",
+    "score": {
+      "home": 3,
+      "away": 4
+    }
   }
 ]

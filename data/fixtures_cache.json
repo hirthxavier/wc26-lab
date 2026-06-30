@@ -5,10 +5,10 @@
     "stage": "LAST_32",
     "home": "Netherlands",
     "away": "Morocco",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 0,
-      "away": 0
+      "home": 3,
+      "away": 4
     }
   },
   {

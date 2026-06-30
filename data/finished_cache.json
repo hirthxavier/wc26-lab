@@ -886,5 +886,17 @@
       "home": 2,
       "away": 1
     }
+  },
+  {
+    "match_id": 537415,
+    "utc_kickoff": "2026-06-29T20:30:00Z",
+    "stage": "LAST_32",
+    "home": "Germany",
+    "away": "Paraguay",
+    "status": "FINISHED",
+    "score": {
+      "home": 4,
+      "away": 5
+    }
   }
 ]

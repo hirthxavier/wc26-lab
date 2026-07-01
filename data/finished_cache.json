@@ -958,5 +958,17 @@
       "home": 2,
       "away": 1
     }
+  },
+  {
+    "match_id": 537422,
+    "utc_kickoff": "2026-07-01T20:00:00Z",
+    "stage": "LAST_32",
+    "home": "Belgium",
+    "away": "Senegal",
+    "status": "FINISHED",
+    "score": {
+      "home": 3,
+      "away": 2
+    }
   }
 ]

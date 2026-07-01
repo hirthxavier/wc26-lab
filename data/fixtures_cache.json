@@ -29,10 +29,10 @@
     "stage": "LAST_32",
     "home": "Belgium",
     "away": "Senegal",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "score": {
-      "home": 0,
-      "away": 0
+      "home": 2,
+      "away": 2
     }
   },
   {

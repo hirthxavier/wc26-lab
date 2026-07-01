@@ -709,6 +709,19 @@
       "logloss_close": 2.3035
     },
     {
+      "match_id": 537416,
+      "match": "France v Sweden",
+      "actual": "home",
+      "brier_stats": 0.063,
+      "logloss_stats": 0.2204,
+      "brier_news": 0.0624,
+      "logloss_news": 0.2189,
+      "brier_llm": 0.063,
+      "logloss_llm": 0.2204,
+      "brier_close": 0.093,
+      "logloss_close": 0.2818
+    },
+    {
       "match_id": 537417,
       "match": "South Africa v Canada",
       "actual": "away",
@@ -746,39 +759,52 @@
       "logloss_llm": 0.8732,
       "brier_close": 0.3131,
       "logloss_close": 0.6056
+    },
+    {
+      "match_id": 537425,
+      "match": "Mexico v Ecuador",
+      "actual": "home",
+      "brier_stats": 0.4791,
+      "logloss_stats": 0.8324,
+      "brier_news": 0.4791,
+      "logloss_news": 0.8324,
+      "brier_llm": 0.4791,
+      "logloss_llm": 0.8324,
+      "brier_close": 0.4929,
+      "logloss_close": 0.8448
     }
   ],
   "summary": {
     "stats": {
-      "n": 59,
-      "mean_brier": 0.5316,
+      "n": 61,
+      "mean_brier": 0.523,
       "brier_95ci": [
-        0.4253,
-        0.6472
+        0.4148,
+        0.6357
       ]
     },
     "news": {
-      "n": 59,
-      "mean_brier": 0.5314,
+      "n": 61,
+      "mean_brier": 0.5228,
       "brier_95ci": [
-        0.4242,
-        0.6519
+        0.4155,
+        0.6376
       ]
     },
     "llm": {
-      "n": 59,
-      "mean_brier": 0.5151,
+      "n": 61,
+      "mean_brier": 0.5071,
       "brier_95ci": [
-        0.4121,
-        0.6267
+        0.4025,
+        0.6109
       ]
     },
     "close": {
-      "n": 49,
-      "mean_brier": 0.4316,
+      "n": 51,
+      "mean_brier": 0.4261,
       "brier_95ci": [
-        0.3259,
-        0.5409
+        0.3249,
+        0.5343
       ]
     }
   }

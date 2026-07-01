@@ -1,0 +1,139 @@
+{
+  "frozen_at_utc": "2026-07-01T18:32:19.828429+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537421,
+    "utc_kickoff": "2026-07-02T00:00:00Z",
+    "stage": "LAST_32",
+    "home": "United States",
+    "away": "Bosnia-Herzegovina",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.877,
+    "draw": 0.0962,
+    "away": 0.0269
+  },
+  "model_with_news": {
+    "home": 0.877,
+    "draw": 0.0962,
+    "away": 0.0269
+  },
+  "model_llm": {
+    "home": 0.877,
+    "draw": 0.0962,
+    "away": 0.0269
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 3.218,
+    "lam_away": 0.525,
+    "elo_home": 1963.4,
+    "elo_away": 1551.6
+  },
+  "formstats": {
+    "form_home": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "V"
+    ],
+    "form_away": [],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Germany",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Senegal",
+        "score": "3-2",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Portugal",
+        "score": "0-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Belgium",
+        "score": "2-5",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Uruguay",
+        "score": "5-1",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [],
+    "h2h": {
+      "played": 0,
+      "wins_a": 0,
+      "draws": 0,
+      "wins_b": 0,
+      "goals_a": 0,
+      "goals_b": 0,
+      "last_meetings": []
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "3-0",
+      "prob": 0.1323
+    },
+    {
+      "score": "2-0",
+      "prob": 0.1233
+    },
+    {
+      "score": "4-0",
+      "prob": 0.1064
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0706
+    },
+    {
+      "score": "3-1",
+      "prob": 0.0695
+    }
+  ],
+  "ev_summary": null
+}

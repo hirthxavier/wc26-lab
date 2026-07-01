@@ -1,0 +1,40 @@
+⚽ Belgium vs Senegal — LAST_32
+Coup d'envoi : 01/07 22:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Belgium: 40.9%  Draw: 29.8%  Senegal: 29.3%
+  With news adjustment: 40.9% / 29.8% / 29.3%
+  Elo: 2044.4 vs 1990.1
+
+— LINE MOVEMENT (where money went) —
+  Belgium: 44.4% → 44.8%
+  Senegal: 25.9% → 26.3%
+  Draw: 29.7% ↓ 28.9%
+
+— NEWS: Belgium (sentiment +0.04) —
+  No injury/turmoil flags detected.
+
+— NEWS: Senegal (sentiment +0.04) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 57 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Guardian (UK)] Belgium v Senegal: World Cup last 32 – live
+  [GoogleNews:"Belgium" world cup] Belgium vs Senegal live updates: World Cup 2026 round of 32 game latest team news and buildup - The New York Times
+  [GoogleNews:"Belgium" world cup] How to watch World Cup free today, Belgium vs. Senegal free stream - USA Today
+  [GoogleNews:"Belgium" world cup] How to Watch Belgium vs. Senegal: TV Channel, Live Stream, Time - FOX Sports
+  [GoogleNews:"Belgium" world cup] World Cup round of 32 soccer preview as England, Belgium and USA all seek regulation wins on a packed day - Fox News
+  [GoogleNews:"Belgium" world cup] Belgium FIFA World Cup 2026 kits: Home, away, release dates & prices - Yahoo Sports
+  [GoogleNews:"Belgium" world cup] BELvSEN 101 Preview: All you need to know when Belgium faces Senegal in FIFA World Cup 2026™ in Seattle - Seattle Sounders FC
+  [GoogleNews:"Belgium" world cup] FIFA World Cup: Wednesday schedule, predictions and bracket update - Al Jazeera
+
+— MOST LIKELY OUTCOME —
+  Belgium (40.9%)
+  Tentative exact scores: 1-1 (14.3%), 0-0 (9.2%), 2-1 (8.9%)
+  xG: 1.43 - 1.18   O2.5: 48.5%   BTTS: 54.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

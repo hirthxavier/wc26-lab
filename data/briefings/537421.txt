@@ -1,0 +1,35 @@
+⚽ United States vs Bosnia-Herzegovina — LAST_32
+Coup d'envoi : 02/07 02:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  United States: 87.7%  Draw: 9.6%  Bosnia-Herzegovina: 2.7%
+  With news adjustment: 87.7% / 9.6% / 2.7%
+  Elo: 1963.4 vs 1551.6
+
+— NEWS: United States (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Bosnia-Herzegovina (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 57 headlines from ES/IT/FR/AR/UK/BR sources —
+  [GoogleNews:"United States" world cup] Win or go home: The U.S. to face Bosnia and Herzegovina in World Cup knockout game - NPR
+  [GoogleNews:"United States" world cup] Why outsiders believe the USMNT can make a deep World Cup run - ESPN
+  [GoogleNews:"United States" world cup] World Cup 2026: Has football fever taken hold in the US? - BBC
+  [GoogleNews:"United States" world cup] Raised in America, the ‘Milwaukee Messi’ now hopes to beat the U.S. in the World Cup - NBC News
+  [GoogleNews:"United States" world cup] What Revolution players are saying about ex-teammate facing the U.S. in the World Cup Round of 32 - Boston.com
+  [GoogleNews:"United States" world cup] World Cup games today: USA, England, full schedule, times, how to watch live TV - Bergen Record
+  [GoogleNews:"United States" world cup] Breaking down the United States' path to the 2026 FIFA World Cup final as knockout play nears - Fox News
+  [GoogleNews:"United States" world cup] U.S. men suffer first 2026 World Cup loss, 3-2 to Turkey, before heading to knockout round - CBS News
+
+— MOST LIKELY OUTCOME —
+  United States (87.6%)
+  Tentative exact scores: 3-0 (13.2%), 2-0 (12.3%), 4-0 (10.6%)
+  xG: 3.22 - 0.53   O2.5: 72.0%   BTTS: 39.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

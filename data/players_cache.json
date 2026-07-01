@@ -608,5 +608,25 @@
     "team_avg": null
   },
   "2026-06-30:injuries:Mexico": [],
-  "2026-06-30:injuries:Ecuador": []
+  "2026-06-30:injuries:Ecuador": [],
+  "2026-07-01:form:Belgium": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-01:form:Senegal": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-01:injuries:Belgium": [],
+  "2026-07-01:injuries:Senegal": [],
+  "2026-07-01:form:United States": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-01:form:Bosnia-Herzegovina": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-01:injuries:United States": [],
+  "2026-07-01:injuries:Bosnia-Herzegovina": []
 }

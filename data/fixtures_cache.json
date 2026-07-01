@@ -17,9 +17,9 @@
     "stage": "LAST_32",
     "home": "England",
     "away": "Congo DR",
-    "status": "LIVE",
+    "status": "FINISHED",
     "score": {
-      "home": 0,
+      "home": 2,
       "away": 1
     }
   },

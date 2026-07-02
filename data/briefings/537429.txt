@@ -1,0 +1,40 @@
+⚽ Switzerland vs Algeria — LAST_32
+Coup d'envoi : 03/07 05:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Switzerland: 47.6%  Draw: 28.6%  Algeria: 23.7%
+  With news adjustment: 47.6% / 28.6% / 23.7%
+  Elo: 2071.4 vs 1959.2
+
+— LINE MOVEMENT (where money went) —
+  Algeria: 22.2% → 21.7%
+  Switzerland: 50.2% ↓ 49.2%
+  Draw: 27.6% ↑ 29.1%
+
+— NEWS: Switzerland (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Algeria (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 56 headlines from ES/IT/FR/AR/UK/BR sources —
+  [GoogleNews:"Switzerland" world cup] Switzerland vs Algeria: FIFA World Cup stats & head-to-head - BBC
+  [GoogleNews:"Switzerland" world cup] Switzerland vs. Algeria Prediction, Odds, Picks For World Cup Match - FOX Sports
+  [GoogleNews:"Switzerland" world cup] Where is the Switzerland vs. Algeria FIFA World Cup round of 32 match? - USA Today
+  [GoogleNews:"Switzerland" world cup] 2026 World Cup parlay, best bets: Top picks for matches on Thursday include Portugal, Switzerland - CBS Sports
+  [GoogleNews:"Switzerland" world cup] Switzerland vs. Algeria at World Cup 2026: TV channel, how to watch, kick-off time, live stream, referee, predicted line-ups - ESPN
+  [GoogleNews:"Switzerland" world cup] 2026 World Cup results, standings and schedule: Live scores, knockout round updates and how to watch - Yahoo Sports
+  [GoogleNews:"Switzerland" world cup] Switzerland vs. Algeria 2026 livestream: How to watch World Cup for free - Mashable
+  [GoogleNews:"Switzerland" world cup] FIFA World Cup: Portugal vs Croatia prediction, schedules, round of 16 race - Al Jazeera
+
+— MOST LIKELY OUTCOME —
+  Switzerland (47.6%)
+  Tentative exact scores: 1-1 (13.7%), 2-1 (9.4%), 1-0 (9.4%)
+  xG: 1.59 - 1.07   O2.5: 49.4%   BTTS: 53.9%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

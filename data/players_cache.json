@@ -628,5 +628,25 @@
     "team_avg": null
   },
   "2026-07-01:injuries:United States": [],
-  "2026-07-01:injuries:Bosnia-Herzegovina": []
+  "2026-07-01:injuries:Bosnia-Herzegovina": [],
+  "2026-07-02:form:Portugal": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-02:form:Croatia": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-02:injuries:Portugal": [],
+  "2026-07-02:injuries:Croatia": [],
+  "2026-07-02:form:Switzerland": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-02:form:Algeria": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-02:injuries:Switzerland": [],
+  "2026-07-02:injuries:Algeria": []
 }

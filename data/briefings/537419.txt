@@ -1,0 +1,40 @@
+⚽ Portugal vs Croatia — LAST_32
+Coup d'envoi : 03/07 01:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Portugal: 38.7%  Draw: 30.0%  Croatia: 31.3%
+  With news adjustment: 38.7% / 30.0% / 31.3%
+  Elo: 2094.5 vs 2060.5
+
+— LINE MOVEMENT (where money went) —
+  Croatia: 27.3% ↓ 17.3%
+  Portugal: 42.6% ↑ 57.3%
+  Draw: 30.1% ↓ 25.3%
+
+— NEWS: Portugal (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Croatia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 59 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] 'We want to win World Cup for him' - Portugal carry Jota's memory
+  [Guardian (UK)] Modric and Ronaldo reunited at World Cup as Croatia aim to snap Portugal’s streak
+  [GoogleNews:"Portugal" world cup] 'We want to win World Cup for him' - Portugal carry Jota's memory - BBC
+  [GoogleNews:"Portugal" world cup] Portugal vs. Croatia Prediction, Odds, Picks For World Cup Match - FOX Sports
+  [GoogleNews:"Portugal" world cup] Portugal vs. Croatia free live stream: How to watch World Cup game online without cable - Yahoo Sports
+  [GoogleNews:"Portugal" world cup] World Cup 2026 live updates: Spain leads Austria 1-0 in first half; Portugal vs. Croatia follows - NBC News
+  [GoogleNews:"Portugal" world cup] World Cup predictions, round of 32: Portugal vs Croatia, Spain vs Austria and rest of matchday 22 - The New York Times
+  [GoogleNews:"Portugal" world cup] World Cup 2026: Klopp linked with Germany job; Spain and Portugal face last-32 tests – as it happened - The Guardian
+
+— MOST LIKELY OUTCOME —
+  Portugal (38.7%)
+  Tentative exact scores: 1-1 (14.4%), 0-0 (9.3%), 2-1 (8.6%)
+  xG: 1.38 - 1.22   O2.5: 48.3%   BTTS: 54.7%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

@@ -17,10 +17,10 @@
     "stage": "LAST_32",
     "home": "Spain",
     "away": "Austria",
-    "status": "TIMED",
+    "status": "PAUSED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   {

@@ -29,10 +29,10 @@
     "stage": "LAST_32",
     "home": "Portugal",
     "away": "Croatia",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   {

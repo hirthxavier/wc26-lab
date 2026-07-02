@@ -748,6 +748,30 @@
       "logloss_close": 1.237
     },
     {
+      "match_id": 537421,
+      "match": "United States v Bosnia-Herzegovina",
+      "actual": "home",
+      "brier_stats": 0.0251,
+      "logloss_stats": 0.1312,
+      "brier_news": 0.0251,
+      "logloss_news": 0.1312,
+      "brier_llm": 0.0251,
+      "logloss_llm": 0.1312
+    },
+    {
+      "match_id": 537422,
+      "match": "Belgium v Senegal",
+      "actual": "home",
+      "brier_stats": 0.5232,
+      "logloss_stats": 0.8931,
+      "brier_news": 0.5232,
+      "logloss_news": 0.8931,
+      "brier_llm": 0.5232,
+      "logloss_llm": 0.8931,
+      "brier_close": 0.4574,
+      "logloss_close": 0.803
+    },
+    {
       "match_id": 537423,
       "match": "Brazil v Japan",
       "actual": "home",
@@ -776,35 +800,35 @@
   ],
   "summary": {
     "stats": {
-      "n": 61,
-      "mean_brier": 0.523,
+      "n": 63,
+      "mean_brier": 0.5151,
       "brier_95ci": [
-        0.4148,
-        0.6357
+        0.409,
+        0.6265
       ]
     },
     "news": {
-      "n": 61,
-      "mean_brier": 0.5228,
+      "n": 63,
+      "mean_brier": 0.5149,
       "brier_95ci": [
-        0.4155,
-        0.6376
+        0.4107,
+        0.6238
       ]
     },
     "llm": {
-      "n": 61,
-      "mean_brier": 0.5071,
+      "n": 63,
+      "mean_brier": 0.4997,
       "brier_95ci": [
         0.4025,
-        0.6109
+        0.6027
       ]
     },
     "close": {
-      "n": 51,
-      "mean_brier": 0.4261,
+      "n": 52,
+      "mean_brier": 0.4267,
       "brier_95ci": [
-        0.3249,
-        0.5343
+        0.3305,
+        0.5299
       ]
     }
   }

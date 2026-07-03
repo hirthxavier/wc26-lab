@@ -1006,5 +1006,17 @@
       "home": 2,
       "away": 1
     }
+  },
+  {
+    "match_id": 537429,
+    "utc_kickoff": "2026-07-03T03:00:00Z",
+    "stage": "LAST_32",
+    "home": "Switzerland",
+    "away": "Algeria",
+    "status": "FINISHED",
+    "score": {
+      "home": 2,
+      "away": 0
+    }
   }
 ]

@@ -5,9 +5,9 @@
     "stage": "LAST_32",
     "home": "Switzerland",
     "away": "Algeria",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 1,
+      "home": 2,
       "away": 0
     }
   },

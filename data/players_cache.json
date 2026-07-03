@@ -648,5 +648,25 @@
     "team_avg": null
   },
   "2026-07-02:injuries:Switzerland": [],
-  "2026-07-02:injuries:Algeria": []
+  "2026-07-02:injuries:Algeria": [],
+  "2026-07-03:form:Argentina": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-03:form:Cape Verde Islands": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-03:injuries:Argentina": [],
+  "2026-07-03:injuries:Cape Verde Islands": [],
+  "2026-07-03:form:Colombia": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-03:form:Ghana": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-03:injuries:Colombia": [],
+  "2026-07-03:injuries:Ghana": []
 }

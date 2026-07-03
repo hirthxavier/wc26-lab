@@ -1,0 +1,35 @@
+⚽ Argentina vs Cape Verde Islands — LAST_32
+Coup d'envoi : 04/07 00:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Argentina: 97.2%  Draw: 2.5%  Cape Verde Islands: 0.4%
+  With news adjustment: 96.6% / 2.5% / 1.0%
+  Elo: 2271.1 vs 1538.7
+
+— NEWS: Argentina (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Cape Verde Islands (sentiment +0.00) —
+  ⚠️ Argentina vs Cape Verde Bet Builder Tips: Messi to strike first in Miami - Squawka
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 42 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] Argentina v Cape Verde: Breaking down biggest World Cup knockout mismatch
+  [GoogleNews:"Argentina" world cup] World Cup 2026: Are Cape Verde v Argentina and Messi v Vozinha the biggest ever mismatches? - BBC
+  [GoogleNews:"Argentina" world cup] World Cup Round of 32 live updates, bracket: Egypt vs. Australia kicks off Friday slate; Messi, Argentina up next - Yahoo Sports
+  [GoogleNews:"Argentina" world cup] World Cup 2026 today: Live updates, news as Egypt targets Australia prep; Argentina focuses on Cape Verde encounter - July 3 - ESPN
+  [GoogleNews:"Argentina" world cup] Watch World Cup Day 22: Portugal pulls off dramatic win against Croatia - Al Jazeera
+  [GoogleNews:"Argentina" world cup] World Cup 2026 live updates: Knockout round results, TV schedule and news - Los Angeles Times
+  [GoogleNews:"Argentina" world cup] Messi returns to the field and Golden Boot race at the World Cup continues - AP News
+  [GoogleNews:"Argentina" world cup] World Cup 2026 live updates: Australia vs. Egypt start the day; later Lionel Messi and Argentina take on Cape Verde - NBC News
+
+— MOST LIKELY OUTCOME —
+  Argentina (97.0%)
+  Tentative exact scores: 4-0 (13.6%), 5-0 (12.9%), 3-0 (11.4%)
+  xG: 4.76 - 0.36   O2.5: 87.8%   BTTS: 29.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

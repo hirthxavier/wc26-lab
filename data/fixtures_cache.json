@@ -1,50 +1,14 @@
 [
   {
-    "match_id": 537421,
-    "utc_kickoff": "2026-07-02T00:00:00Z",
-    "stage": "LAST_32",
-    "home": "United States",
-    "away": "Bosnia-Herzegovina",
-    "status": "FINISHED",
-    "score": {
-      "home": 2,
-      "away": 0
-    }
-  },
-  {
-    "match_id": 537420,
-    "utc_kickoff": "2026-07-02T19:00:00Z",
-    "stage": "LAST_32",
-    "home": "Spain",
-    "away": "Austria",
-    "status": "FINISHED",
-    "score": {
-      "home": 3,
-      "away": 0
-    }
-  },
-  {
-    "match_id": 537419,
-    "utc_kickoff": "2026-07-02T23:00:00Z",
-    "stage": "LAST_32",
-    "home": "Portugal",
-    "away": "Croatia",
-    "status": "IN_PLAY",
-    "score": {
-      "home": 0,
-      "away": 0
-    }
-  },
-  {
     "match_id": 537429,
     "utc_kickoff": "2026-07-03T03:00:00Z",
     "stage": "LAST_32",
     "home": "Switzerland",
     "away": "Algeria",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 1,
+      "away": 0
     }
   },
   {
@@ -125,6 +89,30 @@
     "stage": "LAST_16",
     "home": "Mexico",
     "away": "England",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537379,
+    "utc_kickoff": "2026-07-06T19:00:00Z",
+    "stage": "LAST_16",
+    "home": null,
+    "away": null,
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537380,
+    "utc_kickoff": "2026-07-07T00:00:00Z",
+    "stage": "LAST_16",
+    "home": "United States",
+    "away": "Belgium",
     "status": "TIMED",
     "score": {
       "home": null,

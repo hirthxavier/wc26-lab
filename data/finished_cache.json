@@ -994,5 +994,17 @@
       "home": 3,
       "away": 0
     }
+  },
+  {
+    "match_id": 537419,
+    "utc_kickoff": "2026-07-02T23:00:00Z",
+    "stage": "LAST_32",
+    "home": "Portugal",
+    "away": "Croatia",
+    "status": "FINISHED",
+    "score": {
+      "home": 2,
+      "away": 1
+    }
   }
 ]

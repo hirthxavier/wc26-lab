@@ -29,7 +29,7 @@
     "stage": "LAST_16",
     "home": "Paraguay",
     "away": "France",
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "score": {
       "home": 0,
       "away": 0

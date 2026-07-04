@@ -1,0 +1,40 @@
+⚽ Paraguay vs France — LAST_16
+Coup d'envoi : 04/07 23:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Paraguay: 15.1%  Draw: 24.7%  France: 60.2%
+  With news adjustment: 15.0% / 24.7% / 60.3%
+  Elo: 2064.7 vs 2284.8
+
+— LINE MOVEMENT (where money went) —
+  France: 80.1% ↑ 81.2%
+  Paraguay: 6.2% ↓ 5.4%
+  Draw: 13.7% → 13.4%
+
+— NEWS: Paraguay (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: France (sentiment +0.04) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 60 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Paraguay-Francia a rischio slittamento: allerta meteo a Philadelphia, cosa sta succedendo
+  [L'Equipe (FR)] Comment Olise a surpris tout le monde en choisissant la France
+  [L'Equipe (FR)] Coupe du monde 2026 : des bancs climatisés, pas de report dû à la chaleur mais France-Paraguay menacé par les orages à Philadelphie
+  [Ole (AR)] Paraguay vs. Francia, EN VIVO por el Mundial 2026: a qué hora juegan, cómo ver y probables formaciones
+  [Ole (AR)] Paraguay - Francia: todas las claves de un partido de contrastes
+  [Voetbal International (NL)] Van geldnood naar heldenrol: keeper Paraguay krijgt verkocht shirt terug
+  [GoogleNews:"Paraguay" world cup] France vs Paraguay LIVE: FIFA World Cup 2026 last 16 - Al Jazeera
+  [GoogleNews:"Paraguay" world cup] World Cup Round of 16 bracket, schedule, live updates: France vs. Paraguay kicks off second round - Yahoo Sports
+
+— MOST LIKELY OUTCOME —
+  France (60.2%)
+  Tentative exact scores: 1-1 (11.8%), 0-2 (11.2%), 0-1 (10.1%)
+  xG: 0.88 - 1.92   O2.5: 53.0%   BTTS: 51.5%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

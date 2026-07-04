@@ -17,10 +17,10 @@
     "stage": "LAST_16",
     "home": "Canada",
     "away": "Morocco",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   {

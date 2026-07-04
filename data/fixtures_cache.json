@@ -29,10 +29,10 @@
     "stage": "LAST_16",
     "home": "Paraguay",
     "away": "France",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "score": {
       "home": 0,
-      "away": 0
+      "away": 1
     }
   },
   {

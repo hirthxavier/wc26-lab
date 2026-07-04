@@ -1066,5 +1066,17 @@
       "home": 0,
       "away": 3
     }
+  },
+  {
+    "match_id": 537375,
+    "utc_kickoff": "2026-07-04T21:00:00Z",
+    "stage": "LAST_16",
+    "home": "Paraguay",
+    "away": "France",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 1
+    }
   }
 ]

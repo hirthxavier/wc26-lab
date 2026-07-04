@@ -63,8 +63,8 @@
     "match_id": 537379,
     "utc_kickoff": "2026-07-06T19:00:00Z",
     "stage": "LAST_16",
-    "home": null,
-    "away": null,
+    "home": "Portugal",
+    "away": "Spain",
     "status": "TIMED",
     "score": {
       "home": null,
@@ -87,8 +87,8 @@
     "match_id": 537381,
     "utc_kickoff": "2026-07-07T16:00:00Z",
     "stage": "LAST_16",
-    "home": null,
-    "away": null,
+    "home": "Argentina",
+    "away": "Egypt",
     "status": "TIMED",
     "score": {
       "home": null,
@@ -99,8 +99,8 @@
     "match_id": 537382,
     "utc_kickoff": "2026-07-07T20:00:00Z",
     "stage": "LAST_16",
-    "home": null,
-    "away": null,
+    "home": "Switzerland",
+    "away": "Colombia",
     "status": "TIMED",
     "score": {
       "home": null,

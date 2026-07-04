@@ -811,6 +811,17 @@
       "logloss_close": 0.8448
     },
     {
+      "match_id": 537427,
+      "match": "Argentina v Cape Verde Islands",
+      "actual": "home",
+      "brier_stats": 0.0014,
+      "logloss_stats": 0.0289,
+      "brier_news": 0.0019,
+      "logloss_news": 0.0351,
+      "brier_llm": 0.0014,
+      "logloss_llm": 0.0289
+    },
+    {
       "match_id": 537429,
       "match": "Switzerland v Algeria",
       "actual": "home",
@@ -822,39 +833,52 @@
       "logloss_llm": 0.7417,
       "brier_close": 0.3993,
       "logloss_close": 0.722
+    },
+    {
+      "match_id": 537430,
+      "match": "Colombia v Ghana",
+      "actual": "home",
+      "brier_stats": 0.0711,
+      "logloss_stats": 0.2366,
+      "brier_news": 0.0711,
+      "logloss_news": 0.2366,
+      "brier_llm": 0.0711,
+      "logloss_llm": 0.2366,
+      "brier_close": 0.1702,
+      "logloss_close": 0.4015
     }
   ],
   "summary": {
     "stats": {
-      "n": 65,
-      "mean_brier": 0.5143,
+      "n": 67,
+      "mean_brier": 0.5,
       "brier_95ci": [
-        0.415,
-        0.6192
+        0.3985,
+        0.606
       ]
     },
     "news": {
-      "n": 65,
-      "mean_brier": 0.5141,
+      "n": 67,
+      "mean_brier": 0.4999,
       "brier_95ci": [
-        0.4102,
-        0.6223
+        0.3983,
+        0.6092
       ]
     },
     "llm": {
-      "n": 65,
-      "mean_brier": 0.4994,
+      "n": 67,
+      "mean_brier": 0.4855,
       "brier_95ci": [
-        0.4047,
-        0.5996
+        0.3935,
+        0.582
       ]
     },
     "close": {
-      "n": 54,
-      "mean_brier": 0.4236,
+      "n": 55,
+      "mean_brier": 0.419,
       "brier_95ci": [
-        0.327,
-        0.5258
+        0.3227,
+        0.5184
       ]
     }
   }

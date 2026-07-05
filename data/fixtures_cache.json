@@ -13,11 +13,11 @@
   },
   {
     "match_id": 537378,
-    "utc_kickoff": "2026-07-06T00:00:00Z",
+    "utc_kickoff": "2026-07-06T01:00:00Z",
     "stage": "LAST_16",
     "home": "Mexico",
     "away": "England",
-    "status": "TIMED",
+    "status": "2026-07-06 01:00:00Z",
     "score": {
       "home": null,
       "away": null

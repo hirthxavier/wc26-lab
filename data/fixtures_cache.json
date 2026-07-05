@@ -1,41 +1,5 @@
 [
   {
-    "match_id": 537430,
-    "utc_kickoff": "2026-07-04T01:30:00Z",
-    "stage": "LAST_32",
-    "home": "Colombia",
-    "away": "Ghana",
-    "status": "FINISHED",
-    "score": {
-      "home": 1,
-      "away": 0
-    }
-  },
-  {
-    "match_id": 537376,
-    "utc_kickoff": "2026-07-04T17:00:00Z",
-    "stage": "LAST_16",
-    "home": "Canada",
-    "away": "Morocco",
-    "status": "FINISHED",
-    "score": {
-      "home": 0,
-      "away": 3
-    }
-  },
-  {
-    "match_id": 537375,
-    "utc_kickoff": "2026-07-04T21:00:00Z",
-    "stage": "LAST_16",
-    "home": "Paraguay",
-    "away": "France",
-    "status": "FINISHED",
-    "score": {
-      "home": 0,
-      "away": 1
-    }
-  },
-  {
     "match_id": 537377,
     "utc_kickoff": "2026-07-05T20:00:00Z",
     "stage": "LAST_16",

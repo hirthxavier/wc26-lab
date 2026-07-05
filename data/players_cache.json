@@ -678,5 +678,25 @@
     "team_avg": null
   },
   "2026-07-04:injuries:Paraguay": [],
-  "2026-07-04:injuries:France": []
+  "2026-07-04:injuries:France": [],
+  "2026-07-05:form:Brazil": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-05:form:Norway": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-05:injuries:Brazil": [],
+  "2026-07-05:injuries:Norway": [],
+  "2026-07-05:form:Mexico": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-05:form:England": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-05:injuries:Mexico": [],
+  "2026-07-05:injuries:England": []
 }

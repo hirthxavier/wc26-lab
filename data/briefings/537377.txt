@@ -1,0 +1,40 @@
+⚽ Brazil vs Norway — LAST_16
+Coup d'envoi : 05/07 22:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Brazil: 37.2%  Draw: 30.1%  Norway: 32.7%
+  With news adjustment: 37.2% / 30.1% / 32.7%
+  Elo: 2170.8 vs 2149.6
+
+— LINE MOVEMENT (where money went) —
+  Brazil: 51.4% ↑ 53.7%
+  Norway: 22.1% ↓ 20.5%
+  Draw: 26.5% ↓ 25.9%
+
+— NEWS: Brazil (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Norway (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 61 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] The Norway story - 28-year wait for their biggest-ever party
+  [Guardian (UK)] Brazil v Norway: World Cup 2026 last 16 – live
+  [Guardian (UK)] Football is at the centre of the universe in Brazil in a way it is not in the US | Rodrygo
+  [Voetbal International (NL)] VI Live: Martinelli start bij Brazilië, Pedersen naar de bank bij Noorwegen
+  [GoogleNews:"Brazil" world cup] Brazil vs Norway LIVE: World Cup 2026 last 16 team news, build-up & latest updates - BBC
+  [GoogleNews:"Brazil" world cup] Brazil look to avoid World Cup upset at the hands of Norway: Live updates - The New York Times
+  [GoogleNews:"Brazil" world cup] When Brazil’s World Cup winners took over Los Gatos in 1994: ‘They lit this town on fire’ - The New York Times
+  [GoogleNews:"Brazil" world cup] World Cup 2026 Power Rankings before round of 16: Who's No. 1? - ESPN
+
+— MOST LIKELY OUTCOME —
+  Brazil (37.2%)
+  Tentative exact scores: 1-1 (14.4%), 0-0 (9.3%), 2-1 (8.5%)
+  xG: 1.35 - 1.25   O2.5: 48.2%   BTTS: 54.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

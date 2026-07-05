@@ -1,0 +1,40 @@
+⚽ Mexico vs England — LAST_16
+Coup d'envoi : 06/07 02:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Mexico: 38.2%  Draw: 30.0%  England: 31.7%
+  With news adjustment: 38.4% / 30.0% / 31.6%
+  Elo: 2154.0 vs 2223.8
+
+— LINE MOVEMENT (where money went) —
+  England: 42.3% ↓ 38.2%
+  Mexico: 27.5% ↑ 31.1%
+  Draw: 30.2% → 30.7%
+
+— NEWS: Mexico (sentiment +0.04) —
+  No injury/turmoil flags detected.
+
+— NEWS: England (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 64 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] BBC offers 'Stay Up or Catch Up' for England v Mexico
+  [BBC Sport (UK)] England battling history as well as Mexican nation in Azteca cauldron
+  [BBC Sport (UK)] Mexico fans fail in bid to wake up England players
+  [BBC Sport (UK)] Mexico return luxury watches gifted by YouTuber
+  [BBC Sport (UK)] England have struggled against low block - could they use it to beat Mexico?
+  [BBC Sport (UK)] Mexico could bring the best out of  Tuchel's England
+  [Guardian (UK)] ‘Here to write our own chapters’: England not daunted by unique occasion of Mexico game, says Tuchel
+  [Guardian (UK)] England at the Azteca Stadium: a potted history – in pictures
+
+— MOST LIKELY OUTCOME —
+  Mexico (38.2%)
+  Tentative exact scores: 1-1 (14.4%), 0-0 (9.3%), 2-1 (8.6%)
+  xG: 1.37 - 1.23   O2.5: 48.2%   BTTS: 54.7%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

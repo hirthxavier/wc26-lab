@@ -1078,5 +1078,17 @@
       "home": 0,
       "away": 1
     }
+  },
+  {
+    "match_id": 537377,
+    "utc_kickoff": "2026-07-05T20:00:00Z",
+    "stage": "LAST_16",
+    "home": "Brazil",
+    "away": "Norway",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 2
+    }
   }
 ]

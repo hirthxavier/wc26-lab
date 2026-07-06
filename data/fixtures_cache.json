@@ -1,26 +1,14 @@
 [
   {
-    "match_id": 537377,
-    "utc_kickoff": "2026-07-05T20:00:00Z",
-    "stage": "LAST_16",
-    "home": "Brazil",
-    "away": "Norway",
-    "status": "FINISHED",
-    "score": {
-      "home": 1,
-      "away": 2
-    }
-  },
-  {
     "match_id": 537378,
     "utc_kickoff": "2026-07-06T01:00:00Z",
     "stage": "LAST_16",
     "home": "Mexico",
     "away": "England",
-    "status": "2026-07-06 01:00:00Z",
+    "status": "FINISHED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 3
     }
   },
   {
@@ -65,6 +53,18 @@
     "stage": "LAST_16",
     "home": "Switzerland",
     "away": "Colombia",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537383,
+    "utc_kickoff": "2026-07-09T20:00:00Z",
+    "stage": "QUARTER_FINALS",
+    "home": "France",
+    "away": "Morocco",
     "status": "TIMED",
     "score": {
       "home": null,

@@ -1102,5 +1102,17 @@
       "home": 2,
       "away": 3
     }
+  },
+  {
+    "match_id": 537379,
+    "utc_kickoff": "2026-07-06T19:00:00Z",
+    "stage": "LAST_16",
+    "home": "Portugal",
+    "away": "Spain",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 1
+    }
   }
 ]

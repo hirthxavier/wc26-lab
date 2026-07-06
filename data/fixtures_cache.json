@@ -17,10 +17,10 @@
     "stage": "LAST_16",
     "home": "Portugal",
     "away": "Spain",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 0,
-      "away": 0
+      "away": 1
     }
   },
   {

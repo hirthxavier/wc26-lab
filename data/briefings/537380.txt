@@ -1,0 +1,40 @@
+⚽ United States vs Belgium — LAST_16
+Coup d'envoi : 07/07 02:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  United States: 35.1%  Draw: 30.2%  Belgium: 34.7%
+  With news adjustment: 35.3% / 30.2% / 34.5%
+  Elo: 1969.1 vs 2067.3
+
+— NEWS: United States (sentiment +0.00) —
+  🏥 FIFA dismisses Belgium appeal over Folarin Balogun ban decision: So, will he play? - The Athletic - The New York Times
+  🏥 Why FIFA’s Balogun red card suspension after Trump call is so controversial - Al Jazeera
+
+— NEWS: Belgium (sentiment +0.00) —
+  🏥 World Cup 2026: Belgium to appeal after FIFA reversed USMNT's Folarin Balogun 1-game ban after red card - Yahoo Sports
+  🏥 USA could be THROWN OUT of World Cup if Balogun plays despite Fifa ban backing as Belgium 'leave all actions open' - the-sun.com
+  🏥 FIFA dismisses Belgium appeal over Folarin Balogun ban decision: So, will he play? - The Athletic - The New York Times
+  🏥 World Cup 2026: Belgium granted appeal after FIFA reversed USMNT's Folarin Balogun 1-game ban after red card - Yahoo Sports
+  🏥 Folarin Balogun available for USMNT vs. Belgium as red card ban suspended - The Athletic - The New York Times
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 56 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Guardian (UK)] Belgium are looking for a new beginning at the World Cup against USA | Jonathan Wilson
+  [GoogleNews:"United States" world cup] Trump says he asked FIFA to review US World Cup star Folarin Balogun's red card ban - ABC News - Breaking News, Latest News and Videos
+  [GoogleNews:"United States" world cup] Folarin Balogun suspension reversed in huge boost for USA World Cup hopes - USA Today
+  [GoogleNews:"United States" world cup] How to Watch the World Cup Today: Schedule, Times, TV, Streaming for USA, Portugal, Spain, Belgium - FOX Sports
+  [GoogleNews:"United States" world cup] The U.S. faces Belgium in the World Cup on the heels of Trump-Infantino red card call - NPR
+  [GoogleNews:"United States" world cup] Unwelcome and undue: Trump’s red-card intervention hurts the US’s World Cup more than it helps - The Guardian
+  [GoogleNews:"United States" world cup] What time is the US soccer game today in the World Cup? - ABC10
+  [GoogleNews:"United States" world cup] Member of 1994 USA World Cup team knows how much soccer can grow if this year's team keeps up its success - Fox News
+
+— MOST LIKELY OUTCOME —
+  United States (35.1%)
+  Tentative exact scores: 1-1 (14.4%), 0-0 (9.3%), 2-1 (8.2%)
+  xG: 1.3 - 1.3   O2.5: 48.2%   BTTS: 54.8%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

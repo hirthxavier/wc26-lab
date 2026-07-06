@@ -698,5 +698,15 @@
     "team_avg": null
   },
   "2026-07-05:injuries:Mexico": [],
-  "2026-07-05:injuries:England": []
+  "2026-07-05:injuries:England": [],
+  "2026-07-06:form:United States": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-06:form:Belgium": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-06:injuries:United States": [],
+  "2026-07-06:injuries:Belgium": []
 }

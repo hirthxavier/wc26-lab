@@ -1,0 +1,211 @@
+{
+  "frozen_at_utc": "2026-07-06T20:26:04.332164+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537380,
+    "utc_kickoff": "2026-07-07T00:00:00Z",
+    "stage": "LAST_16",
+    "home": "United States",
+    "away": "Belgium",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.3512,
+    "draw": 0.3016,
+    "away": 0.3473
+  },
+  "model_with_news": {
+    "home": 0.353,
+    "draw": 0.3016,
+    "away": 0.3455
+  },
+  "model_llm": {
+    "home": 0.3512,
+    "draw": 0.3016,
+    "away": 0.3473
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [
+      "FIFA dismisses Belgium appeal over Folarin Balogun ban decision: So, will he play? - The Athletic - The New York Times",
+      "Why FIFA\u2019s Balogun red card suspension after Trump call is so controversial - Al Jazeera"
+    ],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [
+      "World Cup 2026: Belgium to appeal after FIFA reversed USMNT's Folarin Balogun 1-game ban after red card - Yahoo Sports",
+      "USA could be THROWN OUT of World Cup if Balogun plays despite Fifa ban backing as Belgium 'leave all actions open' - the-sun.com",
+      "FIFA dismisses Belgium appeal over Folarin Balogun ban decision: So, will he play? - The Athletic - The New York Times",
+      "World Cup 2026: Belgium granted appeal after FIFA reversed USMNT's Folarin Balogun 1-game ban after red card - Yahoo Sports",
+      "Folarin Balogun available for USMNT vs. Belgium as red card ban suspended - The Athletic - The New York Times"
+    ],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.304,
+    "lam_away": 1.296,
+    "elo_home": 1969.1,
+    "elo_away": 2067.3
+  },
+  "formstats": {
+    "form_home": [
+      "D",
+      "V",
+      "D",
+      "D",
+      "V"
+    ],
+    "form_away": [
+      "V",
+      "V",
+      "N",
+      "V",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Germany",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Senegal",
+        "score": "3-2",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Portugal",
+        "score": "0-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "Belgium",
+        "score": "2-5",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Uruguay",
+        "score": "5-1",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Tunisia",
+        "score": "5-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Croatia",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Mexico",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-28",
+        "opp": "United States",
+        "score": "5-2",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Liechtenstein",
+        "score": "7-0",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 8,
+      "wins_a": 1,
+      "draws": 0,
+      "wins_b": 7,
+      "goals_a": 8,
+      "goals_b": 22,
+      "last_meetings": [
+        {
+          "date": "2026",
+          "score": "2-5",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2014",
+          "score": "1-2",
+          "tournament": "FIFA World Cup"
+        },
+        {
+          "date": "2013",
+          "score": "2-4",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2011",
+          "score": "0-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "1998",
+          "score": "0-2",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1444
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0931
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0819
+    },
+    {
+      "score": "1-2",
+      "prob": 0.0813
+    },
+    {
+      "score": "1-0",
+      "prob": 0.078
+    }
+  ],
+  "ev_summary": null
+}

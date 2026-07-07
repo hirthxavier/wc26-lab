@@ -1138,5 +1138,17 @@
       "home": 3,
       "away": 2
     }
+  },
+  {
+    "match_id": 537382,
+    "utc_kickoff": "2026-07-07T20:00:00Z",
+    "stage": "LAST_16",
+    "home": "Switzerland",
+    "away": "Colombia",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 0
+    }
   }
 ]

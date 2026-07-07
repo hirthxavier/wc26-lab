@@ -29,7 +29,7 @@
     "stage": "LAST_16",
     "home": "Switzerland",
     "away": "Colombia",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
       "home": 0,
       "away": 0

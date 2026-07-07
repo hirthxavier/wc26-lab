@@ -518,6 +518,17 @@
       "logloss_close": 0.9709
     },
     {
+      "match_id": 537380,
+      "match": "United States v Belgium",
+      "actual": "away",
+      "brier_stats": 0.6403,
+      "logloss_stats": 1.0576,
+      "brier_news": 0.6439,
+      "logloss_news": 1.0628,
+      "brier_llm": 0.6403,
+      "logloss_llm": 1.0576
+    },
+    {
       "match_id": 537392,
       "match": "Iraq v Norway",
       "actual": "away",
@@ -889,35 +900,35 @@
   ],
   "summary": {
     "stats": {
-      "n": 70,
-      "mean_brier": 0.5019,
+      "n": 71,
+      "mean_brier": 0.5038,
       "brier_95ci": [
-        0.4062,
-        0.5997
+        0.4072,
+        0.6062
       ]
     },
     "news": {
-      "n": 70,
-      "mean_brier": 0.5017,
+      "n": 71,
+      "mean_brier": 0.5037,
       "brier_95ci": [
-        0.4038,
-        0.603
+        0.4091,
+        0.605
       ]
     },
     "llm": {
-      "n": 70,
-      "mean_brier": 0.488,
+      "n": 71,
+      "mean_brier": 0.4901,
       "brier_95ci": [
-        0.3948,
-        0.583
+        0.3991,
+        0.5853
       ]
     },
     "close": {
       "n": 58,
       "mean_brier": 0.4254,
       "brier_95ci": [
-        0.3356,
-        0.5225
+        0.3335,
+        0.5218
       ]
     }
   }

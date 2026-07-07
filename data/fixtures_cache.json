@@ -51,8 +51,8 @@
     "match_id": 537384,
     "utc_kickoff": "2026-07-10T19:00:00Z",
     "stage": "QUARTER_FINALS",
-    "home": null,
-    "away": null,
+    "home": "Spain",
+    "away": "Belgium",
     "status": "TIMED",
     "score": {
       "home": null,

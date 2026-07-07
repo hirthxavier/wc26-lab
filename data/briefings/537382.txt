@@ -1,0 +1,40 @@
+⚽ Switzerland vs Colombia — LAST_16
+Coup d'envoi : 07/07 22:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Switzerland: 29.9%  Draw: 29.9%  Colombia: 40.2%
+  With news adjustment: 29.8% / 29.9% / 40.3%
+  Elo: 2094.5 vs 2142.1
+
+— LINE MOVEMENT (where money went) —
+  Colombia: 42.6% ↓ 42.0%
+  Switzerland: 27.5% ↓ 26.8%
+  Draw: 29.9% ↑ 31.2%
+
+— NEWS: Switzerland (sentiment -0.04) —
+  No injury/turmoil flags detected.
+
+— NEWS: Colombia (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 56 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Guardian (UK)] Switzerland v Colombia: World Cup 2026 last 16 – live
+  [Voetbal International (NL)] VI Live: 'We gaan Colombia verslaan met ons voetbal, niet met onze fans'
+  [GoogleNews:"Switzerland" world cup] Switzerland vs. Colombia Prediction, Odds, Picks For World Cup Match - FOX Sports
+  [GoogleNews:"Switzerland" world cup] World Cup 2026 live updates: Argentina leads Egypt 3-2, Switzerland faces Colombia in final round of 16 games - NBC News
+  [GoogleNews:"Switzerland" world cup] BetMGM Bonus Code TOP1500: Get $1,500 Bonus for Colombia-Switzerland, World Cup Games - WTOP
+  [GoogleNews:"Switzerland" world cup] Newcastle to open talks to sign Switzerland World Cup star Johan Manzambi as Magpies look to spend Sandro Tonali sale cash - Goal.com
+  [GoogleNews:"Switzerland" world cup] How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Argentina, Egypt, Switzerland, Colombia - FOX Sports
+  [GoogleNews:"Switzerland" world cup] 2026 World Cup, Round of 16: Argentina vs. Egypt; Switzerland vs. Colombia - We Ain't Got No History
+
+— MOST LIKELY OUTCOME —
+  Colombia (40.2%)
+  Tentative exact scores: 1-1 (14.3%), 0-0 (9.2%), 1-2 (8.8%)
+  xG: 1.19 - 1.41   O2.5: 48.4%   BTTS: 54.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

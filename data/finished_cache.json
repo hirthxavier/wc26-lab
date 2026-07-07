@@ -1126,5 +1126,17 @@
       "home": 1,
       "away": 4
     }
+  },
+  {
+    "match_id": 537381,
+    "utc_kickoff": "2026-07-07T16:00:00Z",
+    "stage": "LAST_16",
+    "home": "Argentina",
+    "away": "Egypt",
+    "status": "FINISHED",
+    "score": {
+      "home": 3,
+      "away": 2
+    }
   }
 ]

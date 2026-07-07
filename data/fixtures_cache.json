@@ -17,10 +17,10 @@
     "stage": "LAST_16",
     "home": "Argentina",
     "away": "Egypt",
-    "status": "TIMED",
+    "status": "LIVE",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 1
     }
   },
   {

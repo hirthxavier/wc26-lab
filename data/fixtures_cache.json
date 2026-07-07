@@ -5,10 +5,10 @@
     "stage": "LAST_16",
     "home": "United States",
     "away": "Belgium",
-    "status": "PAUSED",
+    "status": "FINISHED",
     "score": {
       "home": 1,
-      "away": 2
+      "away": 4
     }
   },
   {

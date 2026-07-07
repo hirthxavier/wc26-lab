@@ -1114,5 +1114,17 @@
       "home": 0,
       "away": 1
     }
+  },
+  {
+    "match_id": 537380,
+    "utc_kickoff": "2026-07-07T00:00:00Z",
+    "stage": "LAST_16",
+    "home": "United States",
+    "away": "Belgium",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 4
+    }
   }
 ]

@@ -529,6 +529,19 @@
       "logloss_llm": 1.0576
     },
     {
+      "match_id": 537382,
+      "match": "Switzerland v Colombia",
+      "actual": "home",
+      "brier_stats": 0.7416,
+      "logloss_stats": 1.206,
+      "brier_news": 0.7442,
+      "logloss_news": 1.21,
+      "brier_llm": 0.7416,
+      "logloss_llm": 1.206,
+      "brier_close": 0.81,
+      "logloss_close": 1.3174
+    },
+    {
       "match_id": 537392,
       "match": "Iraq v Norway",
       "actual": "away",
@@ -900,35 +913,35 @@
   ],
   "summary": {
     "stats": {
-      "n": 71,
-      "mean_brier": 0.5038,
+      "n": 72,
+      "mean_brier": 0.5071,
       "brier_95ci": [
-        0.4072,
-        0.6062
+        0.4117,
+        0.6035
       ]
     },
     "news": {
-      "n": 71,
-      "mean_brier": 0.5037,
+      "n": 72,
+      "mean_brier": 0.5071,
       "brier_95ci": [
-        0.4091,
-        0.605
+        0.4118,
+        0.6065
       ]
     },
     "llm": {
-      "n": 71,
-      "mean_brier": 0.4901,
+      "n": 72,
+      "mean_brier": 0.4936,
       "brier_95ci": [
-        0.3991,
-        0.5853
+        0.4037,
+        0.5864
       ]
     },
     "close": {
-      "n": 58,
-      "mean_brier": 0.4254,
+      "n": 59,
+      "mean_brier": 0.4319,
       "brier_95ci": [
-        0.3335,
-        0.5218
+        0.3431,
+        0.5262
       ]
     }
   }

@@ -34,5 +34,17 @@
       "home": null,
       "away": null
     }
+  },
+  {
+    "match_id": 537386,
+    "utc_kickoff": "2026-07-12T01:00:00Z",
+    "stage": "QUARTER_FINALS",
+    "home": "Argentina",
+    "away": "Switzerland",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
   }
 ]

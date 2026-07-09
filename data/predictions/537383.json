@@ -1,0 +1,209 @@
+{
+  "frozen_at_utc": "2026-07-09T19:13:21.136548+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537383,
+    "utc_kickoff": "2026-07-09T20:00:00Z",
+    "stage": "QUARTER_FINALS",
+    "home": "France",
+    "away": "Morocco",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.4965,
+    "draw": 0.2816,
+    "away": 0.222
+  },
+  "model_with_news": {
+    "home": 0.4968,
+    "draw": 0.2816,
+    "away": 0.2217
+  },
+  "model_llm": {
+    "home": 0.4965,
+    "draw": 0.2816,
+    "away": 0.222
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [
+      "World Cup 2026: France v Morocco quarter-final buildup, Quansah hit with two-game ban \u2013 as it happened - The Guardian"
+    ],
+    "turmoil_flags": [
+      "Mbapp\u00e9-Paraguay racism row rumbles on - Politico"
+    ]
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [
+      "World Cup 2026: France v Morocco quarter-final buildup, Quansah hit with two-game ban \u2013 as it happened - The Guardian",
+      "World Cup 2026 today: Live updates, latest news as Jarrell Quansah handed two-match ban - July 9 - ESPN"
+    ],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.635,
+    "lam_away": 1.034,
+    "elo_home": 2296.7,
+    "elo_away": 2167.2
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "V"
+    ],
+    "form_away": [
+      "N",
+      "V",
+      "V",
+      "V",
+      "N"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-08",
+        "opp": "Northern Ireland",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Ivory Coast",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-29",
+        "opp": "Colombia",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-26",
+        "opp": "Brazil",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-16",
+        "opp": "Azerbaijan",
+        "score": "3-1",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-07",
+        "opp": "Norway",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-06-02",
+        "opp": "Madagascar",
+        "score": "4-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-05-26",
+        "opp": "Burundi",
+        "score": "5-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Paraguay",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Ecuador",
+        "score": "1-1",
+        "r": "N"
+      }
+    ],
+    "h2h": {
+      "played": 6,
+      "wins_a": 4,
+      "draws": 2,
+      "wins_b": 0,
+      "goals_a": 14,
+      "goals_b": 6,
+      "last_meetings": [
+        {
+          "date": "2022",
+          "score": "2-0",
+          "tournament": "FIFA World Cup"
+        },
+        {
+          "date": "2007",
+          "score": "2-2",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2000",
+          "score": "5-1",
+          "tournament": "King Hassan II Tournament"
+        },
+        {
+          "date": "1999",
+          "score": "1-0",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "1998",
+          "score": "2-2",
+          "tournament": "King Hassan II Tournament"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1348
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0958
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0958
+    },
+    {
+      "score": "2-0",
+      "prob": 0.0927
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0869
+    }
+  ],
+  "ev_summary": null
+}

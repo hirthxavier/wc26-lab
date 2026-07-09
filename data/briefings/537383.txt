@@ -1,0 +1,42 @@
+⚽ France vs Morocco — QUARTER_FINALS
+Coup d'envoi : 09/07 22:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  France: 49.6%  Draw: 28.2%  Morocco: 22.2%
+  With news adjustment: 49.7% / 28.2% / 22.2%
+  Elo: 2296.7 vs 2167.2
+
+— LINE MOVEMENT (where money went) —
+  France: 60.6% → 60.5%
+  Morocco: 15.1% → 14.6%
+  Draw: 24.3% ↑ 24.9%
+
+— NEWS: France (sentiment +0.00) —
+  🏥 World Cup 2026: France v Morocco quarter-final buildup, Quansah hit with two-game ban – as it happened - The Guardian
+  ⚠️ Mbappé-Paraguay racism row rumbles on - Politico
+
+— NEWS: Morocco (sentiment +0.00) —
+  🏥 World Cup 2026: France v Morocco quarter-final buildup, Quansah hit with two-game ban – as it happened - The Guardian
+  🏥 World Cup 2026 today: Live updates, latest news as Jarrell Quansah handed two-match ban - July 9 - ESPN
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 63 headlines from ES/IT/FR/AR/UK/BR sources —
+  [L'Equipe (FR)] Une température de 31 degrés et un peu d'air pour France-Maroc en quarts de la Coupe du monde
+  [L'Equipe (FR)] Désiré Doué et Manu Koné titulaires : la composition de l'équipe de France contre le Maroc en quarts de la Coupe du monde
+  [L'Equipe (FR)] Où et quand voir le quart de finale de la France contre le Maroc ?
+  [BBC Sport (UK)] Are France beatable? - BBC experts have their say
+  [Guardian (UK)] France v Morocco: World Cup 2026 quarter-final – live
+  [Guardian (UK)] World Cup quarter-final (and beyond) predictions: will anyone derail France’s title bid?
+  [GoogleNews:"France" world cup] World Cup bracket, live updates: France vs. Morocco kicks off quarterfinal slate on Thursday - Yahoo Sports
+  [GoogleNews:"France" world cup] World Cup 2026: Are France beatable? - BBC experts have their say - BBC
+
+— MOST LIKELY OUTCOME —
+  France (49.6%)
+  Tentative exact scores: 1-1 (13.5%), 2-1 (9.6%), 1-0 (9.6%)
+  xG: 1.64 - 1.03   O2.5: 49.9%   BTTS: 53.6%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

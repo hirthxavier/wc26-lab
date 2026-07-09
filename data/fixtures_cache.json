@@ -5,10 +5,10 @@
     "stage": "QUARTER_FINALS",
     "home": "France",
     "away": "Morocco",
-    "status": "TIMED",
+    "status": "PAUSED",
     "score": {
-      "home": null,
-      "away": null
+      "home": 0,
+      "away": 0
     }
   },
   {

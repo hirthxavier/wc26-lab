@@ -5,9 +5,9 @@
     "stage": "QUARTER_FINALS",
     "home": "Spain",
     "away": "Belgium",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 1,
+      "home": 2,
       "away": 1
     }
   },

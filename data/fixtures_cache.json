@@ -1,17 +1,5 @@
 [
   {
-    "match_id": 537383,
-    "utc_kickoff": "2026-07-09T20:00:00Z",
-    "stage": "QUARTER_FINALS",
-    "home": "France",
-    "away": "Morocco",
-    "status": "FINISHED",
-    "score": {
-      "home": 2,
-      "away": 0
-    }
-  },
-  {
     "match_id": 537384,
     "utc_kickoff": "2026-07-10T19:00:00Z",
     "stage": "QUARTER_FINALS",

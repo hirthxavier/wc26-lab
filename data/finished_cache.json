@@ -1162,5 +1162,17 @@
       "home": 2,
       "away": 1
     }
+  },
+  {
+    "match_id": 537385,
+    "utc_kickoff": "2026-07-11T21:00:00Z",
+    "stage": "QUARTER_FINALS",
+    "home": "Norway",
+    "away": "England",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 2
+    }
   }
 ]

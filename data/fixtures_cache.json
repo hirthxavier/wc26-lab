@@ -5,10 +5,10 @@
     "stage": "QUARTER_FINALS",
     "home": "Norway",
     "away": "England",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 2,
-      "away": 1
+      "home": 1,
+      "away": 2
     }
   },
   {

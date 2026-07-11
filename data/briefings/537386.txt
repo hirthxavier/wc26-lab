@@ -1,0 +1,40 @@
+⚽ Argentina vs Switzerland — QUARTER_FINALS
+Coup d'envoi : 12/07 03:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Argentina: 52.5%  Draw: 27.4%  Switzerland: 20.1%
+  With news adjustment: 52.5% / 27.4% / 20.2%
+  Elo: 2279.5 vs 2125.3
+
+— LINE MOVEMENT (where money went) —
+  Argentina: 56.4% → 56.4%
+  Switzerland: 17.0% → 16.6%
+  Draw: 26.6% → 27.0%
+
+— NEWS: Argentina (sentiment +0.00) —
+  🏥 Lionel Messi could risk MLS ban again if Argentina reaches 2026 World Cup Final - bolavip.com
+
+— NEWS: Switzerland (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 62 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Dove vedere Argentina-Svizzera, Mondiali 2026: Dazn o Rai, orario, tv e streaming
+  [BBC Sport (UK)] Should Argentina take Messi off penalties?
+  [GoogleNews:"Argentina" world cup] How to Watch the World Cup Today: Schedule, Times, TV, Streaming for Argentina, Norway, England, More - FOX Sports
+  [GoogleNews:"Argentina" world cup] Why Argentina Football Association has reportedly been investigated for alleged money laundering in U.S. - CBS Sports
+  [GoogleNews:"Argentina" world cup] Argentina vs Switzerland live updates: World Cup 2026 quarter-final latest score and news - The New York Times
+  [GoogleNews:"Argentina" world cup] Lionel Messi has spent 63% of this World Cup walking — but he is always ready to pounce - The New York Times
+  [GoogleNews:"Argentina" world cup] Álvarez's return could be Argentina's antidote to their Messi dependency - ESPN
+  [GoogleNews:"Argentina" world cup] Opinion | Video review has become the story of the World Cup for all the wrong reasons - MS NOW
+
+— MOST LIKELY OUTCOME —
+  Argentina (52.5%)
+  Tentative exact scores: 1-1 (13.1%), 2-0 (9.8%), 1-0 (9.8%)
+  xG: 1.71 - 0.99   O2.5: 50.6%   BTTS: 53.1%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

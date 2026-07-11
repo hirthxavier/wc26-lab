@@ -1,0 +1,204 @@
+{
+  "frozen_at_utc": "2026-07-11T18:37:14.293703+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537386,
+    "utc_kickoff": "2026-07-12T01:00:00Z",
+    "stage": "QUARTER_FINALS",
+    "home": "Argentina",
+    "away": "Switzerland",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.5254,
+    "draw": 0.2736,
+    "away": 0.201
+  },
+  "model_with_news": {
+    "home": 0.5248,
+    "draw": 0.2736,
+    "away": 0.2016
+  },
+  "model_llm": {
+    "home": 0.5254,
+    "draw": 0.2736,
+    "away": 0.201
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [
+      "Lionel Messi could risk MLS ban again if Argentina reaches 2026 World Cup Final - bolavip.com"
+    ],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.708,
+    "lam_away": 0.989,
+    "elo_home": 2279.5,
+    "elo_away": 2125.3
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "V",
+      "V",
+      "V",
+      "V"
+    ],
+    "form_away": [
+      "N",
+      "V",
+      "N",
+      "D",
+      "N"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-09",
+        "opp": "Iceland",
+        "score": "3-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-06-06",
+        "opp": "Honduras",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Zambia",
+        "score": "5-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Mauritania",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-14",
+        "opp": "Angola",
+        "score": "2-0",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "Australia",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2026-05-31",
+        "opp": "Jordan",
+        "score": "4-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Norway",
+        "score": "0-0",
+        "r": "N"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Germany",
+        "score": "3-4",
+        "r": "D"
+      },
+      {
+        "date": "2025-11-18",
+        "opp": "Kosovo",
+        "score": "1-1",
+        "r": "N"
+      }
+    ],
+    "h2h": {
+      "played": 7,
+      "wins_a": 5,
+      "draws": 2,
+      "wins_b": 0,
+      "goals_a": 15,
+      "goals_b": 3,
+      "last_meetings": [
+        {
+          "date": "2014",
+          "score": "1-0",
+          "tournament": "FIFA World Cup"
+        },
+        {
+          "date": "2012",
+          "score": "3-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2007",
+          "score": "1-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "1990",
+          "score": "1-1",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "1984",
+          "score": "2-0",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1309
+    },
+    {
+      "score": "2-0",
+      "prob": 0.0983
+    },
+    {
+      "score": "1-0",
+      "prob": 0.098
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0973
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0845
+    }
+  ],
+  "ev_summary": null
+}

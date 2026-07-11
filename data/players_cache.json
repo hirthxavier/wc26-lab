@@ -728,5 +728,25 @@
     "team_avg": null
   },
   "2026-07-09:injuries:France": [],
-  "2026-07-09:injuries:Morocco": []
+  "2026-07-09:injuries:Morocco": [],
+  "2026-07-11:form:Norway": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-11:form:England": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-11:injuries:Norway": [],
+  "2026-07-11:injuries:England": [],
+  "2026-07-11:form:Argentina": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-11:form:Switzerland": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-11:injuries:Argentina": [],
+  "2026-07-11:injuries:Switzerland": []
 }

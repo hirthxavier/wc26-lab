@@ -64042,5 +64042,59 @@
     },
     "overround": 0.0439,
     "n_books": 25
+  },
+  {
+    "ts": "2026-07-11T18:36:49.146568+00:00",
+    "home": "Norway",
+    "away": "England",
+    "commence": "2026-07-11T21:00:00Z",
+    "avg_odds": {
+      "England": 1.9479999999999993,
+      "Norway": 3.804399999999999,
+      "Draw": 3.7748000000000004
+    },
+    "implied_probs": {
+      "England": 0.4930741515998937,
+      "Norway": 0.25247304366433415,
+      "Draw": 0.25445280473577214
+    },
+    "overround": 0.0411,
+    "n_books": 25
+  },
+  {
+    "ts": "2026-07-11T18:36:49.146568+00:00",
+    "home": "Argentina",
+    "away": "Switzerland",
+    "commence": "2026-07-12T01:00:00Z",
+    "avg_odds": {
+      "Argentina": 1.7052,
+      "Switzerland": 5.7828,
+      "Draw": 3.5587999999999993
+    },
+    "implied_probs": {
+      "Argentina": 0.5636899997616376,
+      "Switzerland": 0.16621778162716064,
+      "Draw": 0.27009221861120175
+    },
+    "overround": 0.0404,
+    "n_books": 25
+  },
+  {
+    "ts": "2026-07-11T18:36:49.146568+00:00",
+    "home": "France",
+    "away": "Spain",
+    "commence": "2026-07-14T19:00:00Z",
+    "avg_odds": {
+      "France": 2.3676000000000004,
+      "Spain": 3.2096,
+      "Draw": 3.2447999999999997
+    },
+    "implied_probs": {
+      "France": 0.4052977642444998,
+      "Spain": 0.2989727650253234,
+      "Draw": 0.2957294707301769
+    },
+    "overround": 0.0421,
+    "n_books": 25
   }
 ]

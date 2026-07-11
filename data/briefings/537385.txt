@@ -1,0 +1,40 @@
+⚽ Norway vs England — QUARTER_FINALS
+Coup d'envoi : 11/07 23:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  Norway: 28.0%  Draw: 29.6%  England: 42.4%
+  With news adjustment: 28.0% / 29.6% / 42.4%
+  Elo: 2178.4 vs 2245.5
+
+— LINE MOVEMENT (where money went) —
+  England: 50.1% ↓ 49.3%
+  Norway: 23.8% ↑ 25.2%
+  Draw: 26.1% ↓ 25.4%
+
+— NEWS: Norway (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: England (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 64 headlines from ES/IT/FR/AR/UK/BR sources —
+  [BBC Sport (UK)] Guehi and Stones set to start for England in World Cup quarter-final
+  [BBC Sport (UK)] Risk of thunderstorms before England face Norway in Miami heat
+  [BBC Sport (UK)] Hey Jude: Bellingham's return to England indispensability
+  [BBC Sport (UK)] All the goals from England's 2026 World Cup campaign so far
+  [Guardian (UK)] Norway v England: World Cup 2026 quarter-final – live
+  [Guardian (UK)] ‘What’s the point of working if you can’t do stuff like this?’ England fans descend on Miami
+  [Guardian (UK)] Cold War Steve on … Erling Haaland’s high-street invasion for Norway v England
+  [GoogleNews:"Norway" world cup] Norway v England: World Cup 2026 quarter-final – live - The Guardian
+
+— MOST LIKELY OUTCOME —
+  England (42.4%)
+  Tentative exact scores: 1-1 (14.2%), 0-0 (9.1%), 1-2 (9.0%)
+  xG: 1.15 - 1.46   O2.5: 48.6%   BTTS: 54.5%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

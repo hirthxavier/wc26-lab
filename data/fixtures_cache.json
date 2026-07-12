@@ -1,26 +1,14 @@
 [
   {
-    "match_id": 537385,
-    "utc_kickoff": "2026-07-11T21:00:00Z",
-    "stage": "QUARTER_FINALS",
-    "home": "Norway",
-    "away": "England",
-    "status": "FINISHED",
-    "score": {
-      "home": 1,
-      "away": 2
-    }
-  },
-  {
     "match_id": 537386,
     "utc_kickoff": "2026-07-12T01:00:00Z",
     "stage": "QUARTER_FINALS",
     "home": "Argentina",
     "away": "Switzerland",
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "score": {
-      "home": null,
-      "away": null
+      "home": 2,
+      "away": 1
     }
   },
   {
@@ -29,6 +17,18 @@
     "stage": "SEMI_FINALS",
     "home": "France",
     "away": "Spain",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537388,
+    "utc_kickoff": "2026-07-15T19:00:00Z",
+    "stage": "SEMI_FINALS",
+    "home": null,
+    "away": null,
     "status": "TIMED",
     "score": {
       "home": null,

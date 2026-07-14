@@ -1198,5 +1198,17 @@
       "home": 3,
       "away": 1
     }
+  },
+  {
+    "match_id": 537387,
+    "utc_kickoff": "2026-07-14T19:00:00Z",
+    "stage": "SEMI_FINALS",
+    "home": "France",
+    "away": "Spain",
+    "status": "FINISHED",
+    "score": {
+      "home": 0,
+      "away": 2
+    }
   }
 ]

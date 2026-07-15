@@ -64366,5 +64366,23 @@
     },
     "overround": 0.041,
     "n_books": 24
+  },
+  {
+    "ts": "2026-07-15T18:38:16.294366+00:00",
+    "home": "England",
+    "away": "Argentina",
+    "commence": "2026-07-15T19:00:00Z",
+    "avg_odds": {
+      "Argentina": 3.048666666666666,
+      "England": 2.692666666666667,
+      "Draw": 2.941333333333333
+    },
+    "implied_probs": {
+      "Argentina": 0.3155866016182943,
+      "England": 0.35731060391197306,
+      "Draw": 0.3271027944697325
+    },
+    "overround": 0.0394,
+    "n_books": 15
   }
 ]

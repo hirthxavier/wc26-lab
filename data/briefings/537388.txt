@@ -1,0 +1,35 @@
+⚽ England vs Argentina — SEMI_FINALS
+Coup d'envoi : 15/07 21:00 (heure de Paris)
+
+— MODEL (Elo+Poisson) —
+  England: 31.6%  Draw: 30.0%  Argentina: 38.4%
+  With news adjustment: 31.6% / 30.0% / 38.4%
+  Elo: 2267.4 vs 2299.0
+
+— NEWS: England (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+— NEWS: Argentina (sentiment +0.00) —
+  No injury/turmoil flags detected.
+
+ℹ Pronostic gelé à 20h30 (match de nuit) — compos officielles pas encore publiées.
+
+— LINEUPS — not yet published at send time.
+
+— PANEL — 72 headlines from ES/IT/FR/AR/UK/BR sources —
+  [Corriere dello Sport (IT)] Inghilterra-Argentina diretta Mondiali: segui la semifinale di oggi LIVE
+  [Corriere dello Sport (IT)] Tuchel esalta Messi, Scaloni spegne la rivalit&agrave;: Argentina-Inghilterra &egrave; gi&agrave; iniziata
+  [Corriere dello Sport (IT)] &quot;Le decisioni arbitrali a favore dell&#39;Argentina che fanno paura ai tifosi dell&#39;Inghilterra&quot;
+  [BBC Sport (UK)] What happened to David Batty, who shook off penalty miss against Argentina?
+  [BBC Sport (UK)] How Maradona dominated England in 1986
+  [BBC Sport (UK)] Argentina v England 2002 - Redemption for Beckham
+  [BBC Sport (UK)] Argentina v England 1998 - Owen, Beckham and penalty pain
+  [BBC Sport (UK)] All the goals from England's 2026 World Cup campaign so far
+
+— MOST LIKELY OUTCOME —
+  Argentina (38.4%)
+  Tentative exact scores: 1-1 (14.4%), 0-0 (9.3%), 1-2 (8.6%)
+  xG: 1.23 - 1.37   O2.5: 48.3%   BTTS: 54.7%
+
+Prediction frozen and committed. Scoring after full time.
+(Experiment, not betting advice — see README.)

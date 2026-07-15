@@ -1210,5 +1210,17 @@
       "home": 0,
       "away": 2
     }
+  },
+  {
+    "match_id": 537388,
+    "utc_kickoff": "2026-07-15T19:00:00Z",
+    "stage": "SEMI_FINALS",
+    "home": "England",
+    "away": "Argentina",
+    "status": "FINISHED",
+    "score": {
+      "home": 1,
+      "away": 2
+    }
   }
 ]

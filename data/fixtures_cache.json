@@ -4,7 +4,7 @@
     "utc_kickoff": "2026-07-18T21:00:00Z",
     "stage": "THIRD_PLACE",
     "home": "France",
-    "away": null,
+    "away": "England",
     "status": "TIMED",
     "score": {
       "home": null,
@@ -16,7 +16,7 @@
     "utc_kickoff": "2026-07-19T19:00:00Z",
     "stage": "FINAL",
     "home": "Spain",
-    "away": null,
+    "away": "Argentina",
     "status": "TIMED",
     "score": {
       "home": null,

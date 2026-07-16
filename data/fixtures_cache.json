@@ -1,21 +1,21 @@
 [
   {
-    "match_id": 537388,
-    "utc_kickoff": "2026-07-15T19:00:00Z",
-    "stage": "SEMI_FINALS",
-    "home": "England",
-    "away": "Argentina",
-    "status": "FINISHED",
-    "score": {
-      "home": 1,
-      "away": 2
-    }
-  },
-  {
     "match_id": 537389,
     "utc_kickoff": "2026-07-18T21:00:00Z",
     "stage": "THIRD_PLACE",
     "home": "France",
+    "away": null,
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  {
+    "match_id": 537390,
+    "utc_kickoff": "2026-07-19T19:00:00Z",
+    "stage": "FINAL",
+    "home": "Spain",
     "away": null,
     "status": "TIMED",
     "score": {

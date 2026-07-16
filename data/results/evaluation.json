@@ -581,6 +581,19 @@
       "logloss_close": 0.569
     },
     {
+      "match_id": 537388,
+      "match": "England v Argentina",
+      "actual": "away",
+      "brier_stats": 0.5695,
+      "logloss_stats": 0.9574,
+      "brier_news": 0.5695,
+      "logloss_news": 0.9574,
+      "brier_llm": 0.5695,
+      "logloss_llm": 0.9574,
+      "brier_close": 0.7031,
+      "logloss_close": 1.1533
+    },
+    {
       "match_id": 537392,
       "match": "Iraq v Norway",
       "actual": "away",
@@ -952,35 +965,35 @@
   ],
   "summary": {
     "stats": {
-      "n": 75,
-      "mean_brier": 0.5031,
+      "n": 76,
+      "mean_brier": 0.504,
       "brier_95ci": [
-        0.4121,
-        0.5949
+        0.4134,
+        0.5975
       ]
     },
     "news": {
-      "n": 75,
-      "mean_brier": 0.5031,
+      "n": 76,
+      "mean_brier": 0.5039,
       "brier_95ci": [
-        0.4118,
-        0.5995
+        0.4153,
+        0.5994
       ]
     },
     "llm": {
-      "n": 75,
-      "mean_brier": 0.4901,
+      "n": 76,
+      "mean_brier": 0.4912,
       "brier_95ci": [
-        0.404,
-        0.579
+        0.4078,
+        0.5799
       ]
     },
     "close": {
-      "n": 62,
-      "mean_brier": 0.425,
+      "n": 63,
+      "mean_brier": 0.4294,
       "brier_95ci": [
-        0.3382,
-        0.5182
+        0.3411,
+        0.522
       ]
     }
   }

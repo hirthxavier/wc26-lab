@@ -754,5 +754,26 @@
       "Japan": 0.0097,
       "Turkey": 0.0094
     }
+  },
+  {
+    "date": "2026-07-16",
+    "champion": {
+      "Spain": 0.3382,
+      "Argentina": 0.1643,
+      "France": 0.1196,
+      "England": 0.0805,
+      "Mexico": 0.0508,
+      "Brazil": 0.0279,
+      "Morocco": 0.0255,
+      "Norway": 0.0247,
+      "Portugal": 0.0198,
+      "Colombia": 0.0192,
+      "Ecuador": 0.0167,
+      "Switzerland": 0.0166,
+      "Belgium": 0.0155,
+      "Netherlands": 0.0136,
+      "Turkey": 0.0099,
+      "Japan": 0.0093
+    }
   }
 ]

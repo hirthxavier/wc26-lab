@@ -1222,5 +1222,17 @@
       "home": 1,
       "away": 2
     }
+  },
+  {
+    "match_id": 537389,
+    "utc_kickoff": "2026-07-18T21:00:00Z",
+    "stage": "THIRD_PLACE",
+    "home": "France",
+    "away": "England",
+    "status": "FINISHED",
+    "score": {
+      "home": 4,
+      "away": 6
+    }
   }
 ]

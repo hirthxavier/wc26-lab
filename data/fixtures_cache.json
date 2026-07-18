@@ -5,10 +5,10 @@
     "stage": "THIRD_PLACE",
     "home": "France",
     "away": "England",
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "score": {
-      "home": 2,
-      "away": 4
+      "home": 4,
+      "away": 6
     }
   },
   {

@@ -758,5 +758,15 @@
     "team_avg": null
   },
   "2026-07-15:injuries:England": [],
-  "2026-07-15:injuries:Argentina": []
+  "2026-07-15:injuries:Argentina": [],
+  "2026-07-18:form:France": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-18:form:England": {
+    "players": {},
+    "team_avg": null
+  },
+  "2026-07-18:injuries:France": [],
+  "2026-07-18:injuries:England": []
 }

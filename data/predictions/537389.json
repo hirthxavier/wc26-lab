@@ -1,0 +1,204 @@
+{
+  "frozen_at_utc": "2026-07-18T19:45:17.381387+00:00",
+  "model_version": "0.1.0-elo-poisson",
+  "match": {
+    "match_id": 537389,
+    "utc_kickoff": "2026-07-18T21:00:00Z",
+    "stage": "THIRD_PLACE",
+    "home": "France",
+    "away": "England",
+    "status": "TIMED",
+    "score": {
+      "home": null,
+      "away": null
+    }
+  },
+  "model_stats_only": {
+    "home": 0.4039,
+    "draw": 0.2986,
+    "away": 0.2975
+  },
+  "model_with_news": {
+    "home": 0.4045,
+    "draw": 0.2986,
+    "away": 0.2969
+  },
+  "model_llm": {
+    "home": 0.4039,
+    "draw": 0.2986,
+    "away": 0.2975
+  },
+  "llm_analysis": {
+    "confidence": "n/a",
+    "key_factors": [],
+    "rationale": "LLM call failed (HTTPError); stats-only.",
+    "llm_used": false,
+    "lecture_tactique": null,
+    "facteur_x": null,
+    "verdict": null,
+    "angle_pari": null,
+    "infos_recherche": null
+  },
+  "lineups_available": false,
+  "market_implied": null,
+  "market_overround": null,
+  "news_home": {
+    "sentiment": 0.0,
+    "injury_flags": [],
+    "turmoil_flags": []
+  },
+  "news_away": {
+    "sentiment": 0.0,
+    "injury_flags": [
+      "Jude Bellingham faces possible suspension after England vs Argentina at the 2026 World Cup - bolavip.com"
+    ],
+    "turmoil_flags": []
+  },
+  "diagnostics": {
+    "lam_home": 1.419,
+    "lam_away": 1.191,
+    "elo_home": 2292.2,
+    "elo_away": 2242.8
+  },
+  "formstats": {
+    "form_home": [
+      "V",
+      "D",
+      "V",
+      "V",
+      "V"
+    ],
+    "form_away": [
+      "V",
+      "D",
+      "N",
+      "V",
+      "V"
+    ],
+    "form_home_detail": [
+      {
+        "date": "2026-06-08",
+        "opp": "Northern Ireland",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-06-04",
+        "opp": "Ivory Coast",
+        "score": "1-2",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-29",
+        "opp": "Colombia",
+        "score": "3-1",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-26",
+        "opp": "Brazil",
+        "score": "2-1",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-16",
+        "opp": "Azerbaijan",
+        "score": "3-1",
+        "r": "V"
+      }
+    ],
+    "form_away_detail": [
+      {
+        "date": "2026-06-06",
+        "opp": "New Zealand",
+        "score": "1-0",
+        "r": "V"
+      },
+      {
+        "date": "2026-03-31",
+        "opp": "Japan",
+        "score": "0-1",
+        "r": "D"
+      },
+      {
+        "date": "2026-03-27",
+        "opp": "Uruguay",
+        "score": "1-1",
+        "r": "N"
+      },
+      {
+        "date": "2025-11-16",
+        "opp": "Albania",
+        "score": "2-0",
+        "r": "V"
+      },
+      {
+        "date": "2025-11-13",
+        "opp": "Serbia",
+        "score": "2-0",
+        "r": "V"
+      }
+    ],
+    "h2h": {
+      "played": 34,
+      "wins_a": 11,
+      "draws": 6,
+      "wins_b": 17,
+      "goals_a": 45,
+      "goals_b": 75,
+      "last_meetings": [
+        {
+          "date": "2022",
+          "score": "2-1",
+          "tournament": "FIFA World Cup"
+        },
+        {
+          "date": "2017",
+          "score": "3-2",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2015",
+          "score": "0-2",
+          "tournament": "Friendly"
+        },
+        {
+          "date": "2012",
+          "score": "1-1",
+          "tournament": "UEFA Euro"
+        },
+        {
+          "date": "2010",
+          "score": "2-1",
+          "tournament": "Friendly"
+        }
+      ]
+    }
+  },
+  "offered_odds": null,
+  "model_players": null,
+  "player_form_text": null,
+  "top_scorelines": [
+    {
+      "score": "1-1",
+      "prob": 0.1429
+    },
+    {
+      "score": "0-0",
+      "prob": 0.0922
+    },
+    {
+      "score": "2-1",
+      "prob": 0.0882
+    },
+    {
+      "score": "1-0",
+      "prob": 0.0857
+    },
+    {
+      "score": "2-0",
+      "prob": 0.074
+    }
+  ],
+  "ev_summary": null
+}

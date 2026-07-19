@@ -5,7 +5,7 @@
     "stage": "FINAL",
     "home": "Spain",
     "away": "Argentina",
-    "status": "LIVE",
+    "status": "IN_PLAY",
     "score": {
       "home": 0,
       "away": 0

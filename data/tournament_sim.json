@@ -291,17 +291,47 @@
       "semi": 0.001,
       "win_group": 0.0093
     },
+    "South Africa": {
+      "champion": 0.0,
+      "final": 0.0,
+      "semi": 0.0005,
+      "win_group": 0.0112
+    },
+    "Iraq": {
+      "champion": 0.0,
+      "final": 0.0002,
+      "semi": 0.0013,
+      "win_group": 0.0099
+    },
+    "Ghana": {
+      "champion": 0.0,
+      "final": 0.0002,
+      "semi": 0.0006,
+      "win_group": 0.009
+    },
+    "Tunisia": {
+      "champion": 0.0,
+      "final": 0.0,
+      "semi": 0.001,
+      "win_group": 0.0223
+    },
     "New Zealand": {
       "champion": 0.0,
       "final": 0.0003,
       "semi": 0.0013,
       "win_group": 0.0255
     },
-    "Uzbekistan": {
+    "Saudi Arabia": {
+      "champion": 0.0,
+      "final": 0.0,
+      "semi": 0.0017,
+      "win_group": 0.0016
+    },
+    "Bosnia and Herzegovina": {
       "champion": 0.0,
       "final": 0.0002,
-      "semi": 0.0023,
-      "win_group": 0.0279
+      "semi": 0.0019,
+      "win_group": 0.0312
     },
     "Cape Verde": {
       "champion": 0.0,
@@ -309,11 +339,17 @@
       "semi": 0.0005,
       "win_group": 0.0016
     },
-    "Iraq": {
+    "Jordan": {
+      "champion": 0.0,
+      "final": 0.0,
+      "semi": 0.0017,
+      "win_group": 0.0118
+    },
+    "Uzbekistan": {
       "champion": 0.0,
       "final": 0.0002,
-      "semi": 0.0013,
-      "win_group": 0.0099
+      "semi": 0.0023,
+      "win_group": 0.0279
     },
     "Cura\u00e7ao": {
       "champion": 0.0,
@@ -326,42 +362,6 @@
       "final": 0.0,
       "semi": 0.0,
       "win_group": 0.0016
-    },
-    "Ghana": {
-      "champion": 0.0,
-      "final": 0.0002,
-      "semi": 0.0006,
-      "win_group": 0.009
-    },
-    "Saudi Arabia": {
-      "champion": 0.0,
-      "final": 0.0,
-      "semi": 0.0017,
-      "win_group": 0.0016
-    },
-    "South Africa": {
-      "champion": 0.0,
-      "final": 0.0,
-      "semi": 0.0005,
-      "win_group": 0.0112
-    },
-    "Jordan": {
-      "champion": 0.0,
-      "final": 0.0,
-      "semi": 0.0017,
-      "win_group": 0.0118
-    },
-    "Bosnia and Herzegovina": {
-      "champion": 0.0,
-      "final": 0.0002,
-      "semi": 0.0019,
-      "win_group": 0.0312
-    },
-    "Tunisia": {
-      "champion": 0.0,
-      "final": 0.0,
-      "semi": 0.001,
-      "win_group": 0.0223
     }
   },
   "method_notes": [

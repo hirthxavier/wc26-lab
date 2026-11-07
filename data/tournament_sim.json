@@ -195,17 +195,17 @@
       "semi": 0.0499,
       "win_group": 0.0462
     },
-    "United States": {
-      "champion": 0.0032,
-      "final": 0.0113,
-      "semi": 0.0396,
-      "win_group": 0.2562
-    },
     "Canada": {
       "champion": 0.0032,
       "final": 0.0186,
       "semi": 0.0654,
       "win_group": 0.3891
+    },
+    "United States": {
+      "champion": 0.0032,
+      "final": 0.0113,
+      "semi": 0.0396,
+      "win_group": 0.2562
     },
     "Senegal": {
       "champion": 0.0016,
@@ -291,35 +291,11 @@
       "semi": 0.001,
       "win_group": 0.0093
     },
-    "Jordan": {
-      "champion": 0.0,
-      "final": 0.0,
-      "semi": 0.0017,
-      "win_group": 0.0118
-    },
-    "Qatar": {
-      "champion": 0.0,
-      "final": 0.0,
-      "semi": 0.0,
-      "win_group": 0.0016
-    },
     "Cura\u00e7ao": {
       "champion": 0.0,
       "final": 0.0,
       "semi": 0.0002,
       "win_group": 0.0081
-    },
-    "South Africa": {
-      "champion": 0.0,
-      "final": 0.0,
-      "semi": 0.0005,
-      "win_group": 0.0112
-    },
-    "Uzbekistan": {
-      "champion": 0.0,
-      "final": 0.0002,
-      "semi": 0.0023,
-      "win_group": 0.0279
     },
     "New Zealand": {
       "champion": 0.0,
@@ -333,6 +309,30 @@
       "semi": 0.0005,
       "win_group": 0.0016
     },
+    "Qatar": {
+      "champion": 0.0,
+      "final": 0.0,
+      "semi": 0.0,
+      "win_group": 0.0016
+    },
+    "Ghana": {
+      "champion": 0.0,
+      "final": 0.0002,
+      "semi": 0.0006,
+      "win_group": 0.009
+    },
+    "Uzbekistan": {
+      "champion": 0.0,
+      "final": 0.0002,
+      "semi": 0.0023,
+      "win_group": 0.0279
+    },
+    "South Africa": {
+      "champion": 0.0,
+      "final": 0.0,
+      "semi": 0.0005,
+      "win_group": 0.0112
+    },
     "Bosnia and Herzegovina": {
       "champion": 0.0,
       "final": 0.0002,
@@ -345,17 +345,17 @@
       "semi": 0.001,
       "win_group": 0.0223
     },
-    "Ghana": {
-      "champion": 0.0,
-      "final": 0.0002,
-      "semi": 0.0006,
-      "win_group": 0.009
-    },
     "Iraq": {
       "champion": 0.0,
       "final": 0.0002,
       "semi": 0.0013,
       "win_group": 0.0099
+    },
+    "Jordan": {
+      "champion": 0.0,
+      "final": 0.0,
+      "semi": 0.0017,
+      "win_group": 0.0118
     },
     "Saudi Arabia": {
       "champion": 0.0,
